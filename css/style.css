@@ -408,7 +408,16 @@ text-align:center;
 	background-color: #BB0A53;
 	border: 0;
 }
-
+.btn-discord {
+	color: #FFFFFF;
+	background: #fcfcfc00;
+	border: 0;
+}
+.btn-discord:hover {
+	color: #ffffff;
+	background-color: #ffffff00;
+	border: 0;
+}
 /* Collapse
 ---------------------------------- */
 .panel-group .panel {
