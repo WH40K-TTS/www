@@ -439,7 +439,7 @@ text-align:center;
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	border: 1px solid #f0f0f0;
 	border-top: none;
-	background-color: #fafafa
+	background-color: #222222
 }
 .panel-heading a {
 	font-weight: 400;
