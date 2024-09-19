@@ -189,7 +189,7 @@ tfoot td {
 	z-index: 2;
 }
 .subfooter {
-	background-color: #DA095F;
+	background-color: #000000;
 	padding: 40px 0;
 }
 .subfooter a {
@@ -746,7 +746,7 @@ padding: 10px 0;
 /* Logo, Site Name, Site Slogan
 ---------------------------------- */
 .logo {
-	margin: 10px 0px 10px 0;
+	margin: 10px 15px 10px 0px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
