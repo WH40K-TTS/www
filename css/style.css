@@ -1,14 +1,16 @@
-/* Author:WebThemez
- * Author URI:http://webthemez.com
+/* 
  * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
  */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);*/
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
 body {
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Literata', sans-serif;
 }
 .brand {
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Literata', sans-serif;
 }
 html,
 body {
@@ -302,7 +304,8 @@ line-height: 16px;
 border: 1px solid #fff;
 padding: 20px 42px;
 border-radius: 4px;
-font-family: 'Raleway';
+font-family: 'Literata';
+/*font-family: 'Raleway';*/
 font-weight: 600;
 transition: background 0.3s, border-color 0.3s;
 margin-top:20px;
@@ -460,7 +463,8 @@ text-align:center;
 	background-color: #FAFAFA;
 }
 .panel-heading a:after {
-	font-family: "FontAwesome";
+	font-family: "Literata";
+	/*font-family: "FontAwesome";*/
 	content: "\f147";
 	position: absolute;
 	right: 15px;
@@ -647,7 +651,8 @@ padding: 10px 0;
 
 .item blockquote p:before {
     content: "\f10d";
-    font-family: 'Fontawesome';
+    font-family: 'Literata';
+	/*font-family: 'Fontawesome';*/
     float: left;
     margin-right: 10px;
 }
