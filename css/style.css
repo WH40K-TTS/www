@@ -124,8 +124,8 @@ caption {
 
 thead,
 tfoot {
-	/* Fonde de la cabecera de la tabla */
-  background-color: rgb(85 85 85);
+	/* Fondo de la cabecera de la tabla */
+  background-color: #000000;
 }
 
 th,
@@ -141,7 +141,7 @@ td:last-of-type {
 
 tbody > tr:nth-of-type(even) {
  /* Fondo de una de las línea */
-  background-color: #555555;
+  background-color: #222222;
 }
 
 tfoot th {
