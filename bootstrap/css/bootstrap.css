@@ -2126,7 +2126,7 @@ th {
 }
 .table-striped > tbody > tr:nth-child(odd) {
   /* Fondo de una de las líneas */
-  background-color: #222222;
+  background-color: #424242;
 }
 .table-hover > tbody > tr:hover {
   /* Fondo de la línea cuando se pasa con el ratón */
