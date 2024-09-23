@@ -189,7 +189,6 @@ tfoot td {
 }
 .banner-caption {
 	position: absolute;
-	border:solid 1px;
 	top: 50%;
 	width: 100%;
 	z-index: 2;
