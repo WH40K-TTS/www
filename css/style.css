@@ -463,8 +463,7 @@ text-align:center;
 	background-color: #FAFAFA;
 }
 .panel-heading a:after {
-	font-family: "Literata";
-	/*font-family: "FontAwesome";*/
+	font-family: "FontAwesome";
 	content: "\f147";
 	position: absolute;
 	right: 15px;
@@ -768,7 +767,7 @@ padding: 10px 0;
 	float: left;
 }
 .brand {
-	font-size: 30px;
+	font-size: 25px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
