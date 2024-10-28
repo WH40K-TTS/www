@@ -78,7 +78,7 @@ a:active {
 	font-size: 18px;
 }
 img {
-	display: block;
+	/* display: block; */
 	max-width: 100%;
 	height: auto;
 }
