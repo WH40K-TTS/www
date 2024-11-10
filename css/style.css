@@ -289,7 +289,7 @@ border:0px;
 	position: relative;
 }
 .bg-image-1 {
-	background: url("../imagenes/bg-image-1.jpg") 50% 0px no-repeat;
+	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
 }
 .bg-image-2 {
 }
@@ -675,11 +675,11 @@ padding: 10px 0;
 }
 
 /* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) { 
+/*@media (max-width: 768px) {*/ 
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
     
-    #quote-carousel .carousel-indicators {
+    /*#quote-carousel .carousel-indicators {
         bottom: -20px !important;  
     }
     #quote-carousel .carousel-indicators li {
@@ -693,7 +693,7 @@ padding: 10px 0;
         width: 20px;
         height: 20px;
     }
-}
+}*/
 
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
@@ -706,22 +706,22 @@ padding: 10px 0;
 		transition: all 0.3s ease-in-out;
 	}
 }
-@media (min-width:768px) and (max-width:991px) {
+/*@media (min-width:768px) and (max-width:991px) {
 	.main-navigation .container-fluid {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.navbar-nav {
+	.navbar-nav {*/
 		/*float: right !important;*/
-		position: absolute;
+		/*position: absolute;
 		right: 0px;
 	}
-}
-@media (max-width:767px) {
+}*/
+/*@media (max-width:767px) {
 	.header.navbar-fixed-top {
 		position: absolute;
 	}
-}
+}*/
 
 /* Fixed Header
 ----------------------------------------------------------------------------- */
