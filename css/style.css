@@ -706,22 +706,24 @@ padding: 10px 0;
 		transition: all 0.3s ease-in-out;
 	}
 }*/
-/*@media (min-width:768px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
 	.main-navigation .container-fluid {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.navbar-nav {*/
+	.navbar-nav {
 		/*float: right !important;*/
-		/*position: absolute;
+		/*position: absolute;*/
+		position: relative;
 		right: 0px;
 	}
-}*/
-/*@media (max-width:767px) {
+}
+@media (max-width:767px) {
 	.header.navbar-fixed-top {
-		position: absolute;
+		/*position: absolute;*/
+		position: relative;
 	}
-}*/
+}
 
 /* Fixed Header
 ----------------------------------------------------------------------------- */
