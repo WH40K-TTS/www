@@ -713,15 +713,13 @@ padding: 10px 0;
 	}
 	.navbar-nav {
 		/*float: right !important;*/
-		/*position: absolute;*/
-		position: relative;
+		position: absolute;
 		right: 0px;
 	}
 }
 @media (max-width:767px) {
 	.header.navbar-fixed-top {
-		/*position: absolute;*/
-		position: relative;
+		position: absolute;
 	}
 }
 
