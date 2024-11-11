@@ -65,7 +65,7 @@ h4 span {
 	color: #dc143c;
 }
 a {
-	color: #55acee;
+	color: #ffffff;
 }
 a:hover {
 	color: #339BEB;
@@ -214,7 +214,7 @@ color: #FF89BA;
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #55acee;
+	background-color: #ffffff;
 }
 .btn-primary {
 color: #fff;
@@ -831,7 +831,7 @@ border-radius: 50%;
 	padding: 4px;
 }
 .social-links li.twitter a:hover {
-	color: #55acee;
+	color: #ffffff;
 }
 .social-links li.skype a:hover {
 	color: #00aff0;
