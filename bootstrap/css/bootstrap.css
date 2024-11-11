@@ -4032,7 +4032,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
-    float: none;
+    float: right;
     width: auto;
     margin-top: 0;
     background-color: transparent;
