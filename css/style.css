@@ -757,7 +757,6 @@ padding: 10px 0;
 /* Logo, Site Name, Site Slogan
 ---------------------------------- */
 .logo {
-	position: absolute;
 	margin: 10px 15px 10px 0px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
