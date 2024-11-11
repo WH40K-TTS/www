@@ -719,6 +719,7 @@ padding: 10px 0;
 }
 @media (max-width:767px) {
 	.header.navbar-fixed-top {
+		display: flex;
 		position: absolute;
 	}
 }
