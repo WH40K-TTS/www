@@ -73,7 +73,7 @@ export default function Home() {
             textShadow: '0 0 40px rgba(201,168,76,0.35), 0 0 80px rgba(201,168,76,0.15)',
           }}
         >
-          WH40K-TTS
+          WH40K-TS
         </h1>
 
         {/* Gold horizontal rule */}
