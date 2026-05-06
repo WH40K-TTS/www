@@ -41,7 +41,9 @@ export function Navbar() {
         aria-label="Navegación principal"
       >
         <Link to="/" className="flex items-center gap-2 group shrink-0">
+          {/*
           <span className="text-[#c9a84c] text-base opacity-50 group-hover:opacity-80 transition-opacity duration-300" aria-hidden>⚙</span>
+          */}
           <span className="font-heading text-sm tracking-[0.25em] uppercase text-[#c9a84c] group-hover:text-[#e8c96a] transition-colors duration-300">
             WH40K-TTS
           </span>
