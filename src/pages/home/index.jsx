@@ -145,6 +145,7 @@ export default function Home() {
           className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 animate-fade-in"
           style={{ animationDelay: '1.2s', animationFillMode: 'forwards' }}
         >
+        {/*
           <div className="flex flex-col items-center gap-1">
             <span className="font-heading text-[9px] tracking-[0.4em] uppercase text-[#3a2d10]">
               Desplaza
@@ -152,6 +153,7 @@ export default function Home() {
             <div className="w-px h-8 bg-gradient-to-b from-[#3a2d10] to-transparent" />
           </div>
         </div>
+        */}
       </section>
 
       {/* ─── Features ─────────────────────────────────────────── */}
