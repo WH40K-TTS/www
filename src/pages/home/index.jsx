@@ -50,11 +50,13 @@ export default function Home() {
         />
 
         {/* Horizontal scan line decoration */}
+        {/*
         <div
           aria-hidden
           className="absolute top-1/2 left-0 right-0 h-px -translate-y-32 pointer-events-none"
           style={{ background: 'linear-gradient(90deg, transparent, rgba(201,168,76,0.08), transparent)' }}
         />
+        */}
 
         {/* Eyebrow */}
         <p
