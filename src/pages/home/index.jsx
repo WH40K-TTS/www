@@ -153,8 +153,8 @@ export default function Home() {
             </span>
             <div className="w-px h-8 bg-gradient-to-b from-[#3a2d10] to-transparent" />
           </div>
-        </div>
         */}
+        </div>
       </section>
 
       {/* ─── Features ─────────────────────────────────────────── */}
