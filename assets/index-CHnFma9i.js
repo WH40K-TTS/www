@@ -1,4 +1,4 @@
-import{c as b,r as x,_ as j,j as e,u as N}from"./index-Bv4B6k6r.js";import{B as v}from"./badge-CjugMebK.js";/**
+import{c as b,r as x,_ as j,j as e,u as N}from"./index-ulwU_z3Y.js";import{B as v}from"./badge-BBIf3-Kn.js";/**
  * @license lucide-react v0.383.0 - ISC
  *
  * This source code is licensed under the ISC license.
