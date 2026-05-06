@@ -114,7 +114,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="
-              inline-flex items-center gap-3 px-8 py-3.5
+              rounded-md inline-flex items-center gap-3 px-8 py-3.5
               bg-[#2d3571] border border-[#4a5299]/70 text-[#c8cfff]
               font-heading text-xs tracking-[0.25em] uppercase
               hover:bg-[#363f85] hover:border-[#6a74cc] hover:shadow-[0_0_20px_rgba(70,82,180,0.4)]
