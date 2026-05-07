@@ -16,7 +16,7 @@ const features = [
     icon: ListOrdered,
     title: 'Clasificación',
     desc: 'Alcanza lo más alto en la clasficación general. El balance de todas las competiciones llevadas a cabo a lo largo de la temporada.',
-    to: '/rankings',
+    to: '/ranking',
     cta: 'Ver Clasificación',
   },
   {
