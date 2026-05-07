@@ -102,14 +102,14 @@ export default function Home() {
             <span
               className="text-[#c9a84c]"
               style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}>
-              {' '}en el tablero.
+              {' '}en el tablero
             </span>
           </span>
         </h1>
 
         {/* Gold horizontal rule */}
         <div
-          className="w-80 h-px mb-5 opacity-0 animate-fade-in"
+          className="w-1/2 mx-auto sm:w-80 h-px mb-5 opacity-0 animate-fade-in"
           style={{
             animationDelay: '0.4s',
             animationFillMode: 'forwards',
