@@ -1,6 +1,6 @@
 ﻿import React from 'react'
 import { Link } from 'react-router-dom'
-import { Trophy, BookOpen, Users } from 'lucide-react'
+import { Trophy, BookOpen, Users, ListOrdered } from 'lucide-react'
 
 const DISCORD_URL = 'https://discord.gg/4uHrQp2ckW'
 
@@ -13,7 +13,7 @@ const features = [
     cta: 'Ver Torneos',
   },
   {
-    icon: listOrdered,
+    icon: ListOrdered,
     title: 'Clasificación',
     desc: 'Alcanza lo más alto en la clasficación general. El balance de todas las competiciones llevadas a cabo a lo largo de la temporada.',
     to: '/rankings',
@@ -219,14 +219,14 @@ export default function Home() {
                       href={href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-heading text-[11px] tracking-[0.2em] uppercase text-[#5a4920] hover:text-[#c9a84c] transition-colors duration-200 inline-flex items-center gap-1"
+                      className="font-heading text-[11px] tracking-[0.2em] uppercase text-[#5a4920] hover:text-[#c9a84c] transition-colors duration-200 inline-flex items-center gap-1 after:absolute after:inset-0"
                     >
                       {cta} →
                     </a>
                   ) : (
                     <Link
                       to={to}
-                      className="font-heading text-[11px] tracking-[0.2em] uppercase text-[#5a4920] hover:text-[#c9a84c] transition-colors duration-200 inline-flex items-center gap-1"
+                      className="font-heading text-[11px] tracking-[0.2em] uppercase text-[#5a4920] hover:text-[#c9a84c] transition-colors duration-200 inline-flex items-center gap-1 after:absolute after:inset-0"
                     >
                       {cta} →
                     </Link>
