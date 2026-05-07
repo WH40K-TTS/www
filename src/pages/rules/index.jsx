@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+﻿import React, { useState } from 'react'
+import { User, Users } from 'lucide-react'
 import IndividualRules from './individualrules'
 import TeamRules from './teamrules'
 
 const TABS = [
-  { id: 'individual', label: 'Individual', icon: '⚔' },
-  { id: 'teams',      label: 'Equipos',    icon: '⚙' },
+  { id: 'individual', label: 'Individual', Icon: User },
+  { id: 'teams',      label: 'Equipos',    Icon: Users },
 ]
 
 export default function Rules() {
@@ -17,13 +18,13 @@ export default function Rules() {
         {/* Page header */}
         <div className="text-center mb-12 pt-8">
           <p className="font-heading text-[10px] tracking-[0.4em] uppercase text-[#5a4920] mb-3">
-            ✦ Codex Torneorum ✦
+            âœ¦ Codex Torneorum âœ¦
           </p>
           <h1
             className="font-heading text-3xl sm:text-4xl tracking-[0.15em] uppercase text-[#c9a84c] mb-4"
             style={{ textShadow: '0 0 30px rgba(201,168,76,0.25)' }}
           >
-            Reglamento
+            Reglas
           </h1>
           <div
             className="mx-auto w-48 h-px mb-4"
@@ -36,7 +37,7 @@ export default function Rules() {
 
         {/* Tabs */}
         <div className="flex border-b border-[#3a2d10] mb-10">
-          {TABS.map(({ id, label, icon }) => (
+          {TABS.map(({ id, label, Icon }) => (
             <button
               key={id}
               onClick={() => setActiveTab(id)}
@@ -49,7 +50,7 @@ export default function Rules() {
                   : 'text-[#5a4920] hover:text-[#8a6f2e]',
               ].join(' ')}
             >
-              <span className="text-sm">{icon}</span>
+              <Icon size={14} strokeWidth={2} aria-hidden />
               {label}
               {activeTab === id && (
                 <span
