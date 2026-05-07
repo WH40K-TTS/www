@@ -88,14 +88,12 @@ export default function Home() {
             Forja
           </span>
           <span
-            className="text-xl sm:text-2xl lg:text-3xl tracking-[0.04em] text-[#c9a84c]"
-            style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}>
-            {' '}tu
+            className="text-xl sm:text-2xl lg:text-2xl tracking-[0.04em] text-[#c9a84c]">
+            tu
           </span>
           <span
             className="text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#8b1a1a]"
-            style={{ textShadow: '0 0 40px rgba(139,26,26,0.5)' }} // Error de paréntesis corregido aquí
-          >
+            style={{ textShadow: '0 0 40px rgba(139,26,26,0.5)' }}>
             {' '}legado
           </span>
         </span>
