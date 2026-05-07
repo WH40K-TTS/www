@@ -68,7 +68,7 @@ export default function Home() {
 
         {/* Main title */}
         <h1
-          className="font-display font-black text-5xl sm:text-7xl lg:text-8xl text-[#c9a84c] leading-none mb-4 opacity-0 animate-fade-in-up"
+          className="font-display font-bold text-5xl sm:text-7xl lg:text-8xl text-[#c9a84c] leading-none mb-4 opacity-0 animate-fade-in-up"
           style={{
             animationDelay: '0.25s',
             animationFillMode: 'forwards',
