@@ -17,6 +17,7 @@ export default function TeamRules() {
 
   return (
     <div className="animate-fade-in">
+      {/*
       <div className="flex items-center justify-between mb-8">
         <p className="font-body text-slate-400 text-sm max-w-2xl leading-relaxed">
           {data.description}
@@ -25,6 +26,7 @@ export default function TeamRules() {
           v{data.version}
         </span>
       </div>
+      */}
       <div className="space-y-6">
         {data.sections.map((section, idx) => (
           <RuleSection key={idx} section={section} index={idx} />
