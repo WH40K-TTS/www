@@ -70,14 +70,13 @@ export default function Ranking() {
                 <caption className="sr-only">Clasificación general de jugadores</caption>
                 <thead>
                   <tr className="border-b-2 border-[#3a2d10]">
-                    {['#', 'General', 'Puntos'].map((h, i) => (
+                    {['#', 'General', 'Puntos'].map((h) => (
                       <th
                         key={h}
                         scope="col"
                         className={`
                           px-5 py-4 font-heading text-[11px] tracking-[0.25em] uppercase
-                          text-[#8a6f2e] font-normal whitespace-nowrap
-                          ${i === 0 || i === 1 ? 'text-left' : 'text-center'}
+                          text-[#8a6f2e] font-normal whitespace-nowrap text-center
                         `}
                       >
                         {h}
@@ -99,7 +98,7 @@ export default function Ranking() {
                           ${isTop ? 'bg-[#1a1610]' : 'hover:bg-[#1a1610]'}
                         `}
                       >
-                        <td className="px-5 py-4 w-12">
+                        <td className="px-5 py-4 w-12 text-center">
                           <span
                             className="font-heading text-sm"
                             style={{ color: mc ?? '#5a4920' }}
@@ -108,7 +107,7 @@ export default function Ranking() {
                           </span>
                         </td>
 
-                        <td className="px-5 py-4">
+                        <td className="px-5 py-4 text-center">
                           <span className={`font-heading text-sm tracking-[0.1em] ${isTop ? 'text-[#f0e6c8]' : 'text-[#c4b48c]'}`}>
                             {player.name}
                           </span>
