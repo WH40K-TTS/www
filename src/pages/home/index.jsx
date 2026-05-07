@@ -9,8 +9,15 @@ const features = [
     icon: Trophy,
     title: 'Torneos',
     desc: 'Compite en torneos regulares con sistema de grupos y fase eliminatoria. Cada victoria te acerca al trono.',
-    to: '/ranking',
-    cta: 'Ver clasificación',
+    to: '/tournaments',
+    cta: 'Ver Torneos',
+  },
+  {
+    icon: listOrdered,
+    title: 'Clasificación',
+    desc: 'Alcanza lo más alto en la clasficación general. El balance de todas las competiciones llevadas a cabo a lo largo de la temporada.',
+    to: '/rankings',
+    cta: 'Ver Clasificación',
   },
   {
     icon: BookOpen,
@@ -165,9 +172,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           {/* Section header */}
           <div className="text-center mb-16">
+            {/*
             <p className="font-heading text-[10px] tracking-[0.4em] uppercase text-[#5a4920] mb-3">
               ✦ La Liga ✦
             </p>
+            */}
             <h2 className="font-heading text-2xl sm:text-3xl tracking-[0.15em] uppercase text-[#c9a84c] mb-4">
               La Arena de Batalla
             </h2>
