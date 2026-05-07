@@ -79,38 +79,37 @@ export default function Home() {
           WH40K-TTS
         </h1>
         */}
-        <h1
-          className="font-display font-bold leading-[1.05] mb-4 opacity-0 animate-fade-in-up"
-          style={{
-            animationDelay: '0.25s',
-            animationFillMode: 'forwards',
-          }}
-        >
-          {/* Line 1 */}
+        <h1 className="font-display font-bold leading-[1.2] mb-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.25s', animationFillMode: 'forwards',}}>
+        {/* Renglón 1: Forja tu legado */}
+        <span className="block"> 
           <span
-            className="block text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#c9a84c]"
+            className="text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#c9a84c]"
             style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}>
             Forja
           </span>
           <span
-            className="block text-1xl sm:text-2xl lg:text-3xl tracking-[0.04em] text-[#c9a84c]"
+            className="text-xl sm:text-2xl lg:text-3xl tracking-[0.04em] text-[#c9a84c]"
             style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}>
-            tu
+            {' '}tu
           </span>
           <span
-              className="text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#8b1a1a]"
-              style={{ textShadow: '0 0 40px rgba(139,26,26,0.5' }}>
-              {' '}legado
+            className="text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#8b1a1a]"
+            style={{ textShadow: '0 0 40px rgba(139,26,26,0.5)' }} // Error de paréntesis corregido aquí
+          >
+            {' '}legado
           </span>
-          <span className="block text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em]">
-            {/* Line 2 */}
-            <span
-              className="text-[#c9a84c]"
-              style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}>
-              {' '}en el tablero
-            </span>
+        </span>
+
+        {/* Renglón 2: en el tablero */}
+        <span className="block mt-2">
+          <span
+            className="text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#c9a84c]"
+            style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}
+          >
+            en el tablero
           </span>
-        </h1>
+        </span>
+      </h1>
 
         {/* Gold horizontal rule */}
         <div
