@@ -1,11 +1,8 @@
-import React, { useState } from 'react'
+﻿import React from 'react'
 import { useRanking } from '../../hooks/useranking'
-import { Modal } from '../../components/ui/modal'
-import { Badge } from '../../components/ui/badge'
 
 export default function Ranking() {
   const { players, loading, error } = useRanking()
-  const [selected, setSelected] = useState(null)
 
   const medalColor = (pos) => {
     if (pos === 1) return '#FFD700'
@@ -23,14 +20,18 @@ export default function Ranking() {
           <p className="font-heading text-[10px] tracking-[0.4em] uppercase text-[#5a4920] mb-3">
             ✦ Tabla de Honor ✦
           </p>
-          <h1 className="font-heading text-3xl sm:text-4xl tracking-[0.15em] uppercase text-[#c9a84c] mb-4"
-            style={{ textShadow: '0 0 30px rgba(201,168,76,0.25)' }}>
+          <h1
+            className="font-heading text-3xl sm:text-4xl tracking-[0.15em] uppercase text-[#c9a84c] mb-4"
+            style={{ textShadow: '0 0 30px rgba(201,168,76,0.25)' }}
+          >
             Clasificación General
           </h1>
-          <div className="mx-auto w-48 h-px mb-4"
-            style={{ background: 'linear-gradient(90deg, transparent, #8a6f2e, transparent)' }} />
+          <div
+            className="mx-auto w-48 h-px mb-4"
+            style={{ background: 'linear-gradient(90deg, transparent, #8a6f2e, transparent)' }}
+          />
           <p className="font-body text-[#7a6848] text-base">
-            Los generales más letales de la comunidad. Pulsa los puntos de cualquier guerrero para ver su historial.
+            Los generales más letales de la comunidad.
           </p>
         </div>
 
@@ -64,7 +65,7 @@ export default function Ranking() {
                 <caption className="sr-only">Clasificación general de jugadores</caption>
                 <thead>
                   <tr className="border-b-2 border-[#3a2d10]">
-                    {['#', 'General', 'Puntos', 'Torneos', 'V', 'D', 'Ratio'].map((h, i) => (
+                    {['#', 'General', 'Puntos'].map((h, i) => (
                       <th
                         key={h}
                         scope="col"
@@ -83,9 +84,6 @@ export default function Ranking() {
                   {players.map((player, idx) => {
                     const pos = idx + 1
                     const mc = medalColor(pos)
-                    const ratio = player.wins + player.losses > 0
-                      ? ((player.wins / (player.wins + player.losses)) * 100).toFixed(0) + '%'
-                      : '—'
                     const isTop = pos <= 3
 
                     return (
@@ -96,17 +94,15 @@ export default function Ranking() {
                           ${isTop ? 'bg-[#1a1610]' : 'hover:bg-[#1a1610]'}
                         `}
                       >
-                        {/* Position */}
                         <td className="px-5 py-4 w-12">
                           <span
                             className="font-heading text-sm"
                             style={{ color: mc ?? '#5a4920' }}
                           >
-                            {pos <= 3 ? ['①','②','③'][pos-1] : pos}
+                            {pos <= 3 ? ['①', '②', '③'][pos - 1] : pos}
                           </span>
                         </td>
 
-                        {/* Name */}
                         <td className="px-5 py-4">
                           <span className={`font-heading text-sm tracking-[0.1em] ${isTop ? 'text-[#f0e6c8]' : 'text-[#c4b48c]'}`}>
                             {player.name}
@@ -118,41 +114,10 @@ export default function Ranking() {
                           )}
                         </td>
 
-                        {/* Points — clickable */}
                         <td className="px-5 py-4 text-center">
-                          <button
-                            onClick={() => setSelected(player)}
-                            className="
-                              inline-block font-heading text-sm font-semibold
-                              text-[#c9a84c] hover:text-[#e8c96a]
-                              border-b border-[#6b5420] hover:border-[#c9a84c]
-                              transition-all duration-200 cursor-pointer
-                              px-1
-                            "
-                            aria-label={`Ver historial de ${player.name}`}
-                          >
+                          <span className="inline-block font-heading text-sm font-semibold text-[#c9a84c] px-1">
                             {player.totalPoints}
-                          </button>
-                        </td>
-
-                        {/* Tournaments */}
-                        <td className="px-5 py-4 text-center font-body text-sm text-[#7a6848]">
-                          {player.tournamentsPlayed}
-                        </td>
-
-                        {/* Wins */}
-                        <td className="px-5 py-4 text-center font-body text-sm text-[#4a9a4a]">
-                          {player.wins}
-                        </td>
-
-                        {/* Losses */}
-                        <td className="px-5 py-4 text-center font-body text-sm text-[#cc4444]">
-                          {player.losses}
-                        </td>
-
-                        {/* Ratio */}
-                        <td className="px-5 py-4 text-center font-body text-sm text-[#7a6848]">
-                          {ratio}
+                          </span>
                         </td>
                       </tr>
                     )
@@ -163,62 +128,10 @@ export default function Ranking() {
           </div>
         )}
 
-        {/* Legend */}
         <p className="font-heading text-[10px] tracking-[0.2em] uppercase text-[#3a2d10] text-center mt-6">
-          ✦ Pulsa los puntos de un jugador para ver su historial de combate ✦
+          ✦ Posición, General y Puntos ✦
         </p>
-
       </div>
-
-      {/* Player Detail Modal */}
-      {selected && (
-        <Modal
-          isOpen={!!selected}
-          onClose={() => setSelected(null)}
-          title={selected.name}
-          subtitle={`${selected.totalPoints} puntos · ${selected.tournamentsPlayed} torneos`}
-          size="md"
-        >
-          <div className="space-y-1">
-            <div className="flex gap-3 flex-wrap mb-5">
-              <Badge variant="gold">{selected.totalPoints} pts</Badge>
-              <Badge variant="success">{selected.wins}V</Badge>
-              <Badge variant="crimson">{selected.losses}D</Badge>
-            </div>
-
-            <p className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#8a6f2e] mb-3">
-              Historial de Torneos
-            </p>
-
-            <div className="space-y-2">
-              {selected.tournamentHistory?.length > 0 ? (
-                selected.tournamentHistory.map((t) => (
-                  <div
-                    key={t.tournamentId}
-                    className="border border-[#2a2210] bg-[#1a1610] px-4 py-3 flex items-center justify-between gap-4"
-                  >
-                    <div>
-                      <p className="font-heading text-xs tracking-[0.1em] text-[#c4b48c]">
-                        {t.tournamentName}
-                      </p>
-                      <p className="font-body text-sm text-[#7a6848] mt-0.5">
-                        Posición #{t.position} · {t.wins}V / {t.losses}D
-                      </p>
-                    </div>
-                    <span className="font-heading text-sm text-[#c9a84c] shrink-0">
-                      +{t.points} pts
-                    </span>
-                  </div>
-                ))
-              ) : (
-                <p className="font-body text-sm text-[#5a4920] py-4 text-center">
-                  Sin historial de torneos registrado.
-                </p>
-              )}
-            </div>
-          </div>
-        </Modal>
-      )}
     </main>
   )
 }
