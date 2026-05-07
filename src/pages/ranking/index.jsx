@@ -1,8 +1,10 @@
-﻿import React from 'react'
+﻿import React, { useState } from 'react'
 import { useRanking } from '../../hooks/useranking'
+import PlayerDetailModal from './playerdetail'
 
 export default function Ranking() {
   const { players, loading, error } = useRanking()
+  const [selectedPlayer, setSelectedPlayer] = useState(null)
 
   const medalColor = (pos) => {
     if (pos === 1) return '#FFD700'
@@ -18,7 +20,7 @@ export default function Ranking() {
         {/* Page header */}
         <div className="text-center mb-12 pt-8">
           <p className="font-heading text-[10px] tracking-[0.4em] uppercase text-[#5a4920] mb-3">
-            ✦ Tabla de Honor ✦
+            Tabla de Honor
           </p>
           <h1
             className="font-heading text-2xl sm:text-4xl tracking-[0.08em] sm:tracking-[0.15em] uppercase text-[#c9a84c] mb-4"
@@ -32,7 +34,7 @@ export default function Ranking() {
             style={{ background: 'linear-gradient(90deg, transparent, #8a6f2e, transparent)' }}
           />
           <p className="font-body text-[#7a6848] text-base">
-            Los generales más letales de la comunidad.
+            Los generales más letales de la comunidad. Pulsa los puntos para ver su historial.
           </p>
         </div>
 
@@ -47,7 +49,7 @@ export default function Ranking() {
         {loading && (
           <div className="flex justify-center py-20">
             <div className="font-heading text-[11px] tracking-[0.3em] uppercase text-[#5a4920] animate-pulse">
-              Cargando registros de combate…
+              Cargando registros de combate...
             </div>
           </div>
         )}
@@ -100,7 +102,7 @@ export default function Ranking() {
                             className="font-heading text-sm"
                             style={{ color: mc ?? '#5a4920' }}
                           >
-                            {pos <= 3 ? ['①', '②', '③'][pos - 1] : pos}
+                            {pos <= 3 ? ['1', '2', '3'][pos - 1] : pos}
                           </span>
                         </td>
 
@@ -116,9 +118,13 @@ export default function Ranking() {
                         </td>
 
                         <td className="px-5 py-4 text-center">
-                          <span className="inline-block font-heading text-sm font-semibold text-[#c9a84c] px-1">
+                          <button
+                            onClick={() => setSelectedPlayer(player)}
+                            className="inline-block font-heading text-sm font-semibold text-[#c9a84c] hover:text-[#e8c96a] border-b border-[#6b5420] hover:border-[#c9a84c] transition-all duration-200 cursor-pointer px-1"
+                            aria-label={`Ver historial de ${player.name}`}
+                          >
                             {player.totalPoints}
-                          </span>
+                          </button>
                         </td>
                       </tr>
                     )
@@ -128,12 +134,16 @@ export default function Ranking() {
             </div>
           </div>
         )}
-        {/*
+
         <p className="font-heading text-[10px] tracking-[0.2em] uppercase text-[#3a2d10] text-center mt-6">
-          ✦ Posición, General y Puntos ✦
+          Pulsa los puntos de un jugador para ver su historial de combate
         </p>
-        */}
       </div>
+
+      <PlayerDetailModal
+        player={selectedPlayer}
+        onClose={() => setSelectedPlayer(null)}
+      />
     </main>
   )
 }
