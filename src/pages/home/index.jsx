@@ -88,7 +88,7 @@ export default function Home() {
         >
           {/* Line 1 */}
           <span
-            className="block text-2xl sm:text-4xl lg:text-5xl tracking-[0.04em] text-[#c9a84c]"
+            className="block text-1xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#c9a84c]"
             style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}>
             Forja tu
           </span>
@@ -97,7 +97,7 @@ export default function Home() {
               style={{ textShadow: '0 0 40px rgba(139,26,26,0.5' }}>
               {' '}legado
           </span>
-          <span className="block text-2xl sm:text-4xl lg:text-5xl tracking-[0.04em]">
+          <span className="block text-1xl sm:text-3xl lg:text-4xl tracking-[0.04em]">
             {/* Line 2 */}
             <span
               className="text-[#c9a84c]"
