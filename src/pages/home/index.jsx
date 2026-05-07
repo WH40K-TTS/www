@@ -85,7 +85,7 @@ export default function Home() {
           <span
             className="text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#c9a84c]"
             style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}>
-            Forja 
+            Forja  
           </span>
           <span
             className="text-xl sm:text-2xl lg:text-2xl tracking-[0.04em] text-[#c9a84c]">
@@ -102,7 +102,12 @@ export default function Home() {
         <span className="block mt-2">
           <span
             className="text-xl sm:text-2xl lg:text-2xl tracking-[0.04em] text-[#c9a84c]">
-            en el tablero
+            en el 
+          </span>
+          <span
+            className="text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#c9a84c]"
+            style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}>
+            tablero
           </span>
         </span>
       </h1>
