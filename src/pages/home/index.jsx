@@ -26,13 +26,6 @@ const features = [
     to: '/rules',
     cta: 'Leer reglamento',
   },
-  {
-    icon: Users,
-    title: 'Comunidad',
-    desc: 'Más de cien generales compiten en el simulador. Únete, organiza partidas y sube el ranking.',
-    href: DISCORD_URL,
-    cta: 'Unirse a Discord',
-  },
 ]
 
 export default function Home() {
