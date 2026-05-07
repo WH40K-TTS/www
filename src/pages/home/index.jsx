@@ -67,6 +67,7 @@ export default function Home() {
         </p>
 
         {/* Main title */}
+        {/*
         <h1
           className="font-display font-bold text-5xl sm:text-7xl lg:text-8xl text-[#c9a84c] leading-none mb-4 opacity-0 animate-fade-in-up"
           style={{
@@ -76,6 +77,37 @@ export default function Home() {
           }}
         >
           WH40K-TTS
+        </h1>
+        */}
+        <h1
+          className="font-display font-bold leading-[1.05] mb-4 opacity-0 animate-fade-in-up"
+          style={{
+            animationDelay: '0.25s',
+            animationFillMode: 'forwards',
+          }}
+        >
+          {/* Line 1 */}
+          <span
+            className="block text-4xl sm:text-6xl lg:text-7xl tracking-[0.04em] text-[#f0e6c8]"
+            style={{ textShadow: '0 2px 20px rgba(240,230,200,0.15)' }}
+          >
+            Forja tu
+          </span>
+          {/* Line 2 */}
+          <span className="block text-4xl sm:text-6xl lg:text-7xl tracking-[0.04em]">
+            <span
+              className="text-[#c9a84c]"
+              style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}
+            >
+              legado
+            </span>
+            <span
+              className="text-[#c4b48c]/70 font-normal"
+              style={{ textShadow: '0 0 20px rgba(196,180,140,0.1)' }}
+            >
+              {' '}en el tablero.
+            </span>
+          </span>
         </h1>
 
         {/* Gold horizontal rule */}
