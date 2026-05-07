@@ -6,7 +6,7 @@ const NAV_LINKS = [
   { to: '/',            label: 'Inicio' },
   { to: '/tournaments', label: 'Torneos' },
   { to: '/ranking',     label: 'Clasificación' },
-  { to: '/rules',       label: 'Reglamento' },
+  { to: '/rules',       label: 'Reglas' },
 ]
 
 export function Navbar() {
