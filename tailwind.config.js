@@ -20,11 +20,11 @@ export default {
           700: '#334155',
         }
       },
-      fontFamily: {
-        display: ['Rajdhani', 'sans-serif'],
-        mono: ['DM Mono', 'monospace'],
-        body: ['Barlow', 'sans-serif'],
-      },
+       fontFamily: {
+         display: ['Cinzel', 'serif'],
+         mono: ['DM Mono', 'monospace'],
+         body: ['Barlow', 'sans-serif'],
+       },
       backgroundImage: {
         'glass-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05))',
         'premium-glow': 'radial-gradient(circle at center, rgba(250, 204, 21, 0.15) 0%, transparent 70%)',
