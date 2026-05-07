@@ -21,10 +21,11 @@ export default function Ranking() {
             ✦ Tabla de Honor ✦
           </p>
           <h1
-            className="font-heading text-3xl sm:text-4xl tracking-[0.15em] uppercase text-[#c9a84c] mb-4"
+            className="font-heading text-2xl sm:text-4xl tracking-[0.08em] sm:tracking-[0.15em] uppercase text-[#c9a84c] mb-4"
             style={{ textShadow: '0 0 30px rgba(201,168,76,0.25)' }}
           >
-            Clasificación General
+            <span className="sm:hidden">Posiciones</span>
+            <span className="hidden sm:inline">Clasificación General</span>
           </h1>
           <div
             className="mx-auto w-48 h-px mb-4"
@@ -127,10 +128,11 @@ export default function Ranking() {
             </div>
           </div>
         )}
-
+        {/*
         <p className="font-heading text-[10px] tracking-[0.2em] uppercase text-[#3a2d10] text-center mt-6">
           ✦ Posición, General y Puntos ✦
         </p>
+        */}
       </div>
     </main>
   )
