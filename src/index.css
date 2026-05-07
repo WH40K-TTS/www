@@ -84,7 +84,7 @@ body {
 }
 
 /* ─── Typography Utilities ───────────────────────────────────── */
-.font-display  { font-family: 'Cinzel Decorative', Georgia, serif; }
+.font-display  { font-family: 'Cinzel', Georgia, serif; }
 .font-heading  { font-family: 'Cinzel', Georgia, serif; }
 .font-body     { font-family: 'Crimson Text', Georgia, serif; }
 
