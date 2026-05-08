@@ -63,7 +63,7 @@ export default function ListUpload({ tournament }) {
           <iframe
             src={tallyEmbed}
             width="100%"
-            height="520"
+            height="550"
             title={`Formulario de lista para ${tournament?.name ?? 'torneo'}`}
             className="block"
             style={{ border: 'none', background: 'transparent' }}
