@@ -4,8 +4,8 @@ import IndividualRules from './individualrules'
 import TeamRules from './teamrules'
 
 const TABS = [
-  { id: 'individual', label: 'Individual', Icon: User },
-  { id: 'teams',      label: 'Equipos',    Icon: Users },
+  { id: 'individual', label: 'Solo', Icon: User },
+  { id: 'teams',      label: 'Equipo',    Icon: Users },
 ]
 
 export default function Rules() {
