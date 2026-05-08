@@ -1,12 +1,12 @@
 {
   "id": "tournament-001",
-  "name": "Torneo Primavera 2025",
+  "name": "2026 - Individual 3",
   "date": "2025-04-12",
   "dateEnd": "2025-04-13",
-  "status": "finished",
+  "status": "ongoing",
   "format": "individual",
   "tallyFormId": "FORM_ID",
-  "description": "Primer torneo oficial de la temporada 2025. Ocho generales compitieron en formato suizo de grupos con posterior eliminatoria.",
+  "description": "Primer torneo oficial de la temporada 2026. Ocho generales compitien en formato suizo de grupos con posterior eliminatoria.",
 
   "groups": [
     {
