@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { FileUp, Group, Swords, Crown } from 'lucide-react'
 import { useTournament } from '../../hooks/usetournament'
 import ListUpload from './listupload'
 import Groups from './groups'
@@ -8,10 +9,10 @@ import FinalMatches from './finalmatches'
 import { Badge } from '../../components/ui/badge'
 
 const TABS = [
-  { id: 'lists',         label: 'Subir Lista',       icon: '📋' },
-  { id: 'groups',        label: 'Grupos',             icon: '⚙' },
-  { id: 'qualification', label: 'Clasificación',      icon: '⚔' },
-  { id: 'finals',        label: 'Finales',            icon: '🏆' },
+  { id: 'lists',         label: 'Subir Lista', icon: FileUp },
+  { id: 'groups',        label: 'Grupos',      icon: Group },
+  { id: 'qualification', label: 'Partidas',    icon: Swords },
+  { id: 'finals',        label: 'Finales',     icon: Crown },
 ]
 
 const STATUS_LABELS = {
@@ -77,7 +78,7 @@ export default function Tournament() {
 
         {/* Tabs */}
         <div className="flex overflow-x-auto border-b border-[#3a2d10] mb-8 scrollbar-hide">
-          {TABS.map(({ id: tabId, label, icon }) => (
+          {TABS.map(({ id: tabId, label, icon: Icon }) => (
             <button
               key={tabId}
               onClick={() => setActiveTab(tabId)}
@@ -90,7 +91,7 @@ export default function Tournament() {
                   : 'text-[#5a4920] hover:text-[#8a6f2e]',
               ].join(' ')}
             >
-              <span className="text-sm">{icon}</span>
+              <Icon size={14} strokeWidth={2} aria-hidden />
               <span className="hidden sm:inline">{label}</span>
               {activeTab === tabId && (
                 <span
