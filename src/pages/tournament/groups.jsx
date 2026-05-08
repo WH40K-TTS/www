@@ -24,9 +24,11 @@ export default function Groups({ groups }) {
       </div>
       */}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="flex flex-wrap justify-center gap-5">
         {groups.map((group, i) => (
-          <GroupCard key={i} group={group} />
+          <div key={i} className="w-full sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.333%-0.84rem)]">
+            <GroupCard group={group} />
+          </div>
         ))}
       </div>
     </div>
