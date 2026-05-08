@@ -28,6 +28,7 @@ export default function ListUpload({ tournament }) {
       </div>
 
       {/* Toggle embed/link */}
+      {/*
       <div className="flex gap-3 mb-6">
         <button
           onClick={() => setMode('embed')}
@@ -52,6 +53,7 @@ export default function ListUpload({ tournament }) {
           Enlace externo
         </button>
       </div>
+      */}
 
       {/* Embed mode */}
       {mode === 'embed' && (
