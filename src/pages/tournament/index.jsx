@@ -77,7 +77,7 @@ export default function Tournament() {
         </div>
 
         {/* Tabs */}
-        <div className="flex overflow-x-auto border-b border-[#3a2d10] mb-8 scrollbar-hide">
+        <div className="flex justify-start md:justify-center overflow-x-auto border-b border-[#3a2d10] mb-8 scrollbar-hide">
           {TABS.map(({ id: tabId, label, icon: Icon }) => (
             <button
               key={tabId}
