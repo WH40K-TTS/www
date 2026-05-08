@@ -101,7 +101,7 @@ export default function Home() {
         {/* Renglón 2: en el tablero */}
         <span className="block mt-2">
           <span
-            className="text-xl sm:text-2xl lg:text-2xl tracking-[0.04em] text-[#c9a84c]">
+            className="text-xl sm:text-xl lg:text-xl tracking-[0.04em] text-[#c9a84c]">
             en el{' '} 
           </span>
           <span
