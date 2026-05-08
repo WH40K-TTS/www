@@ -37,7 +37,12 @@ export default function QualificationMatches({ matches }) {
             {/* Matches */}
             <div>
               {round.matches?.map((match, i) => (
-                <MatchRow key={i} match={match} isLast={i === round.matches.length - 1} />
+                <MatchRow
+                  key={i}
+                  match={match}
+                  isLast={i === round.matches.length - 1}
+                  useSwordsOnLast
+                />
               ))}
             </div>
           </div>
