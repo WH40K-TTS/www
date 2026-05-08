@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import { Upload, ExternalLink } from 'lucide-react'
 
-const TALLY_FORM_ID = 'TU_FORM_ID' // Reemplaza con el ID real de Tally
+const TALLY_EMBED_URL = 'https://tally.so/embed/NpM5Ej?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1'
+const TALLY_LINK_URL = 'https://tally.so/r/NpM5Ej'
 
 export default function ListUpload({ tournament }) {
   const [mode, setMode] = useState('embed') // 'embed' | 'link'
 
-  const tallyEmbed = `https://tally.so/embed/${TALLY_FORM_ID}?tournament_id=${tournament?.id}&transparentBackground=1`
-  const tallyLink  = `https://tally.so/r/${TALLY_FORM_ID}?tournament_id=${tournament?.id}`
+  const tallyEmbed = TALLY_EMBED_URL
+  const tallyLink = TALLY_LINK_URL
 
   return (
     <div className="max-w-2xl mx-auto">
