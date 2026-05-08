@@ -47,7 +47,7 @@ export function Navbar() {
             className="text-[#c9a84c] opacity-80 group-hover:opacity-100 group-hover:text-[#e8c96a] transition-all duration-300"
             aria-hidden
           />
-          <span className="font-heading text-sm tracking-[0.25em] uppercase text-[#c9a84c] group-hover:text-[#e8c96a] transition-colors duration-300">
+          <span className="font-bold text-sm tracking-[0.25em] uppercase text-[#c9a84c] group-hover:text-[#e8c96a] transition-colors duration-300">
             WH40K-TTS
           </span>
         </Link>
