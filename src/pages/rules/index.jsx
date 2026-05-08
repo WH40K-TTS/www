@@ -38,7 +38,7 @@ export default function Rules() {
         </div>
 
         {/* Tabs */}
-        <div className="flex border-b border-[#3a2d10] mb-10">
+        <div className="flex justify-center border-b border-[#3a2d10] mb-10">
           {TABS.map(({ id, label, Icon }) => (
             <button
               key={id}
