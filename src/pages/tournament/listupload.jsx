@@ -70,6 +70,7 @@ export default function ListUpload({ tournament }) {
       )}
 
       {/* Link mode */}
+      {/*
       {mode === 'link' && (
         <div className="border border-[#3a2d10] bg-[#161209] p-8 text-center">
           <div className="text-[#8a6f2e] mb-4">
@@ -98,10 +99,12 @@ export default function ListUpload({ tournament }) {
           </a>
         </div>
       )}
-
+      */}
+      {/*
       <p className="font-heading text-[10px] tracking-[0.2em] uppercase text-[#3a2d10] text-center mt-4">
         Formulario gestionado por Tally.so · Los datos son recibidos por los organizadores
       </p>
+      */}
     </div>
   )
 }
