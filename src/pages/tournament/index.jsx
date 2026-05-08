@@ -24,7 +24,7 @@ const STATUS_LABELS = {
 export default function Tournament() {
   const { id } = useParams()
   const { tournament, loading, error } = useTournament(id)
-  const [activeTab, setActiveTab] = useState('groups')
+  const [activeTab, setActiveTab] = useState('lists')
 
   if (loading) return (
     <main className="min-h-screen pt-20 flex items-center justify-center">

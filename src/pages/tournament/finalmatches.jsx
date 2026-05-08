@@ -34,7 +34,7 @@ export default function FinalMatches({ matches }) {
           const Icon = ROUND_ICONS[round.round] ?? Layers
 
           return (
-            <div key={round.round} className="border border-[#3a2d10] bg-[#161209]">
+            <div key={round.round} className="w-full lg:w-[60%] lg:mx-auto border border-[#3a2d10] bg-[#161209]">
               {/* Round header */}
               <div
                 className={`px-5 py-3 border-b flex items-center gap-3 ${

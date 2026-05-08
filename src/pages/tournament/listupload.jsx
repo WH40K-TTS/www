@@ -19,9 +19,11 @@ export default function ListUpload({ tournament }) {
           ✦ Registro de Lista ✦
         </p>
         */}
+        {/*
         <h2 className="font-heading text-lg tracking-[0.15em] uppercase text-[#c9a84c] mb-3">
           Subir Lista de Ejército
         </h2>
+        */}
         <p className="font-body text-[#7a6848] text-base leading-relaxed">
           Presenta tu lista de ejército antes del inicio del torneo. El envío es gestionado por el formulario oficial de la comunidad.
         </p>
