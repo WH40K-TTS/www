@@ -2,12 +2,12 @@
   "tournaments": [
     {
       "id": "tournament-001",
-      "name": "Torneo Primavera 2025",
-      "date": "2025-04-12",
-      "dateEnd": "2025-04-13",
+      "name": "2026 - Individual 3",
+      "date": "08-05-2026",
+      "dateEnd": "08-05-2026",
       "status": "finished",
       "format": "individual",
-      "players": 8,
+      "players": 12,
       "winner": "IronWarden"
     },
     {
@@ -25,7 +25,7 @@
       "name": "Copa del Caos 2024",
       "date": "2024-10-19",
       "dateEnd": "2024-10-20",
-      "status": "finished",
+      "status": "ongoing",
       "format": "individual",
       "players": 8,
       "winner": "IronWarden"
