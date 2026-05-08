@@ -88,7 +88,7 @@ export default function Home() {
             Forja{' '}  
           </span>
           <span
-            className="text-xl sm:text-2xl lg:text-2xl tracking-[0.04em] text-[#c9a84c]">
+            className="text-xl sm:text-xl lg:text-xl tracking-[0.04em] text-[#c9a84c]">
             {' '}tu{' '}
           </span>
           <span
