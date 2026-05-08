@@ -12,6 +12,7 @@ export default function Groups({ groups }) {
 
   return (
     <div>
+      {/*
       <div className="flex items-center gap-3 mb-8">
         <p className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#5a4920] shrink-0">
           ✦ Fase de Grupos ✦
@@ -21,6 +22,7 @@ export default function Groups({ groups }) {
           {groups.length} grupos
         </span>
       </div>
+      */}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {groups.map((group, i) => (

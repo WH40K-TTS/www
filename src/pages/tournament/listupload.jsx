@@ -13,9 +13,11 @@ export default function ListUpload({ tournament }) {
     <div className="max-w-2xl mx-auto">
 
       <div className="mb-8">
+        {/*
         <p className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#5a4920] mb-2">
           ✦ Registro de Lista ✦
         </p>
+        */}
         <h2 className="font-heading text-lg tracking-[0.15em] uppercase text-[#c9a84c] mb-3">
           Subir Lista de Ejército
         </h2>
