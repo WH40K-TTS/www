@@ -1,12 +1,10 @@
 import React from 'react'
-import { Swords } from 'lucide-react'
 
-export function MatchRow({ match, isFinal = false, isLast = false, useSwordsOnLast = false }) {
+export function MatchRow({ match, isFinal = false, isLast = false }) {
   const { player1, score1, player2, score2, winner } = match
   const p1wins = winner === player1
   const p2wins = winner === player2
   const isDraw = !winner
-  const showSwords = useSwordsOnLast && isLast
 
   return (
     <div
@@ -48,22 +46,12 @@ export function MatchRow({ match, isFinal = false, isLast = false, useSwordsOnLa
         {/* VS divider */}
         <div className="flex flex-col items-center gap-0.5 w-7">
           <div className="w-full h-px bg-gradient-to-r from-transparent via-[#8b1a1a] to-transparent opacity-70" />
-          {showSwords ? (
-            <Swords
-              size={12}
-              strokeWidth={2}
-              className="text-[#8b1a1a]"
-              style={{ filter: 'drop-shadow(0 0 6px rgba(139,26,26,0.65))' }}
-              aria-label="Duelo decisivo"
-            />
-          ) : (
-            <span
-              className="font-heading text-[10px] sm:text-[11px] tracking-[0.16em] uppercase text-[#8b1a1a]"
-              style={{ textShadow: '0 0 10px rgba(139,26,26,0.6)' }}
-            >
-              {isDraw ? '=' : 'vs'}
-            </span>
-          )}
+          <span
+            className="font-heading text-[10px] sm:text-[11px] tracking-[0.16em] uppercase text-[#8b1a1a]"
+            style={{ textShadow: '0 0 10px rgba(139,26,26,0.6)' }}
+          >
+            {isDraw ? '=' : 'VS'}
+          </span>
           <div className="w-full h-px bg-gradient-to-r from-transparent via-[#8b1a1a] to-transparent opacity-70" />
         </div>
 

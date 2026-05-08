@@ -29,9 +29,11 @@ export default function QualificationMatches({ matches }) {
               <h3 className="font-heading text-sm tracking-[0.15em] uppercase text-[#c9a84c]">
                 Ronda {round.round}
               </h3>
+              {/*
               <span className="font-body text-xs text-[#5a4920]">
-                ✦ {round.matches?.length ?? 0} partidas
+                {round.matches?.length ?? 0} partidas
               </span>
+              */}
             </div>
 
             {/* Matches */}
@@ -41,7 +43,6 @@ export default function QualificationMatches({ matches }) {
                   key={i}
                   match={match}
                   isLast={i === round.matches.length - 1}
-                  useSwordsOnLast
                 />
               ))}
             </div>
