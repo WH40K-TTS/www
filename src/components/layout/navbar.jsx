@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, Dices } from 'lucide-react'
 
 const NAV_LINKS = [
   { to: '/',            label: 'Inicio' },
@@ -41,9 +41,12 @@ export function Navbar() {
         aria-label="Navegación principal"
       >
         <Link to="/" className="flex items-center gap-2 group shrink-0">
-          {/*
-          <span className="text-[#c9a84c] text-base opacity-50 group-hover:opacity-80 transition-opacity duration-300" aria-hidden>⚙</span>
-          */}
+          <Dices
+            size={14}
+            strokeWidth={1.8}
+            className="text-[#c9a84c] opacity-80 group-hover:opacity-100 group-hover:text-[#e8c96a] transition-all duration-300"
+            aria-hidden
+          />
           <span className="font-heading text-sm tracking-[0.25em] uppercase text-[#c9a84c] group-hover:text-[#e8c96a] transition-colors duration-300">
             WH40K-TTS
           </span>
