@@ -27,10 +27,10 @@ export default function QualificationMatches({ matches }) {
             {/* Round header */}
             <div className="px-5 py-3 border-b border-[#2a2210] flex items-center gap-3">
               <h3 className="font-heading text-sm tracking-[0.15em] uppercase text-[#c9a84c]">
-                {round.round}
+                Ronda {round.round}
               </h3>
               <span className="font-body text-xs text-[#5a4920]">
-                · {round.matches?.length ?? 0} partidas
+                âœ¦ {round.matches?.length ?? 0} partidas
               </span>
             </div>
 
