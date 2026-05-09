@@ -22,7 +22,7 @@
       "name": "Grupo B",
       "players": [
         { "name": "CrimsonFang", "points": 9, "wins": 3, "losses": 0, "scoreFavor": 32, "scoreAgainst": 10 },
-        { "name": "GoldBlade",   "points": 6, "wins": 2, "losses": 1, "scoreFavor": 22, "scoreAgainst": 20 },
+        { "name": "GoldBlades",   "points": 6, "wins": 2, "losses": 1, "scoreFavor": 22, "scoreAgainst": 20 },
         { "name": "NullGrave",   "points": 3, "wins": 1, "losses": 2, "scoreFavor": 14, "scoreAgainst": 24 },
         { "name": "DarkPilgrim", "points": 0, "wins": 0, "losses": 3, "scoreFavor":  6, "scoreAgainst": 20 }
       ]
