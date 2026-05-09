@@ -45,11 +45,7 @@ export function GroupCard({ group }) {
                 </span>
 
                 {/* Name */}
-                <span
-                  className={`font-body text-sm truncate ${
-                    isFirst ? 'text-[#f0e6c8]' : 'text-[#c4b48c]'
-                  }`}
-                >
+                <span className={`font-body text-sm truncate ${isFirst ? 'text-[#e8c96a]' : 'text-[#c9a84c]'}`}>
                   {player.name}
                 </span>
               </div>

@@ -63,16 +63,18 @@ export default function FinalMatches({ matches }) {
                 )}
               </div>
 
-              {/* Matches */}
-              <div>
-                {round.matches?.map((match, i) => (
-                  <MatchRow
-                    key={i}
-                    match={match}
-                    isFinal={round.round === 'Final'}
-                    isLast={i === round.matches.length - 1}
-                  />
-                ))}
+              {/* Matches — horizontal scroll on mobile */}
+              <div className="overflow-x-auto">
+                <div className="min-w-[360px]">
+                  {round.matches?.map((match, i) => (
+                    <MatchRow
+                      key={i}
+                      match={match}
+                      isFinal={round.round === 'Final'}
+                      isLast={i === round.matches.length - 1}
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           )

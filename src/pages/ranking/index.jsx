@@ -104,7 +104,7 @@ export default function Ranking() {
 
                         <td className="px-5 py-4 text-center">
                           {/* Mobile: font-body (groups style) — Desktop: font-heading (finals style) */}
-                          <span className={`font-body sm:font-heading text-sm sm:tracking-[0.1em] ${isTop ? 'text-[#f0e6c8]' : 'text-[#c4b48c]'}`}>
+                          <span className={`font-body sm:font-heading text-sm sm:tracking-[0.1em] ${isTop ? 'text-[#e8c96a]' : 'text-[#c9a84c]'}`}>
                             {player.name}
                           </span>
                           {pos === 1 && (
