@@ -45,11 +45,11 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
 
         {/* VS divider */}
         <div className="flex flex-col items-center gap-0.5 w-6">
-          <div className="w-full h-px bg-[#3a2d10]" />
-          <span className="font-heading text-[9px] tracking-[0.1em] text-[#3a2d10]">
+          <div className="w-full h-px bg-[#8b1a1a]" />
+          <span className="font-heading text-[9px] tracking-[0.1em] text-[#8b1a1a]">
             {isDraw ? '=' : 'vs'}
           </span>
-          <div className="w-full h-px bg-[#3a2d10]" />
+          <div className="w-full h-px bg-[#8b1a1a]" />
         </div>
 
         {/* Score 2 */}
