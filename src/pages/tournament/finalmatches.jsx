@@ -20,19 +20,21 @@ export default function FinalMatches({ matches }) {
 
   return (
     <div>
+      {/*
       <div className="flex items-center gap-3 mb-8">
         <p className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#5a4920] shrink-0">
           ✦ Fase Eliminatoria ✦
         </p>
         <div className="flex-1 h-px" style={{ background: 'linear-gradient(90deg, #3a2d10, transparent)' }} />
       </div>
+      */}
 
       <div className="space-y-5">
         {matches.map((round) => {
           const Icon = ROUND_ICONS[round.round]
 
           return (
-            <div key={round.round} className="border border-[#3a2d10] bg-[#161209]">
+            <div key={round.round} className="w-full lg:w-[60%] lg:mx-auto border border-[#3a2d10] bg-[#161209]">
 
               {/* Round header */}
               <div
