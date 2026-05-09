@@ -20,7 +20,7 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
       <div className={`flex-1 flex items-center justify-end gap-2 min-w-0 ${p1wins ? '' : 'opacity-60'}`}>
         <span
           className={`
-            font-heading text-xs sm:text-sm tracking-[0.1em] truncate text-right
+            font-body text-sm truncate text-right
             ${p1wins ? (isFinal ? 'text-[#e8c96a]' : 'text-[#c9a84c]') : 'text-[#7a6848]'}
           `}
         >
@@ -44,15 +44,12 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
         </span>
 
         {/* VS divider */}
-        <div className="flex flex-col items-center gap-0.5 w-7">
-          <div className="w-full h-px bg-gradient-to-r from-transparent via-[#8b1a1a] to-transparent opacity-70" />
-          <span
-            className="font-heading text-[10px] sm:text-[11px] tracking-[0.16em] uppercase text-[#8b1a1a]"
-            style={{ textShadow: '0 0 10px rgba(139,26,26,0.6)' }}
-          >
-            {isDraw ? '=' : 'VS'}
+        <div className="flex flex-col items-center gap-0.5 w-6">
+          <div className="w-full h-px bg-[#3a2d10]" />
+          <span className="font-heading text-[9px] tracking-[0.1em] text-[#3a2d10]">
+            {isDraw ? '=' : 'vs'}
           </span>
-          <div className="w-full h-px bg-gradient-to-r from-transparent via-[#8b1a1a] to-transparent opacity-70" />
+          <div className="w-full h-px bg-[#3a2d10]" />
         </div>
 
         {/* Score 2 */}
@@ -73,7 +70,7 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
         )}
         <span
           className={`
-            font-heading text-xs sm:text-sm tracking-[0.1em] truncate
+            font-body text-sm truncate
             ${p2wins ? (isFinal ? 'text-[#e8c96a]' : 'text-[#c9a84c]') : 'text-[#7a6848]'}
           `}
         >

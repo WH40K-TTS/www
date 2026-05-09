@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react'
+import React, { useState } from 'react'
 import { useRanking } from '../../hooks/useranking'
 import PlayerDetailModal from './playerdetail'
 
@@ -19,11 +19,6 @@ export default function Ranking() {
 
         {/* Page header */}
         <div className="text-center mb-12 pt-8">
-          {/*
-          <p className="font-heading text-[10px] tracking-[0.4em] uppercase text-[#5a4920] mb-3">
-            Tabla de Honor
-          </p>
-          */}
           <h1
             className="font-heading text-2xl sm:text-4xl tracking-[0.08em] sm:tracking-[0.15em] uppercase text-[#c9a84c] mb-4"
             style={{ textShadow: '0 0 30px rgba(201,168,76,0.25)' }}
@@ -108,7 +103,8 @@ export default function Ranking() {
                         </td>
 
                         <td className="px-5 py-4 text-center">
-                          <span className={`font-heading text-sm tracking-[0.1em] ${isTop ? 'text-[#f0e6c8]' : 'text-[#c4b48c]'}`}>
+                          {/* Mobile: font-body (groups style) — Desktop: font-heading (finals style) */}
+                          <span className={`font-body sm:font-heading text-sm sm:tracking-[0.1em] ${isTop ? 'text-[#f0e6c8]' : 'text-[#c4b48c]'}`}>
                             {player.name}
                           </span>
                           {pos === 1 && (
