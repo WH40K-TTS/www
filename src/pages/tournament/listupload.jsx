@@ -58,20 +58,64 @@ export default function ListUpload({ tournament }) {
       */}
 
       {/* Embed mode */}
-      {mode === 'embed' && (
-        <div className="relative border border-[#3a2d10] bg-[#161209]">
-          <span aria-hidden className="pointer-events-none absolute top-0 left-0 w-3 h-3 border-t border-l border-[#c9a84c]/50" />
-          <span aria-hidden className="pointer-events-none absolute bottom-0 right-0 w-3 h-3 border-b border-r border-[#c9a84c]/50" />
-          <iframe
-            src={tallyEmbed}
-            width="100%"
-            height="550"
-            title={`Formulario de lista para ${tournament?.name ?? 'torneo'}`}
-            className="block"
-            style={{ border: 'none', background: 'transparent' }}
-          />
-        </div>
-      )}
+       {mode === 'embed' && (
+         <div className="relative border border-[#3a2d10] bg-[#161209]">
+           <span aria-hidden className="pointer-events-none absolute top-0 left-0 w-3 h-3 border-t border-l border-[#c9a84c]/50" />
+           <span aria-hidden className="pointer-events-none absolute bottom-0 right-0 w-3 h-3 border-b border-r border-[#c9a84c]/50" />
+           <iframe
+             src={tallyEmbed}
+             width="100%"
+             height="550"
+             title={`Formulario de lista para ${tournament?.name ?? 'torneo'}`}
+             className="block"
+             style={{ border: 'none', background: 'transparent' }}
+           />
+         </div>
+       )}
+
+       <div className="mt-12 overflow-hidden border border-[#3a2d10] bg-[#161209]">
+         <table className="w-full text-left border-collapse">
+           <thead>
+             <tr className="border-b border-[#3a2d10] bg-[#1e1a0d]">
+               <th className="px-4 py-3 font-heading text-xs tracking-[0.1em] uppercase text-[#c9a84c]">
+                 Nombre del jugador
+               </th>
+               <th className="px-4 py-3 font-heading text-xs tracking-[0.1em] uppercase text-[#c9a84c] text-center">
+                 Ejército
+               </th>
+             </tr>
+           </thead>
+           <tbody className="font-body text-sm text-[#7a6848]">
+             {[
+               { name: 'Arkanel el Sombrío', link: '#' },
+               { name: 'Valerius Thorne', link: '#' },
+               { name: 'Kaelen Stormbringer', link: '#' },
+               { name: 'Elara Moonwhisper', link: '#' },
+               { name: 'Grommash Ironwill', link: '#' },
+               { name: 'Lysandra Vane', link: '#' },
+               { name: 'Thorgar Stonefist', link: '#' },
+               { name: 'Seraphina Lightheart', link: '#' },
+               { name: 'Malakor the Vile', link: '#' },
+               { name: 'Zephyra Windrunner', link: '#' },
+             ].map((player, idx) => (
+               <tr key={idx} className="border-b border-[#3a2d10]/50 last:border-none hover:bg-[#1e1a0d]/50 transition-colors">
+                 <td className="px-4 py-3">{player.name}</td>
+                 <td className="px-4 py-3 text-center">
+                   <a 
+                     href={player.link} 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     className="inline-flex items-center justify-center p-2 text-[#c9a84c] hover:text-white transition-colors"
+                     title="Ver lista de ejército"
+                   >
+                     <ExternalLink size={16} />
+                   </a>
+                 </td>
+               </tr>
+             ))}
+           </tbody>
+         </table>
+       </div>
 
       {/* Link mode */}
       {/*
