@@ -4,7 +4,7 @@ import MatchRow from '../../components/tournament/matchrow'
 
 const ROUND_ICONS = {
   'Cuartos de Final': Layers,
-  'Semifinales':      Layers-2,
+  'Semifinales':      Shield,
   'Final':            Trophy,
   '3er y 4o Puesto':  Award,
 }
@@ -58,11 +58,13 @@ export default function FinalMatches({ matches }) {
                 >
                   {round.round}
                 </h3>
+                {/*
                 {round.round === 'Final' && (
                   <span className="ml-auto font-heading text-[9px] tracking-[0.3em] uppercase text-[#8a6f2e]">
                     Batalla Decisiva
                   </span>
                 )}
+                */}
               </div>
 
               {/* Matches — horizontal scroll on mobile */}
