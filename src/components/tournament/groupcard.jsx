@@ -78,7 +78,7 @@ export function GroupCard({ group }) {
       {/* Footer */}
       <div className="px-4 py-2 border-t border-[#1e1a0d]">
         <p className="font-heading text-[9px] tracking-[0.2em] uppercase text-[#3a2d10] text-right">
-          pts
+          Victorias / Derrotas / Empates / PTS
         </p>
       </div>
     </div>
