@@ -107,11 +107,13 @@ export default function Ranking() {
                           <span className="ranking-player-name font-body sm:font-heading text-sm sm:tracking-[0.1em]">
                             {player.name}
                           </span>
+                          {/*
                           {pos === 1 && (
                             <span className="ml-2 font-heading text-[9px] tracking-[0.2em] uppercase text-[#8a6f2e]">
                               Campeón
                             </span>
                           )}
+                          */}
                         </td>
 
                         <td className="px-5 py-4 text-center">
