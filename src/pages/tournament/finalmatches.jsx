@@ -1,12 +1,12 @@
 import React from 'react'
-import { Layers, Shield, Trophy, Award } from 'lucide-react'
+import { Layers, Layers2, Trophy, Medal } from 'lucide-react'
 import MatchRow from '../../components/tournament/matchrow'
 
 const ROUND_ICONS = {
   'Cuartos de Final': Layers,
-  'Semifinales':      Shield,
+  'Semifinales':      Layers2,
   'Final':            Trophy,
-  '3er y 4o Puesto':  Award,
+  '3er y 4o Puesto':  Medal,
 }
 
 export default function FinalMatches({ matches }) {
