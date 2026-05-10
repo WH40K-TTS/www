@@ -1,21 +1,19 @@
 {
   "sections": [
     {
-      "title": "Formato de Equipos",
+      "title": "¿Qué tipo de torneo será?",
       "rules": [
-        "Los torneos por equipos enfrentan grupos de 2 o 3 jugadores por bando.",
-        "Cada miembro del equipo juega de manera individual contra un miembro del equipo rival. Los resultados se suman para determinar el ganador del encuentro por equipos.",
-        "El equipo con más victorias individuales gana el encuentro. En caso de empate se aplica diferencia de puntos de partida.",
-        "La composición del equipo debe declararse al inscribirse y no puede modificarse durante el torneo salvo causa mayor justificada y aprobada por los organizadores."
+        "Será un torneo por equipos de **4 jugadores**.",
+        "Las partidas serán competitivas a **2.000 puntos**.",
+        "Se utilizarán las misiones del [«Chapter Approved Tournament Companion»](https://example.com).",
+        "Se utilizarán las reglas y escenografía **GW (Games Workshop)**."
       ]
     },
     {
-      "title": "Listas y Restricciones",
+      "title": "¿Cuántos equipos se podrán inscribir?",
       "rules": [
-        "Dentro del mismo equipo no pueden repetirse facciones principales (Grand Alliance / Ejército). Cada jugador debe llevar una facción distinta.",
-        "Las listas deben enviarse de manera conjunta antes de la fecha límite indicada, a través del formulario oficial.",
-        "El límite de puntos por lista individual es de 2.000 puntos siguiendo el reglamento vigente.",
-        "Los organizadores publicarán todas las listas 24 horas antes del torneo."
+        "El torneo solo se llevará a cabo si hay un mínimo de 6 equipos inscritos.",
+        "A partir de ese mínimo, se aceptarán nuevos equipos de 2 en 2 para que durante las rondas, cada equipo tenga oponente."
       ]
     },
     {

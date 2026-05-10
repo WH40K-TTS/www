@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
+import ReactMarkdown from 'react-markdown'
 
 export function RuleSection({ section, index }) {
   const [open, setOpen] = useState(true)
@@ -39,9 +40,17 @@ export function RuleSection({ section, index }) {
                 >
                   ✦
                 </span>
-                <p className="font-body text-base text-[#c4b48c] leading-relaxed">
-                  {rule}
-                </p>
+                <div className="font-body text-base text-[#c4b48c] leading-relaxed">
+                  <ReactMarkdown 
+                    components={{
+                      p: ({children}) => <>{children}</>,
+                      strong: ({children}) => <strong className="text-[#e8c96a] font-bold">{children}</strong>,
+                      a: ({children, href}) => <a href={href} className="text-[#e8c96a] underline hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">{children}</a>,
+                    }}
+                  >
+                    {rule}
+                  </ReactMarkdown>
+                </div>
               </li>
             ))}
           </ul>
