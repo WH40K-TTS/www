@@ -58,17 +58,21 @@ export function GroupCard({ group }) {
                   {player.wins}V
                 </span>
                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#7a6848]">/</span>
-                <span className="font-heading text-[10px] tracking-[0.1em] text-[#cc4444]">
-                  {player.losses}D
-                </span>
-                <span
-                  className={`
-                    font-heading text-sm ml-1
-                    ${isFirst ? 'text-[#c9a84c]' : 'text-[#8a6f2e]'}
-                  `}
-                >
-                  {player.points}
-                </span>
+                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#cc4444]">
+                   {player.losses}D
+                 </span>
+                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#7a6848]">/</span>
+                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#c9a84c]">
+                   {player.ties}E
+                 </span>
+                 <span
+                   className={`
+                     font-heading text-sm ml-1
+                     ${isFirst ? 'text-[#c9a84c]' : 'text-[#8a6f2e]'}
+                   `}
+                 >
+                   {player.points}
+                 </span>
               </div>
             </div>
           )
