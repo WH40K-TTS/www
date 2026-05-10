@@ -24,13 +24,13 @@ export default function Groups({ groups }) {
       </div>
       */}
 
-      <div className="flex flex-wrap justify-center gap-5">
-        {groups.map((group, i) => (
-          <div key={i} className="w-full sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.333%-0.84rem)]">
-            <GroupCard group={group} />
-          </div>
-        ))}
-      </div>
+       <div className="flex overflow-x-auto pb-4 gap-5 justify-start sm:justify-center scroll-smooth">
+         {groups.map((group, i) => (
+           <div key={i} className="shrink-0 w-[300px] sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.333%-0.84rem)]">
+             <GroupCard group={group} />
+           </div>
+         ))}
+       </div>
     </div>
   )
 }

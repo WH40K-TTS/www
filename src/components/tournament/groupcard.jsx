@@ -53,18 +53,18 @@ export function GroupCard({ group }) {
               </div>
 
               {/* Stats */}
-              <div className="flex items-center gap-3 shrink-0 ml-2">
+              <div className="flex items-center gap-1 shrink-0 ml-2">
                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#4a9a4a]">
                   {player.wins}V
                 </span>
                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#7a6848]">/</span>
-                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#cc4444]">
-                   {player.losses}D
-                 </span>
-                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#7a6848]">/</span>
-                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#c9a84c]">
-                   {player.ties}E
-                 </span>
+                <span className="font-heading text-[10px] tracking-[0.1em] text-[#cc4444]">
+                  {player.losses}D
+                </span>
+                <span className="font-heading text-[10px] tracking-[0.1em] text-[#7a6848]">/</span>
+                <span className="font-heading text-[10px] tracking-[0.1em] text-[#c9a84c]">
+                  {player.ties ?? 0}E
+                </span>
                  <span
                    className={`
                      font-heading text-sm ml-1
