@@ -4,7 +4,7 @@ import MatchRow from '../../components/tournament/matchrow'
 
 const ROUND_ICONS = {
   'Cuartos de Final': Layers,
-  'Semifinales':      Shield,
+  'Semifinales':      Layers-2,
   'Final':            Trophy,
   '3er y 4o Puesto':  Award,
 }
