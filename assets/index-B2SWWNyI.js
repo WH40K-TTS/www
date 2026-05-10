@@ -1,0 +1,1 @@
+const n=[{id:"tournament-001",name:"Armageddon 26 - I3",date:"08-05-2026",dateEnd:"08-05-2026",status:"finished",format:"individual",players:12,winner:"IronWarden"},{id:"tournament-002",name:"Liga de Invierno 2024",date:"2024-12-07",dateEnd:"2024-12-08",status:"finished",format:"individual",players:8,winner:"VoidBane"}],a={tournaments:n};export{a as default,n as tournaments};
