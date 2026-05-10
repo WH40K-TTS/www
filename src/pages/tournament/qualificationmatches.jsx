@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Dice1, Dice2, Dice3, Dice4, Dice5, Dice6 } from 'lucide-react'
 import MatchRow from '../../components/tournament/matchrow'
 
@@ -12,8 +12,6 @@ const ROUND_ICONS = {
 }
 
 export default function QualificationMatches({ matches }) {
-  const [openRound, setOpenRound] = useState(null)
-
   if (!matches?.length) return (
     <div className="text-center py-16">
       <p className="font-heading text-[11px] tracking-[0.3em] uppercase text-[#5a4920]">
@@ -38,45 +36,31 @@ export default function QualificationMatches({ matches }) {
           <div key={round.round} className="w-full lg:w-[60%] lg:mx-auto border border-[#3a2d10] bg-[#161209]">
 
             {/* Round header */}
-            {/*
-            <button
-              onClick={() => setOpenRound(openRound === round.round ? null : round.round)}
-              className="w-full flex items-center justify-between px-5 py-3 text-left group"
-              aria-expanded={openRound === round.round}
-            >*/}
+            <div className="w-full flex items-center justify-between px-5 py-3 text-left border-b border-[#2a2210]">
               <div className="flex items-center gap-3">
-                <span className="font-heading text-[10px] tracking-[0.3em] uppercase text-[#5a4920]">
+                <span className="font-heading text-[10px] tracking-[0.3em] uppercase text-[#e8c96a]">
                   Ronda
                 </span>
-                <div className="flex items-center gap-1 text-[#c9a84c] group-hover:text-[#e8c96a] transition-colors">
+                <div className="flex items-center gap-1 text-[#c9a84c] transition-colors">
                   {(() => {
                     const Icon = ROUND_ICONS[String(round.round)];
                     return Icon ? <Icon size={16} strokeWidth={1.5} /> : <span className="font-heading text-sm tracking-[0.1em] uppercase">{round.round}</span>;
                   })()}
                 </div>
-                {/*
                 <span className="font-body text-xs text-[#5a4920]">
                   · {round.matches?.length ?? 0} partidas
                 </span>
-                */}
               </div>
-              {/*
-              <span className="text-[#5a4920] group-hover:text-[#8a6f2e] transition-colors text-xs">
-                {openRound === round.round ? '▲' : '▼'}
-              </span>
-            </button>
-            */}
+            </div>
 
             {/* Matches — horizontal scroll on mobile */}
-            {(openRound === round.round || openRound === null) && (
-              <div className="border-t border-[#2a2210] overflow-x-auto">
-                <div className="min-w-[360px]">
-                  {round.matches?.map((match, i) => (
-                    <MatchRow key={i} match={match} isLast={i === round.matches.length - 1} />
-                  ))}
-                </div>
+            <div className="border-t border-[#2a2210] overflow-x-auto">
+              <div className="min-w-[360px]">
+                {round.matches?.map((match, i) => (
+                  <MatchRow key={i} match={match} isLast={i === round.matches.length - 1} />
+                ))}
               </div>
-            )}
+            </div>
           </div>
         ))}
       </div>
