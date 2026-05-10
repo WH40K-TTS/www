@@ -15,9 +15,11 @@ export function GroupCard({ group }) {
         <h3 className="font-heading text-xs tracking-[0.2em] uppercase text-[#c9a84c]">
           {group.name}
         </h3>
+        {/*
         <span className="font-heading text-[9px] tracking-[0.2em] uppercase text-[#5a4920]">
           {sorted.length} generales
         </span>
+        */}
       </div>
 
       {/* Player list */}
