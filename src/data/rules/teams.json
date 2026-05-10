@@ -5,15 +5,14 @@
       "rules": [
         "Será un torneo por equipos de **4 jugadores**.",
         "Las partidas serán competitivas a **2.000 puntos**.",
-        "Se utilizarán las misiones del [«Chapter Approved Tournament Companion»](https://example.com).",
-        "Se utilizarán las reglas y escenografía **GW (Games Workshop)**."
+        "Se utilizarán las **reglas y escenografía GW** (Games Workshop)."
       ]
     },
     {
       "title": "¿Cuántos equipos se podrán inscribir?",
       "rules": [
-        "El torneo solo se llevará a cabo si hay un mínimo de 6 equipos inscritos.",
-        "A partir de ese mínimo, se aceptarán nuevos equipos de 2 en 2 para que durante las rondas, cada equipo tenga oponente."
+        "El torneo solo se llevará a cabo si hay un **mínimo de 6 equipos** inscritos.",
+        "A partir de ese mínimo, **se aceptarán nuevos equipos de 2 en 2** para que durante las rondas, cada equipo tenga oponente."
       ]
     },
     {

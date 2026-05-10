@@ -3,43 +3,53 @@
   "players": [
     {
       "id": "player-001",
-      "name": "IronWarden",
-      "totalPoints": 245
+      "name": "Jugador 1",
+      "totalPoints": 0
     },
     {
       "id": "player-002",
-      "name": "VoidBane",
-      "totalPoints": 210
+      "name": "Jugador 2",
+      "totalPoints": 0
     },
     {
       "id": "player-003",
-      "name": "CrimsonFang",
-      "totalPoints": 185
+      "name": "Jugador 3",
+      "totalPoints": 0
     },
     {
       "id": "player-004",
-      "name": "GoldBlade",
-      "totalPoints": 160
+      "name": "Jugador 4",
+      "totalPoints": 0
     },
     {
       "id": "player-005",
-      "name": "NullGrave",
-      "totalPoints": 130
+      "name": "Jugador 5",
+      "totalPoints": 0
     },
     {
       "id": "player-006",
-      "name": "AshenLord",
-      "totalPoints": 100
+      "name": "Jugador 6",
+      "totalPoints": 0
     },
     {
       "id": "player-007",
-      "name": "StormReaper",
-      "totalPoints": 75
+      "name": "Jugador 7",
+      "totalPoints": 0
     },
     {
       "id": "player-008",
-      "name": "DarkPilgrim",
-      "totalPoints": 60
+      "name": "Jugador 8",
+      "totalPoints": 0
+    },
+    {
+      "id": "player-009",
+      "name": "Jugador 9",
+      "totalPoints": 0
+    },
+    {
+      "id": "player-010",
+      "name": "Jugador 10",
+      "totalPoints": 0
     }
   ]
 }
