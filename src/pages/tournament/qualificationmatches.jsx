@@ -38,11 +38,12 @@ export default function QualificationMatches({ matches }) {
           <div key={round.round} className="w-full lg:w-[60%] lg:mx-auto border border-[#3a2d10] bg-[#161209]">
 
             {/* Round header */}
+            {/*
             <button
               onClick={() => setOpenRound(openRound === round.round ? null : round.round)}
               className="w-full flex items-center justify-between px-5 py-3 text-left group"
               aria-expanded={openRound === round.round}
-            >
+            >*/}
               <div className="flex items-center gap-3">
                 <span className="font-heading text-[10px] tracking-[0.3em] uppercase text-[#5a4920]">
                   Ronda
@@ -53,14 +54,18 @@ export default function QualificationMatches({ matches }) {
                     return Icon ? <Icon size={16} strokeWidth={1.5} /> : <span className="font-heading text-sm tracking-[0.1em] uppercase">{round.round}</span>;
                   })()}
                 </div>
+                {/*
                 <span className="font-body text-xs text-[#5a4920]">
                   · {round.matches?.length ?? 0} partidas
                 </span>
+                */}
               </div>
+              {/*
               <span className="text-[#5a4920] group-hover:text-[#8a6f2e] transition-colors text-xs">
                 {openRound === round.round ? '▲' : '▼'}
               </span>
             </button>
+            */}
 
             {/* Matches — horizontal scroll on mobile */}
             {(openRound === round.round || openRound === null) && (
