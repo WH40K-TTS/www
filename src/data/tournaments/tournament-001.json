@@ -1,30 +1,52 @@
 {
   "id": "tournament-001",
-  "name": "2026 - Individual 3",
+  "name": "Armageddon 26 - I3",
   "date": "2025-04-12",
   "dateEnd": "2025-04-13",
   "status": "ongoing",
   "format": "individual",
   "tallyFormId": "FORM_ID",
-  "description": "Primer torneo oficial de la temporada 2026. Ocho generales compitien en formato suizo de grupos con posterior eliminatoria.",
+  "description": "Primer torneo oficial de la temporada 2026. Doce generales compitien en formato de grupos con posterior eliminatoria.",
 
   "groups": [
     {
       "name": "Grupo A",
       "players": [
-        { "name": "IronWarden",  "points": 9, "wins": 3, "losses": 0, "ties": 0, "scoreFavor": 34, "scoreAgainst": 12 },
-        { "name": "VoidBane",    "points": 6, "wins": 2, "losses": 1, "ties": 0, "scoreFavor": 28, "scoreAgainst": 18 },
-        { "name": "AshenLord",   "points": 3, "wins": 1, "losses": 2, "ties": 0, "scoreFavor": 16, "scoreAgainst": 26 },
-        { "name": "StormReaper", "points": 0, "wins": 0, "losses": 3, "ties": 0, "scoreFavor":  8, "scoreAgainst": 30 }
+        { "name": "r3dman",  "points": 7, "wins": 2, "losses": 0, "ties": 1, "scoreFavor": 248, "scoreAgainst": 206 },
+        { "name": "Supradin",    "points": 1, "wins": 0, "losses": 0, "ties": 1, "scoreFavor": 77, "scoreAgainst": 77 },
+        { "name": "makea001",   "points": 0, "wins": 0, "losses": 1, "ties": 0, "scoreFavor": 70, "scoreAgainst": 84 },
+        { "name": "Ezraen", "points": 0, "wins": 0, "losses": 1, "ties": 0, "scoreFavor":  59, "scoreAgainst": 87 },
+        { "name": "Xarcom", "points": 0, "wins": 0, "losses": 0, "ties": 0, "scoreFavor":  0, "scoreAgainst": 0 }
       ]
     },
     {
       "name": "Grupo B",
       "players": [
-        { "name": "CrimsonFang", "points": 9, "wins": 3, "losses": 0, "ties": 0, "scoreFavor": 32, "scoreAgainst": 10 },
-        { "name": "GoldBlades",   "points": 6, "wins": 2, "losses": 1, "ties": 0, "scoreFavor": 22, "scoreAgainst": 20 },
-        { "name": "NullGrave",   "points": 3, "wins": 1, "losses": 2, "ties": 1, "scoreFavor": 14, "scoreAgainst": 24 },
-        { "name": "DarkPilgrim", "points": 0, "wins": 0, "losses": 3, "ties": 1, "scoreFavor":  6, "scoreAgainst": 20 }
+        { "name": "Navastelroy", "points": 9, "wins": 3, "losses": 0, "ties": 0, "scoreFavor": 281, "scoreAgainst": 178 },
+        { "name": "Gato",   "points": 6, "wins": 2, "losses": 0, "ties": 0, "scoreFavor": 181, "scoreAgainst": 97 },
+        { "name": "oli",   "points": 3, "wins": 1, "losses": 2, "ties": 0, "scoreFavor": 14, "scoreAgainst": 24 },
+        { "name": "Aneg", "points": 0, "wins": 0, "losses": 3, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 },
+        { "name": "Tony", "points": 0, "wins": 0, "losses": 1, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 }
+      ]
+    },
+    {
+      "name": "Grupo C",
+      "players": [
+        { "name": "MaikelEdge", "points": 6, "wins": 2, "losses": 1, "ties": 0, "scoreFavor": 281, "scoreAgainst": 178 },
+        { "name": "Javier V.",   "points": 6, "wins": 2, "losses": 1, "ties": 0, "scoreFavor": 181, "scoreAgainst": 97 },
+        { "name": "Mr. Friedlander",   "points": 3, "wins": 1, "losses": 1, "ties": 0, "scoreFavor": 14, "scoreAgainst": 24 },
+        { "name": "private_patch", "points": 3, "wins": 1, "losses": 1, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 },
+        { "name": "ANCAR", "points": 0, "wins": 0, "losses": 2, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 }
+      ]
+    },
+    {
+      "name": "Grupo D",
+      "players": [
+        { "name": "Sanchez_EU", "points": 6, "wins": 2, "losses": 2, "ties": 0, "scoreFavor": 281, "scoreAgainst": 178 },
+        { "name": "Frambuhobby",   "points": 6, "wins": 2, "losses": 0, "ties": 0, "scoreFavor": 181, "scoreAgainst": 97 },
+        { "name": "Suarepita",   "points": 3, "wins": 1, "losses": 2, "ties": 0, "scoreFavor": 14, "scoreAgainst": 24 },
+        { "name": "P1TER", "points": 3, "wins": 1, "losses": 2, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 },
+        { "name": "Alxduff", "points": 3, "wins": 1, "losses": 1, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 }
       ]
     }
   ],
@@ -33,10 +55,14 @@
     {
       "round": 1,
       "matches": [
-        { "player1": "IronWarden",  "score1": 14, "player2": "AshenLord",   "score2": 4,  "winner": "IronWarden"  },
-        { "player1": "VoidBane",    "score1": 12, "player2": "StormReaper", "score2": 6,  "winner": "VoidBane"    },
-        { "player1": "CrimsonFang", "score1": 13, "player2": "DarkPilgrim", "score2": 2,  "winner": "CrimsonFang" },
-        { "player1": "GoldBlade",   "score1": 10, "player2": "NullGrave",   "score2": 8,  "winner": "GoldBlade"   }
+        { "player1": "Supradin",  "score1": 77, "player2": "r3dman",   "score2": 77,  "winner": null },
+        { "player1": "makea001",    "score1": 0, "player2": "Ezraen", "score2": 0,  "winner": null },
+        { "player1": "Gato", "score1": 88, "player2": "Aneg", "score2": 50,  "winner": "Gato" },
+        { "player1": "oli",   "score1": 72, "player2": "Navastelroy",   "score2": 94,  "winner": "Navastelroy" },
+        { "player1": "ANCAR", "score1": 70, "player2": "Mr. Friedlander", "score2": 95,  "winner": "Mr. Friedlander" },
+        { "player1": "MaikelEdge",   "score1": 95, "player2": "private_patch",   "score2": 57,  "winner": "MaikelEdge" },
+        { "player1": "Suarepita", "score1": 80, "player2": "Alxduff", "score2": 97,  "winner": "Alxduff" },
+        { "player1": "Sanchez_EU",   "score1": 73, "player2": "P1TER", "score2": 81,  "winner": "P1TER" }
       ]
     },
     {
