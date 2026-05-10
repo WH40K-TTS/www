@@ -24,9 +24,9 @@ export default function Groups({ groups }) {
       </div>
       */}
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center pb-4">
+        <div className="flex flex-wrap justify-center gap-5 pb-4">
           {groups.map((group, i) => (
-            <div key={i} className="w-full max-w-[400px]">
+            <div key={i} className="w-full sm:w-[calc(50%-1.25rem)] lg:w-[calc(33.333%-1.67rem)] max-w-[400px]">
               <GroupCard group={group} />
             </div>
           ))}

@@ -2,7 +2,7 @@
   "tournaments": [
     {
       "id": "tournament-001",
-      "name": "2026 - Individual 3",
+      "name": "Armageddon 26 - I3",
       "date": "08-05-2026",
       "dateEnd": "08-05-2026",
       "status": "finished",
@@ -19,46 +19,6 @@
       "format": "individual",
       "players": 8,
       "winner": "VoidBane"
-    },
-    {
-      "id": "tournament-003",
-      "name": "Copa del Caos 2024",
-      "date": "2024-10-19",
-      "dateEnd": "2024-10-20",
-      "status": "ongoing",
-      "format": "individual",
-      "players": 8,
-      "winner": "IronWarden"
-    },
-    {
-      "id": "tournament-004",
-      "name": "Torneo Otoño 2024",
-      "date": "2024-09-14",
-      "dateEnd": "2024-09-15",
-      "status": "finished",
-      "format": "individual",
-      "players": 8,
-      "winner": "VoidBane"
-    },
-    {
-      "id": "tournament-005",
-      "name": "Invitacional Verano 2024",
-      "date": "2024-07-06",
-      "dateEnd": "2024-07-07",
-      "status": "finished",
-      "format": "individual",
-      "players": 6,
-      "winner": "GoldBlade"
-    },
-    {
-      "id": "tournament-006",
-      "name": "Liga Primavera 2024",
-      "date": "2024-04-20",
-      "dateEnd": "2024-04-21",
-      "status": "finished",
-      "format": "individual",
-      "players": 6,
-      "winner": "GoldBlade"
     }
   ]
 }
