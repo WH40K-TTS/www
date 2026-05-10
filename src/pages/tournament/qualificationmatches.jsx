@@ -36,18 +36,14 @@ export default function QualificationMatches({ matches }) {
           <div key={round.round} className="w-full lg:w-[60%] lg:mx-auto border border-[#3a2d10] bg-[#161209]">
 
             {/* Round header */}
-            <div className="w-full flex items-center justify-between px-5 py-3 text-left border-b border-[#2a2210]">
-              <div className="flex items-center gap-3">
-                <span className="font-heading text-[10px] tracking-[0.3em] uppercase text-[#e8c96a]">
-                  Ronda
-                </span>
-                <div className="flex items-center gap-1 text-[#c9a84c] transition-colors">
-                  {(() => {
-                    const Icon = ROUND_ICONS[String(round.round)];
-                    return Icon ? <Icon size={16} strokeWidth={1.5} /> : <span className="font-heading text-sm tracking-[0.1em] uppercase">{round.round}</span>;
-                  })()}
-                </div>
-              </div>
+            <div className="px-5 py-3 border-b flex items-center gap-3 border-[#2a2210]">
+              {(() => {
+                const Icon = ROUND_ICONS[String(round.round)];
+                return Icon ? <Icon size={15} strokeWidth={1.5} className="text-[#c9a84c]" /> : null;
+              })()}
+              <h3 className="font-heading text-sm tracking-[0.15em] uppercase text-[#c9a84c]">
+                Ronda {round.round}
+              </h3>
             </div>
 
             {/* Matches — horizontal scroll on mobile */}
