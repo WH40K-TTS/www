@@ -1,5 +1,15 @@
 import React, { useState } from 'react'
+import { Dice1, Dice2, Dice3, Dice4, Dice5, Dice6 } from 'lucide-react'
 import MatchRow from '../../components/tournament/matchrow'
+
+const ROUND_ICONS = {
+  '1': Dice1,
+  '2': Dice2,
+  '3': Dice3,
+  '4': Dice4,
+  '5': Dice5,
+  '6': Dice6,
+}
 
 export default function QualificationMatches({ matches }) {
   const [openRound, setOpenRound] = useState(null)
@@ -37,9 +47,12 @@ export default function QualificationMatches({ matches }) {
                 <span className="font-heading text-[10px] tracking-[0.3em] uppercase text-[#5a4920]">
                   Ronda
                 </span>
-                <span className="font-heading text-sm tracking-[0.1em] uppercase text-[#c9a84c] group-hover:text-[#e8c96a] transition-colors">
-                  {round.round}
-                </span>
+                <div className="flex items-center gap-1 text-[#c9a84c] group-hover:text-[#e8c96a] transition-colors">
+                  {(() => {
+                    const Icon = ROUND_ICONS[String(round.round)];
+                    return Icon ? <Icon size={16} strokeWidth={1.5} /> : <span className="font-heading text-sm tracking-[0.1em] uppercase">{round.round}</span>;
+                  })()}
+                </div>
                 <span className="font-body text-xs text-[#5a4920]">
                   · {round.matches?.length ?? 0} partidas
                 </span>

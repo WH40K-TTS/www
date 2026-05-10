@@ -6,7 +6,7 @@ const ROUND_ICONS = {
   'Cuartos de Final': Layers,
   'Semifinales':      Layers2,
   'Final':            Trophy,
-  '3er y 4o Puesto':  Medal,
+  '3er y 4º Puesto':  Medal,
 }
 
 export default function FinalMatches({ matches }) {
