@@ -233,6 +233,11 @@ body {
 /* ─── Table base ─────────────────────────────────────────────── */
 table { border-collapse: separate; border-spacing: 0; }
 
+.ranking-player-name {
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
 /* ─── Focus ring ─────────────────────────────────────────────── */
 :focus-visible {
   outline: 1px solid var(--gold);

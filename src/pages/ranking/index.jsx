@@ -53,7 +53,7 @@ export default function Ranking() {
 
         {/* Table */}
         {!loading && !error && players && (
-          <div className="relative border border-[#3a2d10] bg-[#161209] shadow-[0_8px_40px_rgba(0,0,0,0.7)]">
+          <div className="relative mx-auto lg:w-3/5 border border-[#3a2d10] bg-[#161209] shadow-[0_8px_40px_rgba(0,0,0,0.7)]">
             {/* Corner ornaments */}
             <span aria-hidden className="pointer-events-none absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-[#c9a84c]/50" />
             <span aria-hidden className="pointer-events-none absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-[#c9a84c]/50" />
@@ -104,7 +104,7 @@ export default function Ranking() {
 
                         <td className="px-5 py-4 text-center">
                           {/* Mobile: font-body (groups style) — Desktop: font-heading (finals style) */}
-                          <span className={`font-body sm:font-heading text-sm sm:tracking-[0.1em] ${isTop ? 'text-[#e8c96a]' : 'text-[#c9a84c]'}`}>
+                          <span className="ranking-player-name font-body sm:font-heading text-sm sm:tracking-[0.1em]">
                             {player.name}
                           </span>
                           {pos === 1 && (
