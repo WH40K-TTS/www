@@ -47,9 +47,6 @@ export default function QualificationMatches({ matches }) {
                     return Icon ? <Icon size={16} strokeWidth={1.5} /> : <span className="font-heading text-sm tracking-[0.1em] uppercase">{round.round}</span>;
                   })()}
                 </div>
-                <span className="font-body text-xs text-[#5a4920]">
-                  · {round.matches?.length ?? 0} partidas
-                </span>
               </div>
             </div>
 
