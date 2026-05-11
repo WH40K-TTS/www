@@ -14,15 +14,7 @@ export default function Groups({ groups }) {
     <div>
       <div className="mb-8">
         <p className="font-body text-[#7a6848] text-base leading-relaxed">
-          Presenta tu lista de ejército antes del inicio del torneo. El envío es gestionado por el formulario oficial de la comunidad.
-        </p>
-      </div>
-      <div className="text-center mb-6">
-        <p className="font-heading text-[11px] tracking-[0.3em] uppercase text-[#5a4920]">
-          Victorias / Derrotas / Empates / Abandonos / Puntos
-        </p>
-        <p className="text-[10px] uppercase tracking-widest text-[#5a4920] mt-1">
-          El triángulo amarillo señala quienes pasan a la siguiente fase
+          Leyenda: <span style={{ color: '#4a9a4a' }}>Victorias</span>, <span style={{ color: '#cc4444' }}>Derrotas</span>, <span style={{ color: '#c9a84c' }}>Empates</span>, <span style={{ color: '#a855f7' }}>Abandonos</span> y Puntos. Se señala con un triángulo amarillo los jugadores que pasan a la siguiente fase.
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-5 pb-4">
