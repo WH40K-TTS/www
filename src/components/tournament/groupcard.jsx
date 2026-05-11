@@ -62,9 +62,13 @@ export function GroupCard({ group }) {
                   {player.losses}D
                 </span>
                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#7a6848]">/</span>
-                <span className="font-heading text-[10px] tracking-[0.1em] text-[#c9a84c]">
-                  {player.ties ?? 0}E
-                </span>
+                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#c9a84c]">
+                   {player.ties ?? 0}E
+                 </span>
+                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#7a6848]">/</span>
+                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#a855f7]">
+                   {player.abandonos ?? 0}A
+                 </span>
                  <span
                    className={`
                      font-heading text-sm ml-1
@@ -81,9 +85,9 @@ export function GroupCard({ group }) {
 
       {/* Footer */}
       <div className="px-4 py-2 border-t border-[#1e1a0d]">
-        <p className="font-heading text-[9px] tracking-[0.2em] uppercase text-[#3a2d10] text-right">
-          Victorias / Derrotas / Empates / PTS
-        </p>
+         <p className="font-heading text-[9px] tracking-[0.2em] uppercase text-[#3a2d10] text-right">
+           Victorias / Derrotas / Empates / Abandonos / PTS
+         </p>
       </div>
     </div>
   )
