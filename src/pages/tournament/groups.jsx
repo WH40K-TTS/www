@@ -11,16 +11,20 @@ export default function Groups({ groups }) {
   )
 
   return (
-    <div>
-       <div className="mb-8 mx-auto lg:w-[60%]">
-         <p className="font-body text-[#7a6848] text-base leading-relaxed text-center">
-           <span style={{ color: '#4a9a4a' }}>Victorias</span> (3 Pts), <span style={{ color: '#cc4444' }}>Derrotas</span> (0 Pts), <span style={{ color: '#c9a84c' }}>Empates</span> (1 Pts), <span style={{ color: '#a855f7' }}>Abandonos</span> (0 Pts) y <strong>Puntos</strong>.</p>
-           <p className="font-body text-[#7a6848] text-base leading-relaxed text-center">Se señala con un triángulo amarillo <span style={{ color: '#c9a84c' }}>▲</span> los jugadores que pasan a la siguiente fase.
+    <div className="max-w-7xl mx-auto px-4">
+       <div className="mb-8 mx-auto lg:w-[60%] text-center">
+         <p className="font-body text-[#7a6848] text-sm md:text-base leading-relaxed">
+           <span style={{ color: '#4a9a4a' }}>Victorias</span> (3 Pts), <span style={{ color: '#cc4444' }}>Derrotas</span> (0 Pts), <span style={{ color: '#c9a84c' }}>Empates</span> (1 Pts), <span style={{ color: '#a855f7' }}>Abandonos</span> (0 Pts) y <strong>Puntos</strong>.
+         </p>
+         <p className="font-body text-[#7a6848] text-sm md:text-base leading-relaxed mt-1">
+           Se señala con un triángulo amarillo <span style={{ color: '#c9a84c' }}>▲</span> los jugadores que pasan a la siguiente fase.
          </p>
        </div>
-      <div className="flex flex-wrap justify-center gap-5 pb-4">
+
+      {/* Grid Responsivo: 1 col en móvil, 2 en tablet, 3 en desktop */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-10">
         {groups.map((group, i) => (
-          <div key={i} className="w-full sm:w-[calc(50%-1.25rem)] lg:w-[calc(33.333%-1.67rem)] max-w-[400px]">
+          <div key={i} className="w-full">
             <GroupCard group={group} />
           </div>
         ))}
