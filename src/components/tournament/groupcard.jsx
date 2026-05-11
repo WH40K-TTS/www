@@ -51,11 +51,8 @@ export function GroupCard({ group }) {
                 <div className="flex items-center gap-1 shrink-0">
                   <div className="flex items-center font-heading text-[10px] tracking-[0.1em]">
                     <span className="text-[#4a9a4a] w-7 text-right">{player.wins}V</span>
-                    <span className="text-[#7a6848] mx-0.5">/</span>
                     <span className="text-[#cc4444] w-7 text-right">{player.losses}D</span>
-                    <span className="text-[#7a6848] mx-0.5">/</span>
                     <span className="text-[#c9a84c] w-7 text-right">{player.ties ?? 0}E</span>
-                    <span className="text-[#7a6848] mx-0.5">/</span>
                     <span className="text-[#a855f7] w-7 text-right">{player.abandonos ?? 0}A</span>
                   </div>
                   <span
