@@ -22,41 +22,41 @@ export function GroupCard({ group }) {
         */}
       </div>
 
-       {/* Player list */}
-       <div>
-         {sorted.map((player, idx) => {
-           const isFirst = idx === 0
-           const isLast = idx === sorted.length - 1
-           return (
-             <div
-               key={player.name}
-               className={`
-                 flex items-center justify-between px-4 py-2.5
-                 ${!isLast ? 'border-b border-[#1e1a0d]' : ''}
-                 ${isFirst ? 'bg-[#1a1610]' : ''}
-                 transition-colors hover:bg-[#1a1610]
-               `}
-             >
-               <div className="flex items-center gap-2.5">
-                 {/* Position indicator */}
-                 <span
-                   className="font-heading text-[10px] w-4 shrink-0"
-                   style={{ color: isFirst ? '#c9a84c' : '#3a2d10' }}
-                 >
-                   {idx === 0 ? '▲' : idx + 1}
-                 </span>
-
-                  {/* Name */}
-                  <span className={`font-body text-sm truncate ${isFirst ? 'text-[#e8c96a]' : 'text-[#c9a84c]'}`}>
-                    {player.name}
+        {/* Player list */}
+        <div className="overflow-x-auto">
+          {sorted.map((player, idx) => {
+            const isFirst = idx === 0
+            const isLast = idx === sorted.length - 1
+            return (
+              <div
+                key={player.name}
+                className={`
+                  flex items-center justify-between px-4 py-2.5 min-w-max
+                  ${!isLast ? 'border-b border-[#1e1a0d]' : ''}
+                  ${isFirst ? 'bg-[#1a1610]' : ''}
+                  transition-colors hover:bg-[#1a1610]
+                `}
+              >
+                <div className="flex items-center gap-2.5 text-left">
+                  {/* Position indicator */}
+                  <span
+                    className="font-heading text-[10px] w-4 shrink-0"
+                    style={{ color: idx < 2 ? '#c9a84c' : '#3a2d10' }}
+                  >
+                    {idx < 2 ? '▲' : idx + 1}
                   </span>
-               </div>
 
-               {/* Stats */}
-               <div className="flex items-center gap-1 shrink-0 ml-2">
-                <span className="font-heading text-[10px] tracking-[0.1em] text-[#4a9a4a]">
-                  {player.wins}V
-                </span>
+                   {/* Name */}
+                   <span className={`font-body text-sm truncate ${isFirst ? 'text-[#e8c96a]' : 'text-[#c9a84c]'}`}>
+                     {player.name}
+                   </span>
+                </div>
+
+                {/* Stats */}
+                <div className="flex items-center gap-1 shrink-0 ml-2 text-right">
+                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#4a9a4a]">
+                   {player.wins}V
+                 </span>
                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#7a6848]">/</span>
                 <span className="font-heading text-[10px] tracking-[0.1em] text-[#cc4444]">
                   {player.losses}D
