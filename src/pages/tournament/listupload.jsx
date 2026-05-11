@@ -74,7 +74,7 @@ export default function ListUpload({ tournament }) {
        )}
 
        {/* //////////////////////////////////////////
-       Tabla con las listas de ejército del torneo
+       Tabla con las listas del torneo individual
        ////////////////////////////////////////////// */}
        <div className="mt-12 overflow-hidden border border-[#3a2d10] bg-[#161209]">
          <table className="w-full text-left border-collapse">
@@ -133,7 +133,9 @@ export default function ListUpload({ tournament }) {
        Fin de tabla con las listas de ejército del torneo
        ////////////////////////////////////////////// */}
 
-       {/* Teams Table */}
+       {/* //////////////////////////////////////////
+       Tabla con las listas del torneo por equipos
+       ////////////////////////////////////////////// */}
        <div className="mt-12 overflow-hidden border border-[#3a2d10] bg-[#161209]">
          <table className="w-full text-left border-collapse">
            <thead className="bg-[#1e1a0d]">
@@ -193,6 +195,9 @@ export default function ListUpload({ tournament }) {
            </tbody>
          </table>
        </div>
+       {/* /////////////////////////////////////////////////
+       Fin de la tabla con las listas del torneo individual
+       ///////////////////////////////////////////////// */}
 
     </div>
   )
