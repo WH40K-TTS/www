@@ -37,10 +37,10 @@ export function GroupCard({ group }) {
                   transition-colors hover:bg-[#1a1610]
                 `}
               >
-                <div className="flex items-center gap-2.5 text-left">
+                <div className="flex items-center gap-2 text-left">
                   {/* Position indicator */}
                   <span
-                    className="font-heading text-[10px] w-4 shrink-0"
+                    className="font-heading text-[10px] w-6 shrink-0 text-center"
                     style={{ color: idx < 2 ? '#c9a84c' : '#3a2d10' }}
                   >
                     {idx < 2 ? '▲' : idx + 1}
@@ -53,7 +53,7 @@ export function GroupCard({ group }) {
                 </div>
 
                 {/* Stats */}
-                <div className="flex items-center gap-1 shrink-0 ml-2 text-right">
+                <div className="flex items-center justify-end gap-1 shrink-0 text-right">
                  <span className="font-heading text-[10px] tracking-[0.1em] text-[#4a9a4a]">
                    {player.wins}V
                  </span>

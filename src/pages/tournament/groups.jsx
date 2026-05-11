@@ -13,9 +13,9 @@ export default function Groups({ groups }) {
   return (
     <div>
        <div className="mb-8 mx-auto lg:w-[60%]">
-         <p className="font-body text-[#7a6848] text-base leading-relaxed text-left">
+         <p className="font-body text-[#7a6848] text-base leading-relaxed text-center">
            <span style={{ color: '#4a9a4a' }}>Victorias</span> (3 Pts), <span style={{ color: '#cc4444' }}>Derrotas</span> (0 Pts), <span style={{ color: '#c9a84c' }}>Empates</span> (1 Pts), <span style={{ color: '#a855f7' }}>Abandonos</span> (0 Pts) y <strong>Puntos</strong>.</p>
-           <p className="font-body text-[#7a6848] text-base leading-relaxed text-left">Se señala con un triángulo amarillo ▲ los jugadores que pasan a la siguiente fase.
+           <p className="font-body text-[#7a6848] text-base leading-relaxed text-center">Se señala con un triángulo amarillo <span style={{ color: '#c9a84c' }}>▲</span> los jugadores que pasan a la siguiente fase.
          </p>
        </div>
       <div className="flex flex-wrap justify-center gap-5 pb-4">
