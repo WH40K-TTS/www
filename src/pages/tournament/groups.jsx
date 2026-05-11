@@ -15,7 +15,7 @@ export default function Groups({ groups }) {
       <div className="mb-8">
         <p className="font-body text-[#7a6848] text-base leading-relaxed text-center">
           Leyenda: <span style={{ color: '#4a9a4a' }}>Victorias</span> (3 Pts), <span style={{ color: '#cc4444' }}>Derrotas</span> (0 Pts), <span style={{ color: '#c9a84c' }}>Empates</span> (0 Pts), <span style={{ color: '#a855f7' }}>Abandonos</span> (0 Pts) y <strong>Puntos</strong>.</p>
-          <p className="text-center">Se señala con un triángulo amarillo ▲ los jugadores que pasan a la siguiente fase.
+          <p className="font-body text-[#7a6848] text-base leading-relaxed text-center">Se señala con un triángulo amarillo ▲ los jugadores que pasan a la siguiente fase.
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-5 pb-4">
