@@ -23,7 +23,7 @@ export function GroupCard({ group }) {
       </div>
 
        {/* Player list */}
-       <div className="overflow-x-auto">
+       <div>
          {sorted.map((player, idx) => {
            const isFirst = idx === 0
            const isLast = idx === sorted.length - 1
@@ -31,7 +31,7 @@ export function GroupCard({ group }) {
              <div
                key={player.name}
                className={`
-                 flex items-center justify-between px-4 py-2.5 min-w-max
+                 flex items-center justify-between px-4 py-2.5
                  ${!isLast ? 'border-b border-[#1e1a0d]' : ''}
                  ${isFirst ? 'bg-[#1a1610]' : ''}
                  transition-colors hover:bg-[#1a1610]
@@ -46,10 +46,10 @@ export function GroupCard({ group }) {
                    {idx === 0 ? '▲' : idx + 1}
                  </span>
 
-                 {/* Name */}
-                 <span className={`font-body text-sm whitespace-nowrap ${isFirst ? 'text-[#e8c96a]' : 'text-[#c9a84c]'}`}>
-                   {player.name}
-                 </span>
+                  {/* Name */}
+                  <span className={`font-body text-sm truncate ${isFirst ? 'text-[#e8c96a]' : 'text-[#c9a84c]'}`}>
+                    {player.name}
+                  </span>
                </div>
 
                {/* Stats */}
