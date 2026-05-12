@@ -56,7 +56,7 @@
       "round": 1,
       "matches": [
         { "player1": "Supradin",  "score1": 77, "player2": "r3dman",   "score2": 77,  "winner": null },
-        { "player1": "makea001",    "score1": "", "player2": "Ezraen", "score2": "",  "winner": null },
+        { "player1": "makea001",    "score1": "", "player2": "Ezraen", "score2": "",  "winner": "makea001" },
         { "player1": "Gato", "score1": 88, "player2": "Aneg", "score2": 50,  "winner": "Gato" },
         { "player1": "oli",   "score1": 72, "player2": "Navastelroy",   "score2": 94,  "winner": "Navastelroy" },
         { "player1": "ANCAR", "score1": 70, "player2": "Mr. Friedlander", "score2": 95,  "winner": "Mr. Friedlander" },
