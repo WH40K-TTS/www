@@ -8,7 +8,6 @@ export default function ListUpload({ tournament }) {
   const [mode, setMode] = useState('embed') // 'embed' | 'link'
 
   const tallyEmbed = TALLY_EMBED_URL
-  const tallyLink = TALLY_LINK_URL
 
   return (
     <div className="max-w-2xl mx-auto">
