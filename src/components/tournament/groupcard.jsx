@@ -21,10 +21,11 @@ export function GroupCard({ group }) {
       <div className="overflow-x-auto custom-scrollbar">
         <div className="min-w-max"> 
           {/* min-w-max asegura que las filas no se encojan y fuercen el scroll si el nombre es largo */}
-          {sorted.map((player, idx) => {
-            const isFirst = idx === 0
-            const isLast = idx === sorted.length - 1
-            return (
+            {sorted.map((player, idx) => {
+              const isFirst = idx === 0
+              const isLast = idx === sorted.length - 1
+              const isLastThree = idx >= sorted.length - 3
+              return (
                <div
                  key={player.name}
                  className={`
@@ -41,9 +42,9 @@ export function GroupCard({ group }) {
                   >
                     {idx < 2 ? '▲' : idx + 1}
                   </span>
-                   <span className="font-body text-sm whitespace-nowrap uppercase text-[#c9a84c]">
-                     {player.name}
-                   </span>
+                  <span className={`font-body text-sm whitespace-nowrap uppercase ${isLastThree ? 'text-[#c9a84c]' : 'text-[#e8c96a]'}`}>
+                    {player.name}
+                  </span>
                 </div>
 
                 {/* Lado Derecho: Stats alineadas */}
