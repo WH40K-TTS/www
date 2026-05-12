@@ -42,7 +42,7 @@ export function GroupCard({ group }) {
                   >
                     {idx < 2 ? '▲' : idx + 1}
                   </span>
-                  <span className={`font-body text-sm whitespace-nowrap uppercase ${isLastThree ? 'text-[#c9a84c]' : 'text-[#e8c96a]'}`}>
+                  <span className={`font-body text-sm whitespace-nowrap uppercase ${idx < 2 ? 'text-[#e8c96a]' : (isLastThree ? 'text-[#8a6f2e]' : 'text-[#8a6f2e]')}`}>
                     {player.name}
                   </span>
                 </div>
@@ -58,7 +58,7 @@ export function GroupCard({ group }) {
                   <span
                     className={`
                       font-heading text-sm ml-3 w-6 text-right
-                      ${isFirst ? 'text-[#c9a84c]' : 'text-[#8a6f2e]'}
+                      ${idx < 2 ? 'text-[#e8c96a]' : 'text-[#8a6f2e]'}
                     `}
                   >
                     {player.points}
