@@ -1,24 +1,26 @@
 {
   "tournaments": [
     {
-      "id": "tournament-001",
-      "name": "Armageddon 26 - I3",
-      "date": "08-05-2026",
-      "dateEnd": "08-05-2026",
-      "status": "finished",
+      "/COMENTARIO/": "upcoming, ongoing, finished",
+      "id": "001",
+      "name": "26 - I2",
+      "date": "20-04-2026",
+      "dateEnd": "07-06-2026",
+      "status": "ongoing",
       "format": "individual",
-      "players": 12,
-      "winner": "IronWarden"
+      "players": 20,
+      "winner": ""
     },
     {
-      "id": "tournament-002",
-      "name": "Liga de Invierno 2024",
-      "date": "2024-12-07",
-      "dateEnd": "2024-12-08",
-      "status": "finished",
+      "/COMENTARIO/": "upcoming, ongoing, finished",
+      "id": "002",
+      "name": "Armageddon - I1",
+      "date": "",
+      "dateEnd": "",
+      "status": "upcoming",
       "format": "individual",
-      "players": 8,
-      "winner": "VoidBane"
+      "players": 30,
+      "winner": ""
     }
   ]
 }
