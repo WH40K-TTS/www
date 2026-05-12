@@ -55,28 +55,28 @@ export default function ListUpload({ tournament }) {
              </tr>
            </thead>
            <tbody className="font-body uppercase text-sm text-[#7a6848]">
-             {[
-               { name: 'Arkanel el Sombrío', link: 'https://www.google.es/' },
-               { name: 'Valerius Thorne', link: '#' },
-               { name: 'Kaelen Stormbringer', link: '#' },
-               { name: 'Elara Moonwhisper', link: '#' },
-               { name: 'Grommash Ironwill', link: '#' },
-               { name: 'Lysandra Vane', link: '#' },
-               { name: 'Thorgar Stonefist', link: '#' },
-               { name: 'Seraphina Lightheart', link: '#' },
-               { name: 'Malakor the Vile', link: '#' },
-               { name: 'Zephyra Windrunner', link: '#' },
-               { name: 'Arkanel el Sombrío', link: '#' },
-               { name: 'Valerius Thorne', link: '#' },
-               { name: 'Kaelen Stormbringer', link: '#' },
-               { name: 'Elara Moonwhisper', link: '#' },
-               { name: 'Grommash Ironwill', link: '#' },
-               { name: 'Lysandra Vane', link: '#' },
-               { name: 'Thorgar Stonefist', link: '#' },
-               { name: 'Seraphina Lightheart', link: '#' },
-               { name: 'Malakor the Vile', link: '#' },
-               { name: 'Zephyra Windrunner', link: '#' },
-             ].map((player, idx) => (
+              {[
+                { name: 'AlxDuff', link: 'https://pastebin.com/raw/zNNFfw2h' },
+                { name: 'Ancar', link: 'https://pastebin.com/raw/z0z3SepH' },
+                { name: 'Aneg', link: 'https://pastebin.com/raw/az17snDG' },
+                { name: 'Ezraen', link: 'https://www.newrecruit.eu/app/list/WiDUT' },
+                { name: 'FrambuHobby', link: 'https://pastebin.com/raw/Dt3A5WCb' },
+                { name: 'Friedlander', link: 'https://pastebin.com/raw/spQ0f0Bt' },
+                { name: 'GatoAventuras', link: 'https://pastebin.com/raw/LtqcC66i' },
+                { name: 'Javier V', link: 'https://pastebin.com/raw/0Rjms1zR' },
+                { name: 'MaikelEdge', link: 'https://pastebin.com/raw/8TiXnLfN' },
+                { name: 'makea', link: 'https://pastebin.com/raw/CFr869sJ' },
+                { name: 'Navastelroy', link: 'https://pastebin.com/raw/Ux5PiFtd' },
+                { name: 'Oli', link: 'https://pastebin.com/raw/GKiJN8W0' },
+                { name: 'P1ter', link: 'https://pastebin.com/raw/HPCrCSwS' },
+                { name: 'Private_patch', link: 'https://pastebin.com/raw/8U0nmZUv' },
+                { name: 'r3dman', link: 'https://pastebin.com/raw/kZduAwYz' },
+                { name: 'Sanchez_EU', link: 'https://pastebin.com/raw/vz5mEP38' },
+                { name: 'Suarepita', link: 'https://pastebin.com/raw/uF8Ptcq4' },
+                { name: 'Supradin', link: 'https://pastebin.com/raw/VQn7eKmp' },
+                { name: 'Tony', link: 'https://pastebin.com/raw/wb2TDLmj' },
+                { name: 'Xarcom', link: 'https://pastebin.com/raw/3WKkrwFi' },
+              ].map((player, idx) => (
                <tr key={idx} className="border-b border-[#3a2d10]/50 last:border-none hover:bg-[#1e1a0d]/50 transition-colors">
                  <td className="px-4 py-3">{player.name}</td>
                  <td className="px-4 py-3 text-center">
