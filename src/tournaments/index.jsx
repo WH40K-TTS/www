@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Calendar, Users, Route } from 'lucide-react'
+import { Calendar, Users, Route, Split } from 'lucide-react'
 
 const STATUS_LABELS = {
   upcoming: 'Próximamente',
@@ -81,6 +81,10 @@ export default function Tournaments() {
                   <p className="flex items-center gap-2">
                     <Calendar size={14} className="text-[#8a6f2e]" />
                     Inscripciones: {tournament.date} / {tournament.dateEnd}
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <Split size={14} className="text-[#8a6f2e]" />
+                    {tournament.format}
                   </p>
                   <p className="flex items-center gap-2">
                     <Users size={14} className="text-[#8a6f2e]" />
