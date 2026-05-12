@@ -11,52 +11,19 @@ export default function ListUpload({ tournament }) {
 
   return (
     <div className="max-w-2xl mx-auto">
-
       <div className="mb-8">
+        {/* /////////////////////////////////////////////////
+        Mostrar cuando está abierto el periódo de inscripción
+        ///////////////////////////////////////////////// */}
         {/*
-        <p className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#5a4920] mb-2">
-          ✦ Registro de Lista ✦
-        </p>
-        */}
-        {/*
-        <h2 className="font-heading text-lg tracking-[0.15em] uppercase text-[#c9a84c] mb-3">
-          Subir Lista de Ejército
-        </h2>
-        */}
         <p className="font-body text-[#7a6848] text-base leading-relaxed">
-          Presenta tu lista de ejército antes del inicio del torneo. El envío es gestionado por el formulario oficial de la comunidad.
+          Presenta tu lista de ejército antes del inicio del torneo. El envío es gestionado a través del siguiente formulario:
         </p>
+        */}
       </div>
-
-      {/* Toggle embed/link */}
-      {/*
-      <div className="flex gap-3 mb-6">
-        <button
-          onClick={() => setMode('embed')}
-          className={[
-            'px-4 py-2 font-heading text-xs tracking-[0.2em] uppercase border transition-all duration-200',
-            mode === 'embed'
-              ? 'border-[#c9a84c] text-[#c9a84c] bg-[#1e1a0d]'
-              : 'border-[#3a2d10] text-[#5a4920] hover:border-[#6b5420]',
-          ].join(' ')}
-        >
-          Formulario integrado
-        </button>
-        <button
-          onClick={() => setMode('link')}
-          className={[
-            'px-4 py-2 font-heading text-xs tracking-[0.2em] uppercase border transition-all duration-200',
-            mode === 'link'
-              ? 'border-[#c9a84c] text-[#c9a84c] bg-[#1e1a0d]'
-              : 'border-[#3a2d10] text-[#5a4920] hover:border-[#6b5420]',
-          ].join(' ')}
-        >
-          Enlace externo
-        </button>
-      </div>
-      */}
 
       {/* Embed mode */}
+      {/*
        {mode === 'embed' && (
          <div className="relative border border-[#3a2d10] bg-[#161209]">
            <span aria-hidden className="pointer-events-none absolute top-0 left-0 w-3 h-3 border-t border-l border-[#c9a84c]/50" />
@@ -71,7 +38,7 @@ export default function ListUpload({ tournament }) {
            />
          </div>
        )}
-
+      /////////// FIN FORMULARIO /////////////////////*/}
        {/* //////////////////////////////////////////
        Tabla con las listas del torneo individual
        ////////////////////////////////////////////// */}
@@ -135,8 +102,8 @@ export default function ListUpload({ tournament }) {
         {/* //////////////////////////////////////////
         Tablas con las listas del torneo por equipos
         ////////////////////////////////////////////// */}
+        {/*
         <div className="mt-12 space-y-6">
-          {/* Team 1 */}
           <div className="overflow-hidden border border-[#3a2d10] bg-[#161209]">
             <table className="w-full text-left border-collapse">
               <thead>
@@ -166,7 +133,6 @@ export default function ListUpload({ tournament }) {
             </table>
           </div>
 
-          {/* Team 2 */}
           <div className="overflow-hidden border border-[#3a2d10] bg-[#161209]">
             <table className="w-full text-left border-collapse">
               <thead>
@@ -196,8 +162,9 @@ export default function ListUpload({ tournament }) {
             </table>
           </div>
         </div>
+       */}
        {/* /////////////////////////////////////////////////
-       Fin de la tabla con las listas del torneo individual
+       Fin de la tabla con las listas del torneo por equipos
        ///////////////////////////////////////////////// */}
 
     </div>
