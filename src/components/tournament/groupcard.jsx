@@ -42,7 +42,7 @@ export function GroupCard({ group }) {
                   >
                     {idx < 2 ? '▲' : idx + 1}
                   </span>
-                  <span className={`font-body text-sm whitespace-nowrap ${isFirst ? 'text-[#e8c96a]' : 'text-[#c9a84c]'}`}>
+                  <span className={`font-body text-sm whitespace-nowrap ${isFirst ? 'text-[#e8c96a]' : 'text-[#c9a84c]', 'bg-[#1a1610]'}`}>
                     {player.name}
                   </span>
                 </div>
