@@ -11,7 +11,7 @@ export default function Groups({ groups }) {
   )
 
   return (
-    <div className="max-w-7xl mx-auto px-4">
+    <>
        <div className="mb-8 mx-auto lg:w-[60%] text-center">
          <p className="font-body text-[#7a6848] text-sm md:text-base leading-relaxed">
            <span style={{ color: '#4a9a4a' }}>Victorias</span> (3 Pts), <span style={{ color: '#cc4444' }}>Derrotas</span> (0 Pts), <span style={{ color: '#c9a84c' }}>Empates</span> (1 Pts), <span style={{ color: '#a855f7' }}>Abandonos</span> (0 Pts) y <strong>Puntos</strong>.
@@ -21,14 +21,14 @@ export default function Groups({ groups }) {
          </p>
        </div>
 
-      {/* Grid Responsivo: 1 col en móvil, 2 en tablet, 3 en desktop */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-10">
-        {groups.map((group, i) => (
-          <div key={i} className="w-full">
-            <GroupCard group={group} />
-          </div>
-        ))}
-      </div>
-    </div>
+       {/* Grid Responsivo: 1 col en móvil, 2 en tablet, 3 en desktop */}
+       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-10">
+         {groups.map((group, i) => (
+           <div key={i} className="w-full">
+             <GroupCard group={group} />
+           </div>
+         ))}
+       </div>
+    </>
   )
 }
