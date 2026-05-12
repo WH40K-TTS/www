@@ -4,7 +4,7 @@ const TOURNAMENT_LOADERS = import.meta.glob('../data/tournaments/tournament-*.js
 
 /**
  * Carga los datos de un torneo por su ID desde /src/data/tournaments/{id}.json.
- * @param {string} id - ID del torneo (ej. "tournament-001")
+ * @param {string} id - ID del torneo (ej. "001")
  * @returns {{ tournament: object|null, loading: boolean, error: string|null }}
  */
 export function useTournament(id) {
