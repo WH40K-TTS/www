@@ -20,7 +20,7 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
       <div className={`flex-1 flex items-center justify-end gap-2 min-w-0 ${p1wins ? '' : 'opacity-60'}`}>
         <span
           className={`
-            font-body text-sm truncate text-right
+            font-body text-sm truncate text-right uppercase
             ${p1wins ? (isFinal ? 'text-[#e8c96a]' : 'text-[#c9a84c]') : 'text-[#7a6848]'}
           `}
         >
@@ -70,7 +70,7 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
         )}
         <span
           className={`
-            font-body text-sm truncate
+            font-body text-sm truncate uppercase
             ${p2wins ? (isFinal ? 'text-[#e8c96a]' : 'text-[#c9a84c]') : 'text-[#7a6848]'}
           `}
         >
