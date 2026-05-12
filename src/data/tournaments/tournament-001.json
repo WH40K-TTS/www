@@ -119,15 +119,15 @@
       ]
     },
     {
-      "round": "Final",
-      "matches": [
-        { "player1": "IronWarden",  "score1": 15, "player2": "GoldBlade",   "score2": 8,  "winner": "IronWarden"  }
-      ]
-    },
-    {
       "round": "3º y 4º Puesto",
       "matches": [
         { "player1": "CrimsonFang", "score1": 11, "player2": "VoidBane",    "score2": 8,  "winner": "CrimsonFang" }
+      ]
+    },
+    {
+      "round": "Final",
+      "matches": [
+        { "player1": "IronWarden",  "score1": 15, "player2": "GoldBlade",   "score2": 8,  "winner": "IronWarden"  }
       ]
     }
   ]
