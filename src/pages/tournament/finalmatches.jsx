@@ -20,15 +20,6 @@ export default function FinalMatches({ matches }) {
 
   return (
     <div>
-      {/*
-      <div className="flex items-center gap-3 mb-8">
-        <p className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#5a4920] shrink-0">
-          ✦ Fase Eliminatoria ✦
-        </p>
-        <div className="flex-1 h-px" style={{ background: 'linear-gradient(90deg, #3a2d10, transparent)' }} />
-      </div>
-      */}
-
       <div className="space-y-5">
         {matches.map((round) => {
           const Icon = ROUND_ICONS[round.round]
@@ -58,13 +49,6 @@ export default function FinalMatches({ matches }) {
                 >
                   {round.round}
                 </h3>
-                {/*
-                {round.round === 'Final' && (
-                  <span className="ml-auto font-heading text-[9px] tracking-[0.3em] uppercase text-[#8a6f2e]">
-                    Batalla Decisiva
-                  </span>
-                )}
-                */}
               </div>
 
               {/* Matches — horizontal scroll on mobile */}

@@ -111,10 +111,10 @@
         { "player1": "Ezraen", "score1": 59, "player2": "r3dman", "score2": 87, "winner": "r3dman" },
         { "player1": "Navastelroy", "score1": 98, "player2": "Aneg", "score2": 36, "winner": "Navastelroy" },
         { "player1": "Tony", "score1": 0, "player2": "Gato", "score2": 0, "winner": null },
-        { "player1": "", "score1": "", "player2": "ol", "score2": "", "winner": "" },
-        { "player1": "", "score1": "", "player2": "ol", "score2": "", "winner": "" },
-        { "player1": "", "score1": "", "player2": "ol", "score2": "", "winner": "" },
-        { "player1": "", "score1": "", "player2": "ol", "score2": "", "winner": "" }
+        { "player1": "", "score1": "0", "player2": "", "score2": "0", "winner": "" },
+        { "player1": "", "score1": "0", "player2": "l", "score2": "0", "winner": "" },
+        { "player1": "", "score1": "0", "player2": "", "score2": "0", "winner": "" },
+        { "player1": "", "score1": "0", "player2": "", "score2": "0", "winner": "" }
       ]
     }
   ],
@@ -123,29 +123,29 @@
     {
       "round": "Cuartos de Final",
       "matches": [
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": "" },
-        { "player3": "", "score3": "", "player4": "", "score4": "", "winner": "" },
-        { "player5": "", "score5": "", "player6": "", "score6": "", "winner": "" },
-        { "player7": "", "score7": "", "player8": "", "score8": "-", "winner": "" }
+        { "player1": "", "score1": "0", "player2": "", "score2": "0", "winner": "" },
+        { "player3": "", "score3": "0", "player4": "", "score4": "0", "winner": "" },
+        { "player5": "", "score5": "0", "player6": "", "score6": "0", "winner": "" },
+        { "player7": "", "score7": "0", "player8": "", "score8": "0", "winner": "" }
       ]
     },
     {
       "round": "Semifinales",
       "matches": [
-        { "player1": "",  "score1": "", "player2": "",    "score2": "",  "winner": ""  },
-        { "player1": "", "score1": "",  "player2": "",   "score2": "", "winner": ""   }
+        { "player1": "",  "score1": "0", "player2": "",    "score2": "0",  "winner": ""  },
+        { "player1": "", "score1": "0",  "player2": "",   "score2": "0", "winner": ""   }
       ]
     },
     {
       "round": "3º y 4º Puesto",
       "matches": [
-        { "player1": "", "score1": "", "player2": "",    "score2": "",  "winner": "" }
+        { "player1": "", "score1": "0", "player2": "",    "score2": "0",  "winner": "" }
       ]
     },
     {
       "round": "Final",
       "matches": [
-        { "player1": "",  "score1": "", "player2": "",   "score2": "",  "winner": ""  }
+        { "player1": "",  "score1": "0", "player2": "",   "score2": "0",  "winner": ""  }
       ]
     }
   ]
