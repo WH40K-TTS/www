@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Calendar, Users, Route } from 'lucide-react'
 
 const STATUS_LABELS = {
-  upcoming: 'Proximo',
+  upcoming: 'Próximamente',
   ongoing: 'En curso',
   finished: 'Finalizado',
 }
@@ -80,7 +80,7 @@ export default function Tournaments() {
                 <div className="space-y-2 font-body text-sm text-[#7a6848]">
                   <p className="flex items-center gap-2">
                     <Calendar size={14} className="text-[#8a6f2e]" />
-                    Inscripciones: {tournament.date} - {tournament.dateEnd}
+                    Inscripciones: {tournament.date} / {tournament.dateEnd}
                   </p>
                   <p className="flex items-center gap-2">
                     <Users size={14} className="text-[#8a6f2e]" />
