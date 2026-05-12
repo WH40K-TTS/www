@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const TOURNAMENT_LOADERS = import.meta.glob('../data/tournaments/tournament-*.json')
+const TOURNAMENT_LOADERS = import.meta.glob('../data/tournaments/[0-9]*.json')
 
 /**
  * Carga los datos de un torneo por su ID desde /src/data/tournaments/{id}.json.
