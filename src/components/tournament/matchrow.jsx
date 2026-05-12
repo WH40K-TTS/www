@@ -8,6 +8,7 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
   const isUnplayed = score1 === '' && score2 === ''
   const dividerLabel = isUnplayed ? 'vs' : (isDraw ? '=' : 'vs')
   const dividerLabelColor = isUnplayed ? 'text-[#7a6848]' : 'text-[#8b1a1a]'
+  const dividerLineColor = isUnplayed ? 'bg-[#7a6848]' : 'bg-[#8b1a1a]'
 
   return (
     <div
@@ -48,11 +49,11 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
 
         {/* VS divider */}
         <div className="flex flex-col items-center gap-0.5 w-6">
-          <div className="w-full h-px bg-[#8b1a1a]" />
+          <div className={`w-full h-px ${dividerLineColor}`} />
           <span className={`font-heading text-[9px] tracking-[0.1em] ${dividerLabelColor}`}>
             {dividerLabel}
           </span>
-          <div className="w-full h-px bg-[#8b1a1a]" />
+          <div className={`w-full h-px ${dividerLineColor}`} />
         </div>
 
         {/* Score 2 */}
