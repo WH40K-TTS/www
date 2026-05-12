@@ -24,7 +24,7 @@ export default function Tournaments() {
         const module = await import('../data/tournaments/index.json')
         const json = module.default ?? module
 
-        if (!cancelled) setTournaments(json.tournaments ?? [])
+        if (!cancelled) setTournaments([...(json.tournaments ?? [])].reverse())
       } catch (err) {
         if (!cancelled) setError(err.message)
       } finally {

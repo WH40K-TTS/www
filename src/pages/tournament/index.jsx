@@ -55,11 +55,6 @@ export default function Tournament() {
 
         {/* Tournament header */}
         <div className="text-center mb-10 pt-8">
-          {/*
-          <p className="font-heading text-[10px] tracking-[0.4em] uppercase text-[#5a4920] mb-3">
-            ✦ Expediente de Torneo ✦
-          </p>
-          */}
           <div className="flex items-center justify-center gap-3 mb-2">
             <h1
               className="font-heading text-2xl sm:text-3xl tracking-[0.15em] uppercase text-[#c9a84c]"
