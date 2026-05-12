@@ -107,35 +107,29 @@
     {
       "round": "Cuartos de Final",
       "matches": [
-        { "player1": "IronWarden",  "score1": 13, "player2": "GoldBlade",   "score2": 6,  "winner": "IronWarden"  },
-        { "player1": "CrimsonFang", "score1": 10, "player2": "VoidBane",    "score2": 9,  "winner": "CrimsonFang" },
-        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
-        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
-        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
-        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
-        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
-        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
-        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
-        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" }
+        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": "" },
+        { "player3": "", "score3": "", "player4": "", "score4": "", "winner": "" },
+        { "player5": "", "score5": "", "player6": "", "score6": "", "winner": "" },
+        { "player7": "", "score7": "", "player8": "", "score8": "-", "winner": "" }
       ]
     },
     {
       "round": "Semifinales",
       "matches": [
-        { "player1": "IronWarden",  "score1": 12, "player2": "VoidBane",    "score2": 7,  "winner": "IronWarden"  },
-        { "player1": "CrimsonFang", "score1": 8,  "player2": "GoldBlade",   "score2": 10, "winner": "GoldBlade"   }
+        { "player1": "",  "score1": "", "player2": "",    "score2": "",  "winner": ""  },
+        { "player1": "", "score1": "",  "player2": "",   "score2": "", "winner": ""   }
       ]
     },
     {
       "round": "3º y 4º Puesto",
       "matches": [
-        { "player1": "CrimsonFang", "score1": 11, "player2": "VoidBane",    "score2": 8,  "winner": "CrimsonFang" }
+        { "player1": "", "score1": "", "player2": "",    "score2": "",  "winner": "" }
       ]
     },
     {
       "round": "Final",
       "matches": [
-        { "player1": "IronWarden",  "score1": 15, "player2": "GoldBlade",   "score2": 8,  "winner": "IronWarden"  }
+        { "player1": "",  "score1": "", "player2": "",   "score2": "",  "winner": ""  }
       ]
     }
   ]
