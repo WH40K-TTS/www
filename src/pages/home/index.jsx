@@ -94,7 +94,7 @@ export default function Home() {
           <span
             className="text-2xl sm:text-3xl lg:text-4xl tracking-[0.04em] text-[#c9a84c]"
             style={{ textShadow: '0 0 40px rgba(201,168,76,0.55), 0 0 80px rgba(201,168,76,0.25)' }}>
-            {' '}legado
+            {' '}Leyenda
           </span>
         </span>
 
