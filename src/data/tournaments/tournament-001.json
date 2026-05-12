@@ -1,52 +1,67 @@
 {
   "id": "tournament-001",
-  "name": "Armageddon 26 - I3",
-  "date": "2025-04-12",
-  "dateEnd": "2025-04-13",
+  "name": "WH40K-TTS / 26 - I2",
+  "date": "2026-04-20",
+  "dateEnd": "2026-06-07",
   "status": "ongoing",
   "format": "individual",
   "tallyFormId": "FORM_ID",
-  "description": "Primer torneo oficial de la temporada 2026. Doce generales compitien en formato de grupos con posterior eliminatoria.",
+  "description": "Torneo individual competitivo a 2.000 puntos jugando el pack de misiones Tournament Companion. Bases: https://wh40k-tts.com/individual.html\n\nMesa y mapas:\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3398190636\n\nListas de ejército:\nhttps://wh40k-tts.com/listas/26-I2.html\n\nFase Clasificatoria:\n\nRonda 1: Take and Hold / Tipping Point [A] (6)\n\nRonda 2: Linchping / Search and Destroy [J] (3)\n\nRonda 3: Purge the Foe / Crucibe of Battle [M] (2)\n\nRonda 4: Take and Hold / Search and Destroy [L] (4)\n\nRonda 5: Linchpin / Tipping Point [C] (8)\n\nFase Final:\n\nRonda 6: Take and Hold / Hammerr and Anvil [E] (1)\n\nRonda 7: Scorched Earth / Tipping Point [D] (7)\n\nRonda 8: Hidden Supplies / Crucible of Battle [N] (6)\n\n* Primary Mission / Deployment (Terrain Layouts)",
 
   "groups": [
     {
       "name": "Grupo A",
       "players": [
-        { "name": "r3dman",  "points": 7, "wins": 2, "losses": 0, "ties": 1, "scoreFavor": 248, "scoreAgainst": 206 },
-        { "name": "Supradin",    "points": 1, "wins": 0, "losses": 0, "ties": 1, "scoreFavor": 77, "scoreAgainst": 77 },
-        { "name": "makea001",   "points": 0, "wins": 0, "losses": 1, "ties": 0, "scoreFavor": 70, "scoreAgainst": 84 },
-        { "name": "Ezraen", "points": 0, "wins": 0, "losses": 1, "ties": 0, "scoreFavor":  59, "scoreAgainst": 87 },
-        { "name": "Xarcom", "points": 0, "wins": 0, "losses": 0, "ties": 0, "scoreFavor":  0, "scoreAgainst": 0 }
+        { "name": "r3dman",  "points": 7, "wins": 2, "losses": 0, "ties": 1, "abandonos": 0 },
+        { "name": "Supradin",    "points": 1, "wins": 0, "losses": 0, "ties": 1, "abandonos": 0 },
+        { "name": "makea001",   "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "Ezraen", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "Xarcom", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
       ]
     },
     {
       "name": "Grupo B",
       "players": [
-        { "name": "Navastelroy", "points": 9, "wins": 3, "losses": 0, "ties": 0, "scoreFavor": 281, "scoreAgainst": 178 },
-        { "name": "Gato",   "points": 6, "wins": 2, "losses": 0, "ties": 0, "scoreFavor": 181, "scoreAgainst": 97 },
-        { "name": "oli",   "points": 3, "wins": 1, "losses": 2, "ties": 0, "scoreFavor": 14, "scoreAgainst": 24 },
-        { "name": "Aneg", "points": 0, "wins": 0, "losses": 3, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 },
-        { "name": "Tony", "points": 0, "wins": 0, "losses": 1, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 }
+        { "name": "Navastelroy", "points": 9, "wins": 3, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Gato",   "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "oli",   "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0 },
+        { "name": "Aneg", "points": 0, "wins": 0, "losses": 3, "ties": 0, "abandonos": 0 },
+        { "name": "Tony", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 }
       ]
     },
     {
       "name": "Grupo C",
       "players": [
-        { "name": "MaikelEdge", "points": 6, "wins": 2, "losses": 1, "ties": 0, "scoreFavor": 281, "scoreAgainst": 178 },
-        { "name": "Javier V.",   "points": 6, "wins": 2, "losses": 1, "ties": 0, "scoreFavor": 181, "scoreAgainst": 97 },
-        { "name": "Mr. Friedlander",   "points": 3, "wins": 1, "losses": 1, "ties": 0, "scoreFavor": 14, "scoreAgainst": 24 },
-        { "name": "private_patch", "points": 3, "wins": 1, "losses": 1, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 },
-        { "name": "ANCAR", "points": 0, "wins": 0, "losses": 2, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 }
+        { "name": "MaikelEdge", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "Javier V.",   "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "Mr. Friedlander",   "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "private_patch", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "ANCAR", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 }
       ]
     },
     {
       "name": "Grupo D",
       "players": [
-        { "name": "Sanchez_EU", "points": 6, "wins": 2, "losses": 2, "ties": 0, "scoreFavor": 281, "scoreAgainst": 178 },
-        { "name": "Frambuhobby",   "points": 6, "wins": 2, "losses": 0, "ties": 0, "scoreFavor": 181, "scoreAgainst": 97 },
-        { "name": "Suarepita",   "points": 3, "wins": 1, "losses": 2, "ties": 0, "scoreFavor": 14, "scoreAgainst": 24 },
-        { "name": "P1TER", "points": 3, "wins": 1, "losses": 2, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 },
-        { "name": "Alxduff", "points": 3, "wins": 1, "losses": 1, "ties": 0, "scoreFavor":  6, "scoreAgainst": 20 }
+        { "name": "Sanchez_EU", "points": 6, "wins": 2, "losses": 2, "ties": 0, "abandonos": 0 },
+        { "name": "Frambuhobby",   "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Suarepita",   "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0 },
+        { "name": "P1TER", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0 },
+        { "name": "Alxduff", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 }
+      ]
+    },
+    {
+      "name": "Grupo 1",
+      "players": [
+        { "name": "G. SOTELO", "points": 13, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "L. CALDEREGGE", "points": 13, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "C. MANSFIELD", "points": 11, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "C. VALIERE", "points": 10, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "R. VADUANE", "points": 10, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "M. CALDEREGGE", "points": 9, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "F. LAVAUD", "points": 7, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "C. HERTZOG", "points": 6, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "B. VALIERE", "points": 5, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "R. SOTELO", "points": 4, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
       ]
     }
   ],
