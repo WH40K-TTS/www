@@ -108,7 +108,15 @@
       "round": "Cuartos de Final",
       "matches": [
         { "player1": "IronWarden",  "score1": 13, "player2": "GoldBlade",   "score2": 6,  "winner": "IronWarden"  },
-        { "player1": "CrimsonFang", "score1": 10, "player2": "VoidBane",    "score2": 9,  "winner": "CrimsonFang" }
+        { "player1": "CrimsonFang", "score1": 10, "player2": "VoidBane",    "score2": 9,  "winner": "CrimsonFang" },
+        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
+        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
+        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
+        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
+        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
+        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
+        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" },
+        { "player1": "-", "score1": "-", "player2": "-", "score2": "-", "winner": "-" }
       ]
     },
     {
