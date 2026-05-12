@@ -62,7 +62,9 @@ export default function Tournament() {
             >
               {tournament.name}
             </h1>
+            <Badge variant={statusInfo.variant}>{statusInfo.label}</Badge>
           </div>
+          {/*
           <div className="flex items-center justify-center gap-2 whitespace-nowrap">
             {tournament.date && (
               <p className="font-body text-sm text-[#7a6848]">{tournament.date}</p>
@@ -75,6 +77,7 @@ export default function Tournament() {
             )}
             <Badge variant={statusInfo.variant}>{statusInfo.label}</Badge>
           </div>
+          */}
           <div
             className="mx-auto w-48 h-px mt-4"
             style={{ background: 'linear-gradient(90deg, transparent, #8a6f2e, transparent)' }}
