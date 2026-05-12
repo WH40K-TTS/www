@@ -25,15 +25,14 @@ export function GroupCard({ group }) {
             const isFirst = idx === 0
             const isLast = idx === sorted.length - 1
             return (
-              <div
-                key={player.name}
-                className={`
-                  flex items-center justify-between px-4 py-2.5 gap-4
-                  ${!isLast ? 'border-b border-[#1e1a0d]' : ''}
-                  ${isFirst ? 'bg-[#1a1610]' : ''}
-                  transition-colors hover:bg-[#1a1610]
-                `}
-              >
+               <div
+                 key={player.name}
+                 className={`
+                   flex items-center justify-between px-4 py-2.5 gap-4
+                   ${!isLast ? 'border-b border-[#1e1a0d]' : ''}
+                   transition-colors hover:bg-[#1a1610]
+                 `}
+               >
                 {/* Lado Izquierdo: Posición y Nombre */}
                 <div className="flex items-center gap-2">
                   <span
@@ -42,9 +41,9 @@ export function GroupCard({ group }) {
                   >
                     {idx < 2 ? '▲' : idx + 1}
                   </span>
-                  <span className={`font-body text-sm whitespace-nowrap ${isFirst ? 'text-[#e8c96a]' : 'text-[#c9a84c]', 'bg-[#1a1610]'}`}>
-                    {player.name}
-                  </span>
+                   <span className="font-body text-sm whitespace-nowrap uppercase text-[#c9a84c]">
+                     {player.name}
+                   </span>
                 </div>
 
                 {/* Lado Derecho: Stats alineadas */}
