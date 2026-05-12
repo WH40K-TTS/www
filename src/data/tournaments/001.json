@@ -68,53 +68,53 @@
     {
       "round": 2,
       "matches": [
-        { "player1": "Xarcom", "score1": 0, "player2": "r3dman", "score2": 0, "winner": null },
+        { "player1": "Xarcom", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
         { "player1": "Supradin", "score1": 90, "player2": "makea001", "score2": 65, "winner": "Supradin" },
         { "player1": "Tony", "score1": 59, "player2": "Aneg", "score2": 69, "winner": "Aneg" },
         { "player1": "Gato", "score1": 93, "player2": "oli", "score2": 44, "winner": "Gato" },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "Javier V.", "score1": "", "player2": "Mr. Friedlander", "score2": "", "winner": null },
+        { "player1": "ANCAR", "score1": "", "player2": "MaikelEdge", "score2": "", "winner": null },
+        { "player1": "Frambuhobby", "score1": "", "player2": "Alxduff", "score2": "", "winner": null },
+        { "player1": "Suarepita", "score1": "", "player2": "Sanchez_EU", "score2": "", "winner": null }
       ]
     },
     {
       "round": 3,
       "matches": [
-        { "player1": "Xarcom", "score1": 0, "player2": "Ezraen", "score2": 0, "winner": null },
+        { "player1": "Xarcom", "score1": "", "player2": "Ezraen", "score2": "", "winner": null },
         { "player1": "r3dman", "score1": 84, "player2": "makea001", "score2": 70, "winner": "r3dman" },
         { "player1": "Tony", "score1": 70, "player2": "Navastelroy", "score2": 89, "winner": "Navastelroy" },
         { "player1": "Aneg", "score1": 78, "player2": "oli", "score2": 80, "winner": "oli" },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "Javier V.", "score1": "", "player2": "private_patch", "score2": "", "winner": null },
+        { "player1": "Mr. Friedlander", "score1": "", "player2": "MaikelEdge", "score2": "", "winner": null },
+        { "player1": "Frambuhobby", "score1": "", "player2": "P1TER", "score2": "", "winner": null },
+        { "player1": "Alxduff", "score1": "", "player2": "Sanchez_EU", "score2": "", "winner": null }
       ]
     },
     {
       "round": 4,
       "matches": [
-        { "player1": "Xarcom", "score1": 0, "player2": "makea001", "score2": 0, "winner": null },
-        { "player1": "Ezraen", "score1": 0, "player2": "Supradin", "score2": 0, "winner": null },
-        { "player1": "Tony", "score1": 0, "player2": "oli", "score2": 0, "winner": null },
-        { "player1": "Navastelroy", "score1": 0, "player2": "Gato", "score2": 0, "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "Xarcom", "score1": "", "player2": "makea001", "score2": "", "winner": null },
+        { "player1": "Ezraen", "score1": "", "player2": "Supradin", "score2": "", "winner": null },
+        { "player1": "Tony", "score1": "", "player2": "oli", "score2": "", "winner": null },
+        { "player1": "Navastelroy", "score1": "", "player2": "Gato", "score2": "", "winner": null },
+        { "player1": "Javier V.", "score1": "", "player2": "MaikelEdge", "score2": "", "winner": null },
+        { "player1": "private_patch", "score1": "", "player2": "ANCAR", "score2": "", "winner": null },
+        { "player1": "Frambuhobby", "score1": "", "player2": "Sanchez_EU", "score2": "", "winner": null },
+        { "player1": "P1TER", "score1": "", "player2": "Suarepita", "score2": "", "winner": null }
       ]
     },
     {
       "round": 5,
       "matches": [
-        { "player1": "Xarcom", "score1": 0, "player2": "Supradin", "score2": 0, "winner": null },
+        { "player1": "Xarcom", "score1": "", "player2": "Supradin", "score2": "", "winner": null },
         { "player1": "Ezraen", "score1": 59, "player2": "r3dman", "score2": 87, "winner": "r3dman" },
         { "player1": "Navastelroy", "score1": 98, "player2": "Aneg", "score2": 36, "winner": "Navastelroy" },
-        { "player1": "Tony", "score1": 0, "player2": "Gato", "score2": 0, "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "Tony", "score1": "", "player2": "Gato", "score2": "", "winner": null },
+        { "player1": "Javier V.", "score1": "", "player2": "ANCAR", "score2": "", "winner": null },
+        { "player1": "private_patch", "score1": "", "player2": "Mr. Friedlander", "score2": "", "winner": null },
+        { "player1": "Frambuhobby", "score1": "", "player2": "Suarepita", "score2": "", "winner": null },
+        { "player1": "P1TER", "score1": "", "player2": "Alxduff", "score2": "", "winner": null }
       ]
     }
   ],
