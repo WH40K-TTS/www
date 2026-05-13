@@ -20,7 +20,8 @@
       (function () {
         var p = new URLSearchParams(window.location.search).get('p');
         if (p) {
-          window.history.replaceState(null, '', p + window.location.hash);
+          var base = location.pathname.replace(/\/$/, ''); // '/pruebas'
+          window.history.replaceState(null, '', base + p + window.location.hash);
         }
       })();
     </script>
@@ -28,6 +29,7 @@
     <link rel="stylesheet" crossorigin href="/pruebas/assets/index-Du4B_p5r.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
+
   </body>
 </html>
