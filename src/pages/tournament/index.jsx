@@ -1,30 +1,33 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { FileUp, Group, Swords, Crown } from 'lucide-react'
+import { Info, FileUp, Group, Swords, Crown } from 'lucide-react'
 import { useTournament } from '../../hooks/usetournament'
+import TournamentInfo from './info'
 import ListUpload from './listupload'
 import Groups from './groups'
 import QualificationMatches from './qualificationmatches'
 import FinalMatches from './finalmatches'
 import { Badge } from '../../components/ui/badge'
 
+// ─── Info va primero (posición izquierda) ─────────────────────────────────────
 const TABS = [
+  { id: 'info',          label: 'Info',        icon: Info   },
   { id: 'lists',         label: 'Subir Lista', icon: FileUp },
-  { id: 'groups',        label: 'Grupos',      icon: Group },
+  { id: 'groups',        label: 'Grupos',      icon: Group  },
   { id: 'qualification', label: 'Partidas',    icon: Swords },
-  { id: 'finals',        label: 'Finales',     icon: Crown },
+  { id: 'finals',        label: 'Finales',     icon: Crown  },
 ]
 
 const STATUS_LABELS = {
-  upcoming: { label: 'Próximo',    variant: 'ghost' },
+  upcoming: { label: 'Próximo',    variant: 'ghost'  },
   ongoing:  { label: 'En curso',   variant: 'active' },
-  finished: { label: 'Finalizado', variant: 'dark' },
+  finished: { label: 'Finalizado', variant: 'dark'   },
 }
 
 export default function Tournament() {
   const { id } = useParams()
   const { tournament, loading, error } = useTournament(id)
-  const [activeTab, setActiveTab] = useState('lists')
+  const [activeTab, setActiveTab] = useState('info')   // ← pestaña por defecto: Info
 
   if (loading) return (
     <main className="min-h-screen pt-20 flex items-center justify-center">
@@ -64,20 +67,6 @@ export default function Tournament() {
             </h1>
             <Badge variant={statusInfo.variant}>{statusInfo.label}</Badge>
           </div>
-          {/*
-          <div className="flex items-center justify-center gap-2 whitespace-nowrap">
-            {tournament.date && (
-              <p className="font-body text-sm text-[#7a6848]">{tournament.date}</p>
-            )}
-            {tournament.date && tournament.dateEnd && (
-              <p className="font-body text-sm text-[#7a6848]">/</p>
-            )}
-            {tournament.dateEnd && (
-              <p className="font-body text-sm text-[#7a6848]">{tournament.dateEnd}</p>
-            )}
-            <Badge variant={statusInfo.variant}>{statusInfo.label}</Badge>
-          </div>
-          */}
           <div
             className="mx-auto w-48 h-px mt-4"
             style={{ background: 'linear-gradient(90deg, transparent, #8a6f2e, transparent)' }}
@@ -113,6 +102,7 @@ export default function Tournament() {
 
         {/* Tab content */}
         <div className="animate-fade-in">
+          {activeTab === 'info'          && <TournamentInfo tournament={tournament} />}
           {activeTab === 'lists'         && <ListUpload tournament={tournament} />}
           {activeTab === 'groups'        && <Groups groups={tournament.groups} />}
           {activeTab === 'qualification' && <QualificationMatches matches={tournament.qualificationMatches} />}
