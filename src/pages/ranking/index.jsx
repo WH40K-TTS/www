@@ -65,7 +65,7 @@ export default function Ranking() {
                 <caption className="sr-only">Clasificación general de jugadores</caption>
                 <thead>
                   <tr className="border-b-2 border-[#3a2d10]">
-                    {['#', 'General', 'Puntos'].map((h) => (
+                    {['#', 'General', 'Pts'].map((h) => (
                       <th
                         key={h}
                         scope="col"
@@ -88,8 +88,9 @@ export default function Ranking() {
                     return (
                       <tr
                         key={player.id}
+                        onClick={() => setSelectedPlayer(player)}
                         className={`
-                          border-b border-[#1e1a0d] transition-colors duration-150
+                          border-b border-[#1e1a0d] transition-colors duration-150 cursor-pointer
                           ${isTop ? 'bg-[#1a1610]' : 'hover:bg-[#1a1610]'}
                         `}
                       >
@@ -102,29 +103,21 @@ export default function Ranking() {
                           </span>
                         </td>
 
-                         <td className="px-2 sm:px-5 py-4 text-center">
-                          {/* Mobile: font-body (groups style) — Desktop: font-heading (finals style) */}
-                          <span className="ranking-player-name font-body sm:font-heading text-sm sm:tracking-[0.1em]">
-                            {player.name}
-                          </span>
-                          {/*
-                          {pos === 1 && (
-                            <span className="ml-2 font-heading text-[9px] tracking-[0.2em] uppercase text-[#8a6f2e]">
-                              Campeón
-                            </span>
-                          )}
-                          */}
-                        </td>
+                          <td className="px-2 sm:px-5 py-4 text-center">
+                           {/* Mobile: font-body (groups style) — Desktop: font-heading (finals style) */}
+                           <span className={`ranking-player-name font-body sm:font-heading text-sm sm:tracking-[0.1em] ${pos >= 4 ? 'text-[#3a2d10]' : ''}`}>
+                             {player.name}
+                           </span>
+                         </td>
 
-                         <td className="px-2 sm:px-5 py-4 text-center">
-                          <button
-                            onClick={() => setSelectedPlayer(player)}
-                            className="inline-block font-heading text-sm font-semibold text-[#c9a84c] hover:text-[#e8c96a] border-b border-[#6b5420] hover:border-[#c9a84c] transition-all duration-200 cursor-pointer px-1"
-                            aria-label={`Ver historial de ${player.name}`}
-                          >
-                            {player.totalPoints}
-                          </button>
-                        </td>
+                          <td className="px-2 sm:px-5 py-4 text-center">
+                           <span 
+                             className={`inline-block font-heading text-sm font-semibold transition-all duration-200 px-1 ${pos >= 4 ? 'text-[#3a2d10]' : 'text-[#c9a84c] hover:text-[#e8c96a]'}`}
+                             aria-label={`Ver historial de ${player.name}`}
+                           >
+                             {player.totalPoints}
+                           </span>
+                         </td>
                       </tr>
                     )
                   })}
@@ -133,10 +126,11 @@ export default function Ranking() {
             </div>
           </div>
         )}
-
+        {/*
         <p className="font-heading text-[10px] tracking-[0.2em] uppercase text-[#3a2d10] text-center mt-6">
           Pulsa los puntos de un jugador para ver su historial de combate
         </p>
+        */}
       </div>
 
       <PlayerDetailModal
