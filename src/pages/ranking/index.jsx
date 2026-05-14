@@ -70,7 +70,7 @@ export default function Ranking() {
                         key={h}
                         scope="col"
                         className={`
-                          px-5 py-4 font-heading text-[11px] tracking-[0.25em] uppercase
+                          px-2 sm:px-5 py-4 font-heading text-[11px] tracking-[0.25em] uppercase
                           text-[#8a6f2e] font-normal whitespace-nowrap text-center
                         `}
                       >
@@ -93,7 +93,7 @@ export default function Ranking() {
                           ${isTop ? 'bg-[#1a1610]' : 'hover:bg-[#1a1610]'}
                         `}
                       >
-                        <td className="px-5 py-4 w-12 text-center">
+                         <td className="px-2 sm:px-5 py-4 w-12 text-center">
                           <span
                             className="font-heading text-sm"
                             style={{ color: mc ?? '#5a4920' }}
@@ -102,7 +102,7 @@ export default function Ranking() {
                           </span>
                         </td>
 
-                        <td className="px-5 py-4 text-center">
+                         <td className="px-2 sm:px-5 py-4 text-center">
                           {/* Mobile: font-body (groups style) — Desktop: font-heading (finals style) */}
                           <span className="ranking-player-name font-body sm:font-heading text-sm sm:tracking-[0.1em]">
                             {player.name}
@@ -116,7 +116,7 @@ export default function Ranking() {
                           */}
                         </td>
 
-                        <td className="px-5 py-4 text-center">
+                         <td className="px-2 sm:px-5 py-4 text-center">
                           <button
                             onClick={() => setSelectedPlayer(player)}
                             className="inline-block font-heading text-sm font-semibold text-[#c9a84c] hover:text-[#e8c96a] border-b border-[#6b5420] hover:border-[#c9a84c] transition-all duration-200 cursor-pointer px-1"

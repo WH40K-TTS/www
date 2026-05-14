@@ -163,9 +163,7 @@ export default function TournamentInfo({ tournament }) {
       <div className="w-full max-w-2xl">
 
         {/* Card container */}
-        {/*
         <div className="relative border border-[#3a2d10] bg-[#161209] shadow-[0_8px_32px_rgba(0,0,0,0.6)]">
-        */}
 
           {/* Markdown body */}
           <div className="px-6 py-6">
@@ -173,9 +171,7 @@ export default function TournamentInfo({ tournament }) {
               {(tournament?.infoMd ?? TORNEO_INFO).trim()}
             </ReactMarkdown>
           </div>
-        {/*
         </div>
-        */}
       </div>
     </div>
   )
