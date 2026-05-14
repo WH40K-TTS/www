@@ -103,12 +103,15 @@ export default function Ranking() {
                           </span>
                         </td>
 
-                          <td className="px-2 sm:px-5 py-4 text-center">
-                           {/* Mobile: font-body (groups style) — Desktop: font-heading (finals style) */}
-                           <span className={`ranking-player-name font-body sm:font-heading text-sm sm:tracking-[0.1em] ${pos >= 4 ? 'text-[#3a2d10]' : ''}`}>
-                             {player.name}
-                           </span>
-                         </td>
+                           <td className="px-2 sm:px-5 py-4 text-center">
+                            {/* Mobile: font-body (groups style) — Desktop: font-heading (finals style) */}
+                            <span 
+                              className="ranking-player-name font-body sm:font-heading text-sm sm:tracking-[0.1em]"
+                              style={{ color: pos >= 4 ? '#3a2d10' : undefined }}
+                            >
+                              {player.name}
+                            </span>
+                          </td>
 
                           <td className="px-2 sm:px-5 py-4 text-center">
                            <span 
