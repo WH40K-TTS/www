@@ -62,9 +62,11 @@ export function Modal({ isOpen, onClose, title, subtitle, children, size = 'md' 
         {/* Header */}
         <div className="flex items-start justify-between px-6 pt-5 pb-4 border-b border-[#3a2d10]">
           <div>
+            {/*
             <p className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#8a6f2e] mb-0.5">
               ✦ Expediente ✦
             </p>
+            */}
             {title && (
               <h2 className="font-heading text-lg tracking-[0.15em] uppercase text-[#c9a84c] leading-tight">
                 {title}

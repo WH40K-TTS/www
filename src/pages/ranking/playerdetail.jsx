@@ -22,26 +22,26 @@ export default function PlayerDetailModal({ player, onClose }) {
       size="md"
     >
       {/* Stats summary */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
-        <div className="rounded-lg border border-slate-700/50 bg-slate-800/40 px-4 py-3 text-center">
-          <p className="font-mono font-bold text-2xl text-white">{player.tournamentsPlayed}</p>
-          <p className="font-body text-xs text-slate-500 mt-0.5">Torneos</p>
+      <div className="grid grid-cols-5 gap-1 md:gap-3 mb-6">
+        <div className="rounded-lg border border-slate-700/50 bg-slate-800/40 px-1 md:px-4 py-2 md:py-3 text-center">
+          <p className="font-mono font-bold text-lg md:text-2xl text-white">{player.tournamentsPlayed}</p>
+          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">Torneos</p>
         </div>
-        <div className="rounded-lg border border-[#4a9a4a]/30 bg-[#4a9a4a]/10 px-4 py-3 text-center">
-          <p className="font-mono font-bold text-2xl text-[#4a9a4a]">{player.wins}</p>
-          <p className="font-body text-xs text-slate-500 mt-0.5">Victorias</p>
+        <div className="rounded-lg border border-[#4a9a4a]/30 bg-[#4a9a4a]/10 px-1 md:px-4 py-2 md:py-3 text-center">
+          <p className="font-mono font-bold text-lg md:text-2xl text-[#4a9a4a]">{player.wins}</p>
+          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">Victorias</p>
         </div>
-        <div className="rounded-lg border border-[#cc4444]/30 bg-[#cc4444]/10 px-4 py-3 text-center">
-          <p className="font-mono font-bold text-2xl text-[#cc4444]">{player.losses}</p>
-          <p className="font-body text-xs text-slate-500 mt-0.5">Derrotas</p>
+        <div className="rounded-lg border border-[#cc4444]/30 bg-[#cc4444]/10 px-1 md:px-4 py-2 md:py-3 text-center">
+          <p className="font-mono font-bold text-lg md:text-2xl text-[#cc4444]">{player.losses}</p>
+          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">Derrotas</p>
         </div>
-        <div className="rounded-lg border border-[#c9a84c]/30 bg-[#c9a84c]/10 px-4 py-3 text-center">
-          <p className="font-mono font-bold text-2xl text-[#c9a84c]">{player.ties ?? 0}</p>
-          <p className="font-body text-xs text-slate-500 mt-0.5">Empates</p>
+        <div className="rounded-lg border border-[#c9a84c]/30 bg-[#c9a84c]/10 px-1 md:px-4 py-2 md:py-3 text-center">
+          <p className="font-mono font-bold text-lg md:text-2xl text-[#c9a84c]">{player.ties ?? 0}</p>
+          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">Empates</p>
         </div>
-        <div className="rounded-lg border border-[#a855f7]/30 bg-[#a855f7]/10 px-4 py-3 text-center">
-          <p className="font-mono font-bold text-2xl text-[#a855f7]">{player.abandonos ?? 0}</p>
-          <p className="font-body text-xs text-slate-500 mt-0.5">Abandonos</p>
+        <div className="rounded-lg border border-[#a855f7]/30 bg-[#a855f7]/10 px-1 md:px-4 py-2 md:py-3 text-center">
+          <p className="font-mono font-bold text-lg md:text-2xl text-[#a855f7]">{player.abandonos ?? 0}</p>
+          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">Abandonos</p>
         </div>
       </div>
 
@@ -66,40 +66,43 @@ export default function PlayerDetailModal({ player, onClose }) {
           {history.map((entry) => (
             <div
               key={entry.tournamentId}
-              className="flex items-center justify-between rounded-lg border border-slate-700/50 bg-slate-800/30 px-4 py-3 hover:bg-slate-800/60 transition-colors"
+              className="flex flex-col md:flex-row md:items-center md:justify-between rounded-lg border border-slate-700/50 bg-slate-800/30 px-4 py-3 hover:bg-slate-800/60 transition-colors"
             >
-              {/* Tournament */}
-              <div>
+              {/* Tournament Name */}
+              <div className="mb-2 md:mb-0">
                 <p className="font-display font-medium text-slate-200 text-sm">
                   {entry.tournamentName}
                 </p>
-                <p className="font-mono text-xs text-slate-500 mt-0.5">
+                <p className="font-mono text-xs text-slate-500 mt-0.5 hidden md:block">
                   {formatWL(entry.wins, entry.losses)}
                 </p>
               </div>
 
-              {/* Right side */}
-              <div className="text-right flex items-center gap-3">
-                {/* Position */}
+              {/* Stats and Points */}
+              <div className="flex items-center justify-between md:justify-end gap-3">
                 <div className="flex items-center gap-1.5">
-                  {entry.position <= 3 && (
-                    <Trophy
-                      size={12}
-                      className={
-                        entry.position === 1
-                          ? 'text-amber-400'
-                          : entry.position === 2
-                            ? 'text-slate-400'
-                            : 'text-amber-700'
-                      }
-                    />
-                  )}
-                  <span className="font-mono text-xs text-slate-400">
-                    {formatPosition(entry.position)}
-                  </span>
+                  <p className="font-mono text-xs text-slate-500 md:hidden">
+                    {formatWL(entry.wins, entry.losses)}
+                  </p>
+                  <div className="flex items-center gap-1.5">
+                    {entry.position <= 3 && (
+                      <Trophy
+                        size={12}
+                        className={
+                          entry.position === 1
+                            ? 'text-amber-400'
+                            : entry.position === 2
+                              ? 'text-slate-400'
+                              : 'text-amber-700'
+                        }
+                      />
+                    )}
+                    <span className="font-mono text-xs text-slate-400">
+                      {formatPosition(entry.position)}
+                    </span>
+                  </div>
                 </div>
 
-                {/* Points */}
                 <span className="font-mono font-semibold text-amber-400 text-sm min-w-[3rem] text-right">
                   +{entry.points}
                   <span className="text-slate-600 font-normal text-xs">pts</span>
