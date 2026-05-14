@@ -15,11 +15,9 @@ del [Chapter Approved Tournament Companion](https://www.warhammer-community.com/
 
 ## Fechas relevantes
 
-| Fase | Inicio | Fin |
-|---|---|---|
-| Inscripciones | 13/04/2026 | 19/04/2026 |
-| Rondas clasificatorias | 20/04/2026 | 18/05/2026 |
-| Fase final | 19/05/2026 | 07/06/2026 |
+Inscripciones: 13/04/2026 - 19/04/2026  
+Rondas clasificatorias: 20/04/2026 - 18/05/2026  
+Fase final: 19/05/2026 - 07/06/2026
 
 Cada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignado.
 Las partidas no jugadas dentro del plazo podrán ser declaradas como derrota doble a criterio del árbitro.
@@ -48,25 +46,21 @@ El torneo se divide en **dos fases**:
 
 La mesa oficial del torneo está disponible en Steam Workshop:
 
-[**→ Mesa oficial WH40K-TTS**](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)
+[**Mesa oficial WH40K-TTS**](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)
 
 ### Rondas clasificatorias
 
-| Ronda | Misión principal | Despliegue |
-|---|---|---|
-| 1 | Take and Hold | Tipping Point \[A\] |
-| 2 | Linchpin | Search and Destroy \[J\] |
-| 3 | Purge the Foe | Crucible of Battle \[M\] |
-| 4 | Take and Hold | Search and Destroy \[L\] |
-| 5 | Linchpin | Tipping Point \[C\] |
+1. Take and Hold / Tipping Point \[A\]
+2. Linchpin / Search and Destroy \[J\]  
+3. Purge the Foe / Crucible of Battle \[M\]  
+4. Take and Hold / Search and Destroy \[L\]  
+5. Linchpin / Tipping Point \[C\]  
 
 ### Fase final
 
-| Ronda | Misión principal | Despliegue |
-|---|---|---|
-| Cuartos | Take and Hold | Hammer and Anvil \[E\] |
-| Semifinales | Scorched Earth | Tipping Point \[D\] |
-| Final | Hidden Supplies | Crucible of Battle \[N\] |
+* Cuartos: Take and Hold / Hammer and Anvil \[E\]  
+* Semifinales: Scorched Earth / Tipping Point \[D\]  
+* Final: Hidden Supplies / Crucible of Battle \[N\]  
 
 ---
 
@@ -75,7 +69,7 @@ La mesa oficial del torneo está disponible en Steam Workshop:
 - 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña *Subir Lista*.
 - 🎲 **Mod Yellowscribe** — necesario para etiquetar las miniaturas según tu lista.
 - 💬 **Dudas y coordinación** — canal *#torneo-26-i2* en el [servidor de Discord](https://discord.gg/4uHrQp2ckW).
-- 📧 **Contacto árbitro** — to@wh40k-tts.com
+- 📧 **Contacto Organizador** — to@wh40k-tts.com
 `
 
 // ─── Markdown component map ───────────────────────────────────────────────────
@@ -170,22 +164,6 @@ export default function TournamentInfo({ tournament }) {
 
         {/* Card container */}
         <div className="relative border border-[#3a2d10] bg-[#161209] shadow-[0_8px_32px_rgba(0,0,0,0.6)]">
-
-          {/* Corner ornaments */}
-          <span aria-hidden className="pointer-events-none absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-[#c9a84c]/50" />
-          <span aria-hidden className="pointer-events-none absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-[#c9a84c]/50" />
-          <span aria-hidden className="pointer-events-none absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-[#c9a84c]/50" />
-          <span aria-hidden className="pointer-events-none absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-[#c9a84c]/50" />
-
-          {/* Header strip */}
-          <div className="px-6 pt-5 pb-4 border-b border-[#2a2210]">
-            <p className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#5a4920] mb-0.5">
-              ✦ Expediente ✦
-            </p>
-            <h2 className="font-heading text-base tracking-[0.15em] uppercase text-[#c9a84c]">
-              {tournament?.name ?? 'Información del torneo'}
-            </h2>
-          </div>
 
           {/* Markdown body */}
           <div className="px-6 py-6">
