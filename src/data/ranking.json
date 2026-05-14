@@ -3,8 +3,54 @@
   "players": [
     {
       "id": "player-001",
-      "name": "Jugador 1",
-      "totalPoints": 0
+      "name": "Marcus Aurelius",
+      "totalPoints": 1250,
+      "tournamentsPlayed": 5,
+      "wins": 13,
+      "losses": 14,
+      "faction": "Adepta Sororitas",
+      "tournamentHistory": [
+        {
+          "tournamentId": "t-001",
+          "tournamentName": "Open Galactic Cup",
+          "position": 1,
+          "points": 500,
+          "wins": 4,
+          "losses": 1
+        },
+        {
+          "tournamentId": "t-002",
+          "tournamentName": "Void War 2024",
+          "position": 3,
+          "points": 300,
+          "wins": 3,
+          "losses": 2
+        },
+        {
+          "tournamentId": "t-003",
+          "tournamentName": "Sectors Clash",
+          "position": 8,
+          "points": 150,
+          "wins": 2,
+          "losses": 3
+        },
+        {
+          "tournamentId": "t-004",
+          "tournamentName": "Imperial Guard Gala",
+          "position": 2,
+          "points": 200,
+          "wins": 3,
+          "losses": 2
+        },
+        {
+          "tournamentId": "t-005",
+          "tournamentName": "Chaos Gate",
+          "position": 12,
+          "points": 100,
+          "wins": 1,
+          "losses": 4
+        }
+      ]
     },
     {
       "id": "player-002",
