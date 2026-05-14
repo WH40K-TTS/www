@@ -18,37 +18,31 @@ export default function PlayerDetailModal({ player, onClose }) {
     <Modal
       isOpen={!!player}
       onClose={onClose}
-      title={`${player.name} - Historial`}
+      title={`${player.name} - ${player.totalPoints} pts`}
       size="md"
     >
       {/* Stats summary */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
-        {[
-          { label: 'Puntos totales', value: player.totalPoints, accent: true },
-          { label: 'Torneos', value: player.tournamentsPlayed },
-          { label: 'Victorias', value: player.wins },
-          { label: 'Derrotas', value: player.losses },
-        ].map(({ label, value, accent }) => (
-          <div
-            key={label}
-            className={[
-              'rounded-lg border px-4 py-3 text-center',
-              accent
-                ? 'border-amber-500/30 bg-amber-500/8'
-                : 'border-slate-700/50 bg-slate-800/40',
-            ].join(' ')}
-          >
-            <p
-              className={[
-                'font-mono font-bold text-2xl',
-                accent ? 'text-amber-400' : 'text-white',
-              ].join(' ')}
-            >
-              {value}
-            </p>
-            <p className="font-body text-xs text-slate-500 mt-0.5">{label}</p>
-          </div>
-        ))}
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
+        <div className="rounded-lg border border-slate-700/50 bg-slate-800/40 px-4 py-3 text-center">
+          <p className="font-mono font-bold text-2xl text-white">{player.tournamentsPlayed}</p>
+          <p className="font-body text-xs text-slate-500 mt-0.5">Torneos</p>
+        </div>
+        <div className="rounded-lg border border-[#4a9a4a]/30 bg-[#4a9a4a]/10 px-4 py-3 text-center">
+          <p className="font-mono font-bold text-2xl text-[#4a9a4a]">{player.wins}</p>
+          <p className="font-body text-xs text-slate-500 mt-0.5">Victorias</p>
+        </div>
+        <div className="rounded-lg border border-[#cc4444]/30 bg-[#cc4444]/10 px-4 py-3 text-center">
+          <p className="font-mono font-bold text-2xl text-[#cc4444]">{player.losses}</p>
+          <p className="font-body text-xs text-slate-500 mt-0.5">Derrotas</p>
+        </div>
+        <div className="rounded-lg border border-[#c9a84c]/30 bg-[#c9a84c]/10 px-4 py-3 text-center">
+          <p className="font-mono font-bold text-2xl text-[#c9a84c]">{player.ties ?? 0}</p>
+          <p className="font-body text-xs text-slate-500 mt-0.5">Empates</p>
+        </div>
+        <div className="rounded-lg border border-[#a855f7]/30 bg-[#a855f7]/10 px-4 py-3 text-center">
+          <p className="font-mono font-bold text-2xl text-[#a855f7]">{player.abandonos ?? 0}</p>
+          <p className="font-body text-xs text-slate-500 mt-0.5">Abandonos</p>
+        </div>
       </div>
 
       {/* Faction */}
