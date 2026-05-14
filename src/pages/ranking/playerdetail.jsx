@@ -23,35 +23,40 @@ export default function PlayerDetailModal({ player, onClose }) {
     >
       {/* Stats summary */}
       <div className="grid grid-cols-5 gap-1 md:gap-3 mb-6">
-        <div className="rounded-lg border border-slate-700/50 bg-slate-800/40 px-1 md:px-4 py-2 md:py-3 text-center">
-          <p className="font-mono font-bold text-lg md:text-2xl text-white">{player.tournamentsPlayed}</p>
-          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">
-            <span className="md:hidden">T</span><span className="hidden md:inline">Torneos</span>
-          </p>
+        <div className="flex flex-col items-center">
+          <p className="font-body text-[10px] text-slate-500 mb-1 md:hidden">T</p>
+          <div className="rounded-lg border border-slate-700/50 bg-slate-800/40 px-1 md:px-4 py-2 md:py-3 text-center w-full">
+            <p className="font-mono font-bold text-lg md:text-2xl text-white">{player.tournamentsPlayed}</p>
+            <p className="hidden md:block font-body text-xs text-slate-500 mt-0.5">Torneos</p>
+          </div>
         </div>
-        <div className="rounded-lg border border-[#4a9a4a]/30 bg-[#4a9a4a]/10 px-1 md:px-4 py-2 md:py-3 text-center">
-          <p className="font-mono font-bold text-lg md:text-2xl text-[#4a9a4a]">{player.wins}</p>
-          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">
-            <span className="md:hidden">V</span><span className="hidden md:inline">Victorias</span>
-          </p>
+        <div className="flex flex-col items-center">
+          <p className="font-body text-[10px] text-slate-500 mb-1 md:hidden">V</p>
+          <div className="rounded-lg border border-[#4a9a4a]/30 bg-[#4a9a4a]/10 px-1 md:px-4 py-2 md:py-3 text-center w-full">
+            <p className="font-mono font-bold text-lg md:text-2xl text-[#4a9a4a]">{player.wins}</p>
+            <p className="hidden md:block font-body text-xs text-slate-500 mt-0.5">Victorias</p>
+          </div>
         </div>
-        <div className="rounded-lg border border-[#cc4444]/30 bg-[#cc4444]/10 px-1 md:px-4 py-2 md:py-3 text-center">
-          <p className="font-mono font-bold text-lg md:text-2xl text-[#cc4444]">{player.losses}</p>
-          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">
-            <span className="md:hidden">D</span><span className="hidden md:inline">Derrotas</span>
-          </p>
+        <div className="flex flex-col items-center">
+          <p className="font-body text-[10px] text-slate-500 mb-1 md:hidden">D</p>
+          <div className="rounded-lg border border-[#cc4444]/30 bg-[#cc4444]/10 px-1 md:px-4 py-2 md:py-3 text-center w-full">
+            <p className="font-mono font-bold text-lg md:text-2xl text-[#cc4444]">{player.losses}</p>
+            <p className="hidden md:block font-body text-xs text-slate-500 mt-0.5">Derrotas</p>
+          </div>
         </div>
-        <div className="rounded-lg border border-[#c9a84c]/30 bg-[#c9a84c]/10 px-1 md:px-4 py-2 md:py-3 text-center">
-          <p className="font-mono font-bold text-lg md:text-2xl text-[#c9a84c]">{player.ties ?? 0}</p>
-          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">
-            <span className="md:hidden">E</span><span className="hidden md:inline">Empates</span>
-          </p>
+        <div className="flex flex-col items-center">
+          <p className="font-body text-[10px] text-slate-500 mb-1 md:hidden">E</p>
+          <div className="rounded-lg border border-[#c9a84c]/30 bg-[#c9a84c]/10 px-1 md:px-4 py-2 md:py-3 text-center w-full">
+            <p className="font-mono font-bold text-lg md:text-2xl text-[#c9a84c]">{player.ties ?? 0}</p>
+            <p className="hidden md:block font-body text-xs text-slate-500 mt-0.5">Empates</p>
+          </div>
         </div>
-        <div className="rounded-lg border border-[#a855f7]/30 bg-[#a855f7]/10 px-1 md:px-4 py-2 md:py-3 text-center">
-          <p className="font-mono font-bold text-lg md:text-2xl text-[#a855f7]">{player.abandonos ?? 0}</p>
-          <p className="font-body text-[10px] md:text-xs text-slate-500 mt-0.5">
-            <span className="md:hidden">A</span><span className="hidden md:inline">Abandonos</span>
-          </p>
+        <div className="flex flex-col items-center">
+          <p className="font-body text-[10px] text-slate-500 mb-1 md:hidden">A</p>
+          <div className="rounded-lg border border-[#a855f7]/30 bg-[#a855f7]/10 px-1 md:px-4 py-2 md:py-3 text-center w-full">
+            <p className="font-mono font-bold text-lg md:text-2xl text-[#a855f7]">{player.abandonos ?? 0}</p>
+            <p className="hidden md:block font-body text-xs text-slate-500 mt-0.5">Abandonos</p>
+          </div>
         </div>
       </div>
 
