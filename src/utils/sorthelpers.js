@@ -12,7 +12,7 @@ export function sortByPoints(players = []) {
     const ratioB = winRatio(b)
     if (ratioB !== ratioA) return ratioB - ratioA
 
-    return (a.name ?? '').localeCompare(b.name ?? '', 'es')
+    return (a.name ?? '').localeCompare(b.name ?? '', 'es', { numeric: true })
   })
 }
 
@@ -28,7 +28,7 @@ export function sortGroupPlayers(players = []) {
     const diffA = (a.scoreFavor ?? 0) - (a.scoreAgainst ?? 0)
     const diffB = (b.scoreFavor ?? 0) - (b.scoreAgainst ?? 0)
     if (diffB !== diffA) return diffB - diffA
-    return (a.name ?? '').localeCompare(b.name ?? '', 'es')
+    return (a.name ?? '').localeCompare(b.name ?? '', 'es', { numeric: true })
   })
 }
 
