@@ -20,7 +20,8 @@
       (function () {
         var p = new URLSearchParams(window.location.search).get('p');
         if (p) {
-          window.history.replaceState(null, '', p + window.location.hash);
+          var base = location.pathname.replace(/\/$/, ''); // "/pruebas"
+          window.history.replaceState(null, '', base + p + location.hash);
         }
       })();
     </script>
