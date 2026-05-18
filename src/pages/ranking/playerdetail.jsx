@@ -26,21 +26,21 @@ export default function PlayerDetailModal({ player, onClose }) {
         <div className="flex flex-col items-center">
           <p className="font-body text-[10px] text-slate-500 mb-1 md:hidden">T</p>
           <div className="rounded-lg border border-slate-700/50 bg-slate-800/40 px-1 md:px-4 py-2 md:py-3 text-center w-full">
-            <p className="font-mono font-bold text-lg md:text-2xl text-white">{player.tournamentsPlayed}</p>
+            <p className="font-mono font-bold text-lg md:text-2xl text-white">{player.tournamentsPlayed ?? 0}</p>
             <p className="hidden md:block font-body text-xs text-slate-500 mt-0.5">Torneos</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <p className="font-body text-[10px] text-slate-500 mb-1 md:hidden">V</p>
           <div className="rounded-lg border border-[#4a9a4a]/30 bg-[#4a9a4a]/10 px-1 md:px-4 py-2 md:py-3 text-center w-full">
-            <p className="font-mono font-bold text-lg md:text-2xl text-[#4a9a4a]">{player.wins}</p>
+            <p className="font-mono font-bold text-lg md:text-2xl text-[#4a9a4a]">{player.wins ?? 0}</p>
             <p className="hidden md:block font-body text-xs text-slate-500 mt-0.5">Victorias</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <p className="font-body text-[10px] text-slate-500 mb-1 md:hidden">D</p>
           <div className="rounded-lg border border-[#cc4444]/30 bg-[#cc4444]/10 px-1 md:px-4 py-2 md:py-3 text-center w-full">
-            <p className="font-mono font-bold text-lg md:text-2xl text-[#cc4444]">{player.losses}</p>
+            <p className="font-mono font-bold text-lg md:text-2xl text-[#cc4444]">{player.losses ?? 0}</p>
             <p className="hidden md:block font-body text-xs text-slate-500 mt-0.5">Derrotas</p>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function PlayerDetailModal({ player, onClose }) {
       {/* Faction */}
       <div className="flex items-center gap-2 mb-5">
         <span className="font-body text-xs text-slate-500">Faccion principal:</span>
-        <Badge variant="gold">{player.faction}</Badge>
+        <Badge variant="gold">{player.faction ?? "-"}</Badge>
       </div>
 
       {/* Tournament history */}

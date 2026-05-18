@@ -8,6 +8,8 @@
       "tournamentsPlayed": 5,
       "wins": 13,
       "losses": 14,
+      "ties": 2,
+      "abandonos": 1,
       "faction": "Adepta Sororitas",
       "tournamentHistory": [
         {
