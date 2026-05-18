@@ -88,17 +88,21 @@ export default function PlayerDetailModal({ player, onClose }) {
                 <p className="font-display font-medium text-slate-200 text-sm">
                   {entry.tournamentName}
                 </p>
+                {/*
                 <p className="font-mono text-xs text-slate-500 mt-0.5 hidden md:block">
                   {formatWL(entry.wins, entry.losses)}
                 </p>
+                */}
               </div>
 
               {/* Stats and Points */}
               <div className="flex items-center justify-between md:justify-end gap-3">
                 <div className="flex items-center gap-1.5">
+                  {/*
                   <p className="font-mono text-xs text-slate-500 md:hidden">
                     {formatWL(entry.wins, entry.losses)}
                   </p>
+                  */}
                   <div className="flex items-center gap-1.5">
                     {entry.position <= 3 && (
                       <Trophy
@@ -120,7 +124,7 @@ export default function PlayerDetailModal({ player, onClose }) {
 
                 <span className="font-mono font-semibold text-amber-400 text-sm min-w-[3rem] text-right">
                   +{entry.points}
-                  <span className="text-slate-600 font-normal text-xs">pts</span>
+                  <span className="text-slate-600 font-normal text-xs"> pts</span>
                 </span>
               </div>
             </div>
