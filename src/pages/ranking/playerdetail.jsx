@@ -1,4 +1,5 @@
-﻿import Modal from '../../components/ui/modal'
+﻿import { Link } from 'react-router-dom'
+import Modal from '../../components/ui/modal'
 import Badge from '../../components/ui/badge'
 import { formatPosition, formatWL } from '../../utils/formatters'
 import { Trophy, TrendingUp } from 'lucide-react'
@@ -85,9 +86,12 @@ export default function PlayerDetailModal({ player, onClose }) {
             >
               {/* Tournament Name */}
               <div className="mb-2 md:mb-0">
-                <p className="font-display font-medium text-slate-200 text-sm">
+                <Link 
+                  to={`/tournament/${entry.tournamentId}`} 
+                  className="font-display font-medium text-slate-200 text-sm hover:text-amber-400 transition-colors"
+                >
                   {entry.tournamentName}
-                </p>
+                </Link>
                 {/*
                 <p className="font-mono text-xs text-slate-500 mt-0.5 hidden md:block">
                   {formatWL(entry.wins, entry.losses)}
