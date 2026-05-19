@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react'
+import { useMemo } from 'react'
+import { useJsonData } from './useJsonData'
 
 const TOURNAMENT_LOADERS = import.meta.glob('../data/tournaments/[0-9]*.json')
 
@@ -8,47 +9,20 @@ const TOURNAMENT_LOADERS = import.meta.glob('../data/tournaments/[0-9]*.json')
  * @returns {{ tournament: object|null, loading: boolean, error: string|null }}
  */
 export function useTournament(id) {
-  const [tournament, setTournament] = useState(null)
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const loaderFn = useMemo(() => async () => {
+    if (!id) throw new Error('ID de torneo no proporcionado')
+    
+    const key = `../data/tournaments/${id}.json`
+    const loader = TOURNAMENT_LOADERS[key]
 
-  useEffect(() => {
-    if (!id) {
-      setLoading(false)
-      return
+    if (!loader) {
+      throw new Error(`Torneo "${id}" no encontrado en src/data/tournaments`)
     }
 
-    let cancelled = false
-
-    async function load() {
-      try {
-        setLoading(true)
-        setError(null)
-        setTournament(null)
-
-        const key = `../data/tournaments/${id}.json`
-        const loader = TOURNAMENT_LOADERS[key]
-
-        if (!loader) {
-          throw new Error(`Torneo "${id}" no encontrado en src/data/tournaments`)
-        }
-
-        const module = await loader()
-        const json = module.default ?? module
-
-        if (!cancelled) setTournament(json)
-      } catch (err) {
-        if (!cancelled) setError(err.message)
-      } finally {
-        if (!cancelled) setLoading(false)
-      }
-    }
-
-    load()
-    return () => {
-      cancelled = true
-    }
+    return await loader()
   }, [id])
+
+  const { data: tournament, loading, error } = useJsonData(loaderFn)
 
   return { tournament, loading, error }
 }

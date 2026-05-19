@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Info, FileUp, Group, Swords, Crown } from 'lucide-react'
 import { useTournament } from '../../hooks/usetournament'
+import { Tabs } from '../../components/ui/tabs'
+import { LoadingState } from '../../components/ui/loading-state'
+import { ErrorState } from '../../components/ui/error-state'
 import TournamentInfo from './info'
 import ListUpload from './listupload'
 import Groups from './groups'
@@ -9,7 +12,6 @@ import QualificationMatches from './qualificationmatches'
 import FinalMatches from './finalmatches'
 import { Badge } from '../../components/ui/badge'
 
-// ─── Info va primero (posición izquierda) ─────────────────────────────────────
 const TABS = [
   { id: 'info',          label: 'Info',        icon: Info   },
   { id: 'lists',         label: 'Subir Lista', icon: FileUp },
@@ -27,26 +29,20 @@ const STATUS_LABELS = {
 export default function Tournament() {
   const { id } = useParams()
   const { tournament, loading, error } = useTournament(id)
-  const [activeTab, setActiveTab] = useState('info')   // ← pestaña por defecto: Info
+  const [activeTab, setActiveTab] = useState('info')
 
   if (loading) return (
-    <main className="min-h-screen pt-20 flex items-center justify-center">
-      <p className="font-heading text-[11px] tracking-[0.3em] uppercase text-[#5a4920] animate-pulse">
-        Cargando expediente de torneo…
-      </p>
+    <main className="min-h-screen pt-20">
+      <LoadingState message="Cargando expediente de torneo…" />
     </main>
   )
 
   if (error || !tournament) return (
-    <main className="min-h-screen pt-20 flex items-center justify-center px-4">
-      <div className="border border-[#5c1010] bg-[#1a0c0c] px-8 py-6 text-center max-w-md">
-        <p className="font-heading text-sm tracking-[0.1em] uppercase text-[#cc4444] mb-2">
-          Expediente no encontrado
-        </p>
-        <p className="font-body text-sm text-[#7a6848]">
-          El torneo con ID "{id}" no existe en los archivos.
-        </p>
-      </div>
+    <main className="min-h-screen pt-20">
+      <ErrorState 
+        title="Expediente no encontrado" 
+        message={`El torneo con ID "${id}" no existe en los archivos.`} 
+      />
     </main>
   )
 
@@ -73,32 +69,7 @@ export default function Tournament() {
           />
         </div>
 
-        {/* Tabs */}
-        <div className="flex justify-start md:justify-center overflow-x-auto border-b border-[#3a2d10] mb-8 scrollbar-hide">
-          {TABS.map(({ id: tabId, label, icon: Icon }) => (
-            <button
-              key={tabId}
-              onClick={() => setActiveTab(tabId)}
-              className={[
-                'flex items-center gap-2 px-5 py-3 shrink-0',
-                'font-heading text-xs tracking-[0.2em] uppercase',
-                'transition-all duration-200 relative',
-                activeTab === tabId
-                  ? 'text-[#c9a84c]'
-                  : 'text-[#5a4920] hover:text-[#8a6f2e]',
-              ].join(' ')}
-            >
-              <Icon size={14} strokeWidth={2} aria-hidden />
-              <span className="hidden sm:inline">{label}</span>
-              {activeTab === tabId && (
-                <span
-                  className="absolute bottom-0 left-0 right-0 h-0.5"
-                  style={{ background: 'linear-gradient(90deg, transparent, #c9a84c, transparent)' }}
-                />
-              )}
-            </button>
-          ))}
-        </div>
+        <Tabs tabs={TABS} activeTab={activeTab} onChange={setActiveTab} />
 
         {/* Tab content */}
         <div className="animate-fade-in">
