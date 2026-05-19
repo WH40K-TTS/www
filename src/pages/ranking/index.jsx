@@ -31,7 +31,7 @@ export default function Ranking() {
             style={{ background: 'linear-gradient(90deg, transparent, #8a6f2e, transparent)' }}
           />
           <p className="font-body text-[#7a6848] text-base">
-            Los generales más letales de la comunidad. Pulsa los puntos para ver su historial.
+            Los jugadores más letales de la comunidad. Pulsa sobre ellos para ver su historial.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export default function Ranking() {
                 <caption className="sr-only">Clasificación general de jugadores</caption>
                 <thead>
                   <tr className="border-b-2 border-[#3a2d10]">
-                    {['#', 'General', 'Pts'].map((h) => (
+                    {['#', 'Jugador', 'Pts'].map((h) => (
                       <th
                         key={h}
                         scope="col"

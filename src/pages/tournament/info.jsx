@@ -6,70 +6,46 @@ import ReactMarkdown from 'react-markdown'
 // Admite: **negrita**, *cursiva*, [enlace](url), ## encabezados, listas, etc.
 const TORNEO_INFO = `
 ## Descripción
+**26 - I2** es el último torneo individual de 10ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones
+del [Chapter Approved Tournament Companion](https://assets.warhammer-community.com/eng_07-01_warhammer_40000_core_rules_chapter_approved_tournament-companion-sqc1af88bj-vzxhp9xmid.pdf) y la escenografía oficial de Games Workshop.
 
-**26 - I2** es el segundo torneo individual de la temporada, un torneo de Warhammer 40.000 décima edición
-jugado íntegramente en Tabletop Simulator. Partidas competitivas a **2.000 puntos** utilizando las misiones
-del [Chapter Approved Tournament Companion](https://www.warhammer-community.com/) y la escenografía oficial de Games Workshop.
-
----
-
-## Fechas relevantes
-
-Inscripciones: 13/04/2026 - 19/04/2026  
-Rondas clasificatorias: 20/04/2026 - 18/05/2026  
-Fase final: 19/05/2026 - 07/06/2026
+## Fechas y recursos
+- **Inscripciones**: 13/04/2026 - 19/04/2026  
+- **Rondas clasificatorias**: 20/04/2026 - 18/05/2026  
+- **Fase final**: 19/05/2026 - 07/06/2026
 
 Cada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignado.
-Las partidas no jugadas dentro del plazo podrán ser declaradas como derrota doble a criterio del árbitro.
 
----
+### Recursos
+- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña *Subir Lista*.
+- 🎲 [**Mesa para las partidas**](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)
 
 ## Estructura del torneo
-
 El torneo se divide en **dos fases**:
 
-### Fase clasificatoria — 5 rondas
-
+### Fase clasificatoria — 4 rondas
 - Los **20 jugadores** se reparten en **4 grupos de 5**.
 - Cada jugador se enfrenta a todos los rivales de su grupo *(sistema todos contra todos)*.
-- Puntuación: **3 pts** victoria · **1 pt** empate · **0 pts** derrota.
-- Clasifican los **2 primeros de cada grupo** para la fase final (8 jugadores en total).
+- Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.
+- Clasifican los **2 primeros de cada grupo** para la fase final (*8 jugadores clasificados*).
 
 ### Fase final — eliminación directa
-
-- **Cuartos de final** → **Semifinales** → **3.º y 4.º puesto** → **Gran Final**.
-- En caso de empate en puntos al final de la partida se disputará una ronda de muerte súbita.
+- **Cuartos de final** → **Semifinales** → **3.º y 4.º puesto** → **Final**.
 
 ---
 
-## Mapas y misiones
-
-La mesa oficial del torneo está disponible en Steam Workshop:
-
-[**Mesa oficial WH40K-TTS**](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)
-
 ### Rondas clasificatorias
-
-1. Take and Hold / Tipping Point \[A\]
-2. Linchpin / Search and Destroy \[J\]  
-3. Purge the Foe / Crucible of Battle \[M\]  
-4. Take and Hold / Search and Destroy \[L\]  
-5. Linchpin / Tipping Point \[C\]  
+- Ronda 1: Take and Hold / Tipping Point \[A\]
+- Ronda 2: Linchpin / Search and Destroy \[J\]  
+- Ronda 3: Purge the Foe / Crucible of Battle \[M\]  
+- Ronda 4: Take and Hold / Search and Destroy \[L\]  
+- Ronda 5: Linchpin / Tipping Point \[C\]  
 
 ### Fase final
-
 * Cuartos: Take and Hold / Hammer and Anvil \[E\]  
 * Semifinales: Scorched Earth / Tipping Point \[D\]  
 * Final: Hidden Supplies / Crucible of Battle \[N\]  
 
----
-
-## Recursos útiles
-
-- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña *Subir Lista*.
-- 🎲 **Mod Yellowscribe** — necesario para etiquetar las miniaturas según tu lista.
-- 💬 **Dudas y coordinación** — canal *#torneo-26-i2* en el [servidor de Discord](https://discord.gg/4uHrQp2ckW).
-- 📧 **Contacto Organizador** — to@wh40k-tts.com
 `
 
 // ─── Markdown component map ───────────────────────────────────────────────────

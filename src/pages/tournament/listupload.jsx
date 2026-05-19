@@ -39,6 +39,7 @@ export default function ListUpload({ tournament }) {
          </div>
        )}
       /////////// FIN FORMULARIO /////////////////////*/}
+      
        {/* //////////////////////////////////////////
        Tabla con las listas del torneo individual
        ////////////////////////////////////////////// */}

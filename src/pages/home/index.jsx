@@ -8,21 +8,21 @@ const features = [
   {
     icon: Trophy,
     title: 'Torneos',
-    desc: 'Compite en torneos regulares con sistema de grupos y fase eliminatoria. Cada victoria te acerca al trono.',
+    desc: 'Compite en torneos regulares con sistema de grupos y fase eliminatoria. Cada victoria cuenta.',
     to: '/tournaments',
     cta: 'Ver Torneos',
   },
   {
     icon: ListOrdered,
     title: 'Clasificación',
-    desc: 'Alcanza lo más alto en la clasficación general. El balance de todas las competiciones llevadas a cabo a lo largo de la temporada.',
+    desc: 'Alcanza lo más alto en la clasficación general. Consigue ser el mejor jugador de la temporada',
     to: '/ranking',
     cta: 'Ver Clasificación',
   },
   {
     icon: BookOpen,
     title: 'Reglamento',
-    desc: 'Reglas claras para torneos individuales y por equipos. Formato oficial de la comunidad sobre TTS.',
+    desc: 'Reglas para torneos individuales y por equipos. Formato competitivo siguiendo las reglas oficiales.',
     to: '/rules',
     cta: 'Leer reglamento',
   },
@@ -49,15 +49,6 @@ export default function Home() {
           }}
         />
 
-        {/* Horizontal scan line decoration */}
-        {/*
-        <div
-          aria-hidden
-          className="absolute top-1/2 left-0 right-0 h-px -translate-y-32 pointer-events-none"
-          style={{ background: 'linear-gradient(90deg, transparent, rgba(201,168,76,0.08), transparent)' }}
-        />
-        */}
-
         {/* Eyebrow */}
         <p
           className="font-heading text-xs tracking-[0.45em] uppercase text-[#8a6f2e] mb-6 opacity-0 animate-fade-in-up"
@@ -65,20 +56,6 @@ export default function Home() {
         >
           En el lejano futuro, solo hay guerra
         </p>
-
-        {/* Main title */}
-        {/*
-        <h1
-          className="font-display font-bold text-5xl sm:text-7xl lg:text-8xl text-[#c9a84c] leading-none mb-4 opacity-0 animate-fade-in-up"
-          style={{
-            animationDelay: '0.25s',
-            animationFillMode: 'forwards',
-            textShadow: '0 0 40px rgba(201,168,76,0.35), 0 0 80px rgba(201,168,76,0.15)',
-          }}
-        >
-          WH40K-TTS
-        </h1>
-        */}
         <h1 className="font-display font-bold leading-[1.2] mb-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.25s', animationFillMode: 'forwards',}}>
         {/* Renglón 1: Forja tu legado */}
         <span className="block"> 
@@ -156,26 +133,10 @@ export default function Home() {
             "
           >
             <svg viewBox="4 4 24 24" fill="currentColor" className="w-4 h-4">
-              <path d="M23.6361 9.33998C22.212 8.71399 20.6892 8.25903 19.0973 8C18.9018 8.33209 18.6734 8.77875 18.5159 9.13408C16.8236 8.89498 15.1469 8.89498 13.4857 9.13408C13.3283 8.77875 13.0946 8.33209 12.8974 8C11.3037 8.25903 9.77927 8.71565 8.35518 9.3433C5.48276 13.4213 4.70409 17.3981 5.09342 21.3184C6.99856 22.6551 8.84487 23.467 10.66 23.9983C11.1082 23.4189 11.5079 22.8029 11.8523 22.1536C11.1964 21.9195 10.5683 21.6306 9.9748 21.2951C10.1323 21.1856 10.2863 21.071 10.4351 20.9531C14.0551 22.5438 17.9881 22.5438 21.5649 20.9531C21.7154 21.071 21.8694 21.1856 22.0251 21.2951C21.4299 21.6322 20.8 21.9211 20.1442 22.1553C20.4885 22.8029 20.8865 23.4205 21.3364 24C23.1533 23.4687 25.0013 22.6567 26.9065 21.3184C27.3633 16.7738 26.1261 12.8335 23.6361 9.33998ZM12.3454 18.9075C11.2587 18.9075 10.3676 17.9543 10.3676 16.7937C10.3676 15.6331 11.2397 14.6783 12.3454 14.6783C13.4511 14.6783 14.3422 15.6314 14.3232 16.7937C14.325 17.9543 13.4511 18.9075 12.3454 18.9075ZM19.6545 18.9075C18.5678 18.9075 17.6767 17.9543 17.6767 16.7937C17.6767 15.6331 18.5488 14.6783 19.6545 14.6783C20.7602 14.6783 21.6514 15.6314 21.6323 16.7937C21.6323 17.9543 20.7602 18.9075 19.6545 18.9075Z"/>
-              {/*
-              "M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.003.022.015.043.033.055a19.814 19.814 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.995a.076.076 0 0 0-.042-.106 13.077 13.077 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.994a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"*/} 
+              <path d="M23.6361 9.33998C22.212 8.71399 20.6892 8.25903 19.0973 8C18.9018 8.33209 18.6734 8.77875 18.5159 9.13408C16.8236 8.89498 15.1469 8.89498 13.4857 9.13408C13.3283 8.77875 13.0946 8.33209 12.8974 8C11.3037 8.25903 9.77927 8.71565 8.35518 9.3433C5.48276 13.4213 4.70409 17.3981 5.09342 21.3184C6.99856 22.6551 8.84487 23.467 10.66 23.9983C11.1082 23.4189 11.5079 22.8029 11.8523 22.1536C11.1964 21.9195 10.5683 21.6306 9.9748 21.2951C10.1323 21.1856 10.2863 21.071 10.4351 20.9531C14.0551 22.5438 17.9881 22.5438 21.5649 20.9531C21.7154 21.071 21.8694 21.1856 22.0251 21.2951C21.4299 21.6322 20.8 21.9211 20.1442 22.1553C20.4885 22.8029 20.8865 23.4205 21.3364 24C23.1533 23.4687 25.0013 22.6567 26.9065 21.3184C27.3633 16.7738 26.1261 12.8335 23.6361 9.33998ZM12.3454 18.9075C11.2587 18.9075 10.3676 17.9543 10.3676 16.7937C10.3676 15.6331 11.2397 14.6783 12.3454 14.6783C13.4511 14.6783 14.3422 15.6314 14.3232 16.7937C14.325 17.9543 13.4511 18.9075 12.3454 18.9075ZM19.6545 18.9075C18.5678 18.9075 17.6767 17.9543 17.6767 16.7937C17.6767 15.6331 18.5488 14.6783 19.6545 14.6783C20.7602 14.6783 21.6514 15.6314 21.6323 16.7937C21.6323 17.9543 20.7602 18.9075 19.6545 18.9075Z"/> 
             </svg>
             Únete
           </a>
-          {/*
-          <Link
-            to="/ranking"
-            className="
-              inline-flex items-center gap-3 px-8 py-3.5
-              bg-transparent border border-[#8a6f2e] text-[#c9a84c]
-              font-heading text-xs tracking-[0.25em] uppercase
-              hover:border-[#c9a84c] hover:bg-[#1e1a0d] hover:shadow-[0_0_20px_rgba(201,168,76,0.3)]
-              transition-all duration-300
-            "
-          >
-            Ver Clasificación
-          </Link>
-          */}
         </div>
 
         {/* Bottom decoration */}
@@ -183,14 +144,6 @@ export default function Home() {
           className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 animate-fade-in"
           style={{ animationDelay: '1.2s', animationFillMode: 'forwards' }}
         >
-          {/*
-          <div className="flex flex-col items-center gap-1">
-            <span className="font-heading text-[9px] tracking-[0.4em] uppercase text-[#3a2d10]">
-              Desplaza
-            </span>
-            <div className="w-px h-8 bg-gradient-to-b from-[#3a2d10] to-transparent" />
-          </div>
-          */}
         </div>
       </section>
 
@@ -199,11 +152,6 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           {/* Section header */}
           <div className="text-center mb-16">
-            {/*
-            <p className="font-heading text-[10px] tracking-[0.4em] uppercase text-[#5a4920] mb-3">
-              ✦ La Liga ✦
-            </p>
-            */}
             <h2 className="font-heading text-2xl sm:text-3xl tracking-[0.15em] uppercase text-[#c9a84c] mb-4">
               La Arena de Batalla
             </h2>
@@ -264,28 +212,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* --- Lore Banner --- */}
-      {/*
-      <section
-        className="py-20 px-4 sm:px-6 text-center border-y border-[#3a2d10]"
-        style={{ background: 'linear-gradient(180deg, #0d0b08 0%, #161209 50%, #0d0b08 100%)' }}
-      >
-        <div className="max-w-2xl mx-auto">
-          <div className="h-px mb-8" style={{ background: 'linear-gradient(90deg, transparent, #6b5420, transparent)' }} />
-          <p
-            className="font-display text-xl sm:text-2xl text-[#c9a84c]/70 leading-relaxed italic"
-            style={{ textShadow: '0 0 20px rgba(201,168,76,0.15)' }}
-          >
-            "Para ser un guerrero del Imperium es vivir con la muerte, conocer que cada nuevo amanecer puede ser el último."
-          </p>
-          <p className="font-heading text-[10px] tracking-[0.3em] uppercase text-[#5a4920] mt-4">
-            — Codex Astartes
-          </p>
-          <div className="h-px mt-8" style={{ background: 'linear-gradient(90deg, transparent, #6b5420, transparent)' }} />
-        </div>
-      </section>
-      */}
     </main>
   )
 }
