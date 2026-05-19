@@ -18,7 +18,7 @@ Cada jugador dispone de **una semana por ronda** para acordar y disputar su part
 
 ### Recursos
 - 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña *Subir Lista*.
-- 🎲 [**Mesa para las partidas**](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)
+- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)
 
 ## Estructura del torneo
 El torneo se divide en **dos fases**:
@@ -30,7 +30,7 @@ El torneo se divide en **dos fases**:
 - Clasifican los **2 primeros de cada grupo** para la fase final (*8 jugadores clasificados*).
 
 ### Fase final — eliminación directa
-- **Cuartos de final** → **Semifinales** → **3.º y 4.º puesto** → **Final**.
+- Cuartos de final → Semifinales → 3.º y 4.º puesto → Final.
 
 ---
 

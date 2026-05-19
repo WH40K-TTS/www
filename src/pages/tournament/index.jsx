@@ -14,7 +14,7 @@ import { Badge } from '../../components/ui/badge'
 
 const TABS = [
   { id: 'info',          label: 'Info',        icon: Info   },
-  { id: 'lists',         label: 'Subir Lista', icon: FileUp },
+  { id: 'lists',         label: 'Listas',      icon: FileUp },
   { id: 'groups',        label: 'Grupos',      icon: Group  },
   { id: 'qualification', label: 'Partidas',    icon: Swords },
   { id: 'finals',        label: 'Finales',     icon: Crown  },
