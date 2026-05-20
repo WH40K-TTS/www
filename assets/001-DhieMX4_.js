@@ -1,0 +1,40 @@
+const e="001",a="26 - I2",n="2026-04-20",r="2026-06-07",s="ongoing",o="individual",l="FORM_ID",i=`## Descripción
+**26 - I2** es el último torneo individual de 10ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones
+del [Chapter Approved Tournament Companion](https://assets.warhammer-community.com/eng_07-01_warhammer_40000_core_rules_chapter_approved_tournament-companion-sqc1af88bj-vzxhp9xmid.pdf) y la escenografía oficial de Games Workshop.
+
+## Fechas y recursos
+- **Inscripciones**: 13/04/2026 - 19/04/2026  
+- **Rondas clasificatorias**: 20/04/2026 - 18/05/2026  
+- **Fase final**: 19/05/2026 - 07/06/2026
+
+Cada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignado.
+
+### Recursos
+- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.
+- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)
+
+## Estructura del torneo
+El torneo se divide en **dos fases**:
+
+### Fase clasificatoria — 4 rondas
+- Los **20 jugadores** se reparten en **4 grupos de 5**.
+- Cada jugador se enfrenta a todos los rivales de su grupo *(sistema todos contra todos)*.
+- Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.
+- Clasifican los **2 primeros de cada grupo** para la fase final (*8 jugadores clasificados*).
+
+### Fase final — eliminación directa
+- Cuartos de final → Semifinales → 3.º y 4.º puesto → Final.
+
+---
+
+### Rondas clasificatorias
+- Ronda 1: Take and Hold / Tipping Point [A]
+- Ronda 2: Linchpin / Search and Destroy [J]  
+- Ronda 3: Purge the Foe / Crucible of Battle [M]  
+- Ronda 4: Take and Hold / Search and Destroy [L]  
+- Ronda 5: Linchpin / Tipping Point [C]  
+
+### Fase final
+* Cuartos: Take and Hold / Hammer and Anvil [E]  
+* Semifinales: Scorched Earth / Tipping Point [D]  
+* Final: Hidden Supplies / Crucible of Battle [N]  `,p=[{name:"Grupo A",players:[{name:"r3dman",points:7,wins:2,losses:0,ties:1,abandonos:0},{name:"Supradin",points:4,wins:1,losses:0,ties:1,abandonos:0},{name:"makea001",points:0,wins:0,losses:2,ties:0,abandonos:0},{name:"Ezraen",points:0,wins:0,losses:1,ties:0,abandonos:0},{name:"Xarcom",points:0,wins:0,losses:0,ties:0,abandonos:0}]},{name:"Grupo B",players:[{name:"Navastelroy",points:9,wins:3,losses:0,ties:0,abandonos:0},{name:"Gato",points:6,wins:2,losses:0,ties:0,abandonos:0},{name:"Aneg",points:3,wins:1,losses:3,ties:0,abandonos:0},{name:"oli",points:3,wins:1,losses:2,ties:0,abandonos:0},{name:"Tony",points:0,wins:0,losses:2,ties:0,abandonos:0}]},{name:"Grupo C",players:[{name:"MaikelEdge",points:6,wins:2,losses:1,ties:0,abandonos:0},{name:"Javier V.",points:6,wins:2,losses:1,ties:0,abandonos:0},{name:"Mr. Friedlander",points:3,wins:1,losses:1,ties:0,abandonos:0},{name:"private_patch",points:3,wins:1,losses:1,ties:0,abandonos:0},{name:"ANCAR",points:0,wins:0,losses:2,ties:0,abandonos:0}]},{name:"Grupo D",players:[{name:"Sanchez_EU",points:6,wins:2,losses:2,ties:0,abandonos:0},{name:"Frambuhobby",points:6,wins:2,losses:0,ties:0,abandonos:0},{name:"Suarepita",points:3,wins:1,losses:2,ties:0,abandonos:0},{name:"P1TER",points:3,wins:1,losses:2,ties:0,abandonos:0},{name:"Alxduff",points:3,wins:1,losses:1,ties:0,abandonos:0}]}],c=[{round:1,matches:[{player1:"Supradin",score1:77,player2:"r3dman",score2:77,winner:null},{player1:"makea001",score1:"",player2:"Ezraen",score2:"",winner:null},{player1:"Gato",score1:88,player2:"Aneg",score2:50,winner:"Gato"},{player1:"oli",score1:72,player2:"Navastelroy",score2:94,winner:"Navastelroy"},{player1:"ANCAR",score1:70,player2:"Mr. Friedlander",score2:95,winner:"Mr. Friedlander"},{player1:"MaikelEdge",score1:95,player2:"private_patch",score2:57,winner:"MaikelEdge"},{player1:"Suarepita",score1:80,player2:"Alxduff",score2:97,winner:"Alxduff"},{player1:"Sanchez_EU",score1:73,player2:"P1TER",score2:81,winner:"P1TER"}]},{round:2,matches:[{player1:"Xarcom",score1:"",player2:"r3dman",score2:"",winner:null},{player1:"Supradin",score1:90,player2:"makea001",score2:65,winner:"Supradin"},{player1:"Tony",score1:59,player2:"Aneg",score2:69,winner:"Aneg"},{player1:"Gato",score1:93,player2:"oli",score2:44,winner:"Gato"},{player1:"Javier V.",score1:"",player2:"Mr. Friedlander",score2:"",winner:null},{player1:"ANCAR",score1:"",player2:"MaikelEdge",score2:"",winner:null},{player1:"Frambuhobby",score1:"",player2:"Alxduff",score2:"",winner:null},{player1:"Suarepita",score1:"",player2:"Sanchez_EU",score2:"",winner:null}]},{round:3,matches:[{player1:"Xarcom",score1:"",player2:"Ezraen",score2:"",winner:null},{player1:"r3dman",score1:84,player2:"makea001",score2:70,winner:"r3dman"},{player1:"Tony",score1:70,player2:"Navastelroy",score2:89,winner:"Navastelroy"},{player1:"Aneg",score1:78,player2:"oli",score2:80,winner:"oli"},{player1:"Javier V.",score1:"",player2:"private_patch",score2:"",winner:null},{player1:"Mr. Friedlander",score1:"",player2:"MaikelEdge",score2:"",winner:null},{player1:"Frambuhobby",score1:"",player2:"P1TER",score2:"",winner:null},{player1:"Alxduff",score1:"",player2:"Sanchez_EU",score2:"",winner:null}]},{round:4,matches:[{player1:"Xarcom",score1:"",player2:"makea001",score2:"",winner:null},{player1:"Ezraen",score1:"",player2:"Supradin",score2:"",winner:null},{player1:"Tony",score1:"",player2:"oli",score2:"",winner:null},{player1:"Navastelroy",score1:"",player2:"Gato",score2:"",winner:null},{player1:"Javier V.",score1:"",player2:"MaikelEdge",score2:"",winner:null},{player1:"private_patch",score1:"",player2:"ANCAR",score2:"",winner:null},{player1:"Frambuhobby",score1:"",player2:"Sanchez_EU",score2:"",winner:null},{player1:"P1TER",score1:"",player2:"Suarepita",score2:"",winner:null}]},{round:5,matches:[{player1:"Xarcom",score1:"",player2:"Supradin",score2:"",winner:null},{player1:"Ezraen",score1:59,player2:"r3dman",score2:87,winner:"r3dman"},{player1:"Navastelroy",score1:98,player2:"Aneg",score2:36,winner:"Navastelroy"},{player1:"Tony",score1:"",player2:"Gato",score2:"",winner:null},{player1:"Javier V.",score1:"",player2:"ANCAR",score2:"",winner:null},{player1:"private_patch",score1:"",player2:"Mr. Friedlander",score2:"",winner:null},{player1:"Frambuhobby",score1:"",player2:"Suarepita",score2:"",winner:null},{player1:"P1TER",score1:"",player2:"Alxduff",score2:"",winner:null}]}],t=[{round:"Cuartos de Final",matches:[{player1:"",score1:"",player2:"",score2:"",winner:null},{player1:"",score1:"",player2:"",score2:"",winner:null},{player1:"",score1:"",player2:"",score2:"",winner:null},{player1:"",score1:"",player2:"",score2:"",winner:null}]},{round:"Semifinales",matches:[{player1:"",score1:"",player2:"",score2:"",winner:null},{player1:"",score1:"",player2:"",score2:"",winner:null}]},{round:"3º y 4º Puesto",matches:[{player1:"",score1:"",player2:"",score2:"",winner:null}]},{round:"Final",matches:[{player1:"",score1:"",player2:"",score2:"",winner:null}]}],d={id:e,name:a,date:n,dateEnd:r,status:s,format:o,tallyFormId:l,infoMd:i,groups:p,qualificationMatches:c,finalMatches:t};export{n as date,r as dateEnd,d as default,t as finalMatches,o as format,p as groups,e as id,i as infoMd,a as name,c as qualificationMatches,s as status,l as tallyFormId};
