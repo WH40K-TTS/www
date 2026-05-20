@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
 // ─── Markdown component map ───────────────────────────────────────────────────
@@ -87,25 +87,6 @@ const mdComponents = {
 
 // ─── Component ───────────────────────────────────────────────────────────────
 export default function TournamentInfo({ tournament }) {
-  const [infoMd, setInfoMd] = useState('')
-
-  useEffect(() => {
-    async function loadTournamentInfo() {
-      if (!tournament?.id) return
-
-      try {
-        // Dynamic import of the JSON file based on tournament ID
-        const data = await import(`../../data/tournaments/${tournament.id}-info.json`)
-        setInfoMd(data.default.infoMd || '')
-      } catch (error) {
-        console.error(`Could not load info file for tournament ${tournament.id}:`, error)
-        setInfoMd('')
-      }
-    }
-
-    loadTournamentInfo()
-  }, [tournament?.id])
-
   return (
     <div className="w-full flex justify-center px-0 sm:px-4">
       <div className="w-full max-w-2xl">
@@ -116,7 +97,7 @@ export default function TournamentInfo({ tournament }) {
           {/* Markdown body */}
           <div className="px-6 py-6">
             <ReactMarkdown components={mdComponents}>
-              {(infoMd || tournament?.infoMd || '').trim()}
+              {(tournament?.infoMd || '').trim()}
             </ReactMarkdown>
           </div>
         </div>
