@@ -24,7 +24,13 @@ export default function ListUpload({ tournament }) {
             <span aria-hidden className="pointer-events-none absolute top-0 left-0 w-3 h-3 border-t border-l border-[#c9a84c]/50" />
             <span aria-hidden className="pointer-events-none absolute bottom-0 right-0 w-3 h-3 border-b border-r border-[#c9a84c]/50" />
             <iframe
-              src={config.form?.tallyUrl}
+              src={
+                config.state === 'form_individual' 
+                  ? config.form?.tallyUrlIndividual 
+                  : config.state === 'form_teams' 
+                    ? config.form?.tallyUrlTeams 
+                    : undefined
+              }
               width="100%"
               height="550"
               title={config.form?.title}
