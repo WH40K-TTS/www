@@ -1,4 +1,4 @@
-import{c as i,r as h,_ as j,j as e,u as k}from"./index-mwTZCx3Y.js";import{u as v,L as N,E as w}from"./error-state-Dp0buz1D.js";import{M}from"./index-O3HIXImU.js";import{T as L}from"./trophy-5LDT7NAC.js";import{B as D}from"./badge-DnbE0-KL.js";/**
+import{c as i,r as h,_ as j,j as e,u as k}from"./index-DJ0Ch6DM.js";import{u as v,L as N,E as w}from"./error-state-XA_9INnT.js";import{M}from"./index-RDLOD6TJ.js";import{T as L}from"./trophy-2R1MaZJo.js";import{B as D}from"./badge-DNr5_TD1.js";/**
  * @license lucide-react v0.383.0 - ISC
  *
  * This source code is licensed under the ISC license.
@@ -86,7 +86,7 @@ del [Chapter Approved Tournament Companion](https://assets.warhammer-community.c
 Cada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignado.
 
 ### Recursos
-- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña *Subir Lista*.
+- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.
 - 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)
 
 ## Estructura del torneo
