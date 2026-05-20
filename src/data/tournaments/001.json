@@ -3,12 +3,15 @@
   "name": "26 - I2",
   "date": "2026-04-20",
   "dateEnd": "2026-06-07",
+  "_COMENTARIO_valores_status": "upcoming (Próximo), ongoing (En curso), finished (Finalizado)",
   "status": "ongoing",
   "format": "individual",
   "tallyFormId": "FORM_ID",
+  "_COMENTARIO_infoMd": "Es lo que se ve en la página info.jsx",
   "infoMd": "## Descripción\n**26 - I2** es el último torneo individual de 10ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones\ndel [Chapter Approved Tournament Companion](https://assets.warhammer-community.com/eng_07-01_warhammer_40000_core_rules_chapter_approved_tournament-companion-sqc1af88bj-vzxhp9xmid.pdf) y la escenografía oficial de Games Workshop.\n\n## Fechas y recursos\n- **Inscripciones**: 13/04/2026 - 19/04/2026  \n- **Rondas clasificatorias**: 20/04/2026 - 18/05/2026  \n- **Fase final**: 19/05/2026 - 07/06/2026\n\nCada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignad.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se divide en **dos fases**:\n\n### Fase clasificatoria — 4 rondas\n- Los **20 jugadores** se reparten en **4 grupos de 5**.\n- Cada jugador se enfrenta a todos los rivales de su grupo *(sistema todos contra todos)*.\n- Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.\n- Clasifican los **2 primeros de cada grupo** para la fase final (*8 jugadores clasificados*).\n\n### Fase final — eliminación directa\n- Cuartos de final → Semifinales → 3.º y 4.º puesto → Final.\n\n---\n\n### Rondas clasificatorias\n- Ronda 1: Take and Hold / Tipping Point [A]\n- Ronda 2: Linchpin / Search and Destroy [J]  \n- Ronda 3: Purge the Foe / Crucible of Battle [M]  \n- Ronda 4: Take and Hold / Search and Destroy [L]  \n- Ronda 5: Linchpin / Tipping Point [C]  \n\n### Fase final\n* Cuartos: Take and Hold / Hammer and Anvil [E]  \n* Semifinales: Scorched Earth / Tipping Point [D]  \n* Final: Hidden Supplies / Crucible of Battle [N]  ",
   "listUploadConfig": {
-    "state": "form_teams",
+    "_COMENTARIO_valores_state": "form_individual, form_teams, listss_individual, lists_teams",
+    "state": "list",
     "form": {
       "text": "Presenta tu lista de ejército antes del inicio del torneo. El envío es gestionado a través del siguiente formulario:",
       "tallyUrlIndividual": "https://tally.so/embed/NpM5Ej?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1",
