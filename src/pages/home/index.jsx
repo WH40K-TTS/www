@@ -54,7 +54,7 @@ export default function Home() {
           className="font-heading text-xs tracking-[0.45em] uppercase text-[#8a6f2e] mb-6 opacity-0 animate-fade-in-up"
           style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}
         >
-          En el lejano futuro, solo hay guerra
+          En el 41 milenio, solo hay guerra
         </p>
         <h1 className="font-display font-bold leading-[1.2] mb-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.25s', animationFillMode: 'forwards',}}>
         {/* Renglón 1: Forja tu legado */}

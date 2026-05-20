@@ -17,7 +17,7 @@ del [Chapter Approved Tournament Companion](https://assets.warhammer-community.c
 Cada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignado.
 
 ### Recursos
-- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña *Subir Lista*.
+- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.
 - 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)
 
 ## Estructura del torneo

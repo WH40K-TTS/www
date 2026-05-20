@@ -22,14 +22,6 @@ export default function IndividualRules() {
 
   return (
     <div>
-      {/*
-      <div className="flex items-center gap-3 mb-6">
-        <span className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#5a4920]">
-          Formato Individual
-        </span>
-        <div className="flex-1 h-px" style={{ background: 'linear-gradient(90deg, #3a2d10, transparent)' }} />
-      </div>
-      */}
       {sections.map((section, i) => (
         <RuleSection key={i} section={section} index={i} />
       ))}
