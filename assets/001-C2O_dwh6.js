@@ -7,7 +7,7 @@ del [Chapter Approved Tournament Companion](https://assets.warhammer-community.c
 - **Rondas clasificatorias**: 20/04/2026 - 18/05/2026  
 - **Fase final**: 19/05/2026 - 07/06/2026
 
-Cada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignad.
+Cada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignado.
 
 ### Recursos
 - 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.
@@ -18,7 +18,7 @@ El torneo se divide en **dos fases**:
 
 ### Fase clasificatoria — 4 rondas
 - Los **20 jugadores** se reparten en **4 grupos de 5**.
-- Cada jugador se enfrenta a todos los rivales de su grupo *(sistema todos contra todos)*.
+- Cada jugador se enfrenta a todos los rivales de su grupo *(todos contra todos)*.
 - Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.
 - Clasifican los **2 primeros de cada grupo** para la fase final (*8 jugadores clasificados*).
 
