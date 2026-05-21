@@ -21,7 +21,7 @@ const TABS = [
 ]
 
 const STATUS_LABELS = {
-  upcoming: { label: 'Próximo',    variant: 'ghost'  },
+  upcoming: { label: 'Próximamente',    variant: 'ghost'  },
   ongoing:  { label: 'En curso',   variant: 'active' },
   finished: { label: 'Finalizado', variant: 'dark'   },
 }
