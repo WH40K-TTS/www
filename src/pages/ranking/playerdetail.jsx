@@ -80,23 +80,16 @@ export default function PlayerDetailModal({ player, onClose }) {
       ) : (
         <div className="space-y-2">
           {history.map((entry) => (
-            <div
+            <Link
               key={entry.tournamentId}
+              to={`/tournament/${entry.tournamentId}`}
               className="flex flex-col md:flex-row md:items-center md:justify-between rounded-lg border border-slate-700/50 bg-slate-800/30 px-4 py-3 hover:bg-slate-800/60 transition-colors"
             >
               {/* Tournament Name */}
               <div className="mb-2 md:mb-0">
-                <Link 
-                  to={`/tournament/${entry.tournamentId}`} 
-                  className="font-display font-medium text-slate-200 text-sm hover:text-amber-400 transition-colors"
-                >
+                <span className="font-display font-medium text-slate-200 text-sm hover:text-amber-400 transition-colors">
                   {entry.tournamentName}
-                </Link>
-                {/*
-                <p className="font-mono text-xs text-slate-500 mt-0.5 hidden md:block">
-                  {formatWL(entry.wins, entry.losses)}
-                </p>
-                */}
+                </span>
               </div>
 
               {/* Stats and Points */}
@@ -131,7 +124,7 @@ export default function PlayerDetailModal({ player, onClose }) {
                   <span className="text-slate-600 font-normal text-xs"> pts</span>
                 </span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       )}
