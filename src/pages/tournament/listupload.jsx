@@ -5,7 +5,7 @@ export default function ListUpload({ tournament }) {
   if (tournament?.status === 'upcoming') {
     return (
       <div className="max-w-2xl mx-auto text-center py-12 font-body text-[#7a6848]">
-        La inscripción al torneo se abrirá el <strong>{tournament?.date}</strong> a las 09:00.
+        La inscripción al torneo se abrirá próximamente.
       </div>
     )
   }
