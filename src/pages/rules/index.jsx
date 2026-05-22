@@ -17,11 +17,6 @@ export default function Rules() {
 
         {/* Page header */}
         <div className="text-center mb-12 pt-8">
-          {/*
-          <p className="font-heading text-[10px] tracking-[0.4em] uppercase text-[#5a4920] mb-3">
-            âœ¦ Codex Torneorum âœ¦
-          </p>
-          */}
           <h1
             className="font-heading text-3xl sm:text-4xl tracking-[0.15em] uppercase text-[#c9a84c] mb-4"
             style={{ textShadow: '0 0 30px rgba(201,168,76,0.25)' }}
@@ -33,7 +28,7 @@ export default function Rules() {
             style={{ background: 'linear-gradient(90deg, transparent, #8a6f2e, transparent)' }}
           />
           <p className="font-body text-[#7a6848] text-base">
-            Las leyes que rigen el combate en el simulador. Conoce las reglas antes de entrar en batalla.
+            Las normas que debes conocer para poder particiar en las competiciones.
           </p>
         </div>
 
