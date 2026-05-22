@@ -5,32 +5,30 @@
       "rules": [
         "Será un torneo por equipos de **4 jugadores**.",
         "Las partidas serán competitivas a **2.000 puntos**.",
-        "Se utilizarán las **reglas y escenografía GW** (Games Workshop)."
+        "Se utilizarán las **reglas y escenografía de Games Workshopt**."
       ]
     },
     {
       "title": "¿Cuántos equipos se podrán inscribir?",
       "rules": [
         "El torneo solo se llevará a cabo si hay un **mínimo de 6 equipos** inscritos.",
-        "A partir de ese mínimo, **se aceptarán nuevos equipos de 2 en 2** para que durante las rondas, cada equipo tenga oponente."
+        "A partir de ese mínimo, **se aceptarán nuevos equipos de 2 en 2** para que durante las rondas, cada equipo tenga un oponente."
       ]
     },
     {
-      "title": "Emparejamiento por Equipos",
+      "title": "¿Qué facciones se pueden elegir por equipo?",
       "rules": [
-        "El emparejamiento entre equipos se realiza al inicio de cada ronda mediante el sistema de enfrentamiento por capitanes.",
-        "El capitán del equipo A elige a qué jugador del equipo B enfrentará en primer lugar. El capitán del equipo B responde eligiendo la contrapartida para ese enfrentamiento, y así sucesivamente.",
-        "Este proceso de enfrentamiento se realiza en un canal privado de Discord coordinado por los árbitros.",
-        "Una vez cerrados todos los enfrentamientos no se permiten cambios."
+        "Dentro de cada equipo **no se podrá repetir ninguna facción**.",
+        "Los capítulos Black Templars, Blood Angels, Dark Angels, Deathwatch, Imperial Fists, Iron Hands, Raven Guard, Salamanders, Spaces Wolves, Ultramarines y White Scars, se consideran de la misma facción.",
+        "Las legiones Alpha Legion, Black Legion, Creations of Bile, Emperor’s Children, Iron Warriors, Night Lords, Red Corsairs y Word Bearers se consideran de la misma facción.",
+        "Las claves Asuryani, Craftworlds, Harlequins e Ynnari también se considerarán de la misma facción."
       ]
     },
     {
-      "title": "Puntuación de Equipos",
+      "title": "Sistema de puntuaciones",
       "rules": [
-        "Victoria de equipo: 3 puntos. Derrota: 0 puntos. Empate de equipo: 1 punto para cada equipo.",
-        "Adicionalmente, cada victoria individual dentro de un encuentro suma 1 punto de bonus al marcador diferencial del equipo.",
-        "En la clasificación general, los puntos se atribuyen al equipo, no a los jugadores individuales.",
-        "Si se celebra una clasificación individual dentro de un torneo por equipos, los puntos se distribuyen según la posición final en victorias individuales."
+        "Utilizaremos el sistema de puntuacion basado en la diferencia de puntos de victoria. Adaptando el resultado tal y como se indica en la siguiente tabla:",
+        "| VPs de Diferencia | Resultado |\n| :--- | :--- |\n| 0 - 5 | 10 - 10 |\n| 6 - 11 | 11 - 9 |\n| 11 - 15 | 12 - 8 |\n| 16 - 20 | 13 - 7 |\n| 21 - 25 | 14 - 6 |\n| 26 - 30 | 15 - 5 |\n| 31 - 35 | 16 - 4 |\n| 36 - 40 | 17 - 3 |\n| 41 - 45 | 18 - 2 |\n| 46 - 50 | 19 - 1 |\n| 51+ | 20 - 0 |"
       ]
     },
     {
