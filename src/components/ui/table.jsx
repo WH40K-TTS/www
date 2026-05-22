@@ -3,7 +3,7 @@ import React from 'react'
 export function Table({ caption, headers, children, className = '' }) {
   return (
     <div className={`overflow-x-auto ${className}`}>
-      <table className="w-full border-collapse">
+      <table className="w-auto border-collapse">
         {caption && (
           <caption className="font-heading text-[10px] tracking-[0.35em] uppercase text-[#8a6f2e] pb-3 text-left">
             {caption}

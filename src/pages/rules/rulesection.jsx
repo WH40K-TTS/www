@@ -33,41 +33,49 @@ export function RuleSection({ section, index }) {
       {open && (
         <div className="border-t border-[#2a2210] px-5 py-4 animate-fade-in">
           <ul className="space-y-3">
-            {section.rules.map((rule, i) => (
-              <li key={i} className="flex gap-3">
-                <span
-                  aria-hidden
-                  className="font-heading text-[10px] text-[#5a4920] mt-1 shrink-0 tracking-widest"
-                >
-                  ✦
-                </span>
-                <div className="font-body text-base text-[#c4b48c] leading-relaxed w-full">
-                  {typeof rule === 'string' ? (
-                    <ReactMarkdown 
-                      components={{
-                        p: ({children}) => <>{children}</>,
-                        strong: ({children}) => <strong className="text-[#e8c96a] font-bold">{children}</strong>,
-                        a: ({children, href}) => <a href={href} className="text-[#e8c96a] underline hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">{children}</a>,
-                      }}
+            {section.rules.map((rule, i) => {
+              if (typeof rule === 'string') {
+                return (
+                  <li key={i} className="flex gap-3">
+                    <span
+                      aria-hidden
+                      className="font-heading text-[10px] text-[#5a4920] mt-1 shrink-0 tracking-widest"
                     >
-                      {rule}
-                    </ReactMarkdown>
-                  ) : rule.type === 'table' ? (
-                    <div className="mt-2">
-                      <Table headers={rule.headers}>
-                        {rule.rows.map((row, rowIndex) => (
-                          <Tr key={rowIndex}>
-                            {row.map((cell, cellIndex) => (
-                              <Td key={cellIndex} center={cellIndex > 0}>{cell}</Td>
-                            ))}
-                          </Tr>
-                        ))}
-                      </Table>
+                      ✦
+                    </span>
+                    <div className="font-body text-base text-[#c4b48c] leading-relaxed w-full">
+                      <ReactMarkdown 
+                        components={{
+                          p: ({children}) => <>{children}</>,
+                          strong: ({children}) => <strong className="text-[#e8c96a] font-bold">{children}</strong>,
+                          a: ({children, href}) => <a href={href} className="text-[#e8c96a] underline hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">{children}</a>,
+                        }}
+                      >
+                        {rule}
+                      </ReactMarkdown>
                     </div>
-                  ) : null}
-                </div>
-              </li>
-            ))}
+                  </li>
+                )
+              }
+              
+              if (rule.type === 'table') {
+                return (
+                  <div key={i} className="mt-4 mb-2 flex justify-start">
+                    <Table headers={rule.headers} className="w-fit">
+                      {rule.rows.map((row, rowIndex) => (
+                        <Tr key={rowIndex}>
+                          {row.map((cell, cellIndex) => (
+                            <Td key={cellIndex} center={cellIndex > 0}>{cell}</Td>
+                          ))}
+                        </Tr>
+                      ))}
+                    </Table>
+                  </div>
+                )
+              }
+              
+              return null
+            })}
           </ul>
         </div>
       )}

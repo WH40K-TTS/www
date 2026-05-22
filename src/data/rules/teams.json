@@ -30,7 +30,7 @@
         "Utilizaremos el sistema de puntuacion basado en la diferencia de puntos de victoria. Adaptando el resultado tal y como se indica en la siguiente tabla:",
         {
           "type": "table",
-          "headers": ["VPs de Diferencia", "Resultado"],
+          "headers": ["Puntos de diferencia", "Resultado"],
           "rows": [
             ["0 - 5", "10 - 10"],
             ["6 - 11", "11 - 9"],
