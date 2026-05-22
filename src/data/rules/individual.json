@@ -12,24 +12,24 @@
       "title": "¿Que tipo de torneo será?",
       "rules": [
         "Será un torneo individual de partidas de tipo competitivo a 2.000 puntos.",
-        "Utilizaremos las misiones del «Chapter Approved Tournament Companion» para décima edición y las reglas más actualizadas de Games Workshop."
+        "Utilizaremos las misiones para undécima edición y las reglas más actualizadas de Games Workshop."
       ]
     },
     {
       "title": "¿Cuántos participantes pueden inscribirse?",
       "rules": [
-        "El torneo se organizará en base a grupos de 5 jugadores.",
-        "Solo se llevará a cabo si hay un mínimo de 10 jugadores inscritos.",
-        "A partir de ese mínimo, se aceptarán jugadores de 5 en 5, de manera que, puede haber jugadores que se registren (los últimos), que no consigan plaza."
+        "El torneo se organizará en base a **grupos de 5 jugadores**.",
+        "Solo se llevará a cabo si hay un **mínimo de 10 jugadores** inscritos.",
+        "A partir de ese mínimo, **se aceptarán jugadores de 5 en 5**, de manera que, puede haber jugadores que se registren (los últimos), que no consigan plaza."
       ]
     },
     {
       "title": "¿Como será la estructura del torneo?",
       "rules": [
-        "El torneo se divide en dos fases.",
+        "El torneo se divide en **dos fases**.",
         "La primera será la fase clasificatoria y los participantes se dividirán en grupos de 5 jugadores.",
-        "Por cada grupo se disputarán un total de 4 partidas enfrentando a todos los jugadores del mismo grupo entre sí.",
-        "Pasarán a la fase final 8 jugadores. Elegidos de entre los que mejor puntuación obtengan en cada grupo."
+        "Por cada grupo se disputarán un total de 4 partidas, enfrentando a todos los jugadores del mismo grupo entre sí.",
+        "**Pasarán a la fase final 8 jugadores**. Serán los jugadores que mejor puntuación obtengan."
       ]
     },
     {
@@ -52,14 +52,8 @@
       "title": "¿Cómo quedo con mis oponentes para jugar?",
       "rules": [
         "Durante el registro en el torneo, es un requisito rellenar vuestro ID de Discord.",
-        "En el servidor Discord se crearán grupos donde se os añadirá junto con vuestros oponentes. Podréis con ellos para disputar las partidas cuando os venga bien a ambos.",
-        "Recordad, que el tiempo que dispondréis para jugar todas las partidas de la ronda clasificatoria será de cuatro semanas."
-      ]
-    },
-    {
-      "title": "¿Cómo será el sistema de puntuación?",
-      "rules": [
-        "El jugador con mayor puntuación ganará la partida."
+        "En el [**servidor Discord**](https://discord.gg/4uHrQp2ckW) se crearán grupos donde se os añadirá junto con vuestros oponentes. Podréis quedar con ellos para disputar las partidas cuando os venga bien a ambos.",
+        "El tiempo que dispondréis para jugar todas las partidas de la ronda clasificatoria será de 4 semanas."
       ]
     },
     {
@@ -67,27 +61,27 @@
       "rules": [
         "Para poder registrarte en el torneo es necesario presentar una lista de ejército de hasta 2.000 puntos.",
         "Las listas serán publicadas al inicio del torneo y se podrán consultar en la web del torneo.",
-        "No se permite equipamiento ni unidades de tipo «Legends»."
+        "No se permite equipamiento ni unidades de tipo **«Legends»**."
       ]
     },
     {
       "title": "¿Cómo preparo las miniaturas de mi ejército?",
       "rules": [
-        "Es recomendable conformar tu ejército mediante ForceOrg. En el canal de #recursos del servidor Discord tenéis disponible su enlace.",
-        "Una vez tengáis las miniaturas listas, hay que aplicarles la información de vuestra lista de ejército mediante el mod Yellowscribe."
+        "Es recomendable conformar tu ejército utilizando el mod **ForceOrg**. En el canal de **#recursos del [**servidor Discord**](https://discord.gg/4uHrQp2ckW) tenéis disponible su enlace.",
+        "Una vez tengáis las miniaturas listas, hay que aplicarles la información de vuestra lista de ejército mediante el mod **Yellowscribe**."
       ]
     },
     {
       "title": "¿Qué tablero de juego utilizaremos para las partidas?",
       "rules": [
         "Utilizaremos mesas con escenografía de estilo Games Workshop.",
-        "En el canal de #recursos del servidor Discord, tendréis disponible la mesa más actualizada con las herramientas básicas y con la colección de mapas actualizados."
+        "En el canal de **#recursos** del [**servidor Discord**](https://discord.gg/4uHrQp2ckW), tendréis disponible la mesa más actualizada con las herramientas básicas y con la colección de mapas actualizados."
       ]
     },
     {
       "title": "¿Qué hacer si aún tengo dudas o quiero consultar algo que no se indique aquí?",
       "rules": [
-        "Te animo a que te unas al servidor Discord de la comunidad donde se irán avisando de las fechas de los diferentes eventos.",
+        "Te animo a que te unas al [**servidor Discord**](https://discord.gg/4uHrQp2ckW) de la comunidad donde se irán avisando de las fechas de los diferentes eventos.",
         "También puedes enviar un correo al organizador (to@wh40k-tts.com) con tu consulta o sugerencia."
       ]
     }
