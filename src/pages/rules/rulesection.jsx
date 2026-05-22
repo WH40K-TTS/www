@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
+import { Table, Tr, Td } from '../../components/ui/table'
 
 export function RuleSection({ section, index }) {
   const [open, setOpen] = useState(true)
@@ -40,16 +41,30 @@ export function RuleSection({ section, index }) {
                 >
                   ✦
                 </span>
-                <div className="font-body text-base text-[#c4b48c] leading-relaxed">
-                  <ReactMarkdown 
-                    components={{
-                      p: ({children}) => <>{children}</>,
-                      strong: ({children}) => <strong className="text-[#e8c96a] font-bold">{children}</strong>,
-                      a: ({children, href}) => <a href={href} className="text-[#e8c96a] underline hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">{children}</a>,
-                    }}
-                  >
-                    {rule}
-                  </ReactMarkdown>
+                <div className="font-body text-base text-[#c4b48c] leading-relaxed w-full">
+                  {typeof rule === 'string' ? (
+                    <ReactMarkdown 
+                      components={{
+                        p: ({children}) => <>{children}</>,
+                        strong: ({children}) => <strong className="text-[#e8c96a] font-bold">{children}</strong>,
+                        a: ({children, href}) => <a href={href} className="text-[#e8c96a] underline hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">{children}</a>,
+                      }}
+                    >
+                      {rule}
+                    </ReactMarkdown>
+                  ) : rule.type === 'table' ? (
+                    <div className="mt-2">
+                      <Table headers={rule.headers}>
+                        {rule.rows.map((row, rowIndex) => (
+                          <Tr key={rowIndex}>
+                            {row.map((cell, cellIndex) => (
+                              <Td key={cellIndex} center={cellIndex > 0}>{cell}</Td>
+                            ))}
+                          </Tr>
+                        ))}
+                      </Table>
+                    </div>
+                  ) : null}
                 </div>
               </li>
             ))}
