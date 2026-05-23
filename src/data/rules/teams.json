@@ -51,33 +51,22 @@
       "title": "¿Cómo será la estructura del torneo?",
       "rules": [
         "Los equipos se agruparán en grupos.",
-        "En cada grupo, todos los equipos deberán disputar una partida contra cada uno de sus oponentes."
-      ]
-    },
-    {
-      "title": "¿Qué mapa se jugará en cada ronda?",
-      "rules": [
+        "En cada grupo, todos los equipos deberán disputar una partida contra cada uno de sus oponentes.",
         "En cada una de las rondas se jugará una misión concreta. Todos los detalles estarán en la pestaña de *info* dentro de cada torneo."
-      ]
-    },
-    {
-      "title": "¿De cuánto tiempo disponemos para jugar las partidas de cada ronda?",
-      "rules": [
-        "Los emparejamientos de los equipos se determinarán los domingos por la noche."
       ]
     },
     {
       "title": "¿Cómo se realizan los emparejamientos?",
       "rules": [
-        "Al estar los equipos organizados por grupos, **se podrán realizar los emparejamientos de todas la rondas desde el inicio del torneo**. Lo que dejará mucho tiempo para organizar todas las partidas individuales.",
-        "Los emparejamientos deben realizarse siguiendo el sistema de **espadas y escudos**"
+        "Al estar los equipos organizados por grupos, **se podrán realizar los emparejamientos de todas la rondas desde el inicio del torneo**.",
+        "Esto dejará mucho tiempo para organizar todas las partidas individuales.",
+        "Los emparejamientos deben realizarse siguiendo el sistema de **espadas y escudos**."
       ]
     },
     {
       "title": "¿Qué requisitos necesito para registrarme?",
       "rules": [
-        "Un equipo. Si no lo tienes, en el servidor Discord de la comunidad hay un canal habilitado para éste propósito.",
-        "Una cuenta de Discord, que utilizaréis para comunicaros con vuestro rivales.",
+        "Un equipo. Si no lo tienes, en el [**servidor Discord**](https://discord.gg/4uHrQp2ckW) de la comunidad hay un canal habilitado para que puedas encontrar a otros compañeros y formar un equipo.",
         "Un correo electrónico que se utilizará como contacto.",
         "**Tiempo libre** para disputar las partidas en las fechas del torneo."
       ]
@@ -100,7 +89,7 @@
     {
       "title": "¿Cómo preparo las miniaturas de mi ejército?",
       "rules": [
-        "Es recomendable conformar tu ejército utilizando el mod **ForceOrg**. En el canal de **#recursos del [**servidor Discord**](https://discord.gg/4uHrQp2ckW) tenéis disponible su enlace.",
+        "Es recomendable conformar tu ejército utilizando el mod **ForceOrg**. En el canal de **#recursos** del [**servidor Discord**](https://discord.gg/4uHrQp2ckW) tenéis disponible su enlace.",
         "Una vez tengáis las miniaturas listas, hay que aplicarles la información de vuestra lista de ejército mediante el mod **Yellowscribe**."
       ]
     },
@@ -115,7 +104,7 @@
       "title": "¿Qué hacer si aún tengo dudas o quiero consultar algo que no se indique aquí?",
       "rules": [
         "Te animo a que te unas al [**servidor Discord**](https://discord.gg/4uHrQp2ckW) de la comunidad donde se irán avisando de las fechas de los diferentes eventos.",
-        "También puedes enviar un correo al organizador (to@wh40k-tts.com) con tu consulta o sugerencia."
+        "También puedes enviar un correo al organizador (*to@wh40k-tts.com*) con tu consulta o sugerencia."
       ]
     }
   ]

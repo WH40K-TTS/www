@@ -29,7 +29,7 @@
         "El torneo se divide en **dos fases**.",
         "La primera será la fase clasificatoria y los participantes se dividirán en grupos de 5 jugadores.",
         "Por cada grupo se disputarán un total de 4 partidas, enfrentando a todos los jugadores del mismo grupo entre sí.",
-        "**Pasarán a la fase final 8 jugadores**. Serán los jugadores que mejor puntuación obtengan."
+        "**Pasarán a la fase final 4 jugadores**. Serán los jugadores que mejor puntuación obtengan."
       ]
     },
     {
@@ -67,7 +67,7 @@
     {
       "title": "¿Cómo preparo las miniaturas de mi ejército?",
       "rules": [
-        "Es recomendable conformar tu ejército utilizando el mod **ForceOrg**. En el canal de **#recursos del [**servidor Discord**](https://discord.gg/4uHrQp2ckW) tenéis disponible su enlace.",
+        "Es recomendable conformar tu ejército utilizando el mod **ForceOrg**. En el canal de **#recursos** del [**servidor Discord**](https://discord.gg/4uHrQp2ckW) tenéis disponible su enlace.",
         "Una vez tengáis las miniaturas listas, hay que aplicarles la información de vuestra lista de ejército mediante el mod **Yellowscribe**."
       ]
     },
@@ -82,7 +82,7 @@
       "title": "¿Qué hacer si aún tengo dudas o quiero consultar algo que no se indique aquí?",
       "rules": [
         "Te animo a que te unas al [**servidor Discord**](https://discord.gg/4uHrQp2ckW) de la comunidad donde se irán avisando de las fechas de los diferentes eventos.",
-        "También puedes enviar un correo al organizador (to@wh40k-tts.com) con tu consulta o sugerencia."
+        "También puedes enviar un correo al organizador (*to@wh40k-tts.com*) con tu consulta o sugerencia."
       ]
     }
   ]
