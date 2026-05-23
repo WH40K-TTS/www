@@ -8,7 +8,7 @@
   "format": "individual",
   "tallyFormId": "FORM_ID",
   "_COMENTARIO_infoMd": "Es lo que se ve en la página info.jsx",
-  "infoMd": "## Descripción\n**Armageddon - I1** es el primer torneo individual de 11ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones\ndel [Chapter Approved Tournament Companion](https://assets.warhammer-community.com/eng_07-01_warhammer_40000_core_rules_chapter_approved_tournament-companion-sqc1af88bj-vzxhp9xmid.pdf) y la escenografía oficial de Games Workshop.\n\n## Fechas y recursos\n- **Inscripciones**: - - -  \n- **Rondas clasificatorias**: - - -  \n- **Fase final**: - - -\n\nCada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignado.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se divide en **dos fases**:\n\n### Fase clasificatoria — 4 rondas\n- Los jugadores se reparten en grupos de **5**.\n- Cada jugador se enfrenta a todos los rivales de su grupo *(todos contra todos)*.\n- Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.\n- Se clasificarñan los **8 mejores jugadores** para la fase final.\n\n### Fase final — eliminación directa\n- Cuartos de final → Semifinales → 3.º y 4.º puesto → Final.\n\n---\n\n### Rondas clasificatorias\n- Ronda 1: \n- Ronda 2: \n- Ronda 3: \n- Ronda 4: \n- Ronda 5: \n\n### Fase final\n* Cuartos: \n* Semifinales: \n* Final: ",
+  "infoMd": "## Descripción\n**Armageddon - I1** es el primer torneo individual de 11ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones\ndel [Chapter Approved Tournament Companion](https://assets.warhammer-community.com/eng_07-01_warhammer_40000_core_rules_chapter_approved_tournament-companion-sqc1af88bj-vzxhp9xmid.pdf) y la escenografía oficial de Games Workshop.\n\n## Fechas y recursos\n- **Inscripciones**: - - -  \n- **Rondas clasificatorias**: - - -  \n- **Fase final**: - - -\n\nCada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignado.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se divide en **dos fases**:\n\n### Fase clasificatoria — 4 rondas\n- Los jugadores se reparten en grupos de **5**.\n- Cada jugador se enfrenta a todos los rivales de su grupo *(todos contra todos)*.\n- Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.\n- Se clasificarñan los **8 mejores jugadores** para la fase final.\n\n### Fase final — eliminación directa\n- Semifinales → 3.º y 4.º puesto → Final.\n\n---\n\n### Rondas clasificatorias\n- Ronda 1: \n- Ronda 2: \n- Ronda 3: \n- Ronda 4: \n- Ronda 5: \n\n### Fase final\n* Semifinales: \n* Final: ",
   "listUploadConfig": {
     "_COMENTARIO_valores_state": "form_individual, form_teams, lists_individual, lists_teams",
     "state": "form_individual",
@@ -173,15 +173,6 @@
     }
   ],
   "finalMatches": [
-    {
-      "round": "Cuartos de Final",
-      "matches": [
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
-      ]
-    },
     {
       "round": "Semifinales",
       "matches": [
