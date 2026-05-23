@@ -91,6 +91,12 @@ export function RuleSection({ section, index }) {
                    </div>
                  )
                }
+
+               if (rule.type === 'separator') {
+                 return (
+                   <hr key={i} className="my-4 border-[#3a2d10] border-t-2" />
+                 )
+               }
               
               return null
             })}
