@@ -64,16 +64,28 @@
       ]
     },
     {
-      "title": "Guía detallada: ¿Cómo realizar los emparejamientos?",
+      "title": "Guía detallada: Espadas y Escudos",
       "rules": [
-        "Para realizar los emparejamientos de los equipos se hará mediante el sistema de «escudos y espadas». Para ello hay disponible una [**mesa**](https://steamcommunity.com/sharedfiles/filedetails/?id=2824870458) que se puede utilizar para tal propósito.",
-        "Vamos a explicar como hacer todo el proceso con un ejemplo. Una vez carguemos la mesa, veremos los siguientes elementos:",
+        "Para realizar los emparejamientos de los equipos mediante el sistema de **espadas y escudos**, hay disponible una [**mesa**](https://steamcommunity.com/sharedfiles/filedetails/?id=2824870458) con todo lo necesario.",
+        "Una vez carguemos la mesa, veremos los siguientes elementos:",
         "![Elementos de la mesa](https://wh40k-tts.com/imagenes/emparejamiento1.jpg)",
-        "1 y 2. – Cada equipo tendrá a su disposición una bajara con 41 cartas que identifican cada una de las posibles facciones. Con la tecla «F» se puede voltear las cartas.\n\n3 y 4. – Cada equipo tendrá una zona en el tablero delimitada por ese «área» de su propio color en la que solo él podrá ver lo que haya dentro de esa zona. Ahí cada capitán deberá preparar las cartas que representen a los jugadores de su equipo.\n\n5 y 6 – Las casillas donde deben colocarse los «escudos» de cada equipo.\n\n7 y 8 – Las casillas donde deben colocarse los «espadas» de cada equipo.",
-        "El proceso al completo sería:\n\n* Cada capitán elije quien será su escudo y con la carta boca abajo la coloca en su casilla correspondiente.\n* Una vez ambos capitanes han colocado sus respectivos «escudos» se dan la vuelta para que su contrincante vea la carta.\n* En ese momento cada capitán debe elegir dos jugadores de su equipo para enfrentarse al «escudo» contrario. Esos dos jugadores serán las «espadas», que se colocarán en sus correspondientes casilleros boca arriba.\n* Con todas las cartas ya a la vista, veríamos algo como la siguiente imagen:",
+        "**1 y 2** – Cada equipo tendrá a su disposición una bajara con cartas que identifican cada una de las posibles facciones. Con la tecla *«F»* se puede voltear las cartas.",
+        "**3 y 4** – Cada equipo tendrá una zona en el tablero delimitada por ese *«área»* de su propio color en la que solo él podrá ver lo que haya dentro de esa zona. Ahí, cada capitán deberá preparar las cartas que representen a los jugadores de su equipo.",
+        "**5 y 6** – Las casillas donde deben colocarse los *«escudos»* de cada equipo.",
+        "**7 y 8** – Las casillas donde deben colocarse los *«espadas»* de cada equipo.",
+        "El proceso al completo sería:",
+        "Cada capitán elije quien será su escudo y con la carta boca abajo la coloca en su casilla correspondiente.",
+        "Una vez ambos capitanes han colocado sus respectivos *«escudos»* se dan la vuelta para que su contrincante vea la carta.",
+        "En ese momento cada capitán debe elegir dos jugadores de su equipo para enfrentarse al *«escudo»* contrario. Esos dos jugadores serán las *«espadas»*, que se colocarán en sus correspondientes casilleros boca arriba.",
+        "Con todas las cartas ya a la vista, veríamos algo como la siguiente imagen:",
         "![Proceso de emparejamiento](https://wh40k-tts.com/imagenes/emparejamiento2.jpg)",
-        "El proceso al completo sería:\n\n1. El capitán del equipo rojo elige enfrentar su «escudo», que en este caso será un Custode contra los Mechanicus del equipo azul. Éste será el primer emparejamiento y se han de colocar las cartas en los casilleros de abajo (5).\n2. El capitán del equipo azul elige enfrentar su «escudo», que en este caso será unos Caballeros del Caos contra los Angeles Sangrientos del equipo rojo. Éste será el segundo emparejamiento.\n3. Las dos «espadas» que han quedado sin elegir será el tercer emparejamiento.\n4. Las cartas que aún están en la zona oculta de cada equipo, serán el cuarto emparejamiento.\n5. Con las cartas colocadas en cada uno de sus casilleros, los emparejamientos estarán completos.\n6. Al pulsar los botones indicados, quedará reflejada la mesa elegida para jugar en cada caso, de entre las 8 posibles.",
-        "**<u>Importante</u>**: Una vez realizado éste proceso, se debe avisar al organizador con los resultados de los emparejamientos para que pueda configurar las rondas como correspondan. Por ejemplo, podéis enviar una captura de pantalla de los emparejamientos finalizados y subirla al canal apropiado de Discord."
+        "1. El capitán del equipo rojo elige enfrentar su *«escudo»*, que en este caso será un Custode contra los Mechanicus del equipo azul. Éste será el primer emparejamiento y se han de colocar las cartas en los casilleros de abajo (5).",
+        "2. El capitán del equipo azul elige enfrentar su *«escudo»*, que en este caso será unos Caballeros del Caos contra los Angeles Sangrientos del equipo rojo. Éste será el segundo emparejamiento.",
+        "3. Las dos *«espadas»* que han quedado sin elegir será el tercer emparejamiento.",
+        "4. Las cartas que aún están en la zona oculta de cada equipo, serán el cuarto emparejamiento.",
+        "5. Con las cartas colocadas en cada uno de sus casilleros, los emparejamientos estarán completos.",
+        "6. Al pulsar los botones indicados, quedará reflejada la mesa elegida para jugar en cada caso, de entre las 8 posibles.",
+        "**Importante**: *Una vez realizado éste proceso, se debe **avisar al organizador** con los resultados de los emparejamientos para que pueda configurar las rondas como correspondan. Por ejemplo, podéis enviar una captura de pantalla de los emparejamientos finalizados y subirla al canal apropiado de Discord.*"
       ]
     },
     {
