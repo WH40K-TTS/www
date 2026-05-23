@@ -100,17 +100,10 @@
       ]
     },
     {
-      "title": "¿Cómo será la estructura del torneo?",
-      "rules": [
-        "Los equipos se agruparán en grupos.",
-        "En cada grupo, todos los equipos deberán disputar una partida contra cada uno de sus oponentes."
-      ]
-    },
-    {
       "title": "¿Cómo preparo mi lista de ejército para poder registrarme?",
       "rules": [
         "Para poder registrarte en el torneo es necesario presentar una lista de ejército de hasta 2.000 puntos.",
-        "Las listas serán publicadas al inicio del torneo y se podrán consultar en la web del torneo.",
+        "Las listas serán publicadas al inicio del torneo y se podrán consultar en la sección *info* de la web del torneo.",
         "No se permite equipamiento ni unidades de tipo **Legends**."
       ]
     },
