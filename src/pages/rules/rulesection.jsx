@@ -58,21 +58,39 @@ export function RuleSection({ section, index }) {
                 )
               }
               
-              if (rule.type === 'table') {
-                return (
-                  <div key={i} className="mt-4 mb-2 flex justify-center">
-<Table headers={rule.headers} className="w-fit border border-[#3a2d10] rounded-sm">
-                      {rule.rows.map((row, rowIndex) => (
-                        <Tr key={rowIndex}>
-                          {row.map((cell, cellIndex) => (
-                            <Td key={cellIndex} center={cellIndex > 0}>{cell}</Td>
-                          ))}
-                        </Tr>
-                      ))}
-                    </Table>
-                  </div>
-                )
-              }
+               if (rule.type === 'table') {
+                 return (
+                   <div key={i} className="mt-4 mb-2 flex justify-center">
+ <Table headers={rule.headers} className="w-fit border border-[#3a2d10] rounded-sm">
+                       {rule.rows.map((row, rowIndex) => (
+                         <Tr key={rowIndex}>
+                           {row.map((cell, cellIndex) => (
+                             <Td key={cellIndex} center={cellIndex > 0}>{cell}</Td>
+                           ))}
+                         </Tr>
+                       ))}
+                     </Table>
+                   </div>
+                 )
+               }
+
+               if (rule.type === 'highlight') {
+                 return (
+                   <div key={i} className="mt-4 mb-2 p-4 bg-[#2a2210] border-l-4 border-[#c9a84c] rounded-sm">
+                     <div className="font-body text-base text-[#c4b48c] leading-relaxed">
+                       <ReactMarkdown 
+                         components={{
+                           p: ({children}) => <>{children}</>,
+                           strong: ({children}) => <strong className="text-[#e8c96a] font-bold">{children}</strong>,
+                           a: ({children, href}) => <a href={href} className="text-[#e8c96a] underline hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">{children}</a>,
+                         }}
+                       >
+                         {rule.content}
+                       </ReactMarkdown>
+                     </div>
+                   </div>
+                 )
+               }
               
               return null
             })}

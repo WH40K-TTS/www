@@ -76,13 +76,16 @@
         "Una vez ambos capitanes han colocado sus respectivos *escudos* se dan la vuelta para que su contrincante vea la carta.",
         "En ese momento cada capitán debe elegir dos jugadores de su equipo para enfrentarse al *escudo* contrario. Esos dos jugadores serán las *espadas*, que se colocarán en sus correspondientes casilleros boca arriba.",
         "Con todas las cartas ya a la vista, veríamos algo como la siguiente imagen:\n\n![Proceso de emparejamiento](https://wh40k-tts.com/imagenes/emparejamiento2.jpg)",
-        "1- El capitán del equipo rojo elige enfrentar su *escudo*, que en este caso será un Custode contra los Mechanicus del equipo azul. Éste será el primer emparejamiento y se han de colocar las cartas en los casilleros de abajo (5).",
-        "2- El capitán del equipo azul elige enfrentar su *escudo*, que en este caso será unos Caballeros del Caos contra los Angeles Sangrientos del equipo rojo. Éste será el segundo emparejamiento.",
-        "3- Las dos *espadas* que han quedado sin elegir será el tercer emparejamiento.",
-        "4- Las cartas que aún están en la zona oculta de cada equipo, serán el cuarto emparejamiento.",
-        "5- Con las cartas colocadas en cada uno de sus casilleros, los emparejamientos estarán completos.",
-        "6- Al pulsar los botones indicados, quedará reflejada la mesa elegida para jugar en cada caso, de entre las 8 posibles.",
-        "**Importante**: *Una vez realizado éste proceso, se debe **avisar al organizador** con los resultados de los emparejamientos para que pueda configurar las rondas como correspondan. Por ejemplo, podéis enviar una captura de pantalla de los emparejamientos finalizados y subirla al canal apropiado de Discord.*"
+        "**1** - El capitán del equipo rojo elige enfrentar su *escudo*, que en este caso será un Custode contra los Mechanicus del equipo azul. Éste será el primer emparejamiento y se han de colocar las cartas en los casilleros de abajo (5).",
+        "**2** - El capitán del equipo azul elige enfrentar su *escudo*, que en este caso será unos Caballeros del Caos contra los Angeles Sangrientos del equipo rojo. Éste será el segundo emparejamiento.",
+        "**3** - Las dos *espadas* que han quedado sin elegir será el tercer emparejamiento.",
+        "**4** - Las cartas que aún están en la zona oculta de cada equipo, serán el cuarto emparejamiento.",
+        "**5** - Con las cartas colocadas en cada uno de sus casilleros, los emparejamientos estarán completos.",
+        "**6** - Al pulsar los botones indicados, quedará reflejada la mesa elegida para jugar en cada caso, de entre las 8 posibles.",
+        {
+          "type": "highlight",
+          "content": "**Importante**: *Una vez realizado éste proceso, se debe **avisar al organizador** con los resultados de los emparejamientos para que pueda configurar las rondas como correspondan. Por ejemplo, podéis enviar una captura de pantalla de los emparejamientos finalizados y subirla al canal apropiado de Discord.*"
+        }
       ]
     },
     {
