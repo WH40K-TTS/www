@@ -38,9 +38,10 @@ export function GroupCard({ group }) {
                 <div className="flex items-center gap-2">
                   <span
                     className="font-heading text-[10px] w-5 shrink-0 text-center"
-                    style={{ color: idx < 2 ? '#c9a84c' : '#3a2d10' }}
+                    style={{ color: idx < 1 ? '#c9a84c' : '#3a2d10' }}
                   >
-                    {idx < 2 ? '▲' : idx + 1}
+                    {/* Símbolo de pasar fase. El número hace referencia al número de filas a colorear. */}
+                    {idx < 1 ? '▲' : idx + 1}
                   </span>
                   <span className={`font-body text-sm whitespace-nowrap uppercase ${idx < 2 ? 'text-[#e8c96a]' : (isLastThree ? 'text-[#8a6f2e]' : 'text-[#8a6f2e]')}`}>
                     {player.name}
