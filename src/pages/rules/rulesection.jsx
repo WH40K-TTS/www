@@ -61,7 +61,7 @@ export function RuleSection({ section, index }) {
               if (rule.type === 'table') {
                 return (
                   <div key={i} className="mt-4 mb-2 flex justify-center">
-                    <Table headers={rule.headers} className="w-fit border border-[#c9a84c] rounded-sm">
+<Table headers={rule.headers} className="w-fit border border-[#e8c96a] rounded-sm">
                       {rule.rows.map((row, rowIndex) => (
                         <Tr key={rowIndex}>
                           {row.map((cell, cellIndex) => (
