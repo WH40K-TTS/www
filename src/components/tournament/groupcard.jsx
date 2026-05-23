@@ -59,7 +59,7 @@ export function GroupCard({ group }) {
                   <span
                     className={`
                       font-heading text-sm ml-3 w-6 text-right
-                      ${idx < 2 ? 'text-[#e8c96a]' : 'text-[#8a6f2e]'}
+                      ${idx < 1 ? 'text-[#e8c96a]' : 'text-[#8a6f2e]'}
                     `}
                   >
                     {player.points}
