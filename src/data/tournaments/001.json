@@ -176,7 +176,7 @@
     {
       "round": "Semifinales",
       "matches": [
-        { "player1": "Frambuhobby",  "score1": "", "player2": "Navastelroy",    "score2": "",  "winner": null  },
+        { "player1": "Frambuhobby", "score1": "30", "player2": "Navastelroy", "score2": "90", "winner": "Navastelroy" },
         { "player1": "MaikelEdge", "score1": "",  "player2": "r3dman",   "score2": "", "winner": null   }
       ]
     },
