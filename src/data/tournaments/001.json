@@ -177,7 +177,7 @@
       "round": "Semifinales",
       "matches": [
         { "player1": "Frambuhobby", "score1": "30", "player2": "Navastelroy", "score2": "90", "winner": "Navastelroy" },
-        { "player1": "MaikelEdge", "score1": "",  "player2": "r3dman",   "score2": "", "winner": null   }
+        { "player1": "MaikelEdge", "score1": "40",  "player2": "r3dman",   "score2": "92", "winner": "r3dman" }
       ]
     },
     {
@@ -189,7 +189,7 @@
     {
       "round": "Final",
       "matches": [
-        { "player1": "",  "score1": "", "player2": "",   "score2": "",  "winner": null  }
+        { "player1": "Navastelroy",  "score1": "V", "player2": "r3dman",   "score2": "A",  "winner": "Navastelroy"  }
       ]
     }
   ]
