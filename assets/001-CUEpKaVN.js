@@ -1,4 +1,4 @@
-const e="001",a="26 - I2",n="2026-04-20",r="2026-06-07",s="upcoming (Próximo), ongoing (En curso), finished (Finalizado)",o="ongoing",i="individual",t="FORM_ID",l="Es lo que se ve en la página info.jsx",p=`## Descripción
+const e="001",a="26 - I2",n="2026-04-20",r="2026-06-07",s="upcoming (Próximo), ongoing (En curso), finished (Finalizado)",o="finished",i="individual",t="FORM_ID",l="Es lo que se ve en la página info.jsx",p=`## Descripción
 **26 - I2** es el último torneo individual de 10ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones
 del [Chapter Approved Tournament Companion](https://assets.warhammer-community.com/eng_07-01_warhammer_40000_core_rules_chapter_approved_tournament-companion-sqc1af88bj-vzxhp9xmid.pdf) y la escenografía oficial de Games Workshop.
 
