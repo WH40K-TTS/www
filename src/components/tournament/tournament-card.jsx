@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Calendar, Users, Route, Split } from 'lucide-react'
+import { Calendar, Users, Route, Split, Trophy } from 'lucide-react'
 
 const STATUS_LABELS = {
   upcoming: 'Próximamente',
@@ -33,6 +33,10 @@ export function TournamentCard({ tournament }) {
         <p className="flex items-center gap-2">
           <Route size={14} className="text-[#8a6f2e]" />
           {STATUS_LABELS[tournament.status] ?? 'Sin estado'}
+        </p>
+        <p className="flex items-center gap-2">
+          <Trophy size={14} className="text-[#8a6f2e]" />
+          {tournament.winner ?? '-'}
         </p>
       </div>
     </Link>
