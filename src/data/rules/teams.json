@@ -66,8 +66,8 @@
     {
       "title": "Guía detallada: Espadas y Escudos",
       "rules": [
-        "Para realizar los emparejamientos de los equipos mediante el sistema de **espadas y escudos**, hay disponible una [**mesa**](https://steamcommunity.com/sharedfiles/filedetails/?id=2824870458) con todo lo necesario.",
-        "Una vez carguemos la mesa, veremos los siguientes elementos:\n\n![Elementos de la mesa](https://wh40k-tts.com/public/imagenes/emparejamiento1.jpg)",
+"Para realizar los emparejamientos de los equipos mediante el sistema de **espadas y escudos**, hay disponible una [**mesa**](https://steamcommunity.com/sharedfiles/filedetails/?id=2824870458) con todo lo necesario.",
+        "Una vez carguemos la mesa, veremos los siguientes elementos:\n\n![Elementos de la mesa](/imagenes/emparejamiento1.jpg)",
         "**1 y 2** – Cada equipo tendrá a su disposición una bajara con cartas que identifican cada una de las posibles facciones. Con la tecla *F* se puede voltear las cartas.",
         "**3 y 4** – Cada equipo tendrá una zona en el tablero delimitada por ese *área* de su propio color en la que solo él podrá ver lo que haya dentro de esa zona. Ahí, cada capitán deberá preparar las cartas que representen a los jugadores de su equipo.",
         "**5 y 6** – Las casillas donde deben colocarse los *escudos* de cada equipo.",
@@ -78,7 +78,7 @@
         "Cada capitán elije quien será su *escudo* y con la carta boca abajo la coloca en su casilla correspondiente.",
         "Una vez ambos capitanes han colocado sus respectivos *escudos* se dan la vuelta para que su contrincante vea la carta.",
         "En ese momento cada capitán debe elegir dos jugadores de su equipo para enfrentarse al *escudo* contrario. Esos dos jugadores serán las *espadas*, que se colocarán en sus correspondientes casilleros boca arriba.",
-        "Con todas las cartas ya a la vista, veríamos algo como la siguiente imagen:\n\n![Proceso de emparejamiento](https://wh40k-tts.com/public/imagenes/emparejamiento2.jpg)",
+        "Con todas las cartas ya a la vista, veríamos algo como la siguiente imagen:\n\n![Proceso de emparejamiento](/imagenes/emparejamiento2.jpg)",
         "**1** - El capitán del equipo rojo elige enfrentar su *escudo*, que en este caso será un Custode contra los Mechanicus del equipo azul. Éste será el primer emparejamiento y se han de colocar las cartas en los casilleros de abajo (5).",
         "**2** - El capitán del equipo azul elige enfrentar su *escudo*, que en este caso será unos Caballeros del Caos contra los Angeles Sangrientos del equipo rojo. Éste será el segundo emparejamiento.",
         "**3** - Las dos *espadas* que han quedado sin elegir será el tercer emparejamiento.",
