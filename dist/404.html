@@ -6,13 +6,14 @@
   <script>
     // Redirect SPA routes to index.html for GitHub Pages
     // Preserves path, query, and hash
-    const repo = location.pathname.split('/')[1]
-    const path = location.pathname.slice(repo.length + 1) || '/'
-    const search = location.search
-    const hash = location.hash
-    location.replace(
-      '/' + repo + '/?p=' + encodeURIComponent(path + search) + hash
-    )
+    var l = window.location;
+    var repo = l.pathname.split('/')[1];
+    var path = l.pathname.slice(repo.length + 1) || '/';
+    l.replace(
+      l.protocol + '//' + l.hostname +
+      (l.port ? ':' + l.port : '') +
+      '/' + repo + '/?p=' + encodeURIComponent(path + l.search) + l.hash
+    );
   </script>
 </head>
 <body></body>
