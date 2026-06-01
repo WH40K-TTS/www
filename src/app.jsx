@@ -37,8 +37,8 @@ export default function App() {
               {/* /tournaments → lista de todos los torneos */}
               <Route path="/tournaments"    element={<Tournaments />} />
 
-              {/* /tournament/:id → detalle de un torneo concreto */}
-              <Route path="/tournament/:id" element={<Tournament />} />
+               {/* /tournament/:id → detalle de un torneo concreto */}
+               <Route path="/tournament/:id" element={<Tournament />} />
 
               {/* Fallback: cualquier ruta desconocida → Home */}
               <Route path="*"              element={<Navigate to="/" replace />} />

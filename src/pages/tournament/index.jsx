@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import { Info, FileUp, Group, Swords, Crown } from 'lucide-react'
 import { useTournament } from '../../hooks/usetournament'
 import { Tabs } from '../../components/ui/tabs'
@@ -28,8 +28,24 @@ const STATUS_LABELS = {
 
 export default function Tournament() {
   const { id } = useParams()
+  const navigate = useNavigate()
+  const [searchParams, setSearchParams] = useSearchParams()
   const { tournament, loading, error } = useTournament(id)
-  const [activeTab, setActiveTab] = useState('info')
+  
+  // Read tab from URL query parameters (?tab=...)
+  const tabParam = searchParams.get('tab')
+  const activeTab = tabParam || 'info'
+
+  // Validate tab: if the parameter exists but is not a valid tab, reset to 'info'
+  useEffect(() => {
+    if (tabParam && !TABS.some(t => t.id === tabParam)) {
+      setSearchParams({}, { replace: true })
+    }
+  }, [tabParam, setSearchParams])
+
+  const handleTabChange = (newTab) => {
+    setSearchParams({ tab: newTab })
+  }
 
   if (loading) return (
     <main className="min-h-screen pt-20">
@@ -69,7 +85,7 @@ export default function Tournament() {
           />
         </div>
 
-        <Tabs tabs={TABS} activeTab={activeTab} onChange={setActiveTab} />
+        <Tabs tabs={TABS} activeTab={activeTab} onChange={handleTabChange} />
 
         {/* Tab content */}
         <div className="animate-fade-in">
