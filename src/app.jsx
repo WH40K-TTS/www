@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { Navbar } from './components/layout/navbar'
 import { Footer } from './components/layout/footer'
 
@@ -22,7 +22,7 @@ function PageLoader() {
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter basename={import.meta.env.BASE_URL}>
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
@@ -48,6 +48,6 @@ export default function App() {
 
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
