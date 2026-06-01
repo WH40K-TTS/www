@@ -4,15 +4,15 @@
   <meta charset="utf-8" />
   <title>WH40K-TTS</title>
   <script>
-    // Redirect SPA routes to index.html for GitHub Pages
-    // Preserves path, query, and hash
+    // Redirige rutas SPA a index.html para GitHub Pages con dominio personalizado.
+    // Con dominio personalizado la URL base es simplemente el dominio raíz,
+    // no hay prefijo de repositorio.
     var l = window.location;
-    var repo = l.pathname.split('/')[1];
-    var path = l.pathname.slice(repo.length + 1) || '/';
+    var path = l.pathname || '/';
     l.replace(
       l.protocol + '//' + l.hostname +
       (l.port ? ':' + l.port : '') +
-      '/' + repo + '/?p=' + encodeURIComponent(path + l.search) + l.hash
+      '/?p=' + encodeURIComponent(path + l.search) + l.hash
     );
   </script>
 </head>
