@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/pruebas/', // ← ajustar al nombre real del repositorio
+  base: '/www/', // ← ajustar al nombre real del repositorio
 })

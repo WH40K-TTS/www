@@ -20,7 +20,7 @@
       (function () {
         var p = new URLSearchParams(window.location.search).get('p');
         if (p) {
-          var base = location.pathname.replace(/\/$/, ''); // "/pruebas"
+          var base = location.pathname.replace(/\/$/, ''); // "/www"
           window.history.replaceState(null, '', base + p + location.hash);
         }
       })();
