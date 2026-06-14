@@ -5,7 +5,7 @@
       "rules": [
         "Será un torneo por equipos de **4 jugadores**.",
         "Las partidas serán competitivas a **2.000 puntos**.",
-        "Se utilizarán las **reglas y escenografía de Games Workshop** [**aquí**](https://assets.warhammer-community.com/eng_12-06_warhammer40000_teams_event_companion-3pq1qxo6kv-96smptwn3u.pdf)."
+        "Se utilizarán las **reglas y escenografía de Games Workshop** ([**aquí**])(https://assets.warhammer-community.com/eng_12-06_warhammer40000_teams_event_companion-3pq1qxo6kv-96smptwn3u.pdf)."
       ]
     },
     {
@@ -60,31 +60,31 @@
       "rules": [
         "Al estar los equipos organizados por grupos, **se podrán realizar los emparejamientos de todas la rondas desde el inicio del torneo**.",
         "Esto dejará mucho tiempo para organizar todas las partidas individuales.",
-        "Los emparejamientos deben realizarse siguiendo el sistema de **espadas y escudos**."
+        "Los emparejamientos deben realizarse siguiendo el **enfrentameinto principal**, seguido del **sistema de campeones**."
       ]
     },
     {
-      "title": "Guía detallada: Espadas y Escudos",
+      "title": "Guía detallada del emparejamiento por equipos",
       "rules": [
-"Para realizar los emparejamientos de los equipos mediante el sistema de **espadas y escudos**, hay disponible una [**mesa**](https://steamcommunity.com/sharedfiles/filedetails/?id=2824870458) con todo lo necesario.",
+"Para realizar los emparejamientos de los equipos, hay disponible una [**mesa**](https://steamcommunity.com/sharedfiles/filedetails/?id=2824870458) con todo lo necesario.",
         "Una vez carguemos la mesa, veremos los siguientes elementos:\n\n![Elementos de la mesa](/imagenes/emparejamiento1.jpg)",
         "**1 y 2** – Cada equipo tendrá a su disposición una bajara con cartas que identifican cada una de las posibles facciones. Con la tecla *F* se puede voltear las cartas.",
         "**3 y 4** – Cada equipo tendrá una zona en el tablero delimitada por ese *área* de su propio color en la que solo él podrá ver lo que haya dentro de esa zona. Ahí, cada capitán deberá preparar las cartas que representen a los jugadores de su equipo.",
-        "**5 y 6** – Las casillas donde deben colocarse los *escudos* de cada equipo.",
-        "**7 y 8** – Las casillas donde deben colocarse los *espadas* de cada equipo.\n\n",
+        "**5 y 6** – Las casillas donde deben colocarse los *defensores* de cada equipo.",
+        "**7 y 8** – Las casillas donde deben colocarse los *atacantes* de cada equipo.\n\n",
         {
           "type": "separator"
         },
-        "Cada capitán elije quien será su *escudo* y con la carta boca abajo la coloca en su casilla correspondiente.",
-        "Una vez ambos capitanes han colocado sus respectivos *escudos* se dan la vuelta para que su contrincante vea la carta.",
-        "En ese momento cada capitán debe elegir dos jugadores de su equipo para enfrentarse al *escudo* contrario. Esos dos jugadores serán las *espadas*, que se colocarán en sus correspondientes casilleros boca arriba.",
-        "Con todas las cartas ya a la vista, veríamos algo como la siguiente imagen:\n\n![Proceso de emparejamiento](/imagenes/emparejamiento2.jpg)",
-        "**1** - El capitán del equipo rojo elige enfrentar su *escudo*, que en este caso será un Custode contra los Mechanicus del equipo azul. Éste será el primer emparejamiento y se han de colocar las cartas en los casilleros de abajo (5).",
-        "**2** - El capitán del equipo azul elige enfrentar su *escudo*, que en este caso será unos Caballeros del Caos contra los Angeles Sangrientos del equipo rojo. Éste será el segundo emparejamiento.",
-        "**3** - Las dos *espadas* que han quedado sin elegir será el tercer emparejamiento.",
-        "**4** - Las cartas que aún están en la zona oculta de cada equipo, serán el cuarto emparejamiento.",
-        "**5** - Con las cartas colocadas en cada uno de sus casilleros, los emparejamientos estarán completos.",
-        "**6** - Al pulsar los botones indicados, quedará reflejada la mesa elegida para jugar en cada caso, de entre las 8 posibles.",
+        "Ejemplo del proceso completo:\n\n![Proceso de emparejamiento](/imagenes/emparejamiento2.jpg)",
+        "**1** - Cada equipo elige en secreto a un miembro para que sea el *defensor*.",
+        "**2** - Cada equipo revela simultáneamente qué *defensor* ha elegido.",
+        "**3** - Cada equipo elige ahora en secreto a dos de los miembros restantes para que sean los *atacantes* contra el *defensor* oponente.",
+        "**4** - Cada equipo revela simultáneamente qué *atacantes* ha elegido.",
+        "**5** - Cada equipo elige ahora en secreto contra cuál de los dos *atacantes* oponentes quiere que juegue el *defensor*.",
+        "**6** - Los *atacantes* elegidos se revelan simultáneamente. **Esto decide dos emparejamientos**.",
+        "**7** - El *defensor* de cada equipo declara qué diseño ha elegido.",
+        "**8** - Los *atacantes* que no se han elegido **juegan el uno contra el otro**. Estos jugadores utilizarán un diseño en función de la ronda: en la ronda 1 utilizarán el diseño A; en la ronda 2, el diseño B; en la ronda 3, el diseño C. Este ciclo se repetirá en las rondas sucesivas.",
+        "**9** - Quedará un jugador de cada equipo, que se convertirá en el *campeón* (**el último emparejamiento**). Estos jugadores utilizarán un diseño en función de la ronda: en la ronda 1 utilizarán el diseño A; en la ronda 2, el diseño B; en la ronda 3, el diseño C. Este ciclo se repetirá en las rondas sucesivas.",
         {
           "type": "highlight",
           "content": "**Importante**: *Una vez realizado éste proceso, se debe **avisar al organizador** con los resultados de los emparejamientos para que pueda configurar las rondas como correspondan. Por ejemplo, podéis enviar una captura de pantalla de los emparejamientos finalizados y subirla al canal apropiado de Discord.*"
