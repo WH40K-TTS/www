@@ -20,7 +20,7 @@
       "rules": [
         "En cada equipo, solo un jugador puede usar unidades con una clave de facción determinada.",
         "Esto significa que solo un jugador puede usar las unidades de cada Codex (incluido como fuerzas aliadas).",
-        "Esto no se aplica a los casos en los que las reglas de los aliados utilizados cambian claves de facción, o en los que las hojas de datos aparecen en varios Codex con diferentes claves de facción (p. ej., Daemons del Caos y Daemons de Khorne en el Codex: World Eaters)."
+        "Esto no se aplica a los casos en los que las reglas de los aliados utilizados cambian claves de facción, o en los que las hojas de datos aparecen en varios Codex con diferentes claves de facción (Demonios del Caos y Demonios de Khorne en el Codex: World Eaters)."
       ]
     },
     {
