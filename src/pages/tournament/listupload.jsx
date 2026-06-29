@@ -52,7 +52,7 @@ export default function ListUpload({ tournament }) {
       {/* Render Individual Lists State */}
 {config.state === 'lists_individual' && (
   <div className="mt-12 overflow-x-auto border border-[#3a2d10] bg-[#161209]">
-    <table className="w-full text-left border-collapse">
+    <table className="mx-auto text-left border-collapse">
       <thead>
         <tr className="border-b border-[#3a2d10] bg-[#1e1a0d]">
           <th className="px-4 py-3 font-heading text-xs tracking-[0.1em] uppercase text-[#c9a84c]">
@@ -94,7 +94,7 @@ export default function ListUpload({ tournament }) {
         <div className="mt-12 space-y-6">
           {(config.lists?.teams || []).map((team, teamIdx) => (
             <div key={teamIdx} className="overflow-x-auto border border-[#3a2d10] bg-[#161209]">
-              <table className="w-full text-left border-collapse">
+              <table className="mx-auto text-left border-collapse">
                 <thead>
                   <tr className="bg-[#2a2414] border-b border-[#3a2d10]">
                     <th colSpan="2" className="px-4 py-2 font-heading text-center text-xs tracking-[0.2em] uppercase text-[#c9a84c]">
