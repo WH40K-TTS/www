@@ -92,41 +92,91 @@
     {
       "name": "Grupo A",
       "players": [
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "Moroco#3343", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "rubenr.5391", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "javierv._12896", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "icastell#0678", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Frankis89", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
       ]
     },
     {
       "name": "Grupo B",
       "players": [
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "inquinchocoa#0715", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "p1ter.", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "r3dman", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "generic3677", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "maik#8573", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
       ]
     },
     {
       "name": "Grupo C",
       "players": [
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "cosmefernan", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Txutxi_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "javiergc12", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "HRamz", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Ancar#9431", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
       ]
     },
     {
       "name": "Grupo D",
       "players": [
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "",  "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "BOPRA#9308", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Riddick6223", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Suarepita#1978", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "stilgar939", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Thorimer#9161", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+      ]
+    },
+    {
+      "name": "Grupo E",
+      "players": [
+        { "name": "Manticore", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "xarpo_128", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "cubiheadache#0286", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "makea001", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "rookiec", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+      ]
+    },
+    {
+      "name": "Grupo F",
+      "players": [
+        { "name": "flaakkoo5", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "patxamama", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "e_codina", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Danistrorus", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Fraxpro#2142", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+      ]
+    },
+    {
+      "name": "Grupo G",
+      "players": [
+        { "name": "MinchO0#9402", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "oTToHama", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Navastelroy#7355", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Llabreso#6183", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Usero#4135", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+      ]
+    },
+    {
+      "name": "Grupo H",
+      "players": [
+        { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Sanba#3554", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "MaikelEdge#1156", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "doblegwh", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "stein_48112", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+      ]
+    },
+    {
+      "name": "Grupo I",
+      "players": [
+        { "name": "urekmazino6906", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "GatoAventuras#1025", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Mr. Friedlander", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "APCC the architect#6869", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "snake0770_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
       ]
     }
   ],
@@ -134,66 +184,116 @@
     {
       "round": 1,
       "matches": [
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "Moroco#3343", "score1": "", "player2": "rubenr.5391", "score2": "", "winner": null },
+        { "player1": "javierv._12896", "score1": "", "player2": "icastell#0678", "score2": "", "winner": null },
+        { "player1": "inquinchocoa#0715", "score1": "", "player2": "p1ter.", "score2": "", "winner": null },
+        { "player1": "r3dman", "score1": "", "player2": "generic3677", "score2": "", "winner": null },
+        { "player1": "cosmefernan", "score1": "", "player2": "Txutxi_", "score2": "", "winner": null },
+        { "player1": "javiergc12", "score1": "", "player2": "HRamz", "score2": "", "winner": null },
+        { "player1": "BOPRA#9308", "score1": "", "player2": "Riddick6223", "score2": "", "winner": null },
+        { "player1": "Suarepita#1978", "score1": "", "player2": "stilgar939", "score2": "", "winner": null },
+        { "player1": "Manticore", "score1": "", "player2": "xarpo_128", "score2": "", "winner": null },
+        { "player1": "cubiheadache#0286", "score1": "", "player2": "makea001", "score2": "", "winner": null },
+        { "player1": "flaakkoo5", "score1": "", "player2": "patxamama", "score2": "", "winner": null },
+        { "player1": "e_codina", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
+        { "player1": "MinchO0#9402", "score1": "", "player2": "oTToHama", "score2": "", "winner": null },
+        { "player1": "Navastelroy#7355", "score1": "", "player2": "Llabreso#6183", "score2": "", "winner": null },
+        { "player1": "gerzon6915", "score1": "", "player2": "Sanba#3554", "score2": "", "winner": null },
+        { "player1": "MaikelEdge#1156", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "urekmazino6906", "score1": "", "player2": "GatoAventuras#1025", "score2": "", "winner": null },
+        { "player1": "Mr. Friedlander", "score1": "", "player2": "APCC the architect#6869", "score2": "", "winner": null }
       ]
     },
     {
       "round": 2,
       "matches": [
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "Moroco#3343", "score1": "", "player2": "javierv._12896", "score2": "", "winner": null },
+        { "player1": "rubenr.5391", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
+        { "player1": "inquinchocoa#0715", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
+        { "player1": "p1ter.", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
+        { "player1": "cosmefernan", "score1": "", "player2": "javiergc12", "score2": "", "winner": null },
+        { "player1": "Txutxi_", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
+        { "player1": "BOPRA#9308", "score1": "", "player2": "Suarepita#1978", "score2": "", "winner": null },
+        { "player1": "Riddick6223", "score1": "", "player2": "Thorimer#9161", "score2": "", "winner": null },
+        { "player1": "Manticore", "score1": "", "player2": "cubiheadache#0286", "score2": "", "winner": null },
+        { "player1": "xarpo_128", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
+        { "player1": "flaakkoo5", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
+        { "player1": "patxamama", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
+        { "player1": "MinchO0#9402", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "oTToHama", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
+        { "player1": "gerzon6915", "score1": "", "player2": "MaikelEdge#1156", "score2": "", "winner": null },
+        { "player1": "Sanba#3554", "score1": "", "player2": "stein_48112", "score2": "", "winner": null },
+        { "player1": "urekmazino6906", "score1": "", "player2": "Mr. Friedlander", "score2": "", "winner": null },
+        { "player1": "GatoAventuras#1025", "score1": "", "player2": "snake0770_", "score2": "", "winner": null }
       ]
     },
     {
       "round": 3,
       "matches": [
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "Moroco#3343", "score1": "", "player2": "icastell#0678", "score2": "", "winner": null },
+        { "player1": "javierv._12896", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
+        { "player1": "inquinchocoa#0715", "score1": "", "player2": "generic3677", "score2": "", "winner": null },
+        { "player1": "r3dman", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
+        { "player1": "cosmefernan", "score1": "", "player2": "HRamz", "score2": "", "winner": null },
+        { "player1": "javiergc12", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
+        { "player1": "BOPRA#9308", "score1": "", "player2": "stilgar939", "score2": "", "winner": null },
+        { "player1": "Suarepita#1978", "score1": "", "player2": "Thorimer#9161", "score2": "", "winner": null },
+        { "player1": "Manticore", "score1": "", "player2": "makea001", "score2": "", "winner": null },
+        { "player1": "cubiheadache#0286", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
+        { "player1": "flaakkoo5", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
+        { "player1": "e_codina", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
+        { "player1": "MinchO0#9402", "score1": "", "player2": "Llabreso#6183", "score2": "", "winner": null },
+        { "player1": "Navastelroy#7355", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
+        { "player1": "gerzon6915", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "MaikelEdge#1156", "score1": "", "player2": "stein_48112", "score2": "", "winner": null },
+        { "player1": "urekmazino6906", "score1": "", "player2": "APCC the architect#6869", "score2": "", "winner": null },
+        { "player1": "Mr. Friedlander", "score1": "", "player2": "snake0770_", "score2": "", "winner": null }
       ]
     },
     {
       "round": 4,
       "matches": [
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "Moroco#3343", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
+        { "player1": "rubenr.5391", "score1": "", "player2": "icastell#0678", "score2": "", "winner": null },
+        { "player1": "inquinchocoa#0715", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
+        { "player1": "p1ter.", "score1": "", "player2": "generic3677", "score2": "", "winner": null },
+        { "player1": "cosmefernan", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
+        { "player1": "Txutxi_", "score1": "", "player2": "HRamz", "score2": "", "winner": null },
+        { "player1": "BOPRA#9308", "score1": "", "player2": "Thorimer#9161", "score2": "", "winner": null },
+        { "player1": "Riddick6223", "score1": "", "player2": "stilgar939", "score2": "", "winner": null },
+        { "player1": "Manticore", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
+        { "player1": "xarpo_128", "score1": "", "player2": "makea001", "score2": "", "winner": null },
+        { "player1": "flaakkoo5", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
+        { "player1": "patxamama", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
+        { "player1": "MinchO0#9402", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
+        { "player1": "oTToHama", "score1": "", "player2": "Llabreso#6183", "score2": "", "winner": null },
+        { "player1": "gerzon6915", "score1": "", "player2": "stein_48112", "score2": "", "winner": null },
+        { "player1": "Sanba#3554", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "urekmazino6906", "score1": "", "player2": "snake0770_", "score2": "", "winner": null },
+        { "player1": "GatoAventuras#1025", "score1": "", "player2": "APCC the architect#6869", "score2": "", "winner": null }
       ]
     },
     {
       "round": 5,
       "matches": [
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "rubenr.5391", "score1": "", "player2": "javierv._12896", "score2": "", "winner": null },
+        { "player1": "icastell#0678", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
+        { "player1": "p1ter.", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
+        { "player1": "generic3677", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
+        { "player1": "Txutxi_", "score1": "", "player2": "javiergc12", "score2": "", "winner": null },
+        { "player1": "HRamz", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
+        { "player1": "Riddick6223", "score1": "", "player2": "Suarepita#1978", "score2": "", "winner": null },
+        { "player1": "stilgar939", "score1": "", "player2": "Thorimer#9161", "score2": "", "winner": null },
+        { "player1": "xarpo_128", "score1": "", "player2": "cubiheadache#0286", "score2": "", "winner": null },
+        { "player1": "makea001", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
+        { "player1": "patxamama", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
+        { "player1": "Danistrorus", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
+        { "player1": "oTToHama", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "Llabreso#6183", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
+        { "player1": "Sanba#3554", "score1": "", "player2": "MaikelEdge#1156", "score2": "", "winner": null },
+        { "player1": "doblegwh", "score1": "", "player2": "stein_48112", "score2": "", "winner": null },
+        { "player1": "GatoAventuras#1025", "score1": "", "player2": "Mr. Friedlander", "score2": "", "winner": null },
+        { "player1": "APCC the architect#6869", "score1": "", "player2": "snake0770_", "score2": "", "winner": null }
       ]
     }
   ],
