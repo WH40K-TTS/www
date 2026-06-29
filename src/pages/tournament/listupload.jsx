@@ -50,40 +50,44 @@ export default function ListUpload({ tournament }) {
       )}
 
       {/* Render Individual Lists State */}
-      {config.state === 'lists_individual' && (
-        <div className="mt-12 overflow-hidden border border-[#3a2d10] bg-[#161209]">
-          <table className="w-full text-left border-collapse">
-            <thead>
-              <tr className="border-b border-[#3a2d10] bg-[#1e1a0d]">
-                <th className="px-4 py-3 font-heading text-xs tracking-[0.1em] uppercase text-[#c9a84c]">
-                  Jugador
-                </th>
-                <th className="px-4 py-3 font-heading text-xs tracking-[0.1em] uppercase text-[#c9a84c] text-center">
-                  Lista
-                </th>
-              </tr>
-            </thead>
-            <tbody className="font-body uppercase text-sm text-[#7a6848]">
-              {(config.lists?.individual || []).map((player, idx) => (
-                <tr key={idx} className="border-b border-[#3a2d10]/50 last:border-none hover:bg-[#1e1a0d]/50 transition-colors">
-                  <td className="px-4 py-3">{player.name}</td>
-                  <td className="px-4 py-3 text-center">
-                    <a 
-                      href={player.link} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="inline-flex items-center justify-center p-2 text-[#c9a84c] hover:text-white transition-colors"
-                      title="Ver lista de ejército"
-                    >
-                      <ExternalLink size={16} />
-                    </a>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
+{config.state === 'lists_individual' && (
+  <div className="mt-12 overflow-hidden border border-[#3a2d10] bg-[#161209]">
+    <table className="w-full text-left border-collapse">
+      <thead>
+        <tr className="border-b border-[#3a2d10] bg-[#1e1a0d]">
+          <th className="px-4 py-3 font-heading text-xs tracking-[0.1em] uppercase text-[#c9a84c]">
+            Jugador
+          </th>
+          <th className="px-4 py-3 font-heading text-xs tracking-[0.1em] uppercase text-[#c9a84c] text-center">
+            Fuerza
+          </th>
+          <th className="px-4 py-3 font-heading text-xs tracking-[0.1em] uppercase text-[#c9a84c] text-center">
+            Lista
+          </th>
+        </tr>
+      </thead>
+      <tbody className="font-body uppercase text-sm text-[#7a6848]">
+        {(config.lists?.individual || []).map((player, idx) => (
+          <tr key={idx} className="border-b border-[#3a2d10]/50 last:border-none hover:bg-[#1e1a0d]/50 transition-colors">
+            <td className="px-4 py-3">{player.name}</td>
+            <td className="px-4 py-3 text-center">{player.fuerza}</td>
+            <td className="px-4 py-3 text-center">
+              <a 
+                href={player.link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center justify-center p-2 text-[#c9a84c] hover:text-white transition-colors"
+                title="Ver lista de ejército"
+              >
+                <ExternalLink size={16} />
+              </a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+)}
 
       {/* Render Team Lists State */}
       {config.state === 'lists_teams' && (
