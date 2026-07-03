@@ -132,9 +132,9 @@
     {
       "name": "Grupo E",
       "players": [
-        { "name": "Manticore", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "Manticore", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
         { "name": "xarpo_128", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "cubiheadache#0286", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "cubiheadache#0286", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "makea001", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "rookiec", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
       ]
@@ -215,7 +215,7 @@
         { "player1": "Txutxi_", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
         { "player1": "BOPRA#9308", "score1": "", "player2": "Suarepita#1978", "score2": "", "winner": null },
         { "player1": "Riddick6223", "score1": "", "player2": "Thorimer#9161", "score2": "", "winner": null },
-        { "player1": "Manticore", "score1": "", "player2": "cubiheadache#0286", "score2": "", "winner": null },
+        { "player1": "Manticore", "score1": "31", "player2": "cubiheadache#0286", "score2": "100", "winner": "cubiheadache#0286" },
         { "player1": "xarpo_128", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
         { "player1": "flaakkoo5", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
         { "player1": "patxamama", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
