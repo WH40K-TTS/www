@@ -4,8 +4,7 @@ import { ExternalLink, Skull, X, Sword, Shrink, Eye } from 'lucide-react'
 const fuerzaIcons = {
   "Take and Hold": <Skull size={16} />,
   "Disruption": <X size={16} />,
-  "Purge the Foe": <Sword size={16} style={{ transform: 'rotate(135deg)' }} />,
-  "Purge the foe": <Sword size={16} style={{ transform: 'rotate(135deg)' }} />,
+  "Purge the Foe": <Sword size={16} style={{ transform: 'rotate(225deg)' }} />,
   "Priority Assets": <Shrink size={16} />,
   "Reconnaissance": <Eye size={16} />,
 };
