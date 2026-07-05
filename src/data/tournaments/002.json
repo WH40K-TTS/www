@@ -145,8 +145,8 @@
         { "name": "flaakkoo5", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
         { "name": "patxamama", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "e_codina", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "Danistrorus", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "Fraxpro#2142", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "Danistrorus", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "Fraxpro#2142", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 }
       ]
     },
     {
@@ -287,7 +287,7 @@
         { "player1": "xarpo_128", "score1": "", "player2": "cubiheadache#0286", "score2": "", "winner": null },
         { "player1": "makea001", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
         { "player1": "patxamama", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
-        { "player1": "Danistrorus", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
+        { "player1": "Danistrorus", "score1": "89", "player2": "Fraxpro#2142", "score2": "68", "winner": "Danistrorus" },
         { "player1": "oTToHama", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
         { "player1": "Llabreso#6183", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
         { "player1": "Sanba#3554", "score1": "", "player2": "MaikelEdge#1156", "score2": "", "winner": null },
