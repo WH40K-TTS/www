@@ -1,6 +1,15 @@
 import React from 'react'
 import { ExternalLink, Skull, X, Sword, Shrink, Eye } from 'lucide-react'
 
+const fuerzaIcons = {
+  "Take and Hold": <Skull size={16} />,
+  "Disruption": <X size={16} />,
+  "Purge the Foe": <Sword size={16} style={{ transform: 'rotate(135deg)' }} />,
+  "Purge the foe": <Sword size={16} style={{ transform: 'rotate(135deg)' }} />,
+  "Priority Assets": <Shrink size={16} />,
+  "Reconnaissance": <Eye size={16} />,
+};
+
 export default function ListUpload({ tournament }) {
   if (tournament?.status === 'upcoming') {
     return (
@@ -67,25 +76,15 @@ export default function ListUpload({ tournament }) {
         </tr>
       </thead>
       <tbody className="font-body uppercase text-sm text-[#7a6848]">
-        {(config.lists?.individual || []).map((player, idx) => {
-          const fuerzaIcons = {
-            "Take and Hold": <Skull size={16} />,
-            "Disruption": <X size={16} />,
-            "Purge the Foe": <Sword size={16} style={{ transform: 'rotate(135deg)' }} />,
-            "Purge the foe": <Sword size={16} style={{ transform: 'rotate(135deg)' }} />,
-            "Priority Assets": <Shrink size={16} />,
-            "Reconnaissance": <Eye size={16} />,
-          };
-
-          return (
-            <tr key={idx} className="border-b border-[#3a2d10]/50 last:border-none hover:bg-[#1e1a0d]/50 transition-colors">
-              <td className="px-4 py-3">{player.name}</td>
-              <td className="px-4 py-3 text-center">
-                <span title={player.fuerza} className="cursor-help inline-flex items-center justify-center">
-                  {fuerzaIcons[player.fuerza] || player.fuerza}
-                </span>
-              </td>
-              <td className="px-4 py-3 text-center">
+        {(config.lists?.individual || []).map((player, idx) => (
+          <tr key={idx} className="border-b border-[#3a2d10]/50 last:border-none hover:bg-[#1e1a0d]/50 transition-colors">
+            <td className="px-4 py-3">{player.name}</td>
+            <td className="px-4 py-3 text-center">
+              <span title={player.fuerza} className="cursor-help inline-flex items-center justify-center">
+                {fuerzaIcons[player.fuerza] || player.fuerza}
+              </span>
+            </td>
+            <td className="px-4 py-3 text-center">
               <a 
                 href={player.link} 
                 target="_blank" 
