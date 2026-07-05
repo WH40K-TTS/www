@@ -79,7 +79,7 @@ export default function ListUpload({ tournament }) {
           <tr key={idx} className="border-b border-[#3a2d10]/50 last:border-none hover:bg-[#1e1a0d]/50 transition-colors">
             <td className="px-4 py-3">{player.name}</td>
             <td className="px-4 py-3 text-center">
-              <span title={player.fuerza} className="cursor-help inline-flex items-center justify-center">
+              <span title={player.fuerza} className="inline-flex items-center justify-center">
                 {fuerzaIcons[player.fuerza] || player.fuerza}
               </span>
             </td>
