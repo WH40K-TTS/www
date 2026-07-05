@@ -143,9 +143,9 @@
       "name": "Grupo F",
       "players": [
         { "name": "flaakkoo5", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "patxamama", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "patxamama", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "e_codina", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "Danistrorus", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "Danistrorus", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0 },
         { "name": "Fraxpro#2142", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 }
       ]
     },
@@ -264,7 +264,7 @@
         { "player1": "Manticore", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
         { "player1": "xarpo_128", "score1": "", "player2": "makea001", "score2": "", "winner": null },
         { "player1": "flaakkoo5", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
-        { "player1": "patxamama", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
+        { "player1": "patxamama", "score1": "100", "player2": "Danistrorus", "score2": "59", "winner": "patxamama" },
         { "player1": "MinchO0#9402", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
         { "player1": "oTToHama", "score1": "", "player2": "Llabreso#6183", "score2": "", "winner": null },
         { "player1": "gerzon6915", "score1": "", "player2": "stein_48112", "score2": "", "winner": null },
