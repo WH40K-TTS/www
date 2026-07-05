@@ -162,10 +162,10 @@
     {
       "name": "Grupo H",
       "players": [
-        { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
         { "name": "Sanba#3554", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "MaikelEdge#1156", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "doblegwh", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "doblegwh", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "stein_48112", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 }
       ]
     },
@@ -244,7 +244,7 @@
         { "player1": "e_codina", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
         { "player1": "MinchO0#9402", "score1": "", "player2": "Llabreso#6183", "score2": "", "winner": null },
         { "player1": "Navastelroy#7355", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
-        { "player1": "gerzon6915", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "gerzon6915", "score1": "58", "player2": "doblegwh", "score2": "94", "winner": "doblegwh" },
         { "player1": "MaikelEdge#1156", "score1": "", "player2": "stein_48112", "score2": "", "winner": null },
         { "player1": "urekmazino6906", "score1": "", "player2": "APCC the architect#6869", "score2": "", "winner": null },
         { "player1": "Mr. Friedlander", "score1": "", "player2": "snake0770_", "score2": "", "winner": null }
