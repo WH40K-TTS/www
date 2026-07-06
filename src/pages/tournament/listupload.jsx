@@ -2,11 +2,11 @@ import React from 'react'
 import { ExternalLink, Skull, X, Sword, Shrink, Eye } from 'lucide-react'
 
 const fuerzaIcons = {
-  "Take and Hold": <Skull size={16} />,
-  "Disruption": <X size={16} />,
-  "Purge the Foe": <Sword size={16} style={{ transform: 'rotate(225deg)' }} />,
-  "Priority Assets": <Shrink size={16} />,
-  "Reconnaissance": <Eye size={16} />,
+  "Take and Hold": <Skull size={20} />,
+  "Disruption": <X size={20} />,
+  "Purge the Foe": <Sword size={20} style={{ transform: 'rotate(225deg)' }} />,
+  "Priority Assets": <Shrink size={20} />,
+  "Reconnaissance": <Eye size={20} />,
 };
 
 export default function ListUpload({ tournament }) {
