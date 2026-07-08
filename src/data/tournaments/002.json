@@ -114,9 +114,9 @@
       "players": [
         { "name": "cosmefernan", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "Txutxi_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "javiergc12", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "javiergc12", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
         { "name": "HRamz", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "Ancar#9431", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 }
+        { "name": "Ancar#9431", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 }
       ]
     },
     {
@@ -235,7 +235,7 @@
         { "player1": "inquinchocoa#0715", "score1": "", "player2": "generic3677", "score2": "", "winner": null },
         { "player1": "r3dman", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
         { "player1": "cosmefernan", "score1": "95", "player2": "HRamz", "score2": "25", "winner": "cosmefernan" },
-        { "player1": "javiergc12", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
+        { "player1": "javiergc12", "score1": "87", "player2": "Ancar#9431", "score2": "62", "winner": "javiergc12" },
         { "player1": "BOPRA#9308", "score1": "", "player2": "stilgar939", "score2": "", "winner": null },
         { "player1": "Suarepita#1978", "score1": "", "player2": "Thorimer#9161", "score2": "", "winner": null },
         { "player1": "Manticore", "score1": "", "player2": "makea001", "score2": "", "winner": null },
