@@ -123,9 +123,9 @@
       "name": "Grupo D",
       "players": [
         { "name": "BOPRA#9308", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "Riddick6223", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "Riddick6223", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0 },
         { "name": "Suarepita#1978", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "stilgar939", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
+        { "name": "stilgar939", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
         { "name": "Thorimer#9161", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
       ]
     },
@@ -152,9 +152,9 @@
     {
       "name": "Grupo G",
       "players": [
-        { "name": "MinchO0#9402", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "MinchO0#9402", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0 },
         { "name": "oTToHama", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "Navastelroy#7355", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Navastelroy#7355", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "Llabreso#6183", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
         { "name": "Usero#4135", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
       ]
@@ -163,9 +163,9 @@
       "name": "Grupo H",
       "players": [
         { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
-        { "name": "Sanba#3554", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Sanba#3554", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0 },
         { "name": "MaikelEdge#1156", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "doblegwh", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "doblegwh", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "stein_48112", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 }
       ]
     },
@@ -219,7 +219,7 @@
         { "player1": "xarpo_128", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
         { "player1": "flaakkoo5", "score1": "63", "player2": "e_codina", "score2": "100", "winner": "e_codina" },
         { "player1": "patxamama", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
-        { "player1": "MinchO0#9402", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "MinchO0#9402", "score1": "25", "player2": "Navastelroy#7355", "score2": "98", "winner": "Navastelroy#7355" },
         { "player1": "oTToHama", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
         { "player1": "gerzon6915", "score1": "", "player2": "MaikelEdge#1156", "score2": "", "winner": null },
         { "player1": "Sanba#3554", "score1": "89", "player2": "stein_48112", "score2": "76", "winner": "Sanba#3554" },
@@ -260,7 +260,7 @@
         { "player1": "cosmefernan", "score1": "67", "player2": "Ancar#9431", "score2": "59", "winner": "cosmefernan" },
         { "player1": "Txutxi_", "score1": "", "player2": "HRamz", "score2": "", "winner": null },
         { "player1": "BOPRA#9308", "score1": "", "player2": "Thorimer#9161", "score2": "", "winner": null },
-        { "player1": "Riddick6223", "score1": "", "player2": "stilgar939", "score2": "", "winner": null },
+        { "player1": "Riddick6223", "score1": "95", "player2": "stilgar939", "score2": "69", "winner": "Riddick6223" },
         { "player1": "Manticore", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
         { "player1": "xarpo_128", "score1": "", "player2": "makea001", "score2": "", "winner": null },
         { "player1": "flaakkoo5", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
@@ -268,7 +268,7 @@
         { "player1": "MinchO0#9402", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
         { "player1": "oTToHama", "score1": "", "player2": "Llabreso#6183", "score2": "", "winner": null },
         { "player1": "gerzon6915", "score1": "", "player2": "stein_48112", "score2": "", "winner": null },
-        { "player1": "Sanba#3554", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "Sanba#3554", "score1": "71", "player2": "doblegwh", "score2": "100", "winner": "doblegwh" },
         { "player1": "urekmazino6906", "score1": "", "player2": "snake0770_", "score2": "", "winner": null },
         { "player1": "GatoAventuras#1025", "score1": "", "player2": "APCC the architect#6869", "score2": "", "winner": null }
       ]
