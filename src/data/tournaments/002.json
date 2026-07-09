@@ -95,8 +95,8 @@
         { "name": "Moroco#3343", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "rubenr.5391", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
         { "name": "javierv._12896", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "icastell#0678", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "Frankis89", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "icastell#0678", "points": 0, "wins": 0, "losses": 0, "ties": 1, "abandonos": 0 },
+        { "name": "Frankis89", "points": 3, "wins": 1, "losses": 0, "ties": 1, "abandonos": 0 }
       ]
     },
     {
@@ -277,7 +277,7 @@
       "round": 5,
       "matches": [
         { "player1": "rubenr.5391", "score1": "94", "player2": "javierv._12896", "score2": "56", "winner": "rubenr.5391" },
-        { "player1": "icastell#0678", "score1": "94", "player2": "Frankis89", "score2": "100", "winner": "Frankis89" },
+        { "player1": "icastell#0678", "score1": "100", "player2": "Frankis89", "score2": "100", "winner": null },
         { "player1": "p1ter.", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
         { "player1": "generic3677", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
         { "player1": "Txutxi_", "score1": "", "player2": "javiergc12", "score2": "", "winner": null },
