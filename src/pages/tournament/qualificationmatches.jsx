@@ -11,7 +11,7 @@ const ROUND_ICONS = {
   '6': Dice6,
 }
 
-export default function QualificationMatches({ matches }) {
+export default function QualificationMatches({ matches, groups }) {
   if (!matches?.length) return (
     <div className="text-center py-16">
       <p className="font-heading text-[11px] tracking-[0.3em] uppercase text-[#5a4920]">
@@ -49,9 +49,17 @@ export default function QualificationMatches({ matches }) {
             {/* Matches — horizontal scroll on mobile */}
             <div className="border-t border-[#2a2210] overflow-x-auto">
               <div className="min-w-[360px]">
-                {round.matches?.map((match, i) => (
-                  <MatchRow key={i} match={match} isLast={i === round.matches.length - 1} />
-                ))}
+                {round.matches?.map((match, i) => {
+                  const abandonedPlayers = groups?.flatMap(g => g.players).filter(p => p.abandoned).map(p => p.name) || [];
+                  return (
+                    <MatchRow 
+                      key={i} 
+                      match={match} 
+                      isLast={i === round.matches.length - 1} 
+                      abandonedPlayers={abandonedPlayers} 
+                    />
+                  );
+                })}
               </div>
             </div>
           </div>
