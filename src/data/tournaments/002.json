@@ -92,91 +92,91 @@
     {
       "name": "Grupo A",
       "players": [
-        { "name": "Moroco#3343", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "rubenr.5391", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "javierv._12896", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "icastell#0678", "points": 1, "wins": 0, "losses": 0, "ties": 1, "abandonos": 0 },
-        { "name": "Frankis89", "points": 4, "wins": 1, "losses": 0, "ties": 1, "abandonos": 0 }
+        { "name": "Moroco#3343", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "rubenr.5391", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "javierv._12896", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "icastell#0678", "points": 1, "wins": 0, "losses": 0, "ties": 1, "abandonos": 0, "abandoned": false },
+        { "name": "Frankis89", "points": 4, "wins": 1, "losses": 0, "ties": 1, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo B",
       "players": [
-        { "name": "inquinchocoa#0715", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "p1ter.", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "r3dman", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "generic3677", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "maik#8573", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "inquinchocoa#0715", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "p1ter.", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "r3dman", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "generic3677", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "maik#8573", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo C",
       "players": [
-        { "name": "cosmefernan", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "Txutxi_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "javiergc12", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "HRamz", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "Ancar#9431", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 }
+        { "name": "cosmefernan", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Txutxi_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "javiergc12", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "HRamz", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Ancar#9431", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo D",
       "players": [
-        { "name": "BOPRA#9308", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "Riddick6223", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "Suarepita#1978", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "stilgar939", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
-        { "name": "Thorimer#9161", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "BOPRA#9308", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Riddick6223", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Suarepita#1978", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "stilgar939", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Thorimer#9161", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo E",
       "players": [
-        { "name": "Manticore", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
-        { "name": "xarpo_128", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "cubiheadache#0286", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "makea001", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "rookiec", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "Manticore", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 2, "abandoned": true},
+        { "name": "xarpo_128", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "cubiheadache#0286", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "makea001", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "rookiec", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo F",
       "players": [
-        { "name": "flaakkoo5", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "patxamama", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "e_codina", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "Danistrorus", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0 },
-        { "name": "Fraxpro#2142", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 }
+        { "name": "flaakkoo5", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "patxamama", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "e_codina", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Danistrorus", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Fraxpro#2142", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo G",
       "players": [
-        { "name": "MinchO0#9402", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "oTToHama", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "Navastelroy#7355", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "Llabreso#6183", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
+        { "name": "MinchO0#9402", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "oTToHama", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Navastelroy#7355", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Llabreso#6183", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Usero#4135", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 4, "abandoned": true }
       ]
     },
     {
       "name": "Grupo H",
       "players": [
-        { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
-        { "name": "Sanba#3554", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0 },
-        { "name": "MaikelEdge#1156", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "doblegwh", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "stein_48112", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 }
+        { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Sanba#3554", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "MaikelEdge#1156", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "doblegwh", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "stein_48112", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo I",
       "players": [
-        { "name": "urekmazino6906", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "GatoAventuras#1025", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "Mr. Friedlander", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "APCC the architect#6869", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
-        { "name": "snake0770_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "urekmazino6906", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "GatoAventuras#1025", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Mr. Friedlander", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "APCC the architect#6869", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "snake0770_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     }
   ],
