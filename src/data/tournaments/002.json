@@ -58,7 +58,7 @@
         { "name": "Fraxpro#2142", "fuerza": "Take and Hold", "link": "https://gist.github.com/WH40K-TTS/eaab715e2ff09d7878da4d643935daec/raw/" },
         { "name": "Danistrorus", "fuerza": "Take and Hold", "link": "https://gist.github.com/WH40K-TTS/5f7417b807934583a1020c42276c0170/raw/" },
         { "name": "Llabreso#6183", "fuerza": "Priority Assets", "link": "https://gist.github.com/WH40K-TTS/6e9a1a14c215c22b8755c0459daebd02/raw/" },
-        { "name": "Usero#4135", "fuerza": "Reconnaissance", "link": "https://gist.github.com/WH40K-TTS/d2e59d98b683fec86ec32699c626cb7c/raw/" },
+        { "name": "Usero#4135", "fuerza": "Reconnaissance", "link": "https://gist.github.com/WH40K-TTS/d2e59d98b683fec86ec32699c626cb7c/raw/", "abandoned": true },
         { "name": "MaikelEdge#1156", "fuerza": "Priority Assets", "link": "https://gist.github.com/WH40K-TTS/4ee483063d5d63062a648ce2f32038fa/raw/" },
         { "name": "doblegwh", "fuerza": "Purge the Foe", "link": "https://gist.github.com/WH40K-TTS/50b01b44effafd2c397acd677871aef5/raw/" },
         { "name": "stein_48112", "fuerza": "Purge the Foe", "link": "https://gist.github.com/WH40K-TTS/930990e01ab171562c7f56009ebf1295/raw/" },
@@ -156,7 +156,7 @@
         { "name": "oTToHama", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0 },
         { "name": "Navastelroy#7355", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0 },
         { "name": "Llabreso#6183", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0 },
-        { "name": "Usero#4135", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+        { "name": "Usero#4135", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 4, "abandoned": true }
       ]
     },
     {
@@ -220,7 +220,7 @@
         { "player1": "flaakkoo5", "score1": "63", "player2": "e_codina", "score2": "100", "winner": "e_codina" },
         { "player1": "patxamama", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
         { "player1": "MinchO0#9402", "score1": "25", "player2": "Navastelroy#7355", "score2": "98", "winner": "Navastelroy#7355" },
-        { "player1": "oTToHama", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
+        { "player1": "oTToHama", "score1": "-", "player2": "Usero#4135", "score2": "-", "winner": null },
         { "player1": "gerzon6915", "score1": "", "player2": "MaikelEdge#1156", "score2": "", "winner": null },
         { "player1": "Sanba#3554", "score1": "89", "player2": "stein_48112", "score2": "76", "winner": "Sanba#3554" },
         { "player1": "urekmazino6906", "score1": "", "player2": "Mr. Friedlander", "score2": "", "winner": null },
@@ -243,7 +243,7 @@
         { "player1": "flaakkoo5", "score1": "98", "player2": "Danistrorus", "score2": "19", "winner": "flaakkoo5" },
         { "player1": "e_codina", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
         { "player1": "MinchO0#9402", "score1": "87", "player2": "Llabreso#6183", "score2": "77", "winner": "MinchO0#9402" },
-        { "player1": "Navastelroy#7355", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
+        { "player1": "Navastelroy#7355", "score1": "-", "player2": "Usero#4135", "score2": "-", "winner": null },
         { "player1": "gerzon6915", "score1": "58", "player2": "doblegwh", "score2": "94", "winner": "doblegwh" },
         { "player1": "MaikelEdge#1156", "score1": "99", "player2": "stein_48112", "score2": "57", "winner": "MaikelEdge#1156" },
         { "player1": "urekmazino6906", "score1": "", "player2": "APCC the architect#6869", "score2": "", "winner": null },
@@ -265,7 +265,7 @@
         { "player1": "xarpo_128", "score1": "", "player2": "makea001", "score2": "", "winner": null },
         { "player1": "flaakkoo5", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
         { "player1": "patxamama", "score1": "100", "player2": "Danistrorus", "score2": "59", "winner": "patxamama" },
-        { "player1": "MinchO0#9402", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
+        { "player1": "MinchO0#9402", "score1": "-", "player2": "Usero#4135", "score2": "-", "winner": null },
         { "player1": "oTToHama", "score1": "", "player2": "Llabreso#6183", "score2": "", "winner": null },
         { "player1": "gerzon6915", "score1": "", "player2": "stein_48112", "score2": "", "winner": null },
         { "player1": "Sanba#3554", "score1": "71", "player2": "doblegwh", "score2": "100", "winner": "doblegwh" },
@@ -289,7 +289,7 @@
         { "player1": "patxamama", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
         { "player1": "Danistrorus", "score1": "89", "player2": "Fraxpro#2142", "score2": "68", "winner": "Danistrorus" },
         { "player1": "oTToHama", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
-        { "player1": "Llabreso#6183", "score1": "", "player2": "Usero#4135", "score2": "", "winner": null },
+        { "player1": "Llabreso#6183", "score1": "-", "player2": "Usero#4135", "score2": "-", "winner": null },
         { "player1": "Sanba#3554", "score1": "", "player2": "MaikelEdge#1156", "score2": "", "winner": null },
         { "player1": "doblegwh", "score1": "", "player2": "stein_48112", "score2": "", "winner": null },
         { "player1": "GatoAventuras#1025", "score1": "", "player2": "Mr. Friedlander", "score2": "", "winner": null },
