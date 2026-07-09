@@ -43,9 +43,9 @@ export function GroupCard({ group }) {
                     {/* Símbolo de pasar fase. El número hace referencia al número de filas que pasan fase. */}
                     {idx < 1 ? '▲' : idx + 1}
                   </span>
-                  <span className={`font-body text-sm whitespace-nowrap uppercase ${idx < 1 ? 'text-[#e8c96a]' : (isLastThree ? 'text-[#8a6f2e]' : 'text-[#8a6f2e]')}`}>
-                    {player.name}
-                  </span>
+                   <span className={`font-body text-sm whitespace-nowrap uppercase ${idx < 1 ? 'text-[#e8c96a]' : (isLastThree ? 'text-[#8a6f2e]' : 'text-[#8a6f2e]')} ${player.abandoned ? 'line-through opacity-50' : ''}`}>
+                     {player.name}
+                   </span>
                 </div>
 
                 {/* Lado Derecho: Stats alineadas */}

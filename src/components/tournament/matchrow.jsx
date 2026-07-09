@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function MatchRow({ match, isFinal = false, isLast = false }) {
+export function MatchRow({ match, isFinal = false, isLast = false, abandonedPlayers = [] }) {
   const { player1, score1, player2, score2, winner } = match
   const p1wins = winner === player1
   const p2wins = winner === player2
@@ -26,6 +26,7 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
           className={`
             font-body text-sm truncate text-right uppercase
             ${p1wins ? (isFinal ? 'text-[#e8c96a]' : 'text-[#c9a84c]') : 'text-[#7a6848]'}
+            ${abandonedPlayers.includes(player1) ? 'line-through opacity-50' : ''}
           `}
         >
           {player1}
@@ -76,6 +77,7 @@ export function MatchRow({ match, isFinal = false, isLast = false }) {
           className={`
             font-body text-sm truncate uppercase
             ${p2wins ? (isFinal ? 'text-[#e8c96a]' : 'text-[#c9a84c]') : 'text-[#7a6848]'}
+            ${abandonedPlayers.includes(player2) ? 'line-through opacity-50' : ''}
           `}
         >
           {player2}
