@@ -133,17 +133,17 @@
       "name": "Grupo E",
       "players": [
         { "name": "Manticore", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 2, "abandoned": true},
-        { "name": "xarpo_128", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "xarpo_128", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "cubiheadache#0286", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "makea001", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "rookiec", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "rookiec", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo F",
       "players": [
-        { "name": "flaakkoo5", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "patxamama", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "flaakkoo5", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "patxamama", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "e_codina", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Danistrorus", "points": 6, "wins": 2, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Fraxpro#2142", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
@@ -194,7 +194,7 @@
         { "player1": "Suarepita#1978", "score1": "100", "player2": "stilgar939", "score2": "68", "winner": "Suarepita#1978" },
         { "player1": "Manticore", "score1": "84", "player2": "xarpo_128", "score2": "89", "winner": "xarpo_128" },
         { "player1": "cubiheadache#0286", "score1": "100", "player2": "makea001", "score2": "45", "winner": "cubiheadache#0286" },
-        { "player1": "flaakkoo5", "score1": "", "player2": "patxamama", "score2": "", "winner": null },
+        { "player1": "flaakkoo5", "score1": "86", "player2": "patxamama", "score2": "90", "winner": "patxamama" },
         { "player1": "e_codina", "score1": "63", "player2": "Danistrorus", "score2": "90", "winner": "Danistrorus" },
         { "player1": "MinchO0#9402", "score1": "86", "player2": "oTToHama", "score2": "55", "winner": "MinchO0#9402" },
         { "player1": "Navastelroy#7355", "score1": "81", "player2": "Llabreso#6183", "score2": "74", "winner": "Navastelroy#7355" },
@@ -216,7 +216,7 @@
         { "player1": "BOPRA#9308", "score1": "73", "player2": "Suarepita#1978", "score2": "89", "winner": "Suarepita#1978" },
         { "player1": "Riddick6223", "score1": "", "player2": "Thorimer#9161", "score2": "", "winner": null },
         { "player1": "Manticore", "score1": "31", "player2": "cubiheadache#0286", "score2": "100", "winner": "cubiheadache#0286" },
-        { "player1": "xarpo_128", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
+        { "player1": "xarpo_128", "score1": "53", "player2": "rookiec", "score2": "83", "winner": "rookiec" },
         { "player1": "flaakkoo5", "score1": "63", "player2": "e_codina", "score2": "100", "winner": "e_codina" },
         { "player1": "patxamama", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
         { "player1": "MinchO0#9402", "score1": "25", "player2": "Navastelroy#7355", "score2": "98", "winner": "Navastelroy#7355" },
