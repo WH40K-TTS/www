@@ -103,8 +103,8 @@
       "name": "Grupo B",
       "players": [
         { "name": "inquinchocoa#0715", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "p1ter.", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "r3dman", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "p1ter.", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "r3dman", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "generic3677", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "maik#8573", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
@@ -122,9 +122,9 @@
     {
       "name": "Grupo D",
       "players": [
-        { "name": "BOPRA#9308", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "BOPRA#9308", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Riddick6223", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Suarepita#1978", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Suarepita#1978", "points": 9, "wins": 3, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "stilgar939", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Thorimer#9161", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
@@ -144,8 +144,8 @@
       "players": [
         { "name": "flaakkoo5", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "patxamama", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "e_codina", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Danistrorus", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "e_codina", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Danistrorus", "points": 6, "wins": 2, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Fraxpro#2142", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
@@ -195,7 +195,7 @@
         { "player1": "Manticore", "score1": "84", "player2": "xarpo_128", "score2": "89", "winner": "xarpo_128" },
         { "player1": "cubiheadache#0286", "score1": "100", "player2": "makea001", "score2": "45", "winner": "cubiheadache#0286" },
         { "player1": "flaakkoo5", "score1": "", "player2": "patxamama", "score2": "", "winner": null },
-        { "player1": "e_codina", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
+        { "player1": "e_codina", "score1": "63", "player2": "Danistrorus", "score2": "90", "winner": "Danistrorus" },
         { "player1": "MinchO0#9402", "score1": "86", "player2": "oTToHama", "score2": "55", "winner": "MinchO0#9402" },
         { "player1": "Navastelroy#7355", "score1": "81", "player2": "Llabreso#6183", "score2": "74", "winner": "Navastelroy#7355" },
         { "player1": "gerzon6915", "score1": "36", "player2": "Sanba#3554", "score2": "88", "winner": "Sanba#3554" },
@@ -213,7 +213,7 @@
         { "player1": "p1ter.", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
         { "player1": "cosmefernan", "score1": "", "player2": "javiergc12", "score2": "", "winner": null },
         { "player1": "Txutxi_", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
-        { "player1": "BOPRA#9308", "score1": "", "player2": "Suarepita#1978", "score2": "", "winner": null },
+        { "player1": "BOPRA#9308", "score1": "73", "player2": "Suarepita#1978", "score2": "89", "winner": "Suarepita#1978" },
         { "player1": "Riddick6223", "score1": "", "player2": "Thorimer#9161", "score2": "", "winner": null },
         { "player1": "Manticore", "score1": "31", "player2": "cubiheadache#0286", "score2": "100", "winner": "cubiheadache#0286" },
         { "player1": "xarpo_128", "score1": "", "player2": "rookiec", "score2": "", "winner": null },
@@ -278,7 +278,7 @@
       "matches": [
         { "player1": "rubenr.5391", "score1": "94", "player2": "javierv._12896", "score2": "56", "winner": "rubenr.5391" },
         { "player1": "icastell#0678", "score1": "100", "player2": "Frankis89", "score2": "100", "winner": null },
-        { "player1": "p1ter.", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
+        { "player1": "p1ter.", "score1": "57", "player2": "r3dman", "score2": "100", "winner": "r3dman" },
         { "player1": "generic3677", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
         { "player1": "Txutxi_", "score1": "", "player2": "javiergc12", "score2": "", "winner": null },
         { "player1": "HRamz", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
