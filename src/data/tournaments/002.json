@@ -93,9 +93,9 @@
       "name": "Grupo A",
       "players": [
         { "name": "Moroco#3343", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "rubenr.5391", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "rubenr.5391", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "javierv._12896", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 3, "abandoned": true },
-        { "name": "icastell#0678", "points": 1, "wins": 0, "losses": 0, "ties": 1, "abandonos": 0, "abandoned": false },
+        { "name": "icastell#0678", "points": 4, "wins": 1, "losses": 0, "ties": 1, "abandonos": 0, "abandoned": false },
         { "name": "Frankis89", "points": 4, "wins": 1, "losses": 0, "ties": 1, "abandonos": 0, "abandoned": false }
       ]
     },
@@ -254,7 +254,7 @@
       "round": 4,
       "matches": [
         { "player1": "Moroco#3343", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
-        { "player1": "rubenr.5391", "score1": "", "player2": "icastell#0678", "score2": "", "winner": null },
+        { "player1": "rubenr.5391", "score1": "84", "player2": "icastell#0678", "score2": "95", "winner": "icastell#0678" },
         { "player1": "inquinchocoa#0715", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
         { "player1": "p1ter.", "score1": "86", "player2": "generic3677", "score2": "54", "winner": "p1ter." },
         { "player1": "cosmefernan", "score1": "67", "player2": "Ancar#9431", "score2": "59", "winner": "cosmefernan" },
