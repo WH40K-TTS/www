@@ -102,7 +102,7 @@
     {
       "name": "Grupo B",
       "players": [
-        { "name": "inquinchocoa#0715", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "inquinchocoa#0715", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 3, "abandoned": true },
         { "name": "p1ter.", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "r3dman", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "generic3677", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
@@ -209,7 +209,7 @@
       "matches": [
         { "player1": "Moroco#3343", "score1": "", "player2": "javierv._12896", "score2": "", "winner": null },
         { "player1": "rubenr.5391", "score1": "21", "player2": "Frankis89", "score2": "100", "winner": "Frankis89" },
-        { "player1": "inquinchocoa#0715", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
+        { "player1": "inquinchocoa#0715", "score1": "-", "player2": "r3dman", "score2": "-", "winner": null },
         { "player1": "p1ter.", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
         { "player1": "cosmefernan", "score1": "", "player2": "javiergc12", "score2": "", "winner": null },
         { "player1": "Txutxi_", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
@@ -232,7 +232,7 @@
       "matches": [
         { "player1": "Moroco#3343", "score1": "", "player2": "icastell#0678", "score2": "", "winner": null },
         { "player1": "javierv._12896", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
-        { "player1": "inquinchocoa#0715", "score1": "", "player2": "generic3677", "score2": "", "winner": null },
+        { "player1": "inquinchocoa#0715", "score1": "-", "player2": "generic3677", "score2": "-", "winner": null },
         { "player1": "r3dman", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
         { "player1": "cosmefernan", "score1": "95", "player2": "HRamz", "score2": "25", "winner": "cosmefernan" },
         { "player1": "javiergc12", "score1": "87", "player2": "Ancar#9431", "score2": "62", "winner": "javiergc12" },
@@ -255,7 +255,7 @@
       "matches": [
         { "player1": "Moroco#3343", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
         { "player1": "rubenr.5391", "score1": "84", "player2": "icastell#0678", "score2": "95", "winner": "icastell#0678" },
-        { "player1": "inquinchocoa#0715", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
+        { "player1": "inquinchocoa#0715", "score1": "-", "player2": "maik#8573", "score2": "-", "winner": null },
         { "player1": "p1ter.", "score1": "86", "player2": "generic3677", "score2": "54", "winner": "p1ter." },
         { "player1": "cosmefernan", "score1": "67", "player2": "Ancar#9431", "score2": "59", "winner": "cosmefernan" },
         { "player1": "Txutxi_", "score1": "", "player2": "HRamz", "score2": "", "winner": null },
