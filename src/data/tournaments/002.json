@@ -104,8 +104,8 @@
       "players": [
         { "name": "inquinchocoa#0715", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "p1ter.", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "r3dman", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "generic3677", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "r3dman", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "generic3677", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "maik#8573", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
@@ -187,7 +187,7 @@
         { "player1": "Moroco#3343", "score1": "", "player2": "rubenr.5391", "score2": "", "winner": null },
         { "player1": "javierv._12896", "score1": "", "player2": "icastell#0678", "score2": "", "winner": null },
         { "player1": "inquinchocoa#0715", "score1": "20", "player2": "p1ter.", "score2": "97", "winner": "p1ter." },
-        { "player1": "r3dman", "score1": "", "player2": "generic3677", "score2": "", "winner": null },
+        { "player1": "r3dman", "score1": "95", "player2": "generic3677", "score2": "22", "winner": "r3dman" },
         { "player1": "cosmefernan", "score1": "", "player2": "Txutxi_", "score2": "", "winner": null },
         { "player1": "javiergc12", "score1": "61", "player2": "HRamz", "score2": "100", "winner": "HRamz" },
         { "player1": "BOPRA#9308", "score1": "91", "player2": "Riddick6223", "score2": "96", "winner": "Riddick6223" },
