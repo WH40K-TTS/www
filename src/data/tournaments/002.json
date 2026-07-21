@@ -164,8 +164,8 @@
       "players": [
         { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Sanba#3554", "points": 6, "wins": 2, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "MaikelEdge#1156", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "doblegwh", "points": 9, "wins": 3, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "MaikelEdge#1156", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "doblegwh", "points": 12, "wins": 4, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "stein_48112", "points": 0, "wins": 0, "losses": 3, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
@@ -199,7 +199,7 @@
         { "player1": "MinchO0#9402", "score1": "86", "player2": "oTToHama", "score2": "55", "winner": "MinchO0#9402" },
         { "player1": "Navastelroy#7355", "score1": "81", "player2": "Llabreso#6183", "score2": "74", "winner": "Navastelroy#7355" },
         { "player1": "gerzon6915", "score1": "36", "player2": "Sanba#3554", "score2": "88", "winner": "Sanba#3554" },
-        { "player1": "MaikelEdge#1156", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "MaikelEdge#1156", "score1": "54", "player2": "doblegwh", "score2": "99", "winner": "doblegwh" },
         { "player1": "urekmazino6906", "score1": "", "player2": "GatoAventuras#1025", "score2": "", "winner": null },
         { "player1": "Mr. Friedlander", "score1": "", "player2": "APCC the architect#6869", "score2": "", "winner": null }
       ]
