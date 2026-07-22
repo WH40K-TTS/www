@@ -113,8 +113,8 @@
       "name": "Grupo C",
       "players": [
         { "name": "cosmefernan", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Txutxi_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "javiergc12", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Txutxi_", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "javiergc12", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "HRamz", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Ancar#9431", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
@@ -280,7 +280,7 @@
         { "player1": "icastell#0678", "score1": "100", "player2": "Frankis89", "score2": "100", "winner": null },
         { "player1": "p1ter.", "score1": "57", "player2": "r3dman", "score2": "100", "winner": "r3dman" },
         { "player1": "generic3677", "score1": "", "player2": "maik#8573", "score2": "", "winner": null },
-        { "player1": "Txutxi_", "score1": "", "player2": "javiergc12", "score2": "", "winner": null },
+        { "player1": "Txutxi_", "score1": "77", "player2": "javiergc12", "score2": "91", "winner": "javiergc12" },
         { "player1": "HRamz", "score1": "", "player2": "Ancar#9431", "score2": "", "winner": null },
         { "player1": "Riddick6223", "score1": "93", "player2": "Suarepita#1978", "score2": "96", "winner": "Suarepita#1978" },
         { "player1": "stilgar939", "score1": "82", "player2": "Thorimer#9161", "score2": "93", "winner": "Thorimer#9161" },
