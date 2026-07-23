@@ -172,9 +172,9 @@
     {
       "name": "Grupo I",
       "players": [
-        { "name": "urekmazino6906", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "urekmazino6906", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "GatoAventuras#1025", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Mr. Friedlander", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Mr. Friedlander", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "APCC the architect#6869", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "snake0770_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
@@ -223,7 +223,7 @@
         { "player1": "oTToHama", "score1": "-", "player2": "Usero#4135", "score2": "-", "winner": null },
         { "player1": "gerzon6915", "score1": "", "player2": "MaikelEdge#1156", "score2": "", "winner": null },
         { "player1": "Sanba#3554", "score1": "89", "player2": "stein_48112", "score2": "76", "winner": "Sanba#3554" },
-        { "player1": "urekmazino6906", "score1": "", "player2": "Mr. Friedlander", "score2": "", "winner": null },
+        { "player1": "urekmazino6906", "score1": "100", "player2": "Mr. Friedlander", "score2": "15", "winner": "urekmazino6906" },
         { "player1": "GatoAventuras#1025", "score1": "", "player2": "snake0770_", "score2": "", "winner": null }
       ]
     },
