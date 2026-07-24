@@ -133,9 +133,9 @@
       "name": "Grupo E",
       "players": [
         { "name": "Manticore", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 2, "abandoned": true},
-        { "name": "xarpo_128", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "xarpo_128", "points": 3, "wins": 1, "losses": 3, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "cubiheadache#0286", "points": 12, "wins": 4, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "makea001", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "makea001", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "rookiec", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
@@ -172,10 +172,10 @@
     {
       "name": "Grupo I",
       "players": [
-        { "name": "urekmazino6906", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "urekmazino6906", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "GatoAventuras#1025", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Mr. Friedlander", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "APCC the architect#6869", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "APCC the architect#6869", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "snake0770_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     }
@@ -246,7 +246,7 @@
         { "player1": "Navastelroy#7355", "score1": "-", "player2": "Usero#4135", "score2": "-", "winner": null },
         { "player1": "gerzon6915", "score1": "58", "player2": "doblegwh", "score2": "94", "winner": "doblegwh" },
         { "player1": "MaikelEdge#1156", "score1": "99", "player2": "stein_48112", "score2": "57", "winner": "MaikelEdge#1156" },
-        { "player1": "urekmazino6906", "score1": "", "player2": "APCC the architect#6869", "score2": "", "winner": null },
+        { "player1": "urekmazino6906", "score1": "100", "player2": "APCC the architect#6869", "score2": "30", "winner": "urekmazino6906" },
         { "player1": "Mr. Friedlander", "score1": "", "player2": "snake0770_", "score2": "", "winner": null }
       ]
     },
@@ -262,7 +262,7 @@
         { "player1": "BOPRA#9308", "score1": "-", "player2": "Thorimer#9161", "score2": "-", "winner": null },
         { "player1": "Riddick6223", "score1": "95", "player2": "stilgar939", "score2": "69", "winner": "Riddick6223" },
         { "player1": "Manticore", "score1": "-", "player2": "rookiec", "score2": "-", "winner": null },
-        { "player1": "xarpo_128", "score1": "", "player2": "makea001", "score2": "", "winner": null },
+        { "player1": "xarpo_128", "score1": "79", "player2": "makea001", "score2": "82", "winner": "makea001" },
         { "player1": "flaakkoo5", "score1": "", "player2": "Fraxpro#2142", "score2": "", "winner": null },
         { "player1": "patxamama", "score1": "100", "player2": "Danistrorus", "score2": "59", "winner": "patxamama" },
         { "player1": "MinchO0#9402", "score1": "-", "player2": "Usero#4135", "score2": "-", "winner": null },
