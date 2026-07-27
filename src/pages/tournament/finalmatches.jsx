@@ -3,7 +3,7 @@ import { Layers, Layers2, Trophy, Medal } from 'lucide-react'
 import MatchRow from '../../components/tournament/matchrow'
 
 const ROUND_ICONS = {
-  'Cuartos de Final': Layers,
+  'Octavos': Layers,
   'Semifinales':      Layers2,
   'Final':            Trophy,
   '3er y 4º Puesto':  Medal,
