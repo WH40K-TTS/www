@@ -103,8 +103,8 @@
       "name": "Grupo B",
       "players": [
         { "name": "inquinchocoa#0715", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 3, "abandoned": true },
-        { "name": "p1ter.", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "r3dman", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "p1ter.", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "generic3677", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "maik#8573", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
