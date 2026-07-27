@@ -143,9 +143,9 @@
       "name": "Grupo F",
       "players": [
         { "name": "flaakkoo5", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Danistrorus", "points": 6, "wins": 2, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "patxamama", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "e_codina", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Danistrorus", "points": 6, "wins": 2, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Fraxpro#2142", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
