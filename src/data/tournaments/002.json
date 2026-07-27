@@ -174,8 +174,8 @@
       "players": [
         { "name": "urekmazino6906", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "GatoAventuras#1025", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Mr. Friedlander", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "APCC the architect#6869", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Mr. Friedlander", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 2, "abandoned": false },
+        { "name": "APCC the architect#6869", "points": 0, "wins": 0, "losses": 3, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "snake0770_", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     }
@@ -201,7 +201,7 @@
         { "player1": "gerzon6915", "score1": "36", "player2": "Sanba#3554", "score2": "88", "winner": "Sanba#3554" },
         { "player1": "MaikelEdge#1156", "score1": "54", "player2": "doblegwh", "score2": "99", "winner": "doblegwh" },
         { "player1": "urekmazino6906", "score1": "", "player2": "GatoAventuras#1025", "score2": "", "winner": null },
-        { "player1": "Mr. Friedlander", "score1": "", "player2": "APCC the architect#6869", "score2": "", "winner": null }
+        { "player1": "Mr. Friedlander", "score1": "90", "player2": "APCC the architect#6869", "score2": "62", "winner": "Mr. Friedlander" }
       ]
     },
     {
@@ -247,7 +247,7 @@
         { "player1": "gerzon6915", "score1": "58", "player2": "doblegwh", "score2": "94", "winner": "doblegwh" },
         { "player1": "MaikelEdge#1156", "score1": "99", "player2": "stein_48112", "score2": "57", "winner": "MaikelEdge#1156" },
         { "player1": "urekmazino6906", "score1": "100", "player2": "APCC the architect#6869", "score2": "30", "winner": "urekmazino6906" },
-        { "player1": "Mr. Friedlander", "score1": "", "player2": "snake0770_", "score2": "", "winner": null }
+        { "player1": "Mr. Friedlander", "score1": "-", "player2": "snake0770_", "score2": "-", "winner": null }
       ]
     },
     {
@@ -292,7 +292,7 @@
         { "player1": "Llabreso#6183", "score1": "-", "player2": "Usero#4135", "score2": "-", "winner": null },
         { "player1": "Sanba#3554", "score1": "79", "player2": "MaikelEdge#1156", "score2": "92", "winner": "MaikelEdge#1156" },
         { "player1": "doblegwh", "score1": "81", "player2": "stein_48112", "score2": "75", "winner": "doblegwh" },
-        { "player1": "GatoAventuras#1025", "score1": "", "player2": "Mr. Friedlander", "score2": "", "winner": null },
+        { "player1": "GatoAventuras#1025", "score1": "-", "player2": "Mr. Friedlander", "score2": "-", "winner": null },
         { "player1": "APCC the architect#6869", "score1": "", "player2": "snake0770_", "score2": "", "winner": null }
       ]
     }
