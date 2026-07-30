@@ -301,7 +301,7 @@
     {
       "round": "Octavos",
       "matches": [
-        { "player1": "Danistrorus", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
+        { "player1": "Danistrorus", "score1": "80", "player2": "r3dman", "score2": "78", "winner": "Danistrorus" },
         { "player1": "cosmefernan", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
         { "player1": "Suarepita#1978", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
         { "player1": "cubiheadache#0286", "score1": "", "player2": "urekmazino6906", "score2": "", "winner": null }
@@ -310,7 +310,7 @@
     {
       "round": "Semifinales",
       "matches": [
-        { "player1": "",  "score1": "", "player2": "",    "score2": "",  "winner": null  },
+        { "player1": "Danistrorus",  "score1": "", "player2": "",    "score2": "",  "winner": null  },
         { "player1": "", "score1": "",  "player2": "",   "score2": "", "winner": null   }
       ]
     },
