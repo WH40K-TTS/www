@@ -303,7 +303,7 @@
       "matches": [
         { "player1": "Danistrorus", "score1": "80", "player2": "r3dman", "score2": "78", "winner": "Danistrorus" },
         { "player1": "cosmefernan", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
-        { "player1": "Suarepita#1978", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "Suarepita#1978", "score1": "95", "player2": "Navastelroy#7355", "score2": "72", "winner": "Suarepita#1978" },
         { "player1": "cubiheadache#0286", "score1": "98", "player2": "urekmazino6906", "score2": "86", "winner": "cubiheadache#0286" }
       ]
     },
@@ -311,7 +311,7 @@
       "round": "Semifinales",
       "matches": [
         { "player1": "Danistrorus",  "score1": "46", "player2": "cubiheadache#0286",    "score2": "100",  "winner": "cubiheadache#0286"  },
-        { "player1": "", "score1": "",  "player2": "",   "score2": "", "winner": null   }
+        { "player1": "Suarepita#1978", "score1": "",  "player2": "",   "score2": "", "winner": null   }
       ]
     },
     {
