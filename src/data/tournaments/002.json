@@ -311,19 +311,19 @@
       "round": "Semifinales",
       "matches": [
         { "player1": "Danistrorus",  "score1": "46", "player2": "cubiheadache#0286",    "score2": "100",  "winner": "cubiheadache#0286"  },
-        { "player1": "Suarepita#1978", "score1": "",  "player2": "cosmefernan",   "score2": "", "winner": null   }
+        { "player1": "Suarepita#1978", "score1": "100",  "player2": "cosmefernan",   "score2": "28", "winner": "Suarepita#1978"   }
       ]
     },
     {
       "round": "3º y 4º Puesto",
       "matches": [
-        { "player1": "Danistrorus", "score1": "", "player2": "",    "score2": "",  "winner": null }
+        { "player1": "Danistrorus", "score1": "", "player2": "cosmefernan",    "score2": "",  "winner": null }
       ]
     },
     {
       "round": "Final",
       "matches": [
-        { "player1": "cubiheadache#0286",  "score1": "", "player2": "",   "score2": "",  "winner": null  }
+        { "player1": "cubiheadache#0286",  "score1": "", "player2": "Suarepita#1978",   "score2": "",  "winner": null  }
       ]
     }
   ]
