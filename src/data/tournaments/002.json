@@ -323,7 +323,7 @@
     {
       "round": "Final",
       "matches": [
-        { "player1": "cubiheadache#0286",  "score1": "", "player2": "Suarepita#1978",   "score2": "",  "winner": null  }
+        { "player1": "cubiheadache#0286",  "score1": "100", "player2": "Suarepita#1978",   "score2": "68",  "winner": "cubiheadache#0286"  }
       ]
     }
   ]
