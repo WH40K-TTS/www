@@ -1,71 +1,215 @@
-﻿{
-  "updatedAt": "2025-05-01",
+{
+  "updatedAt": "10-08-2026",
   "players": [
     {
       "id": "player-001",
-      "name": "",
-      "totalPoints": "",
-      "tournamentsPlayed": "",
-      "wins": "",
-      "losses": "",
-      "ties": "",
-      "abandonos": "",
-      "faction": "",
+      "name": "cubiheadache#0286",
+      "totalPoints": 12,
+      "tournamentsPlayed": 1,
+      "wins": 7,
+      "losses": 0,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
       "tournamentHistory": [
         {
-          "tournamentId": "",
-          "tournamentName": "",
-          "position": "",
-          "points": "",
-          "wins": "",
-          "losses": ""
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 1,
+          "points": 12,
+          "wins": 7,
+          "losses": 0
         }
       ]
     },
     {
       "id": "player-002",
-      "name": "",
-      "totalPoints": ""
+      "name": "Suarepita#1978",
+      "totalPoints": 9,
+      "tournamentsPlayed": 1,
+      "wins": 5,
+      "losses": 1,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
+      "tournamentHistory": [
+        {
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 2,
+          "points": 9,
+          "wins": 5,
+          "losses": 1
+        }
+      ]
     },
     {
       "id": "player-003",
-      "name": "",
-      "totalPoints": ""
+      "name": "Danistrorus",
+      "totalPoints": 6,
+      "tournamentsPlayed": 1,
+      "wins": 3,
+      "losses": 3,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
+      "tournamentHistory": [
+        {
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 4,
+          "points": 6,
+          "wins": 3,
+          "losses": 3
+        }
+      ]
     },
     {
       "id": "player-004",
-      "name": "",
-      "totalPoints": ""
+      "name": "cosmefernan",
+      "totalPoints": 9,
+      "tournamentsPlayed": 1,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
+      "tournamentHistory": [
+        {
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 4,
+          "points": 9,
+          "wins": 4,
+          "losses": 1
+        }
+      ]
     },
     {
       "id": "player-005",
-      "name": "",
-      "totalPoints": ""
+      "name": "r3dman",
+      "totalPoints": 6,
+      "tournamentsPlayed": 1,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
+      "tournamentHistory": [
+        {
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 8,
+          "points": 6,
+          "wins": 2,
+          "losses": 1
+        }
+      ]
     },
     {
       "id": "player-006",
-      "name": "",
-      "totalPoints": ""
+      "name": "doblegwh",
+      "totalPoints": 12,
+      "tournamentsPlayed": 1,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
+      "tournamentHistory": [
+        {
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 8,
+          "points": 12,
+          "wins": 4,
+          "losses": 1
+        }
+      ]
     },
     {
       "id": "player-007",
-      "name": "",
-      "totalPoints": ""
+      "name": "Navastelroy#7355",
+      "totalPoints": 9,
+      "tournamentsPlayed": 1,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
+      "tournamentHistory": [
+        {
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 8,
+          "points": 9,
+          "wins": 3,
+          "losses": 1
+        }
+      ]
     },
     {
       "id": "player-008",
-      "name": "",
-      "totalPoints": ""
+      "name": "urekmazino6906",
+      "totalPoints": 6,
+      "tournamentsPlayed": 1,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
+      "tournamentHistory": [
+        {
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 8,
+          "points": 6,
+          "wins": 2,
+          "losses": 1
+        }
+      ]
     },
     {
       "id": "player-009",
-      "name": "",
-      "totalPoints": ""
+      "name": "javiergc12",
+      "totalPoints": 6,
+      "tournamentsPlayed": 1,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
+      "tournamentHistory": [
+        {
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 0,
+          "points": 6,
+          "wins": 2,
+          "losses": 2
+        }
+      ]
     },
     {
       "id": "player-010",
-      "name": "",
-      "totalPoints": ""
+      "name": "Sanba#3554",
+      "totalPoints": 6,
+      "tournamentsPlayed": 1,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "abandonos": 0,
+      "faction": "Unknown",
+      "tournamentHistory": [
+        {
+          "tournamentId": "002",
+          "tournamentName": "Armageddon - I1",
+          "position": 0,
+          "points": 6,
+          "wins": 2,
+          "losses": 2
+        }
+      ]
     }
   ]
 }
