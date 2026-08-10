@@ -172,7 +172,7 @@
     {
       "id": "player-009",
       "name": "javiergc12",
-      "totalPoints": 0,
+      "totalPoints": 2,
       "tournamentsPlayed": 1,
       "wins": 2,
       "losses": 2,
@@ -184,7 +184,7 @@
           "tournamentId": "002",
           "tournamentName": "Armageddon - I1",
           "position": 0,
-          "points": 0,
+          "points": 2,
           "wins": 2,
           "losses": 2
         }
@@ -193,7 +193,7 @@
     {
       "id": "player-010",
       "name": "Sanba#3554",
-      "totalPoints": 0,
+      "totalPoints": 2,
       "tournamentsPlayed": 1,
       "wins": 2,
       "losses": 2,
@@ -205,7 +205,7 @@
           "tournamentId": "002",
           "tournamentName": "Armageddon - I1",
           "position": 0,
-          "points": 0,
+          "points": 2,
           "wins": 2,
           "losses": 2
         }
