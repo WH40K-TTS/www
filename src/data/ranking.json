@@ -10,7 +10,7 @@
       "losses": 0,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "Blood Angels",
       "tournamentHistory": [
         {
           "tournamentId": "002",
@@ -31,7 +31,7 @@
       "losses": 1,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "Death Guard",
       "tournamentHistory": [
         {
           "tournamentId": "002",
@@ -52,7 +52,7 @@
       "losses": 1,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "Imperial Knights",
       "tournamentHistory": [
         {
           "tournamentId": "002",
@@ -73,7 +73,7 @@
       "losses": 3,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "Imperial Fists",
       "tournamentHistory": [
         {
           "tournamentId": "002",
@@ -94,7 +94,7 @@
       "losses": 1,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "Dark Angels",
       "tournamentHistory": [
         {
           "tournamentId": "002",
@@ -115,7 +115,7 @@
       "losses": 1,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "Salamanders",
       "tournamentHistory": [
         {
           "tournamentId": "002",
@@ -136,7 +136,7 @@
       "losses": 1,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "Necrons",
       "tournamentHistory": [
         {
           "tournamentId": "002",
@@ -157,7 +157,7 @@
       "losses": 1,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "T’au Empire",
       "tournamentHistory": [
         {
           "tournamentId": "002",
@@ -178,7 +178,7 @@
       "losses": 2,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "Tyranids",
       "tournamentHistory": [
         {
           "tournamentId": "002",
@@ -199,7 +199,7 @@
       "losses": 2,
       "ties": 0,
       "abandonos": 0,
-      "faction": "Unknown",
+      "faction": "Genestealer Cults",
       "tournamentHistory": [
         {
           "tournamentId": "002",
