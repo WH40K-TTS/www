@@ -21,6 +21,17 @@
       "format": "Individual",
       "players": 45,
       "winner": ""
+    },
+    {
+      "/COMENTARIO/": "upcoming, ongoing, finished",
+      "id": "003",
+      "name": "Armageddon - E1",
+      "date": "",
+      "dateEnd": "",
+      "status": "upcoming",
+      "format": "Equipos",
+      "players": 40,
+      "winner": ""
     }
   ]
 }
