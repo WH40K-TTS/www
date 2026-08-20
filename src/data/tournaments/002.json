@@ -317,7 +317,7 @@
     {
       "round": "3º y 4º Puesto",
       "matches": [
-        { "player1": "Danistrorus", "score1": "", "player2": "cosmefernan",    "score2": "",  "winner": null }
+        { "player1": "Danistrorus", "score1": "39", "player2": "cosmefernan", "score2": "100",  "winner": "cosmefernan" }
       ]
     },
     {
