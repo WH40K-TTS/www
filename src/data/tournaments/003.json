@@ -4,11 +4,11 @@
   "date": "",
   "dateEnd": "",
   "_COMENTARIO_valores_status": "upcoming (Próximo), ongoing (En curso), finished (Finalizado)",
-  "status": "upcoming",
+  "status": "ongoing",
   "format": "Equipos",
   "tallyFormId": "FORM_ID",
   "_COMENTARIO_infoMd": "Es lo que se ve en la página info.jsx",
-  "infoMd": "## Descripción\n**Armageddon - E1** torneo por equipos de 4 jugadores, utilizando las reglas de 11ª edición.\n\n## Fechas y recursos\n- **Inscripciones**: -\n- **Rondas clasificatorias**: -\n- **Finales**: -\n\nCada equipo dispone de una semana por ronda para acordar y disputar sus partidas.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se dividirá en **cuatro rondas**.\n- Los equipos dispondrán de cuatro semanas para realizar los emparejamientos y disputar todas las partidas.\n- Puntuación: **3 pts** victoria, **1 pts** por empate (*diferencias de puntuaciones por equipos de 4 pts o menos*) y **0 pts** por derrota.",
+  "infoMd": "## Descripción\n**Armageddon - E1** torneo por equipos de 4 jugadores, utilizando las reglas de 11ª edición.\n\n## Fechas y recursos\n- **Inscripciones**: 31/08/2026-06/09/2026\n- **Rondas (4)**: 07/09/2026-04/10/2026\n\nCada equipo dispone de una semana por ronda para acordar y disputar sus partidas.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se dividirá en **cuatro rondas**.\n- Los equipos dispondrán de cuatro semanas para realizar los emparejamientos y disputar todas las partidas.\n- Puntuación: **3 pts** victoria, **1 pts** por empate (*diferencias de puntuaciones por equipos de 4 pts o menos*) y **0 pts** por derrota.",
   "listUploadConfig": {
     "_COMENTARIO_valores_state": "form_individual, form_teams, lists_individual, lists_teams",
     "state": "form_teams",
