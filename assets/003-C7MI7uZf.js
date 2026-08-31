@@ -1,10 +1,9 @@
-const a="003",s="Armageddon - E1",t="",e="",i="upcoming (Próximo), ongoing (En curso), finished (Finalizado)",o="upcoming",n="Equipos",d="FORM_ID",r="Es lo que se ve en la página info.jsx",l=`## Descripción
+const a="003",s="Armageddon - E1",t="",e="",i="upcoming (Próximo), ongoing (En curso), finished (Finalizado)",o="ongoing",n="Equipos",d="FORM_ID",r="Es lo que se ve en la página info.jsx",l=`## Descripción
 **Armageddon - E1** torneo por equipos de 4 jugadores, utilizando las reglas de 11ª edición.
 
 ## Fechas y recursos
-- **Inscripciones**: -
-- **Rondas clasificatorias**: -
-- **Finales**: -
+- **Inscripciones**: 31/08/2026-06/09/2026
+- **Rondas (4)**: 07/09/2026-04/10/2026
 
 Cada equipo dispone de una semana por ronda para acordar y disputar sus partidas.
 
