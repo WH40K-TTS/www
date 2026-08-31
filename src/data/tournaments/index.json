@@ -26,11 +26,11 @@
       "/COMENTARIO/": "upcoming, ongoing, finished",
       "id": "003",
       "name": "Armageddon - E1",
-      "date": "",
-      "dateEnd": "",
-      "status": "upcoming",
+      "date": "31-08-2026",
+      "dateEnd": "04-10-2026",
+      "status": "ongoing",
       "format": "Equipos",
-      "players": 40,
+      "players": 10,
       "winner": ""
     }
   ]
