@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useMemo } from 'react'
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import { Info, FileUp, Group, Swords, Crown } from 'lucide-react'
 import { useTournament } from '../../hooks/usetournament'
@@ -8,16 +8,24 @@ import { ErrorState } from '../../components/ui/error-state'
 import TournamentInfo from './info'
 import ListUpload from './listupload'
 import Groups from './groups'
+import Classification from './classification'
 import QualificationMatches from './qualificationmatches'
 import FinalMatches from './finalmatches'
 import { Badge } from '../../components/ui/badge'
 
-const TABS = [
+const TABS_DEFAULT = [
   { id: 'info',          label: 'Info',        icon: Info   },
   { id: 'lists',         label: 'Listas',      icon: FileUp },
   { id: 'groups',        label: 'Grupos',      icon: Group  },
   { id: 'qualification', label: 'Partidas',    icon: Swords },
   { id: 'finals',        label: 'Finales',     icon: Crown  },
+]
+
+const TABS_TEAMS = [
+  { id: 'info',          label: 'Info',          icon: Info   },
+  { id: 'lists',         label: 'Listas',        icon: FileUp },
+  { id: 'standings',     label: 'Clasificación', icon: Group  },
+  { id: 'qualification', label: 'Partidas',      icon: Swords },
 ]
 
 const STATUS_LABELS = {
@@ -31,17 +39,20 @@ export default function Tournament() {
   const navigate = useNavigate()
   const [searchParams, setSearchParams] = useSearchParams()
   const { tournament, loading, error } = useTournament(id)
-  
+  const isTeams = tournament?.format === 'Equipos'
+  const TABS = useMemo(() => (isTeams ? TABS_TEAMS : TABS_DEFAULT), [isTeams])
+
   // Read tab from URL query parameters (?tab=...)
   const tabParam = searchParams.get('tab')
   const activeTab = tabParam || 'info'
 
   // Validate tab: if the parameter exists but is not a valid tab, reset to 'info'
   useEffect(() => {
+    if (loading || !tournament) return
     if (tabParam && !TABS.some(t => t.id === tabParam)) {
       setSearchParams({}, { replace: true })
     }
-  }, [tabParam, setSearchParams])
+  }, [tabParam, setSearchParams, TABS, loading, tournament])
 
   const handleTabChange = (newTab) => {
     setSearchParams({ tab: newTab })
@@ -91,9 +102,10 @@ export default function Tournament() {
         <div className="animate-fade-in">
           {activeTab === 'info'          && <TournamentInfo tournament={tournament} />}
           {activeTab === 'lists'         && <ListUpload tournament={tournament} />}
-          {activeTab === 'groups'        && <Groups groups={tournament.groups} />}
+          {activeTab === 'groups'        && !isTeams && <Groups groups={tournament.groups} />}
+          {activeTab === 'standings'     && isTeams  && <Classification groups={tournament.groups} />}
           {activeTab === 'qualification' && <QualificationMatches matches={tournament.qualificationMatches} />}
-          {activeTab === 'finals'        && <FinalMatches matches={tournament.finalMatches} />}
+          {activeTab === 'finals'        && !isTeams && <FinalMatches matches={tournament.finalMatches} />}
         </div>
 
       </div>

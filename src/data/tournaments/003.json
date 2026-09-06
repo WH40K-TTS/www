@@ -374,7 +374,76 @@
       ]
     }
   },
-  "groups": [],
-  "qualificationMatches": [],
+  "groups": [
+    {
+      "name": "Clasificación General",
+      "players": [
+        { "name": "TEAM RUINA ABSOLUTA", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "La Compañía Gris", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Anti-Astartes Social Club", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "RukkaTrukka", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Crisis de los 40k", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Que pasa biomasa?", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "La última potencia", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "MaDuroz Kon Ganaz", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Devastating bros", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "El bueno, el malo, el feo y el eldar", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Mancos pero majos", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "CobradorMakari", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "No Hacemos Cajitas", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 },
+        { "name": "Disciples", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0 }
+      ]
+    }
+  ],
+  "qualificationMatches": [
+    {
+      "round": 1,
+      "matches": [
+        { "player1": "Anti-Astartes Social Club", "score1": "", "player2": "CobradorMakari", "score2": "", "winner": null },
+        { "player1": "La Compañía Gris", "score1": "", "player2": "Disciples", "score2": "", "winner": null },
+        { "player1": "La última potencia", "score1": "", "player2": "El bueno, el malo, el feo y el eldar", "score2": "", "winner": null },
+        { "player1": "Que pasa biomasa?", "score1": "", "player2": "RukkaTrukka", "score2": "", "winner": null },
+        { "player1": "No Hacemos Cajitas", "score1": "", "player2": "TEAM RUINA ABSOLUTA", "score2": "", "winner": null },
+        { "player1": "Mancos pero majos", "score1": "", "player2": "Crisis de los 40k", "score2": "", "winner": null },
+        { "player1": "Devastating bros", "score1": "", "player2": "MaDuroz Kon Ganaz", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        { "player1": "Devastating bros", "score1": "", "player2": "El bueno, el malo, el feo y el eldar", "score2": "", "winner": null },
+        { "player1": "Que pasa biomasa?", "score1": "", "player2": "Anti-Astartes Social Club", "score2": "", "winner": null },
+        { "player1": "No Hacemos Cajitas", "score1": "", "player2": "La Compañía Gris", "score2": "", "winner": null },
+        { "player1": "RukkaTrukka", "score1": "", "player2": "Disciples", "score2": "", "winner": null },
+        { "player1": "MaDuroz Kon Ganaz", "score1": "", "player2": "TEAM RUINA ABSOLUTA", "score2": "", "winner": null },
+        { "player1": "La última potencia", "score1": "", "player2": "Crisis de los 40k", "score2": "", "winner": null },
+        { "player1": "CobradorMakari", "score1": "", "player2": "Mancos pero majos", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        { "player1": "No Hacemos Cajitas", "score1": "", "player2": "CobradorMakari", "score2": "", "winner": null },
+        { "player1": "MaDuroz Kon Ganaz", "score1": "", "player2": "Mancos pero majos", "score2": "", "winner": null },
+        { "player1": "Que pasa biomasa?", "score1": "", "player2": "Disciples", "score2": "", "winner": null },
+        { "player1": "La última potencia", "score1": "", "player2": "Anti-Astartes Social Club", "score2": "", "winner": null },
+        { "player1": "El bueno, el malo, el feo y el eldar", "score1": "", "player2": "La Compañía Gris", "score2": "", "winner": null },
+        { "player1": "Devastating bros", "score1": "", "player2": "RukkaTrukka", "score2": "", "winner": null },
+        { "player1": "Crisis de los 40k", "score1": "", "player2": "TEAM RUINA ABSOLUTA", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        { "player1": "Que pasa biomasa?", "score1": "", "player2": "El bueno, el malo, el feo y el eldar", "score2": "", "winner": null },
+        { "player1": "Disciples", "score1": "", "player2": "Devastating bros", "score2": "", "winner": null },
+        { "player1": "La última potencia", "score1": "", "player2": "No Hacemos Cajitas", "score2": "", "winner": null },
+        { "player1": "Crisis de los 40k", "score1": "", "player2": "CobradorMakari", "score2": "", "winner": null },
+        { "player1": "RukkaTrukka", "score1": "", "player2": "MaDuroz Kon Ganaz", "score2": "", "winner": null },
+        { "player1": "TEAM RUINA ABSOLUTA", "score1": "", "player2": "Mancos pero majos", "score2": "", "winner": null },
+        { "player1": "La Compañía Gris", "score1": "", "player2": "Anti-Astartes Social Club", "score2": "", "winner": null }
+      ]
+    }
+  ],
   "finalMatches": []
 }
