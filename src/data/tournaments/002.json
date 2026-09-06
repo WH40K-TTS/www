@@ -4,7 +4,7 @@
   "date": "22-06-2026",
   "dateEnd": "09-08-2026",
   "_COMENTARIO_valores_status": "upcoming (Próximo), ongoing (En curso), finished (Finalizado)",
-  "status": "ongoing",
+  "status": "finished",
   "format": "individual",
   "tallyFormId": "FORM_ID",
   "_COMENTARIO_infoMd": "Es lo que se ve en la página info.jsx",
