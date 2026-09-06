@@ -1,4 +1,4 @@
-const e="002",a="Armageddon - I1",n="22-06-2026",r="09-08-2026",s="upcoming (Próximo), ongoing (En curso), finished (Finalizado)",o="ongoing",i="individual",l="FORM_ID",t="Es lo que se ve en la página info.jsx",c=`## Descripción
+const e="002",a="Armageddon - I1",n="22-06-2026",r="09-08-2026",s="upcoming (Próximo), ongoing (En curso), finished (Finalizado)",o="finished",i="individual",l="FORM_ID",t="Es lo que se ve en la página info.jsx",c=`## Descripción
 **Armageddon - I1** es el primer torneo individual de 11ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones
 del [Pack de Eventos Individuales](https://assets.warhammer-community.com/spa_12-06_warhammer40000_event_companion-w4wi7amje7-ayjhs8z8h8.pdf) y la escenografía oficial de Games Workshop.
 
