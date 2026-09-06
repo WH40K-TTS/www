@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function GroupCard({ group }) {
+export function GroupCard({ group, leaderMark = '▲' }) {
   const sorted = [...(group.players ?? [])].sort((a, b) => b.points - a.points)
 
   return (
@@ -41,7 +41,7 @@ export function GroupCard({ group }) {
                     style={{ color: idx < 1 ? '#c9a84c' : '#3a2d10' }}
                   >
                     {/* Símbolo de pasar fase. El número hace referencia al número de filas que pasan fase. */}
-                    {idx < 1 ? '▲' : idx + 1}
+                    {idx < 1 ? leaderMark : idx + 1}
                   </span>
                    <span className={`font-body text-sm whitespace-nowrap uppercase ${idx < 1 ? 'text-[#e8c96a]' : (isLastThree ? 'text-[#8a6f2e]' : 'text-[#8a6f2e]')} ${player.abandoned ? 'line-through opacity-50' : ''}`}>
                      {player.name}

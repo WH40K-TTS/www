@@ -22,10 +22,11 @@ const TABS_DEFAULT = [
 ]
 
 const TABS_TEAMS = [
-  { id: 'info',          label: 'Info',          icon: Info   },
-  { id: 'lists',         label: 'Listas',        icon: FileUp },
-  { id: 'standings',     label: 'Clasificación', icon: Group  },
-  { id: 'qualification', label: 'Partidas',      icon: Swords },
+  { id: 'info',          label: 'Info',     icon: Info   },
+  { id: 'lists',         label: 'Listas',   icon: FileUp },
+  { id: 'standings',     label: 'Equipos',  icon: Group  },
+  { id: 'qualification', label: 'Rondas',   icon: Swords },
+  { id: 'finals',        label: 'Partidas', icon: Crown  },
 ]
 
 const STATUS_LABELS = {
@@ -105,6 +106,7 @@ export default function Tournament() {
           {activeTab === 'groups'        && !isTeams && <Groups groups={tournament.groups} />}
           {activeTab === 'standings'     && isTeams  && <Classification groups={tournament.groups} />}
           {activeTab === 'qualification' && <QualificationMatches matches={tournament.qualificationMatches} />}
+          {activeTab === 'finals'        && isTeams  && <FinalMatches matches={tournament.finalMatches} emptyMessage="Los enfrentamientos individuales aún no están disponibles" />}
           {activeTab === 'finals'        && !isTeams && <FinalMatches matches={tournament.finalMatches} />}
         </div>
 
