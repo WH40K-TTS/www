@@ -28,7 +28,7 @@ export function TournamentCard({ tournament }) {
         </p>
         <p className="flex items-center gap-2">
           <Users size={14} className="text-[#8a6f2e]" />
-          {tournament.players ?? '-'} jugadores
+          {tournament.players ?? '-'} {(tournament.format ?? '').toLowerCase() === 'equipos' ? 'equipos' : 'jugadores'}
         </p>
         <p className="flex items-center gap-2">
           <Route size={14} className="text-[#8a6f2e]" />
