@@ -5,7 +5,7 @@
       "rules": [
         "Será un torneo por equipos de **4 jugadores**.",
         "Las partidas serán competitivas a **2.000 puntos**.",
-        "Se utilizarán las **reglas y escenografía de Games Workshop** ([**aquí**])(https://assets.warhammer-community.com/eng_12-06_warhammer40000_teams_event_companion-3pq1qxo6kv-96smptwn3u.pdf)."
+        "Se utilizarán las **reglas y escenografía de Games Workshop** ([**aquí**](https://assets.warhammer-community.com/eng_12-06_warhammer40000_teams_event_companion-3pq1qxo6kv-96smptwn3u.pdf))."
       ]
     },
     {
@@ -32,7 +32,7 @@
           "headers": ["Dif. pts", "Resultado"],
           "rows": [
             ["0 - 5", "10 - 10"],
-            ["6 - 11", "11 - 9"],
+            ["6 - 10", "11 - 9"],
             ["11 - 15", "12 - 8"],
             ["16 - 20", "13 - 7"],
             ["21 - 25", "14 - 6"],
