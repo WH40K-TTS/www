@@ -105,7 +105,7 @@ export default function Tournament() {
           {activeTab === 'lists'         && <ListUpload tournament={tournament} />}
           {activeTab === 'groups'        && !isTeams && <Groups groups={tournament.groups} />}
           {activeTab === 'standings'     && isTeams  && <Classification groups={tournament.groups} />}
-          {activeTab === 'qualification' && <QualificationMatches matches={tournament.qualificationMatches} />}
+          {activeTab === 'qualification' && <QualificationMatches matches={tournament.qualificationMatches} finalMatches={tournament.finalMatches} />}
           {activeTab === 'finals'        && isTeams  && <FinalMatches matches={tournament.finalMatches} emptyMessage="Los enfrentamientos individuales aún no están disponibles" />}
           {activeTab === 'finals'        && !isTeams && <FinalMatches matches={tournament.finalMatches} />}
         </div>

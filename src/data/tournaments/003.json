@@ -567,9 +567,9 @@
         },
         {
           "player1": "No Hacemos Cajitas",
-          "score1": "",
+          "score1": 1,
           "player2": "La Compañía Gris",
-          "score2": "",
+          "score2": 19,
           "winner": null
         },
         {
@@ -649,9 +649,9 @@
         },
         {
           "player1": "Crisis de los 40k",
-          "score1": "",
+          "score1": 13,
           "player2": "TEAM RUINA ABSOLUTA",
-          "score2": "",
+          "score2": 7,
           "winner": null
         }
       ]
