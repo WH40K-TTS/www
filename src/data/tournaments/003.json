@@ -990,10 +990,10 @@
         },
         {
           "player1": "edumunoz",
-          "score1": "",
+          "score1": 36,
           "player2": "Rakshark",
-          "score2": "",
-          "winner": null
+          "score2": 82,
+          "winner": "Rakshark"
         },
         {
           "player1": "gotrek_gurni",
