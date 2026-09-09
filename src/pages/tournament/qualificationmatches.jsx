@@ -77,6 +77,10 @@ export default function QualificationMatches({ matches, groups, finalMatches }) 
                 {round.matches?.map((match, i) => {
                   const detailMatches = isTeamsMode ? getClashDetails(finalMatches, round.round, i) : []
                   const clickable = isTeamsMode && hasDetailData(detailMatches)
+                  const playedCount = Array.isArray(detailMatches)
+                    ? detailMatches.filter((m) => !(m.score1 === '' && m.score2 === '')).length
+                    : 0
+                  const pending = !match.winner && playedCount > 0 && playedCount < 4
                   if (!clickable) {
                     return (
                       <MatchRow
@@ -84,6 +88,7 @@ export default function QualificationMatches({ matches, groups, finalMatches }) 
                         match={match}
                         isLast={i === round.matches.length - 1}
                         abandonedPlayers={abandonedPlayers}
+                        pending={pending}
                       />
                     );
                   }
@@ -106,6 +111,7 @@ export default function QualificationMatches({ matches, groups, finalMatches }) 
                         match={match}
                         isLast={i === round.matches.length - 1}
                         abandonedPlayers={abandonedPlayers}
+                        pending={pending}
                       />
                     </div>
                   );

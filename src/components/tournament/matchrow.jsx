@@ -1,11 +1,11 @@
 import React from 'react'
 
-export function MatchRow({ match, isFinal = false, isLast = false, abandonedPlayers = [] }) {
+export function MatchRow({ match, isFinal = false, isLast = false, abandonedPlayers = [], pending = false, bp1 = null, bp2 = null }) {
   const { player1, score1, player2, score2, winner } = match
   const p1wins = winner === player1
   const p2wins = winner === player2
-  const isDraw = !winner
   const isUnplayed = score1 === '' && score2 === ''
+  const isDraw = !isUnplayed && !winner && !pending
   const dividerLabel = isUnplayed ? 'vs' : (isDraw ? '=' : 'vs')
   const dividerLabelColor = isUnplayed ? 'text-[#7a6848]' : 'text-[#8b1a1a]'
   const dividerLineColor = isUnplayed ? 'bg-[#7a6848]' : 'bg-[#8b1a1a]'
@@ -22,6 +22,9 @@ export function MatchRow({ match, isFinal = false, isLast = false, abandonedPlay
     >
       {/* Player 1 */}
       <div className={`flex-1 flex items-center justify-end gap-2 min-w-0 ${p1wins ? '' : 'opacity-60'}`}>
+        {bp1 !== null && bp1 !== undefined && (
+          <span className="shrink-0 font-body text-xs text-[#8a6f2e] tabular-nums">({bp1})</span>
+        )}
         <span
           className={`
             font-body text-sm truncate text-right uppercase
@@ -82,6 +85,9 @@ export function MatchRow({ match, isFinal = false, isLast = false, abandonedPlay
         >
           {player2}
         </span>
+        {bp2 !== null && bp2 !== undefined && (
+          <span className="shrink-0 font-body text-xs text-[#8a6f2e] tabular-nums">({bp2})</span>
+        )}
       </div>
     </div>
   )
