@@ -506,9 +506,9 @@
         },
         {
           "player1": "La Compañía Gris",
-          "score1": "",
+          "score1": 16,
           "player2": "Disciples",
-          "score2": "",
+          "score2": 4,
           "winner": null
         },
         {
@@ -754,10 +754,10 @@
         },
         {
           "player1": "r3dman",
-          "score1": "",
+          "score1": 95,
           "player2": "Supradin",
-          "score2": "",
-          "winner": null
+          "score2": 60,
+          "winner": "r3dman"
         },
         {
           "player1": "Rakshark",
