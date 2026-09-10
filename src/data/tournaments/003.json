@@ -541,9 +541,9 @@
         },
         {
           "player1": "Devastating bros",
-          "score1": "",
+          "score1": 6,
           "player2": "MaDuroz Kon Ganaz",
-          "score2": "",
+          "score2": 14,
           "winner": null
         }
       ]
@@ -894,10 +894,10 @@
         },
         {
           "player1": "Wilmahe22",
-          "score1": "",
+          "score1": 62,
           "player2": "Navastelroy#7355",
-          "score2": "",
-          "winner": null
+          "score2": 87,
+          "winner": "Navastelroy#7355"
         },
         {
           "player1": "flaakkoo5",
