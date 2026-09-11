@@ -520,9 +520,9 @@
         },
         {
           "player1": "Que pasa biomasa?",
-          "score1": "",
+          "score1": 0,
           "player2": "RukkaTrukka",
-          "score2": "",
+          "score2": 20,
           "winner": null
         },
         {
@@ -810,10 +810,10 @@
         },
         {
           "player1": "P1TER#9250",
-          "score1": "",
+          "score1": 36,
           "player2": "SergioZamora#9036",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "SergioZamora#9036"
         },
         {
           "player1": "lagarazo#5939",
