@@ -26,9 +26,9 @@ function hasDetailData(detailMatches) {
   )
 }
 
-export default function QualificationMatches({ matches, groups, finalMatches }) {
+export default function QualificationMatches({ matches, groups, finalMatches, isTeams = false }) {
   const [selected, setSelected] = useState(null)
-  const isTeamsMode = Array.isArray(finalMatches)
+  const isTeamsMode = isTeams && Array.isArray(finalMatches)
   const abandonedPlayers = groups?.flatMap(g => g.players).filter(p => p.abandoned).map(p => p.name) || [];
 
   if (!matches?.length) return (

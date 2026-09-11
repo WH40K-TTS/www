@@ -40,7 +40,7 @@ export default function Tournament() {
   const navigate = useNavigate()
   const [searchParams, setSearchParams] = useSearchParams()
   const { tournament, loading, error } = useTournament(id)
-  const isTeams = tournament?.format === 'Equipos'
+  const isTeams = (tournament?.format ?? '').toLowerCase() === 'equipos'
   const TABS = useMemo(() => (isTeams ? TABS_TEAMS : TABS_DEFAULT), [isTeams])
 
   // Read tab from URL query parameters (?tab=...)
@@ -105,7 +105,7 @@ export default function Tournament() {
           {activeTab === 'lists'         && <ListUpload tournament={tournament} />}
           {activeTab === 'groups'        && !isTeams && <Groups groups={tournament.groups} />}
           {activeTab === 'standings'     && isTeams  && <Classification groups={tournament.groups} />}
-          {activeTab === 'qualification' && <QualificationMatches matches={tournament.qualificationMatches} finalMatches={tournament.finalMatches} />}
+          {activeTab === 'qualification' && <QualificationMatches matches={tournament.qualificationMatches} groups={tournament.groups} finalMatches={tournament.finalMatches} isTeams={isTeams} />}
           {activeTab === 'finals'        && isTeams  && <FinalMatches matches={tournament.finalMatches} emptyMessage="Los enfrentamientos individuales aún no están disponibles" />}
           {activeTab === 'finals'        && !isTeams && <FinalMatches matches={tournament.finalMatches} />}
         </div>
