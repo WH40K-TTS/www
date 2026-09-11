@@ -1254,10 +1254,10 @@
         },
         {
           "player1": "Elborre#0545",
-          "score1": "",
+          "score1": 98,
           "player2": "Rakshark",
-          "score2": "",
-          "winner": null
+          "score2": 58,
+          "winner": "Elborre#0545"
         },
         {
           "player1": "stein_48112",
