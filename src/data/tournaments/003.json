@@ -534,9 +534,9 @@
         },
         {
           "player1": "Mancos pero majos",
-          "score1": 13,
+          "score1": 24,
           "player2": "Crisis de los 40k",
-          "score2": 7,
+          "score2": 16,
           "winner": null
         },
         {
@@ -560,9 +560,9 @@
         },
         {
           "player1": "Que pasa biomasa?",
-          "score1": "",
+          "score1": 0,
           "player2": "Anti-Astartes Social Club",
-          "score2": "",
+          "score2": 20,
           "winner": null
         },
         {
@@ -873,10 +873,10 @@
         },
         {
           "player1": "GAT.Ronin#9111",
-          "score1": "",
+          "score1": 99,
           "player2": "Godki#3804",
-          "score2": "",
-          "winner": null
+          "score2": 92,
+          "winner": "GAT.Ronin#9111"
         },
         {
           "player1": "Sanba#3554",
@@ -968,18 +968,18 @@
           "winner": null
         },
         {
-          "player1": "danistrorus",
+          "player1": "Luc4#7761",
           "score1": "",
           "player2": "thiago_09894_87297",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "Luc4#7761",
-          "score1": "",
+          "player1": "danistrorus",
+          "score1": 45,
           "player2": "Trabucodonosor#4172",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "Trabucodonosor#4172"
         },
         {
           "player1": "beny14",
