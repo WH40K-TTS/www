@@ -534,9 +534,9 @@
         },
         {
           "player1": "Mancos pero majos",
-          "score1": "",
+          "score1": 13,
           "player2": "Crisis de los 40k",
-          "score2": "",
+          "score2": 7,
           "winner": null
         },
         {
@@ -880,10 +880,10 @@
         },
         {
           "player1": "Sanba#3554",
-          "score1": "",
+          "score1": 91,
           "player2": "siirtalos#4171",
-          "score2": "",
-          "winner": null
+          "score2": 72,
+          "winner": "Sanba#3554"
         },
         {
           "player1": "Bopra#9308",
