@@ -621,9 +621,9 @@
         },
         {
           "player1": "Que pasa biomasa?",
-          "score1": "",
+          "score1": 9,
           "player2": "Disciples",
-          "score2": "",
+          "score2": 11,
           "winner": null
         },
         {
@@ -1198,10 +1198,10 @@
         },
         {
           "player1": "P1TER#9250",
-          "score1": "",
+          "score1": 87,
           "player2": "Supradin",
-          "score2": "",
-          "winner": null
+          "score2": 94,
+          "winner": "Supradin"
         },
         {
           "player1": "Luc4#7761",
