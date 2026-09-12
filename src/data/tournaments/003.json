@@ -635,9 +635,9 @@
         },
         {
           "player1": "El bueno, el malo, el feo y el eldar",
-          "score1": "",
+          "score1": 17,
           "player2": "La Compañía Gris",
-          "score2": "",
+          "score2": 3,
           "winner": null
         },
         {
@@ -661,9 +661,9 @@
       "matches": [
         {
           "player1": "Que pasa biomasa?",
-          "score1": "",
+          "score1": 14,
           "player2": "El bueno, el malo, el feo y el eldar",
-          "score2": "",
+          "score2": 6,
           "winner": null
         },
         {
@@ -1211,30 +1211,30 @@
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "APCC the Architect#6869",
           "score1": "",
-          "player2": "",
+          "player2": "Trabucodonosor#4172",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "crobels#2631",
           "score1": "",
-          "player2": "",
+          "player2": "javier._12896",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "jperpen#5742",
           "score1": "",
-          "player2": "",
+          "player2": "thiago_09894_87297",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "mr.friedlander#2475",
           "score1": "",
-          "player2": "",
+          "player2": "yoritomo takeru#9272",
           "score2": "",
           "winner": null
         },
@@ -1350,7 +1350,7 @@
         },
         {
           "player1": "lagarazo#5939",
-          "score1": 91,
+          "score1": 96,
           "player2": "Suarepita#1978",
           "score2": 75,
           "winner": "lagarazo#5939"
