@@ -506,7 +506,7 @@
         },
         {
           "player1": "La Compañía Gris",
-          "score1": 16,
+          "score1": 36,
           "player2": "Disciples",
           "score2": 4,
           "winner": null
@@ -534,9 +534,9 @@
         },
         {
           "player1": "Mancos pero majos",
-          "score1": 24,
+          "score1": 30,
           "player2": "Crisis de los 40k",
-          "score2": 16,
+          "score2": 30,
           "winner": null
         },
         {
@@ -635,9 +635,9 @@
         },
         {
           "player1": "El bueno, el malo, el feo y el eldar",
-          "score1": 17,
+          "score1": 27,
           "player2": "La Compañía Gris",
-          "score2": 3,
+          "score2": 13,
           "winner": null
         },
         {
@@ -775,10 +775,10 @@
         },
         {
           "player1": "GatoAventuras",
-          "score1": "",
+          "score1": 100,
           "player2": "Jorge.lemariont",
-          "score2": "",
-          "winner": null
+          "score2": 49,
+          "winner": "GatoAventuras"
         },
         {
           "player1": "APCC the Architect#6869",
@@ -866,10 +866,10 @@
         },
         {
           "player1": "Acereload",
-          "score1": "",
+          "score1": 72,
           "player2": "vaca#3519",
-          "score2": "",
-          "winner": null
+          "score2": 94,
+          "winner": "vaca#3519"
         },
         {
           "player1": "GAT.Ronin#9111",
@@ -1261,9 +1261,9 @@
         },
         {
           "player1": "stein_48112",
-          "score1": "",
+          "score1": 10,
           "player2": "Javiergc12",
-          "score2": "",
+          "score2": 10,
           "winner": null
         },
         {
