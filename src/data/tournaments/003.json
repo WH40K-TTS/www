@@ -527,9 +527,9 @@
         },
         {
           "player1": "No Hacemos Cajitas",
-          "score1": "",
+          "score1": 12,
           "player2": "TEAM RUINA ABSOLUTA",
-          "score2": "",
+          "score2": 8,
           "winner": null
         },
         {
@@ -838,10 +838,10 @@
         },
         {
           "player1": "beny14",
-          "score1": "",
+          "score1": 97,
           "player2": "juanjoe3#6131",
-          "score2": "",
-          "winner": null
+          "score2": 82,
+          "winner": "beny14"
         },
         {
           "player1": "gotrek_gurni",
