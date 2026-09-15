@@ -621,9 +621,9 @@
         },
         {
           "player1": "Que pasa biomasa?",
-          "score1": 9,
+          "score1": 10,
           "player2": "Disciples",
-          "score2": 11,
+          "score2": 30,
           "winner": null
         },
         {
@@ -1184,10 +1184,10 @@
         },
         {
           "player1": "lagarazo#5939",
-          "score1": "",
+          "score1": 51,
           "player2": "Frankis89",
-          "score2": "",
-          "winner": null
+          "score2": 97,
+          "winner": "Frankis89"
         },
         {
           "player1": "danistrorus",
