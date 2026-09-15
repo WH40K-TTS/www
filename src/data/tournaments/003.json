@@ -520,9 +520,9 @@
         },
         {
           "player1": "Que pasa biomasa?",
-          "score1": 0,
+          "score1": 10,
           "player2": "RukkaTrukka",
-          "score2": 20,
+          "score2": 30,
           "winner": null
         },
         {
@@ -567,9 +567,9 @@
         },
         {
           "player1": "No Hacemos Cajitas",
-          "score1": 1,
+          "score1": 17,
           "player2": "La Compañía Gris",
-          "score2": 19,
+          "score2": 23,
           "winner": null
         },
         {
@@ -725,30 +725,30 @@
       "round": "Ronda 1",
       "matches": [
         {
-          "player1": "",
+          "player1": "yoritomo takeru#9272",
           "score1": "",
-          "player2": "",
+          "player2": "gr0msito_27636",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "javier._12896",
           "score1": "",
-          "player2": "",
+          "player2": "neromk.",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "thiago_09894_87297",
           "score1": "",
-          "player2": "",
+          "player2": "stefanp90",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "Trabucodonosor#4172",
           "score1": "",
-          "player2": "",
+          "player2": "curro.alva#1395",
           "score2": "",
           "winner": null
         },
@@ -824,15 +824,15 @@
         },
         {
           "player1": "danistrorus",
-          "score1": "",
-          "player2": "guille#6214",
-          "score2": "",
-          "winner": null
+          "score1": 97,
+          "player2": "alvgarvilla",
+          "score2": 98,
+          "winner": "alvgarvilla"
         },
         {
           "player1": "Luc4#7761",
           "score1": "",
-          "player2": "alvgarvilla",
+          "player2": "guille#6214",
           "score2": "",
           "winner": null
         },
@@ -1004,10 +1004,10 @@
         },
         {
           "player1": "cubiheadache",
-          "score1": "",
+          "score1": 100,
           "player2": "Javiergc12",
-          "score2": "",
-          "winner": null
+          "score2": 65,
+          "winner": "cubiheadache"
         },
         {
           "player1": "",
@@ -1094,30 +1094,30 @@
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "gr0msito_27636",
           "score1": "",
-          "player2": "",
+          "player2": "GAT.Ronin#9111",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "neromk.",
           "score1": "",
-          "player2": "",
+          "player2": "Bopra#9308",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "curro.alva#1395",
           "score1": "",
-          "player2": "",
+          "player2": "Sanba#3554",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "stefanp90",
           "score1": "",
-          "player2": "",
+          "player2": "Acereload",
           "score2": "",
           "winner": null
         }
@@ -1127,30 +1127,30 @@
       "round": "Ronda 3",
       "matches": [
         {
-          "player1": "",
+          "player1": "gotrek_gurni",
           "score1": "",
-          "player2": "",
+          "player2": "gr0msito_27636",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "beny14",
           "score1": "",
-          "player2": "",
+          "player2": "curro.alva#1395",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "edumunoz",
           "score1": "",
-          "player2": "",
+          "player2": "stefanp90",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "cubiheadache",
           "score1": "",
-          "player2": "",
+          "player2": "neromk.",
           "score2": "",
           "winner": null
         },
@@ -1267,30 +1267,30 @@
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "Rex",
           "score1": "",
-          "player2": "",
+          "player2": "yoxs",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "flaakkoo5",
           "score1": "",
-          "player2": "",
+          "player2": "guille#6214",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "Wilmahe22",
           "score1": "",
-          "player2": "",
+          "player2": "alvgarvilla",
           "score2": "",
           "winner": null
         },
         {
-          "player1": "",
+          "player1": "Rnes82",
           "score1": "",
-          "player2": "",
+          "player2": "SergioZamora#9036",
           "score2": "",
           "winner": null
         },
