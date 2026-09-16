@@ -635,9 +635,9 @@
         },
         {
           "player1": "El bueno, el malo, el feo y el eldar",
-          "score1": 27,
+          "score1": 37,
           "player2": "La Compañía Gris",
-          "score2": 13,
+          "score2": 23,
           "winner": null
         },
         {
@@ -1240,10 +1240,10 @@
         },
         {
           "player1": "Riddick6223",
-          "score1": "",
+          "score1": 84,
           "player2": "r3dman",
-          "score2": "",
-          "winner": null
+          "score2": 85,
+          "winner": "r3dman"
         },
         {
           "player1": "Suarepita#1978",
