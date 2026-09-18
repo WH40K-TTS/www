@@ -382,14 +382,14 @@
           "name": "TEAM RUINA ABSOLUTA",
           "points": 0,
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
         {
           "name": "La Compañía Gris",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -404,25 +404,25 @@
         },
         {
           "name": "RukkaTrukka",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
         },
         {
           "name": "Crisis de los 40k",
-          "points": 0,
+          "points": 1,
           "wins": 0,
           "losses": 0,
-          "ties": 0,
+          "ties": 1,
           "abandonos": 0
         },
         {
           "name": "Que pasa biomasa?",
           "points": 0,
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
@@ -436,8 +436,8 @@
         },
         {
           "name": "MaDuroz Kon Ganaz",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -446,7 +446,7 @@
           "name": "Devastating bros",
           "points": 0,
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
@@ -460,10 +460,10 @@
         },
         {
           "name": "Mancos pero majos",
-          "points": 0,
+          "points": 1,
           "wins": 0,
           "losses": 0,
-          "ties": 0,
+          "ties": 1,
           "abandonos": 0
         },
         {
@@ -476,8 +476,8 @@
         },
         {
           "name": "No Hacemos Cajitas",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -486,7 +486,7 @@
           "name": "Disciples",
           "points": 0,
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         }
@@ -506,10 +506,10 @@
         },
         {
           "player1": "La Compañía Gris",
-          "score1": 36,
+          "score1": 50,
           "player2": "Disciples",
-          "score2": 4,
-          "winner": null
+          "score2": 10,
+          "winner": "La Compañía Gris"
         },
         {
           "player1": "La última potencia",
@@ -520,31 +520,31 @@
         },
         {
           "player1": "Que pasa biomasa?",
-          "score1": 10,
+          "score1": 7,
           "player2": "RukkaTrukka",
-          "score2": 30,
-          "winner": null
+          "score2": 13,
+          "winner": "RukkaTrukka"
         },
         {
           "player1": "No Hacemos Cajitas",
-          "score1": 94,
+          "score1": 12,
           "player2": "TEAM RUINA ABSOLUTA",
-          "score2": 83,
+          "score2": 8,
           "winner": "No Hacemos Cajitas"
         },
         {
           "player1": "Mancos pero majos",
-          "score1": 30,
+          "score1": 10,
           "player2": "Crisis de los 40k",
-          "score2": 30,
+          "score2": 10,
           "winner": null
         },
         {
           "player1": "Devastating bros",
-          "score1": 6,
+          "score1": 9,
           "player2": "MaDuroz Kon Ganaz",
-          "score2": 14,
-          "winner": null
+          "score2": 11,
+          "winner": "MaDuroz Kon Ganaz"
         }
       ]
     },
@@ -761,10 +761,10 @@
         },
         {
           "player1": "Rakshark",
-          "score1": "",
+          "score1": 100,
           "player2": "Dnyx",
-          "score2": "",
-          "winner": null
+          "score2": 79,
+          "winner": "Rakshark"
         },
         {
           "player1": "Javiergc12",
