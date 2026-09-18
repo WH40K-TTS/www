@@ -382,7 +382,7 @@
           "name": "TEAM RUINA ABSOLUTA",
           "points": 0,
           "wins": 0,
-          "losses": 1,
+          "losses": 0,
           "ties": 0,
           "abandonos": 0
         },
@@ -404,25 +404,25 @@
         },
         {
           "name": "RukkaTrukka",
-          "points": 3,
-          "wins": 1,
+          "points": 0,
+          "wins": 0,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
         },
         {
           "name": "Crisis de los 40k",
-          "points": 1,
+          "points": 0,
           "wins": 0,
           "losses": 0,
-          "ties": 1,
+          "ties": 0,
           "abandonos": 0
         },
         {
           "name": "Que pasa biomasa?",
           "points": 0,
           "wins": 0,
-          "losses": 1,
+          "losses": 0,
           "ties": 0,
           "abandonos": 0
         },
@@ -436,8 +436,8 @@
         },
         {
           "name": "MaDuroz Kon Ganaz",
-          "points": 3,
-          "wins": 1,
+          "points": 0,
+          "wins": 0,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -446,7 +446,7 @@
           "name": "Devastating bros",
           "points": 0,
           "wins": 0,
-          "losses": 1,
+          "losses": 0,
           "ties": 0,
           "abandonos": 0
         },
@@ -460,10 +460,10 @@
         },
         {
           "name": "Mancos pero majos",
-          "points": 1,
+          "points": 0,
           "wins": 0,
           "losses": 0,
-          "ties": 1,
+          "ties": 0,
           "abandonos": 0
         },
         {
@@ -476,8 +476,8 @@
         },
         {
           "name": "No Hacemos Cajitas",
-          "points": 3,
-          "wins": 1,
+          "points": 0,
+          "wins": 0,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -520,31 +520,31 @@
         },
         {
           "player1": "Que pasa biomasa?",
-          "score1": 7,
+          "score1": 13,
           "player2": "RukkaTrukka",
-          "score2": 13,
-          "winner": "RukkaTrukka"
+          "score2": 27,
+          "winner": null
         },
         {
           "player1": "No Hacemos Cajitas",
-          "score1": 12,
+          "score1": 23,
           "player2": "TEAM RUINA ABSOLUTA",
-          "score2": 8,
-          "winner": "No Hacemos Cajitas"
+          "score2": 17,
+          "winner": null
         },
         {
           "player1": "Mancos pero majos",
-          "score1": 10,
+          "score1": 31,
           "player2": "Crisis de los 40k",
-          "score2": 10,
+          "score2": 29,
           "winner": null
         },
         {
           "player1": "Devastating bros",
-          "score1": 9,
+          "score1": 6,
           "player2": "MaDuroz Kon Ganaz",
-          "score2": 11,
-          "winner": "MaDuroz Kon Ganaz"
+          "score2": 14,
+          "winner": null
         }
       ]
     },
