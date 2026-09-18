@@ -628,9 +628,9 @@
         },
         {
           "player1": "La última potencia",
-          "score1": "",
+          "score1": 10,
           "player2": "Anti-Astartes Social Club",
-          "score2": "",
+          "score2": 10,
           "winner": null
         },
         {
@@ -1233,10 +1233,10 @@
         },
         {
           "player1": "mr.friedlander#2475",
-          "score1": "",
+          "score1": 91,
           "player2": "yoritomo takeru#9272",
-          "score2": "",
-          "winner": null
+          "score2": 92,
+          "winner": "yoritomo takeru#9272"
         },
         {
           "player1": "Riddick6223",
