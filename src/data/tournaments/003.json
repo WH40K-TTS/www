@@ -703,9 +703,9 @@
         },
         {
           "player1": "La Compañía Gris",
-          "score1": 14,
+          "score1": 26,
           "player2": "Anti-Astartes Social Club",
-          "score2": 6,
+          "score2": 14,
           "winner": null
         }
       ]
@@ -1497,10 +1497,10 @@
         },
         {
           "player1": "r3dman",
-          "score1": "",
+          "score1": 97,
           "player2": "javier._12896",
-          "score2": "",
-          "winner": null
+          "score2": 83,
+          "winner": "r3dman"
         },
         {
           "player1": "GatoAventuras",
