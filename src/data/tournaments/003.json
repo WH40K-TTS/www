@@ -628,9 +628,9 @@
         },
         {
           "player1": "La última potencia",
-          "score1": 10,
+          "score1": 16,
           "player2": "Anti-Astartes Social Club",
-          "score2": 10,
+          "score2": 24,
           "winner": null
         },
         {
@@ -1212,10 +1212,10 @@
         },
         {
           "player1": "APCC the Architect#6869",
-          "score1": "",
+          "score1": 67,
           "player2": "Trabucodonosor#4172",
-          "score2": "",
-          "winner": null
+          "score2": 92,
+          "winner": "Trabucodonosor#4172"
         },
         {
           "player1": "crobels#2631",
