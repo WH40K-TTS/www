@@ -607,9 +607,9 @@
       "matches": [
         {
           "player1": "No Hacemos Cajitas",
-          "score1": "",
+          "score1": 14,
           "player2": "CobradorMakari",
-          "score2": "",
+          "score2": 6,
           "winner": null
         },
         {
@@ -1149,10 +1149,10 @@
         },
         {
           "player1": "cubiheadache",
-          "score1": "",
+          "score1": 100,
           "player2": "neromk.",
-          "score2": "",
-          "winner": null
+          "score2": 76,
+          "winner": "cubiheadache"
         },
         {
           "player1": "Navastelroy#7355",
