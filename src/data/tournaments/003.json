@@ -614,9 +614,9 @@
         },
         {
           "player1": "MaDuroz Kon Ganaz",
-          "score1": "",
+          "score1": 17,
           "player2": "Mancos pero majos",
-          "score2": "",
+          "score2": 3,
           "winner": null
         },
         {
@@ -1156,10 +1156,10 @@
         },
         {
           "player1": "Navastelroy#7355",
-          "score1": "",
+          "score1": 100,
           "player2": "Bopra#9308",
-          "score2": "",
-          "winner": null
+          "score2": 60,
+          "winner": "Navastelroy#7355"
         },
         {
           "player1": "savagejouretz#5019",
