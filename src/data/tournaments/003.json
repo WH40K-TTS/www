@@ -689,9 +689,9 @@
         },
         {
           "player1": "RukkaTrukka",
-          "score1": "",
+          "score1": 0,
           "player2": "MaDuroz Kon Ganaz",
-          "score2": "",
+          "score2": 20,
           "winner": null
         },
         {
@@ -703,9 +703,9 @@
         },
         {
           "player1": "La Compañía Gris",
-          "score1": "",
+          "score1": 14,
           "player2": "Anti-Astartes Social Club",
-          "score2": "",
+          "score2": 6,
           "winner": null
         }
       ]
@@ -1441,10 +1441,10 @@
         },
         {
           "player1": "yoxs",
-          "score1": "",
+          "score1": 49,
           "player2": "savagejouretz#5019",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "savagejouretz#5019"
         },
         {
           "player1": "guille#6214",
@@ -1504,10 +1504,10 @@
         },
         {
           "player1": "GatoAventuras",
-          "score1": "",
+          "score1": 88,
           "player2": "Trabucodonosor#4172",
-          "score2": "",
-          "winner": null
+          "score2": 66,
+          "winner": "GatoAventuras"
         },
         {
           "player1": "Rakshark",
