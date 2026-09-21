@@ -574,9 +574,9 @@
         },
         {
           "player1": "RukkaTrukka",
-          "score1": "",
+          "score1": 18,
           "player2": "Disciples",
-          "score2": "",
+          "score2": 2,
           "winner": null
         },
         {
@@ -1010,11 +1010,11 @@
           "winner": "cubiheadache"
         },
         {
-          "player1": "",
-          "score1": "",
-          "player2": "",
-          "score2": "",
-          "winner": null
+          "player1": "alvgarvilla",
+          "score1": 100,
+          "player2": "Supradin",
+          "score2": 57,
+          "winner": "alvgarvilla"
         },
         {
           "player1": "",
