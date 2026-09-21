@@ -388,8 +388,8 @@
         },
         {
           "name": "La Compañía Gris",
-          "points": 3,
-          "wins": 1,
+          "points": 6,
+          "wins": 2,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -398,7 +398,7 @@
           "name": "Anti-Astartes Social Club",
           "points": 0,
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
@@ -527,9 +527,9 @@
         },
         {
           "player1": "No Hacemos Cajitas",
-          "score1": 23,
+          "score1": 36,
           "player2": "TEAM RUINA ABSOLUTA",
-          "score2": 17,
+          "score2": 24,
           "winner": null
         },
         {
@@ -569,7 +569,7 @@
           "player1": "No Hacemos Cajitas",
           "score1": 17,
           "player2": "La Compañía Gris",
-          "score2": 23,
+          "score2": 43,
           "winner": null
         },
         {
@@ -703,10 +703,10 @@
         },
         {
           "player1": "La Compañía Gris",
-          "score1": 26,
+          "score1": 46,
           "player2": "Anti-Astartes Social Club",
           "score2": 14,
-          "winner": null
+          "winner": "La Compañía Gris"
         }
       ]
     }
@@ -845,10 +845,10 @@
         },
         {
           "player1": "gotrek_gurni",
-          "score1": "",
+          "score1": 96,
           "player2": "SANCHEZ_EU",
-          "score2": "",
-          "winner": null
+          "score2": 78,
+          "winner": "gotrek_gurni"
         },
         {
           "player1": "edumunoz",
@@ -983,10 +983,10 @@
         },
         {
           "player1": "beny14",
-          "score1": "",
+          "score1": 34,
           "player2": "r3dman",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "r3dman"
         },
         {
           "player1": "edumunoz",
@@ -1518,10 +1518,10 @@
         },
         {
           "player1": "Javiergc12",
-          "score1": "",
+          "score1": 100,
           "player2": "thiago_09894_87297",
-          "score2": "",
-          "winner": null
+          "score2": 38,
+          "winner": "Javiergc12"
         }
       ]
     }
