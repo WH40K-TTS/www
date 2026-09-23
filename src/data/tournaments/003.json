@@ -541,9 +541,9 @@
         },
         {
           "player1": "Devastating bros",
-          "score1": 6,
+          "score1": 9,
           "player2": "MaDuroz Kon Ganaz",
-          "score2": 14,
+          "score2": 31,
           "winner": null
         }
       ]
@@ -901,10 +901,10 @@
         },
         {
           "player1": "flaakkoo5",
-          "score1": "",
+          "score1": 62,
           "player2": "dorthoka#5548",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "dorthoka#5548"
         },
         {
           "player1": "Rex",
