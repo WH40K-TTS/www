@@ -412,8 +412,8 @@
         },
         {
           "name": "Crisis de los 40k",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -462,7 +462,7 @@
           "name": "Mancos pero majos",
           "points": 0,
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
@@ -534,10 +534,10 @@
         },
         {
           "player1": "Mancos pero majos",
-          "score1": 31,
+          "score1": 33,
           "player2": "Crisis de los 40k",
-          "score2": 29,
-          "winner": null
+          "score2": 47,
+          "winner": "Crisis de los 40k"
         },
         {
           "player1": "Devastating bros",
@@ -682,9 +682,9 @@
         },
         {
           "player1": "Crisis de los 40k",
-          "score1": "",
+          "score1": 11,
           "player2": "CobradorMakari",
-          "score2": "",
+          "score2": 9,
           "winner": null
         },
         {
@@ -887,10 +887,10 @@
         },
         {
           "player1": "Bopra#9308",
-          "score1": "",
+          "score1": 58,
           "player2": "Ezraen#9729",
-          "score2": "",
-          "winner": null
+          "score2": 95,
+          "winner": "Ezraen#9729"
         },
         {
           "player1": "Wilmahe22",
@@ -1427,10 +1427,10 @@
         },
         {
           "player1": "vaca#3519",
-          "score1": "",
+          "score1": 91,
           "player2": "neromk.",
-          "score2": "",
-          "winner": null
+          "score2": 85,
+          "winner": "vaca#3519"
         },
         {
           "player1": "Ezraen#9729",
