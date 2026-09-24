@@ -675,9 +675,9 @@
         },
         {
           "player1": "La última potencia",
-          "score1": "",
+          "score1": 4,
           "player2": "No Hacemos Cajitas",
-          "score2": "",
+          "score2": 16,
           "winner": null
         },
         {
@@ -1385,10 +1385,10 @@
         },
         {
           "player1": "edumunoz",
-          "score1": "",
+          "score1": 100,
           "player2": "mr.friedlander#2475",
-          "score2": "",
-          "winner": null
+          "score2": 67,
+          "winner": "edumunoz"
         },
         {
           "player1": "cubiheadache",
