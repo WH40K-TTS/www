@@ -607,9 +607,9 @@
       "matches": [
         {
           "player1": "No Hacemos Cajitas",
-          "score1": 14,
+          "score1": 25,
           "player2": "CobradorMakari",
-          "score2": 6,
+          "score2": 15,
           "winner": null
         },
         {
@@ -1142,10 +1142,10 @@
         },
         {
           "player1": "edumunoz",
-          "score1": "",
+          "score1": 91,
           "player2": "stefanp90",
-          "score2": "",
-          "winner": null
+          "score2": 84,
+          "winner": "edumunoz"
         },
         {
           "player1": "cubiheadache",
