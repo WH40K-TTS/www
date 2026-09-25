@@ -499,9 +499,9 @@
       "matches": [
         {
           "player1": "Anti-Astartes Social Club",
-          "score1": "",
+          "score1": 7,
           "player2": "CobradorMakari",
-          "score2": "",
+          "score2": 13,
           "winner": null
         },
         {
@@ -747,10 +747,10 @@
         },
         {
           "player1": "Trabucodonosor#4172",
-          "score1": "",
+          "score1": 69,
           "player2": "curro.alva#1395",
-          "score2": "",
-          "winner": null
+          "score2": 89,
+          "winner": "curro.alva#1395"
         },
         {
           "player1": "r3dman",
