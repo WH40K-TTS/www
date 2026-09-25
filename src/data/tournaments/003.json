@@ -661,9 +661,9 @@
       "matches": [
         {
           "player1": "Que pasa biomasa?",
-          "score1": 14,
+          "score1": 32,
           "player2": "El bueno, el malo, el feo y el eldar",
-          "score2": 6,
+          "score2": 8,
           "winner": null
         },
         {
@@ -1336,10 +1336,10 @@
         },
         {
           "player1": "P1TER#9250",
-          "score1": "",
+          "score1": 93,
           "player2": "stein_48112",
-          "score2": "",
-          "winner": null
+          "score2": 48,
+          "winner": "P1TER#9250"
         },
         {
           "player1": "Luc4#7761",
