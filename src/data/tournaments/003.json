@@ -703,7 +703,7 @@
         },
         {
           "player1": "La Compañía Gris",
-          "score1": 46,
+          "score1": 66,
           "player2": "Anti-Astartes Social Club",
           "score2": 14,
           "winner": "La Compañía Gris"
@@ -1511,10 +1511,10 @@
         },
         {
           "player1": "Rakshark",
-          "score1": "",
+          "score1": 100,
           "player2": "yoritomo takeru#9272",
-          "score2": "",
-          "winner": null
+          "score2": 41,
+          "winner": "Rakshark"
         },
         {
           "player1": "Javiergc12",
