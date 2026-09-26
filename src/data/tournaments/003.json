@@ -689,16 +689,16 @@
         },
         {
           "player1": "RukkaTrukka",
-          "score1": 0,
+          "score1": 10,
           "player2": "MaDuroz Kon Ganaz",
-          "score2": 20,
+          "score2": 30,
           "winner": null
         },
         {
           "player1": "TEAM RUINA ABSOLUTA",
-          "score1": "",
+          "score1": 8,
           "player2": "Mancos pero majos",
-          "score2": "",
+          "score2": 12,
           "winner": null
         },
         {
@@ -1455,10 +1455,10 @@
         },
         {
           "player1": "SergioZamora#9036",
-          "score1": "",
+          "score1": 83,
           "player2": "Navastelroy#7355",
-          "score2": "",
-          "winner": null
+          "score2": 79,
+          "winner": "SergioZamora#9036"
         },
         {
           "player1": "alvgarvilla",
@@ -1476,10 +1476,10 @@
         },
         {
           "player1": "SANCHEZ_EU",
-          "score1": "",
+          "score1": 85,
           "player2": "Acereload",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "Acereload"
         },
         {
           "player1": "juanjoe3#6131",
