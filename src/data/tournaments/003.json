@@ -574,9 +574,9 @@
         },
         {
           "player1": "RukkaTrukka",
-          "score1": 18,
+          "score1": 37,
           "player2": "Disciples",
-          "score2": 2,
+          "score2": 3,
           "winner": null
         },
         {
@@ -1017,11 +1017,11 @@
           "winner": "alvgarvilla"
         },
         {
-          "player1": "",
-          "score1": "",
-          "player2": "",
-          "score2": "",
-          "winner": null
+          "player1": "SergioZamora#9036",
+          "score1": 100,
+          "player2": "Jorge.lemariont",
+          "score2": 52,
+          "winner": "SergioZamora#9036"
         },
         {
           "player1": "",
