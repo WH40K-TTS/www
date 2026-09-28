@@ -513,9 +513,9 @@
         },
         {
           "player1": "La última potencia",
-          "score1": "",
+          "score1": 6,
           "player2": "El bueno, el malo, el feo y el eldar",
-          "score2": "",
+          "score2": 14,
           "winner": null
         },
         {
@@ -677,7 +677,7 @@
           "player1": "La última potencia",
           "score1": 4,
           "player2": "No Hacemos Cajitas",
-          "score2": 16,
+          "score2": 36,
           "winner": null
         },
         {
@@ -796,10 +796,10 @@
         },
         {
           "player1": "jperpen#5742",
-          "score1": "",
+          "score1": 76,
           "player2": "Riddick6223",
-          "score2": "",
-          "winner": null
+          "score2": 98,
+          "winner": "Riddick6223"
         },
         {
           "player1": "crobels#2631",
@@ -1392,10 +1392,10 @@
         },
         {
           "player1": "cubiheadache",
-          "score1": "",
+          "score1": 93,
           "player2": "APCC the Architect#6869",
-          "score2": "",
-          "winner": null
+          "score2": 36,
+          "winner": "cubiheadache"
         },
         {
           "player1": "beny14",
