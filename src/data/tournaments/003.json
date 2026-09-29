@@ -404,8 +404,8 @@
         },
         {
           "name": "RukkaTrukka",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -486,7 +486,7 @@
           "name": "Disciples",
           "points": 0,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "abandonos": 0
         }
@@ -574,10 +574,10 @@
         },
         {
           "player1": "RukkaTrukka",
-          "score1": 37,
+          "score1": 51,
           "player2": "Disciples",
-          "score2": 3,
-          "winner": null
+          "score2": 9,
+          "winner": "RukkaTrukka"
         },
         {
           "player1": "MaDuroz Kon Ganaz",
@@ -1024,11 +1024,11 @@
           "winner": "SergioZamora#9036"
         },
         {
-          "player1": "",
-          "score1": "",
-          "player2": "",
-          "score2": "",
-          "winner": null
+          "player1": "guille#6214",
+          "score1": 88,
+          "player2": "Frankis89",
+          "score2": 63,
+          "winner": "guille#6214"
         },
         {
           "player1": "",
