@@ -382,7 +382,7 @@
           "name": "TEAM RUINA ABSOLUTA",
           "points": 0,
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
@@ -476,8 +476,8 @@
         },
         {
           "name": "No Hacemos Cajitas",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -527,10 +527,10 @@
         },
         {
           "player1": "No Hacemos Cajitas",
-          "score1": 36,
+          "score1": 56,
           "player2": "TEAM RUINA ABSOLUTA",
           "score2": 24,
-          "winner": null
+          "winner": "No Hacemos Cajitas"
         },
         {
           "player1": "Mancos pero majos",
@@ -859,10 +859,10 @@
         },
         {
           "player1": "cubiheadache",
-          "score1": "",
+          "score1": "-",
           "player2": "mark_72380",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "cubiheadache"
         },
         {
           "player1": "Acereload",
