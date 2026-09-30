@@ -15,7 +15,7 @@ export default function Classification({ groups }) {
     <>
       <div className="mb-8 mx-auto max-w-2xl text-center">
         <p className="font-body text-[#7a6848] text-sm md:text-base leading-relaxed">
-          <span style={{ color: '#4a9a4a' }}>Victorias</span> (3 Pts), <span style={{ color: '#c9a84c' }}>Empates</span> (1 Pt, diferencia de 4 pts o menos), <span style={{ color: '#cc4444' }}>Derrotas</span> (0 Pts), <span style={{ color: '#a855f7' }}>Abandonos</span> (0 Pts) y <strong>puntos totales</strong>.
+          <span style={{ color: '#4a9a4a' }}>Victorias</span> (3 Pts), <span style={{ color: '#c9a84c' }}>Empates</span> (1 Pt, diferencia de 6 pts o menos), <span style={{ color: '#cc4444' }}>Derrotas</span> (0 Pts), <span style={{ color: '#a855f7' }}>Abandonos</span> (0 Pts) y <strong>puntos totales</strong>.
         </p>
       </div>
 
