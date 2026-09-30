@@ -513,7 +513,7 @@
         },
         {
           "player1": "La última potencia",
-          "score1": 6,
+          "score1": 26,
           "player2": "El bueno, el malo, el feo y el eldar",
           "score2": 14,
           "winner": null
@@ -581,7 +581,7 @@
         },
         {
           "player1": "MaDuroz Kon Ganaz",
-          "score1": 20,
+          "score1": 40,
           "player2": "TEAM RUINA ABSOLUTA",
           "score2": 0,
           "winner": null
@@ -637,7 +637,7 @@
           "player1": "El bueno, el malo, el feo y el eldar",
           "score1": 37,
           "player2": "La Compañía Gris",
-          "score2": 23,
+          "score2": 43,
           "winner": null
         },
         {
@@ -649,7 +649,7 @@
         },
         {
           "player1": "Crisis de los 40k",
-          "score1": 13,
+          "score1": 33,
           "player2": "TEAM RUINA ABSOLUTA",
           "score2": 7,
           "winner": null
@@ -698,7 +698,7 @@
           "player1": "TEAM RUINA ABSOLUTA",
           "score1": 8,
           "player2": "Mancos pero majos",
-          "score2": 12,
+          "score2": 32,
           "winner": null
         },
         {
@@ -782,10 +782,10 @@
         },
         {
           "player1": "APCC the Architect#6869",
-          "score1": "",
+          "score1": "-",
           "player2": "Suarepita#1978",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "APCC the Architect#6869"
         },
         {
           "player1": "mr.friedlander#2475",
@@ -1046,10 +1046,10 @@
         },
         {
           "player1": "dorthoka#5548",
-          "score1": "",
+          "score1": "-",
           "player2": "mark_72380",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "dorthoka#5548"
         },
         {
           "player1": "savagejouretz#5019",
@@ -1247,10 +1247,10 @@
         },
         {
           "player1": "Suarepita#1978",
-          "score1": "",
+          "score1": "-",
           "player2": "GatoAventuras",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "GatoAventuras"
         },
         {
           "player1": "Elborre#0545",
@@ -1296,10 +1296,10 @@
         },
         {
           "player1": "Godki#3804",
-          "score1": "",
+          "score1": "-",
           "player2": "mark_72380",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "Godki#3804"
         },
         {
           "player1": "vaca#3519",
@@ -1490,10 +1490,10 @@
         },
         {
           "player1": "mark_72380",
-          "score1": "",
+          "score1": "-",
           "player2": "GAT.Ronin#9111",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "GAT.Ronin#9111"
         },
         {
           "player1": "r3dman",
