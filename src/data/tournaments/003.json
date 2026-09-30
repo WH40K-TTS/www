@@ -382,30 +382,30 @@
           "name": "TEAM RUINA ABSOLUTA",
           "points": 0,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "abandonos": 0
         },
         {
           "name": "La Compañía Gris",
-          "points": 7,
+          "points": 8,
           "wins": 2,
           "losses": 0,
-          "ties": 1,
+          "ties": 2,
           "abandonos": 0
         },
         {
           "name": "Anti-Astartes Social Club",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
         {
           "name": "RukkaTrukka",
-          "points": 3,
-          "wins": 1,
+          "points": 6,
+          "wins": 2,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -422,7 +422,7 @@
           "name": "Que pasa biomasa?",
           "points": 0,
           "wins": 0,
-          "losses": 0,
+          "losses": 3,
           "ties": 0,
           "abandonos": 0
         },
@@ -436,8 +436,8 @@
         },
         {
           "name": "MaDuroz Kon Ganaz",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -452,10 +452,10 @@
         },
         {
           "name": "El bueno, el malo, el feo y el eldar",
-          "points": 0,
+          "points": 2,
           "wins": 0,
           "losses": 0,
-          "ties": 0,
+          "ties": 2,
           "abandonos": 0
         },
         {
@@ -484,8 +484,8 @@
         },
         {
           "name": "Disciples",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 2,
           "ties": 0,
           "abandonos": 0
