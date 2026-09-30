@@ -522,8 +522,8 @@
           "player1": "Que pasa biomasa?",
           "score1": 10,
           "player2": "RukkaTrukka",
-          "score2": 50,
-          "winner": null
+          "score2": 70,
+          "winner": "RukkaTrukka"
         },
         {
           "player1": "No Hacemos Cajitas",
@@ -562,8 +562,8 @@
           "player1": "Que pasa biomasa?",
           "score1": 6,
           "player2": "Anti-Astartes Social Club",
-          "score2": 34,
-          "winner": null
+          "score2": 54,
+          "winner": "Anti-Astartes Social Club"
         },
         {
           "player1": "No Hacemos Cajitas",
@@ -581,10 +581,10 @@
         },
         {
           "player1": "MaDuroz Kon Ganaz",
-          "score1": 40,
+          "score1": 60,
           "player2": "TEAM RUINA ABSOLUTA",
           "score2": 0,
-          "winner": null
+          "winner": "MaDuroz Kon Ganaz"
         },
         {
           "player1": "La última potencia",
@@ -623,8 +623,8 @@
           "player1": "Que pasa biomasa?",
           "score1": 10,
           "player2": "Disciples",
-          "score2": 30,
-          "winner": null
+          "score2": 50,
+          "winner": "Disciples"
         },
         {
           "player1": "La última potencia",
@@ -663,7 +663,7 @@
           "player1": "Que pasa biomasa?",
           "score1": 32,
           "player2": "El bueno, el malo, el feo y el eldar",
-          "score2": 8,
+          "score2": 28,
           "winner": null
         },
         {
@@ -689,9 +689,9 @@
         },
         {
           "player1": "RukkaTrukka",
-          "score1": 10,
+          "score1": 17,
           "player2": "MaDuroz Kon Ganaz",
-          "score2": 30,
+          "score2": 43,
           "winner": null
         },
         {
@@ -831,10 +831,10 @@
         },
         {
           "player1": "Luc4#7761",
-          "score1": "",
+          "score1": "-",
           "player2": "guille#6214",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "guille#6214"
         },
         {
           "player1": "beny14",
@@ -969,10 +969,10 @@
         },
         {
           "player1": "Luc4#7761",
-          "score1": "",
+          "score1": "-",
           "player2": "thiago_09894_87297",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "thiago_09894_87297"
         },
         {
           "player1": "danistrorus",
@@ -1060,10 +1060,10 @@
         },
         {
           "player1": "darkkazuya",
-          "score1": "",
+          "score1": 47,
           "player2": "Navastelroy#7355",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "Navastelroy#7355"
         },
         {
           "player1": "crobels#2631",
@@ -1205,10 +1205,10 @@
         },
         {
           "player1": "Luc4#7761",
-          "score1": "",
+          "score1": "-",
           "player2": "Dnyx",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "Dnyx"
         },
         {
           "player1": "APCC the Architect#6869",
@@ -1343,10 +1343,10 @@
         },
         {
           "player1": "Luc4#7761",
-          "score1": "",
+          "score1": "-",
           "player2": "Elborre#0545",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "Elborre#0545"
         },
         {
           "player1": "lagarazo#5939",
@@ -1462,10 +1462,10 @@
         },
         {
           "player1": "alvgarvilla",
-          "score1": "",
+          "score1": 80,
           "player2": "dorthoka#5548",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "dorthoka#5548"
         },
         {
           "player1": "darkkazuya",
