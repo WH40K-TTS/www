@@ -428,9 +428,9 @@
         },
         {
           "name": "La última potencia",
-          "points": 0,
-          "wins": 0,
-          "losses": 0,
+          "points": 3,
+          "wins": 1,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
@@ -452,10 +452,10 @@
         },
         {
           "name": "El bueno, el malo, el feo y el eldar",
-          "points": 2,
+          "points": 1,
           "wins": 0,
-          "losses": 0,
-          "ties": 2,
+          "losses": 1,
+          "ties": 1,
           "abandonos": 0
         },
         {
@@ -476,8 +476,8 @@
         },
         {
           "name": "No Hacemos Cajitas",
-          "points": 4,
-          "wins": 1,
+          "points": 7,
+          "wins": 2,
           "losses": 0,
           "ties": 1,
           "abandonos": 0
@@ -513,10 +513,10 @@
         },
         {
           "player1": "La última potencia",
-          "score1": 26,
+          "score1": 46,
           "player2": "El bueno, el malo, el feo y el eldar",
           "score2": 14,
-          "winner": null
+          "winner": "La última potencia"
         },
         {
           "player1": "Que pasa biomasa?",
@@ -642,9 +642,9 @@
         },
         {
           "player1": "Devastating bros",
-          "score1": "",
+          "score1": 0,
           "player2": "RukkaTrukka",
-          "score2": "",
+          "score2": 20,
           "winner": null
         },
         {
@@ -661,9 +661,9 @@
       "matches": [
         {
           "player1": "Que pasa biomasa?",
-          "score1": 32,
+          "score1": 42,
           "player2": "El bueno, el malo, el feo y el eldar",
-          "score2": 28,
+          "score2": 18,
           "winner": null
         },
         {
@@ -675,10 +675,10 @@
         },
         {
           "player1": "La última potencia",
-          "score1": 4,
+          "score1": 14,
           "player2": "No Hacemos Cajitas",
-          "score2": 36,
-          "winner": null
+          "score2": 46,
+          "winner": "No Hacemos Cajitas"
         },
         {
           "player1": "Crisis de los 40k",
@@ -789,10 +789,10 @@
         },
         {
           "player1": "mr.friedlander#2475",
-          "score1": "",
+          "score1": "-",
           "player2": "Elborre#0545",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "mr.friedlander#2475"
         },
         {
           "player1": "jperpen#5742",
@@ -1289,10 +1289,10 @@
         },
         {
           "player1": "Rnes82",
-          "score1": "",
+          "score1": "-",
           "player2": "SergioZamora#9036",
-          "score2": "",
-          "winner": null
+          "score2": "-",
+          "winner": "SergioZamora#9036"
         },
         {
           "player1": "Godki#3804",
@@ -1346,7 +1346,7 @@
           "score1": "-",
           "player2": "Elborre#0545",
           "score2": "-",
-          "winner": "Elborre#0545"
+          "winner": null
         },
         {
           "player1": "lagarazo#5939",
@@ -1399,9 +1399,9 @@
         },
         {
           "player1": "beny14",
-          "score1": "",
+          "score1": "-",
           "player2": "jperpen#5742",
-          "score2": "",
+          "score2": "-",
           "winner": null
         },
         {
