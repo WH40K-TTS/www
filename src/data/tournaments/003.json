@@ -420,8 +420,8 @@
         },
         {
           "name": "Que pasa biomasa?",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 3,
           "ties": 0,
           "abandonos": 0
@@ -454,7 +454,7 @@
           "name": "El bueno, el malo, el feo y el eldar",
           "points": 1,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "ties": 1,
           "abandonos": 0
         },
@@ -661,10 +661,10 @@
       "matches": [
         {
           "player1": "Que pasa biomasa?",
-          "score1": 42,
+          "score1": 52,
           "player2": "El bueno, el malo, el feo y el eldar",
-          "score2": 18,
-          "winner": null
+          "score2": 28,
+          "winner": "Que pasa biomasa?"
         },
         {
           "player1": "Disciples",
@@ -1329,10 +1329,10 @@
       "matches": [
         {
           "player1": "danistrorus",
-          "score1": "",
-          "player2": "Riddick6223",
-          "score2": "",
-          "winner": null
+          "score1": "-",
+          "player2": "Elborre#0545",
+          "score2": "-",
+          "winner": "danistrorus"
         },
         {
           "player1": "P1TER#9250",
@@ -1344,9 +1344,9 @@
         {
           "player1": "Luc4#7761",
           "score1": "-",
-          "player2": "Elborre#0545",
+          "player2": "Riddick6223",
           "score2": "-",
-          "winner": null
+          "winner": "Riddick6223"
         },
         {
           "player1": "lagarazo#5939",
