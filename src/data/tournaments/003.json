@@ -404,8 +404,8 @@
         },
         {
           "name": "RukkaTrukka",
-          "points": 6,
-          "wins": 2,
+          "points": 9,
+          "wins": 3,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -446,7 +446,7 @@
           "name": "Devastating bros",
           "points": 0,
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
@@ -642,10 +642,10 @@
         },
         {
           "player1": "Devastating bros",
-          "score1": 5,
+          "score1": 12,
           "player2": "RukkaTrukka",
-          "score2": 35,
-          "winner": null
+          "score2": 48,
+          "winner": "RukkaTrukka"
         },
         {
           "player1": "Crisis de los 40k",
@@ -1268,10 +1268,10 @@
         },
         {
           "player1": "Rex",
-          "score1": "",
+          "score1": 81,
           "player2": "yoxs",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "yoxs"
         },
         {
           "player1": "flaakkoo5",
