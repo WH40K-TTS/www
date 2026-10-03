@@ -396,10 +396,10 @@
         },
         {
           "name": "Anti-Astartes Social Club",
-          "points": 3,
+          "points": 4,
           "wins": 1,
           "losses": 2,
-          "ties": 0,
+          "ties": 1,
           "abandonos": 0
         },
         {
@@ -428,10 +428,10 @@
         },
         {
           "name": "La última potencia",
-          "points": 3,
+          "points": 4,
           "wins": 1,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "abandonos": 0
         },
         {
@@ -628,9 +628,9 @@
         },
         {
           "player1": "La última potencia",
-          "score1": 26,
+          "score1": 36,
           "player2": "Anti-Astartes Social Club",
-          "score2": 34,
+          "score2": 44,
           "winner": null
         },
         {
@@ -1226,9 +1226,9 @@
         },
         {
           "player1": "jperpen#5742",
-          "score1": "",
+          "score1": "-",
           "player2": "thiago_09894_87297",
-          "score2": "",
+          "score2": "-",
           "winner": null
         },
         {
