@@ -501,7 +501,7 @@
           "player1": "Anti-Astartes Social Club",
           "score1": 7,
           "player2": "CobradorMakari",
-          "score2": 13,
+          "score2": 33,
           "winner": null
         },
         {
@@ -726,10 +726,10 @@
       "matches": [
         {
           "player1": "yoritomo takeru#9272",
-          "score1": "",
+          "score1": 39,
           "player2": "gr0msito_27636",
-          "score2": "",
-          "winner": null
+          "score2": 91,
+          "winner": "gr0msito_27636"
         },
         {
           "player1": "javier._12896",
