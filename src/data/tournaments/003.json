@@ -398,7 +398,7 @@
           "name": "Anti-Astartes Social Club",
           "points": 3,
           "wins": 1,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "abandonos": 0
         },
@@ -468,8 +468,8 @@
         },
         {
           "name": "CobradorMakari",
-          "points": 0,
-          "wins": 0,
+          "points": 3,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -499,10 +499,10 @@
       "matches": [
         {
           "player1": "Anti-Astartes Social Club",
-          "score1": 7,
+          "score1": 30,
           "player2": "CobradorMakari",
-          "score2": 33,
-          "winner": null
+          "score2": 50,
+          "winner": "CobradorMakari"
         },
         {
           "player1": "La Compañía Gris",
@@ -588,9 +588,9 @@
         },
         {
           "player1": "La última potencia",
-          "score1": "",
+          "score1": 10,
           "player2": "Crisis de los 40k",
-          "score2": "",
+          "score2": 10,
           "winner": null
         },
         {
@@ -733,16 +733,16 @@
         },
         {
           "player1": "javier._12896",
-          "score1": "",
+          "score1": 93,
           "player2": "neromk.",
-          "score2": "",
-          "winner": null
+          "score2": 77,
+          "winner": "javier._12896"
         },
         {
           "player1": "thiago_09894_87297",
-          "score1": "",
+          "score1": "-",
           "player2": "stefanp90",
-          "score2": "",
+          "score2": "-",
           "winner": null
         },
         {
@@ -1088,9 +1088,9 @@
         },
         {
           "player1": "APCC the Architect#6869",
-          "score1": "",
+          "score1": "-",
           "player2": "vaca#3519",
-          "score2": "",
+          "score2": "-",
           "winner": null
         },
         {
