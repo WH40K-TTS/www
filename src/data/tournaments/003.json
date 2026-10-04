@@ -406,7 +406,7 @@
           "name": "RukkaTrukka",
           "points": 9,
           "wins": 3,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "abandonos": 0
         },
@@ -436,8 +436,8 @@
         },
         {
           "name": "MaDuroz Kon Ganaz",
-          "points": 3,
-          "wins": 1,
+          "points": 6,
+          "wins": 2,
           "losses": 0,
           "ties": 0,
           "abandonos": 0
@@ -595,9 +595,9 @@
         },
         {
           "player1": "CobradorMakari",
-          "score1": "",
+          "score1": 10,
           "player2": "Mancos pero majos",
-          "score2": "",
+          "score2": 10,
           "winner": null
         }
       ]
@@ -689,10 +689,10 @@
         },
         {
           "player1": "RukkaTrukka",
-          "score1": 17,
+          "score1": 25,
           "player2": "MaDuroz Kon Ganaz",
-          "score2": 43,
-          "winner": null
+          "score2": 55,
+          "winner": "MaDuroz Kon Ganaz"
         },
         {
           "player1": "TEAM RUINA ABSOLUTA",
@@ -1095,10 +1095,10 @@
         },
         {
           "player1": "gr0msito_27636",
-          "score1": "",
+          "score1": 98,
           "player2": "GAT.Ronin#9111",
-          "score2": "",
-          "winner": null
+          "score2": 100,
+          "winner": "GAT.Ronin#9111"
         },
         {
           "player1": "neromk.",
@@ -1448,10 +1448,10 @@
         },
         {
           "player1": "guille#6214",
-          "score1": "",
+          "score1": 78,
           "player2": "Juanito#0398",
-          "score2": "",
-          "winner": null
+          "score2": 93,
+          "winner": "Juanito#0398"
         },
         {
           "player1": "SergioZamora#9036",
