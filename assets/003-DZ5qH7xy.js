@@ -1,4 +1,4 @@
-const e="003",a="Armageddon - E1",r="",o="",s="upcoming (Próximo), ongoing (En curso), finished (Finalizado)",n="ongoing",t="Equipos",i="FORM_ID",l="Es lo que se ve en la página info.jsx",c=`## Descripción
+const e="003",a="Armageddon - E1",r="31-08-2026",o="04-10-2026",s="upcoming (Próximo), ongoing (En curso), finished (Finalizado)",n="finished",t="Equipos",i="FORM_ID",l="Es lo que se ve en la página info.jsx",c=`## Descripción
 **Armageddon - E1** torneo por equipos de 4 jugadores, utilizando las reglas de 11ª edición.
 
 ## Fechas y recursos
