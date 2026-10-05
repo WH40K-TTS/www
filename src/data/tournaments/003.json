@@ -1,10 +1,10 @@
 {
   "id": "003",
   "name": "Armageddon - E1",
-  "date": "",
-  "dateEnd": "",
+  "date": "31-08-2026",
+  "dateEnd": "04-10-2026",
   "_COMENTARIO_valores_status": "upcoming (Próximo), ongoing (En curso), finished (Finalizado)",
-  "status": "ongoing",
+  "status": "finished",
   "format": "Equipos",
   "tallyFormId": "FORM_ID",
   "_COMENTARIO_infoMd": "Es lo que se ve en la página info.jsx",

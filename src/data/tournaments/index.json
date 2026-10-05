@@ -27,10 +27,21 @@
       "id": "003",
       "name": "Armageddon - E1",
       "date": "31-08-2026",
-      "dateEnd": "06-09-2026",
-      "status": "ongoing",
+      "dateEnd": "04-10-2026",
+      "status": "finished",
       "format": "Equipos",
       "players": 14,
+      "winner": "RukkaTrukka"
+    },
+    {
+      "/COMENTARIO/": "upcoming, ongoing, finished",
+      "id": "004",
+      "name": "Armageddon - I2",
+      "date": "05-10-2026",
+      "dateEnd": "22-11-2026",
+      "status": "ongoing",
+      "format": "Individual",
+      "players": 0,
       "winner": ""
     }
   ]
