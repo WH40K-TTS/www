@@ -588,9 +588,9 @@
         },
         {
           "player1": "La última potencia",
-          "score1": 10,
+          "score1": 20,
           "player2": "Crisis de los 40k",
-          "score2": 10,
+          "score2": 20,
           "winner": null
         },
         {
@@ -1067,9 +1067,9 @@
         },
         {
           "player1": "crobels#2631",
-          "score1": "",
+          "score1": "-",
           "player2": "Ezraen#9729",
-          "score2": "",
+          "score2": "-",
           "winner": null
         },
         {
