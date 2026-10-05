@@ -1,14 +1,14 @@
 /**
- * Ordena un array de jugadores por posición del torneo.
- * En caso de empate, desempata por nombre.
+ * Ordena un array de jugadores por puntos totales (desc).
+ * En caso de empate, desempata por nombre (asc).
  * @param {Player[]} players
  * @returns {Player[]}
  */
 export function sortByPoints(players = []) {
   return [...players].sort((a, b) => {
-    const posA = a.tournamentHistory?.[0]?.position ?? 999
-    const posB = b.tournamentHistory?.[0]?.position ?? 999
-    if (posA !== posB) return posA - posB
+    const ptsA = a.totalPoints ?? 0
+    const ptsB = b.totalPoints ?? 0
+    if (ptsB !== ptsA) return ptsB - ptsA
 
     return (a.name ?? '').localeCompare(b.name ?? '', 'es', { numeric: true })
   })

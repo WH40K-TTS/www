@@ -1,166 +1,452 @@
 {
-  "cubiheadache": {
-    "name": "cubiheadache",
-    "totalPoints": 19,
+  "Supradin": {
+    "name": "Supradin",
+    "totalPoints": 2,
     "tournaments": [
-      { "id": "002", "pointsEarned": 12, "wins": 7, "losses": 0, "abandonos": 0, "faction": "Blood Angels" },
-      { "id": "003", "pointsEarned": 7, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Purge the Foe" }
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 10,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 1,
+        "losses": 2,
+        "abandonos": 0,
+        "faction": "Space Marines"
+      }
     ]
   },
   "alvgarvilla": {
     "name": "alvgarvilla",
     "totalPoints": 12,
     "tournaments": [
-      { "id": "003", "pointsEarned": 12, "wins": 2, "losses": 1, "abandonos": 0, "faction": "Reconnaissance" }
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 1,
+        "points": 12,
+        "pointsEarned": 12,
+        "wins": 2,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Drukhari"
+      }
     ]
   },
-  "guille#6214": {
-    "name": "guille#6214",
-    "totalPoints": 12,
+  "cubiheadache": {
+    "name": "cubiheadache",
+    "totalPoints": 19,
     "tournaments": [
-      { "id": "003", "pointsEarned": 12, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Take and Hold" }
-    ]
-  },
-  "r3dman": {
-    "name": "r3dman",
-    "totalPoints": 12,
-    "tournaments": [
-      { "id": "002", "pointsEarned": 2, "wins": 2, "losses": 1, "abandonos": 0, "faction": "Dark Angels" },
-      { "id": "003", "pointsEarned": 10, "wins": 4, "losses": 0, "abandonos": 0, "faction": "Priority Assets" }
-    ]
-  },
-  "SergioZamora#9036": {
-    "name": "SergioZamora#9036",
-    "totalPoints": 12,
-    "tournaments": [
-      { "id": "003", "pointsEarned": 12, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Priority Assets" }
-    ]
-  },
-  "yoxs": {
-    "name": "yoxs",
-    "totalPoints": 12,
-    "tournaments": [
-      { "id": "003", "pointsEarned": 12, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Purge the Foe" }
-    ]
-  },
-  "Rakshark": {
-    "name": "Rakshark",
-    "totalPoints": 10,
-    "tournaments": [
-      { "id": "003", "pointsEarned": 10, "wins": 4, "losses": 0, "abandonos": 0, "faction": "Purge the Foe" }
-    ]
-  },
-  "edumunoz": {
-    "name": "edumunoz",
-    "totalPoints": 7,
-    "tournaments": [
-      { "id": "003", "pointsEarned": 7, "wins": 4, "losses": 0, "abandonos": 0, "faction": "Disruption" }
-    ]
-  },
-  "Navastelroy#7355": {
-    "name": "Navastelroy#7355",
-    "totalPoints": 4,
-    "tournaments": [
-      { "id": "002", "pointsEarned": 2, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Necrons" },
-      { "id": "003", "pointsEarned": 2, "wins": 4, "losses": 0, "abandonos": 0, "faction": "Take and Hold" }
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 1,
+        "points": 12,
+        "pointsEarned": 12,
+        "wins": 7,
+        "losses": 0,
+        "abandonos": 0,
+        "faction": "Blood Angels"
+      },
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 3,
+        "points": 7,
+        "pointsEarned": 7,
+        "wins": 3,
+        "losses": 0,
+        "abandonos": 0,
+        "faction": "Space Marines"
+      }
     ]
   },
   "javier._12896": {
     "name": "javier._12896",
     "totalPoints": 2,
     "tournaments": [
-      { "id": "003", "pointsEarned": 2, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Priority Assets" }
-    ]
-  },
-  "yoritomo takeru#9272": {
-    "name": "yoritomo takeru#9272",
-    "totalPoints": 2,
-    "tournaments": [
-      { "id": "003", "pointsEarned": 2, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Purge the Foe" }
-    ]
-  },
-  "Trabucodonosor#4172": {
-    "name": "Trabucodonosor#4172",
-    "totalPoints": 2,
-    "tournaments": [
-      { "id": "003", "pointsEarned": 2, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Disruption" }
-    ]
-  },
-  "P1TER#9250": {
-    "name": "P1TER#9250",
-    "totalPoints": 2,
-    "tournaments": [
-      { "id": "003", "pointsEarned": 2, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Take and Hold" }
-    ]
-  },
-  "lagarazo#5939": {
-    "name": "lagarazo#5939",
-    "totalPoints": 2,
-    "tournaments": [
-      { "id": "003", "pointsEarned": 2, "wins": 3, "losses": 1, "abandonos": 0, "faction": "Purge the Foe" }
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 5,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 3,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Leagues of Votann"
+      }
     ]
   },
   "neromk.": {
     "name": "neromk.",
     "totalPoints": 2,
     "tournaments": [
-      { "id": "003", "pointsEarned": 2, "wins": 2, "losses": 1, "abandonos": 0, "faction": "Reconnaissance" }
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 9,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 0,
+        "losses": 3,
+        "abandonos": 0,
+        "faction": "Aeldari"
+      }
     ]
   },
-  "Supradin": {
-    "name": "Supradin",
-    "totalPoints": 2,
+  "guille#6214": {
+    "name": "guille#6214",
+    "totalPoints": 12,
     "tournaments": [
-      { "id": "003", "pointsEarned": 2, "wins": 2, "losses": 1, "abandonos": 0, "faction": "Priority Assets" }
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 1,
+        "points": 12,
+        "pointsEarned": 12,
+        "wins": 2,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Thousand Sons"
+      }
     ]
   },
-  "Suarepita#1978": {
-    "name": "Suarepita#1978",
-    "totalPoints": 10,
+  "r3dman": {
+    "name": "r3dman",
+    "totalPoints": 12,
     "tournaments": [
-      { "id": "002", "pointsEarned": 10, "wins": 5, "losses": 1, "abandonos": 0, "faction": "Death Guard" }
-    ]
-  },
-  "cosmefernan": {
-    "name": "cosmefernan",
-    "totalPoints": 7,
-    "tournaments": [
-      { "id": "002", "pointsEarned": 7, "wins": 4, "losses": 1, "abandonos": 0, "faction": "Imperial Knights" }
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 8,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 2,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Dark Angels"
+      },
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 2,
+        "points": 10,
+        "pointsEarned": 10,
+        "wins": 4,
+        "losses": 0,
+        "abandonos": 0,
+        "faction": "Leagues of Votann"
+      }
     ]
   },
   "Danistrorus": {
     "name": "Danistrorus",
     "totalPoints": 2,
     "tournaments": [
-      { "id": "002", "pointsEarned": 2, "wins": 3, "losses": 3, "abandonos": 0, "faction": "Imperial Fists" }
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 4,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 3,
+        "losses": 3,
+        "abandonos": 0,
+        "faction": "Imperial Fists"
+      }
     ]
   },
-  "doblegwh": {
-    "name": "doblegwh",
-    "totalPoints": 2,
+  "Navastelroy#7355": {
+    "name": "Navastelroy#7355",
+    "totalPoints": 4,
     "tournaments": [
-      { "id": "002", "pointsEarned": 2, "wins": 4, "losses": 1, "abandonos": 0, "faction": "Salamanders" }
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 8,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 3,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Necrons"
+      },
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 4,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 3,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Space Marines"
+      }
     ]
   },
-  "urekmazino6906": {
-    "name": "urekmazino6906",
-    "totalPoints": 2,
+  "cosmefernan": {
+    "name": "cosmefernan",
+    "totalPoints": 7,
     "tournaments": [
-      { "id": "002", "pointsEarned": 2, "wins": 2, "losses": 1, "abandonos": 0, "faction": "T’au Empire" }
-    ]
-  },
-  "javiergc12": {
-    "name": "javiergc12",
-    "totalPoints": 2,
-    "tournaments": [
-      { "id": "002", "pointsEarned": 2, "wins": 2, "losses": 2, "abandonos": 0, "faction": "Tyranids" }
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 3,
+        "points": 7,
+        "pointsEarned": 7,
+        "wins": 4,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Imperial Knights"
+      }
     ]
   },
   "Sanba#3554": {
     "name": "Sanba#3554",
     "totalPoints": 2,
     "tournaments": [
-      { "id": "002", "pointsEarned": 2, "wins": 2, "losses": 2, "abandonos": 0, "faction": "Genestealer Cults" }
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 10,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 2,
+        "losses": 2,
+        "abandonos": 0,
+        "faction": "Genestealer Cults"
+      }
+    ]
+  },
+  "urekmazino6906": {
+    "name": "urekmazino6906",
+    "totalPoints": 2,
+    "tournaments": [
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 8,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 2,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "T’au Empire"
+      }
+    ]
+  },
+  "edumunoz": {
+    "name": "edumunoz",
+    "totalPoints": 7,
+    "tournaments": [
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 3,
+        "points": 7,
+        "pointsEarned": 7,
+        "wins": 4,
+        "losses": 0,
+        "abandonos": 0,
+        "faction": "Grey Knights"
+      }
+    ]
+  },
+  "Trabucodonosor#4172": {
+    "name": "Trabucodonosor#4172",
+    "totalPoints": 2,
+    "tournaments": [
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 5,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 2,
+        "losses": 2,
+        "abandonos": 0,
+        "faction": "Tyranids"
+      }
+    ]
+  },
+  "doblegwh": {
+    "name": "doblegwh",
+    "totalPoints": 2,
+    "tournaments": [
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 8,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 4,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Salamanders"
+      }
+    ]
+  },
+  "P1TER#9250": {
+    "name": "P1TER#9250",
+    "totalPoints": 2,
+    "tournaments": [
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 8,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 2,
+        "losses": 2,
+        "abandonos": 0,
+        "faction": "Grey Knights"
+      }
+    ]
+  },
+  "Suarepita#1978": {
+    "name": "Suarepita#1978",
+    "totalPoints": 10,
+    "tournaments": [
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 2,
+        "points": 10,
+        "pointsEarned": 10,
+        "wins": 5,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Death Guard"
+      }
+    ]
+  },
+  "yoxs": {
+    "name": "yoxs",
+    "totalPoints": 12,
+    "tournaments": [
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 1,
+        "points": 12,
+        "pointsEarned": 12,
+        "wins": 2,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "Necrons"
+      }
+    ]
+  },
+  "Rakshark": {
+    "name": "Rakshark",
+    "totalPoints": 10,
+    "tournaments": [
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 2,
+        "points": 10,
+        "pointsEarned": 10,
+        "wins": 2,
+        "losses": 2,
+        "abandonos": 0,
+        "faction": "Imperial Knights"
+      }
+    ]
+  },
+  "yoritomo takeru#9272": {
+    "name": "yoritomo takeru#9272",
+    "totalPoints": 2,
+    "tournaments": [
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 5,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 1,
+        "losses": 3,
+        "abandonos": 0,
+        "faction": "Astra Militarum"
+      }
+    ]
+  },
+  "SergioZamora#9036": {
+    "name": "SergioZamora#9036",
+    "totalPoints": 12,
+    "tournaments": [
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 1,
+        "points": 12,
+        "pointsEarned": 12,
+        "wins": 3,
+        "losses": 0,
+        "abandonos": 0,
+        "faction": "T'au Empire"
+      }
+    ]
+  },
+  "lagarazo#5939": {
+    "name": "lagarazo#5939",
+    "totalPoints": 2,
+    "tournaments": [
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 8,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 1,
+        "losses": 3,
+        "abandonos": 0,
+        "faction": "Necrons"
+      }
+    ]
+  },
+  "javiergc12": {
+    "name": "javiergc12",
+    "totalPoints": 2,
+    "tournaments": [
+      {
+        "id": "002",
+        "tournamentId": "002",
+        "tournamentName": "Armageddon - I1",
+        "position": 10,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 2,
+        "losses": 2,
+        "abandonos": 0,
+        "faction": "Tyranids"
+      }
     ]
   }
 }
