@@ -448,5 +448,23 @@
         "faction": "Tyranids"
       }
     ]
+  },
+  "Ezraen#9729": {
+    "name": "Ezraen#9729",
+    "totalPoints": 2,
+    "tournaments": [
+      {
+        "id": "003",
+        "tournamentId": "003",
+        "tournamentName": "Armageddon - E1",
+        "position": 8,
+        "points": 2,
+        "pointsEarned": 2,
+        "wins": 2,
+        "losses": 1,
+        "abandonos": 0,
+        "faction": "T'au Empire"
+      }
+    ]
   }
 }
