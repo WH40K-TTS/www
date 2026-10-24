@@ -6,6 +6,7 @@ const DICE_ICONS = [Dice1, Dice2, Dice3, Dice4]
 
 const ROUND_ICONS = {
   'Octavos':          Layers,
+  'Cuartos de final': Layers,
   'Semifinales':      Layers2,
   'Final':            Trophy,
   '3er y 4º Puesto':  Medal,

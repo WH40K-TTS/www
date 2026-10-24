@@ -1,17 +1,17 @@
 {
   "id": "004",
   "name": "Armageddon - I2",
-  "date": "05-10-2026",
-  "dateEnd": "22-11-2026",
+  "date": "19-10-2026",
+  "dateEnd": "13-12-2026",
   "_COMENTARIO_valores_status": "upcoming (Próximo), ongoing (En curso), finished (Finalizado)",
   "status": "ongoing",
   "format": "individual",
   "tallyFormId": "FORM_ID",
   "_COMENTARIO_infoMd": "Es lo que se ve en la página info.jsx",
-  "infoMd": "## Descripción\n**Armageddon - I2** es el segundo torneo individual de 11ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones\ndel [Pack de Eventos Individuales](https://assets.warhammer-community.com/spa_12-06_warhammer40000_event_companion-w4wi7amje7-ayjhs8z8h8.pdf) y la escenografía oficial de Games Workshop.\n\n## Fechas y recursos\n- **Inscripciones**: 05/10/2026 - 11/10/2026  \n- **Rondas clasificatorias**: 12/10/2026 - 08/11/2026  \n- **Finales**: 09/11/2026 - 22/11/2026\n\nCada jugador dispone de **una semana por ronda** para acordar y disputar su partida con el rival asignado.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se divide en **dos fases**:\n\n### Fase clasificatoria — 4 rondas\n- Los jugadores se reparten en grupos de **5**.\n- Cada jugador se enfrenta a todos los rivales de su grupo *(todos contra todos)*.\n- Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.\n- Se clasificarán los **8 mejores jugadores** para las finales.\n\n### Finales — eliminación directa\n- Semifinales → 3.º y 4.º puesto → Final.",
+  "infoMd": "## Descripción\n**Armageddon - I2** es el segundo torneo individual de 11ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones\ndel [Pack de Eventos Individuales](https://assets.warhammer-community.com/spa_12-06_warhammer40000_event_companion-w4wi7amje7-ayjhs8z8h8.pdf) y la escenografía oficial de Games Workshop.\n\n## Fechas y recursos\n- **Inscripciones**: 19/10/2026 - 24/10/2026  \n- **Rondas clasificatorias**: 26/10/2026 - 22/11/2026  \n- **Finales**: 23/11/2026 - 13/12/2026\n\nLas rondas se disputan de **lunes a domingo**; la fase de grupos se completa en **4 semanas**.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se divide en **dos fases**:\n\n### Fase clasificatoria — 5 rondas en 4 semanas\n- Los jugadores se reparten en grupos de **5**.\n- Cada jugador se enfrenta a todos los rivales de su grupo *(todos contra todos)*.\n- Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.\n- Se clasificarán los **8 mejores jugadores** para las finales.\n\n### Finales — eliminación directa\n- Cuartos de final → Semifinales → Finales.",
   "listUploadConfig": {
     "_COMENTARIO_valores_state": "form_individual, form_teams, lists_individual, lists_teams",
-    "state": "form_individual",
+    "state": "lists_individual",
     "form": {
       "text": "Presenta tu lista de ejército antes del inicio del torneo. El envío es gestionado a través del siguiente formulario:",
       "tallyUrlIndividual": "https://tally.so/embed/NpM5Ej?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1",
@@ -23,7 +23,243 @@
       "teams": []
     }
   },
-  "groups": [],
-  "qualificationMatches": [],
-  "finalMatches": []
+  "groups": [
+    {
+      "name": "Grupo A",
+      "players": [
+        { "name": "Manticore", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "F4R0K", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Navastelroy#7355", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Suarepita#1978", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "P1TER#9250", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+      ]
+    },
+    {
+      "name": "Grupo B",
+      "players": [
+        { "name": "Sanba#3554", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Kastro", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Krossbones", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Thorin887#3661", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "APCC the Architect#6869", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+      ]
+    },
+    {
+      "name": "Grupo C",
+      "players": [
+        { "name": "stylex8108", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Kuri_Pe", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Frankis89", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "lagarazi#5939", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "magolor17", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+      ]
+    },
+    {
+      "name": "Grupo D",
+      "players": [
+        { "name": "edu101119", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Pancake#8705", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "e_codina", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Carpi", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "jorge.lemariont", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+      ]
+    },
+    {
+      "name": "Grupo E",
+      "players": [
+        { "name": "DGB 11#0106", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "TontacoV2", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Angus#3554", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "javalow#8953", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+      ]
+    },
+    {
+      "name": "Grupo F",
+      "players": [
+        { "name": "naxiur", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Danistrorus", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "r3dman", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Ralvo#1536", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "doblegwh", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+      ]
+    },
+    {
+      "name": "Grupo G",
+      "players": [
+        { "name": "icastell", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Tarsi300#1827", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "SANCHEZ_eu", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "cubiheadache#0286", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "ArisenAura", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+      ]
+    },
+    {
+      "name": "Grupo H",
+      "players": [
+        { "name": "Mutxo#7080", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "marakamagica", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Trabucodonosor#4172", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Ezraen#9729", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "llabreso#6183", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+      ]
+    },
+    {
+      "name": "Grupo I",
+      "players": [
+        { "name": "Whilas#0608", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "BOPRA#9308", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "ESPARTAX12", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": ".ancar", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "mirmibcn_68014", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+      ]
+    }
+  ],
+  "qualificationMatches": [
+    {
+      "round": 1,
+      "matches": [
+        { "player1": "F4R0K", "score1": "", "player2": "P1TER#9250", "score2": "", "winner": null },
+        { "player1": "Navastelroy#7355", "score1": "", "player2": "Suarepita#1978", "score2": "", "winner": null },
+        { "player1": "Kastro", "score1": "", "player2": "APCC the Architect#6869", "score2": "", "winner": null },
+        { "player1": "Krossbones", "score1": "", "player2": "Thorin887#3661", "score2": "", "winner": null },
+        { "player1": "Kuri_Pe", "score1": "", "player2": "magolor17", "score2": "", "winner": null },
+        { "player1": "Frankis89", "score1": "", "player2": "lagarazi#5939", "score2": "", "winner": null },
+        { "player1": "Pancake#8705", "score1": "", "player2": "jorge.lemariont", "score2": "", "winner": null },
+        { "player1": "e_codina", "score1": "", "player2": "Carpi", "score2": "", "winner": null },
+        { "player1": "TontacoV2", "score1": "", "player2": "gerzon6915", "score2": "", "winner": null },
+        { "player1": "Angus#3554", "score1": "", "player2": "javalow#8953", "score2": "", "winner": null },
+        { "player1": "Danistrorus", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "r3dman", "score1": "", "player2": "Ralvo#1536", "score2": "", "winner": null },
+        { "player1": "Tarsi300#1827", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
+        { "player1": "SANCHEZ_eu", "score1": "", "player2": "cubiheadache#0286", "score2": "", "winner": null },
+        { "player1": "marakamagica", "score1": "", "player2": "llabreso#6183", "score2": "", "winner": null },
+        { "player1": "Trabucodonosor#4172", "score1": "", "player2": "Ezraen#9729", "score2": "", "winner": null },
+        { "player1": "BOPRA#9308", "score1": "", "player2": "mirmibcn_68014", "score2": "", "winner": null },
+        { "player1": "ESPARTAX12", "score1": "", "player2": ".ancar", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        { "player1": "Manticore", "score1": "", "player2": "P1TER#9250", "score2": "", "winner": null },
+        { "player1": "F4R0K", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "Sanba#3554", "score1": "", "player2": "APCC the Architect#6869", "score2": "", "winner": null },
+        { "player1": "Kastro", "score1": "", "player2": "Krossbones", "score2": "", "winner": null },
+        { "player1": "stylex8108", "score1": "", "player2": "magolor17", "score2": "", "winner": null },
+        { "player1": "Kuri_Pe", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
+        { "player1": "edu101119", "score1": "", "player2": "jorge.lemariont", "score2": "", "winner": null },
+        { "player1": "Pancake#8705", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
+        { "player1": "DGB 11#0106", "score1": "", "player2": "gerzon6915", "score2": "", "winner": null },
+        { "player1": "TontacoV2", "score1": "", "player2": "Angus#3554", "score2": "", "winner": null },
+        { "player1": "naxiur", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "Danistrorus", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
+        { "player1": "icastell", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
+        { "player1": "Tarsi300#1827", "score1": "", "player2": "SANCHEZ_eu", "score2": "", "winner": null },
+        { "player1": "Mutxo#7080", "score1": "", "player2": "llabreso#6183", "score2": "", "winner": null },
+        { "player1": "marakamagica", "score1": "", "player2": "Trabucodonosor#4172", "score2": "", "winner": null },
+        { "player1": "Whilas#0608", "score1": "", "player2": "mirmibcn_68014", "score2": "", "winner": null },
+        { "player1": "BOPRA#9308", "score1": "", "player2": "ESPARTAX12", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        { "player1": "Manticore", "score1": "", "player2": "Suarepita#1978", "score2": "", "winner": null },
+        { "player1": "P1TER#9250", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "Sanba#3554", "score1": "", "player2": "Thorin887#3661", "score2": "", "winner": null },
+        { "player1": "APCC the Architect#6869", "score1": "", "player2": "Krossbones", "score2": "", "winner": null },
+        { "player1": "stylex8108", "score1": "", "player2": "lagarazi#5939", "score2": "", "winner": null },
+        { "player1": "magolor17", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
+        { "player1": "edu101119", "score1": "", "player2": "Carpi", "score2": "", "winner": null },
+        { "player1": "jorge.lemariont", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
+        { "player1": "DGB 11#0106", "score1": "", "player2": "javalow#8953", "score2": "", "winner": null },
+        { "player1": "gerzon6915", "score1": "", "player2": "Angus#3554", "score2": "", "winner": null },
+        { "player1": "naxiur", "score1": "", "player2": "Ralvo#1536", "score2": "", "winner": null },
+        { "player1": "doblegwh", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
+        { "player1": "icastell", "score1": "", "player2": "cubiheadache#0286", "score2": "", "winner": null },
+        { "player1": "ArisenAura", "score1": "", "player2": "SANCHEZ_eu", "score2": "", "winner": null },
+        { "player1": "Mutxo#7080", "score1": "", "player2": "Ezraen#9729", "score2": "", "winner": null },
+        { "player1": "llabreso#6183", "score1": "", "player2": "Trabucodonosor#4172", "score2": "", "winner": null },
+        { "player1": "Whilas#0608", "score1": "", "player2": ".ancar", "score2": "", "winner": null },
+        { "player1": "mirmibcn_68014", "score1": "", "player2": "ESPARTAX12", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": 4,
+      "matches": [
+        { "player1": "Manticore", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "Suarepita#1978", "score1": "", "player2": "F4R0K", "score2": "", "winner": null },
+        { "player1": "Sanba#3554", "score1": "", "player2": "Krossbones", "score2": "", "winner": null },
+        { "player1": "Thorin887#3661", "score1": "", "player2": "Kastro", "score2": "", "winner": null },
+        { "player1": "stylex8108", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
+        { "player1": "lagarazi#5939", "score1": "", "player2": "Kuri_Pe", "score2": "", "winner": null },
+        { "player1": "edu101119", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
+        { "player1": "Carpi", "score1": "", "player2": "Pancake#8705", "score2": "", "winner": null },
+        { "player1": "DGB 11#0106", "score1": "", "player2": "Angus#3554", "score2": "", "winner": null },
+        { "player1": "javalow#8953", "score1": "", "player2": "TontacoV2", "score2": "", "winner": null },
+        { "player1": "naxiur", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
+        { "player1": "Ralvo#1536", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
+        { "player1": "icastell", "score1": "", "player2": "SANCHEZ_eu", "score2": "", "winner": null },
+        { "player1": "cubiheadache#0286", "score1": "", "player2": "Tarsi300#1827", "score2": "", "winner": null },
+        { "player1": "Mutxo#7080", "score1": "", "player2": "Trabucodonosor#4172", "score2": "", "winner": null },
+        { "player1": "Ezraen#9729", "score1": "", "player2": "marakamagica", "score2": "", "winner": null },
+        { "player1": "Whilas#0608", "score1": "", "player2": "ESPARTAX12", "score2": "", "winner": null },
+        { "player1": ".ancar", "score1": "", "player2": "BOPRA#9308", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": 5,
+      "matches": [
+        { "player1": "Manticore", "score1": "", "player2": "F4R0K", "score2": "", "winner": null },
+        { "player1": "Suarepita#1978", "score1": "", "player2": "P1TER#9250", "score2": "", "winner": null },
+        { "player1": "Sanba#3554", "score1": "", "player2": "Kastro", "score2": "", "winner": null },
+        { "player1": "Thorin887#3661", "score1": "", "player2": "APCC the Architect#6869", "score2": "", "winner": null },
+        { "player1": "stylex8108", "score1": "", "player2": "Kuri_Pe", "score2": "", "winner": null },
+        { "player1": "lagarazi#5939", "score1": "", "player2": "magolor17", "score2": "", "winner": null },
+        { "player1": "edu101119", "score1": "", "player2": "Pancake#8705", "score2": "", "winner": null },
+        { "player1": "Carpi", "score1": "", "player2": "jorge.lemariont", "score2": "", "winner": null },
+        { "player1": "DGB 11#0106", "score1": "", "player2": "TontacoV2", "score2": "", "winner": null },
+        { "player1": "javalow#8953", "score1": "", "player2": "gerzon6915", "score2": "", "winner": null },
+        { "player1": "naxiur", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
+        { "player1": "Ralvo#1536", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "icastell", "score1": "", "player2": "Tarsi300#1827", "score2": "", "winner": null },
+        { "player1": "cubiheadache#0286", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
+        { "player1": "Mutxo#7080", "score1": "", "player2": "marakamagica", "score2": "", "winner": null },
+        { "player1": "Ezraen#9729", "score1": "", "player2": "llabreso#6183", "score2": "", "winner": null },
+        { "player1": "Whilas#0608", "score1": "", "player2": "BOPRA#9308", "score2": "", "winner": null },
+        { "player1": ".ancar", "score1": "", "player2": "mirmibcn_68014", "score2": "", "winner": null }
+      ]
+    }
+  ],
+  "finalMatches": [
+    {
+      "round": "Cuartos de final",
+      "matches": [
+        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
+        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
+        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
+        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": "Semifinales",
+      "matches": [
+        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
+        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": "3º y 4º Puesto",
+      "matches": [
+        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+      ]
+    },
+    {
+      "round": "Final",
+      "matches": [
+        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+      ]
+    }
+  ]
 }
