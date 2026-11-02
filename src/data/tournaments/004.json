@@ -33,7 +33,7 @@
         { "name": "stylex8108", "fuerza": "Purge the Foe", "link": "https://gist.github.com/WH40K-TTS/f60e6554d17838a5312a6a7fc82c828c/raw/" },
         { "name": "Kuri_Pe", "fuerza": "Take and Hold", "link": "https://gist.github.com/WH40K-TTS/85714497552ebd0c3ebe485a5c693052/raw/" },
         { "name": "Frankis89", "fuerza": "Take and Hold", "link": "https://gist.github.com/WH40K-TTS/71b5ce198adb4f26e1cfbab9c608ff0f/raw/" },
-        { "name": "lagarazi#5939", "fuerza": "Purge the Foe", "link": "https://gist.github.com/WH40K-TTS/89642d4d9049ef48423f54424a4e9586/raw/" },
+        { "name": "private_patch", "fuerza": "Purge the Foe", "link": "https://gist.github.com/WH40K-TTS/89642d4d9049ef48423f54424a4e9586/raw/" },
         { "name": "magolor17", "fuerza": "Reconnaissance", "link": "https://gist.github.com/WH40K-TTS/0be7c52b756d2a2b89753eb33cab9407/raw/" },
         { "name": "edu101119", "fuerza": "Take and Hold", "link": "https://gist.github.com/WH40K-TTS/a2437b68c954e32284f7f3cd351a64f4/raw/" },
         { "name": "Pancake#8705", "fuerza": "Purge the Foe", "link": "https://gist.github.com/WH40K-TTS/773079198bb17aa7abd4d0c049b042ca/raw/" },
@@ -96,7 +96,7 @@
         { "name": "stylex8108", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Kuri_Pe", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Frankis89", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "lagarazi#5939", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "private_patch", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "magolor17", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
@@ -113,11 +113,11 @@
     {
       "name": "Grupo E",
       "players": [
-        { "name": "DGB 11#0106", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "TontacoV2", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Angus#3554", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "javalow#8953", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "DGB 11#0106", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "TontacoV2", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Angus#3554", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "javalow#8953", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
@@ -133,10 +133,10 @@
     {
       "name": "Grupo G",
       "players": [
-        { "name": "icastell", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "icastell", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Tarsi300#1827", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "SANCHEZ_eu", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "cubiheadache#0286", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "SANCHEZ_eu", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "cubiheadache#0286", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "ArisenAura", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
@@ -145,16 +145,16 @@
       "players": [
         { "name": "Mutxo#7080", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "marakamagica", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Trabucodonosor#4172", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Ezraen#9729", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "llabreso#6183", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "Trabucodonosor#4172", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Ezraen#9729", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "llabreso#6183", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo I",
       "players": [
-        { "name": "Whilas#0608", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "BOPRA#9308", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Whilas#0608", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "BOPRA#9308", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "ESPARTAX12", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": ".ancar", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "mirmibcn_68014", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
@@ -170,17 +170,17 @@
         { "player1": "Kastro", "score1": "", "player2": "APCC the Architect#6869", "score2": "", "winner": null },
         { "player1": "Krossbones", "score1": "", "player2": "Thorin887#3661", "score2": "", "winner": null },
         { "player1": "Kuri_Pe", "score1": 55, "player2": "magolor17", "score2": 99, "winner": "magolor17" },
-        { "player1": "Frankis89", "score1": "", "player2": "lagarazi#5939", "score2": "", "winner": null },
+        { "player1": "Frankis89", "score1": "", "player2": "private_patch", "score2": "", "winner": null },
         { "player1": "Pancake#8705", "score1": "", "player2": "jorge.lemariont", "score2": "", "winner": null },
         { "player1": "e_codina", "score1": "", "player2": "Carpi", "score2": "", "winner": null },
-        { "player1": "TontacoV2", "score1": "", "player2": "gerzon6915", "score2": "", "winner": null },
-        { "player1": "Angus#3554", "score1": "", "player2": "javalow#8953", "score2": "", "winner": null },
+        { "player1": "TontacoV2", "score1": 98, "player2": "gerzon6915", "score2": 60, "winner": "TontacoV2" },
+        { "player1": "Angus#3554", "score1": 76, "player2": "javalow#8953", "score2": 84, "winner": "javalow#8953" },
         { "player1": "Danistrorus", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
         { "player1": "r3dman", "score1": "", "player2": "Ralvo#1536", "score2": "", "winner": null },
         { "player1": "Tarsi300#1827", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
-        { "player1": "SANCHEZ_eu", "score1": "", "player2": "cubiheadache#0286", "score2": "", "winner": null },
+        { "player1": "SANCHEZ_eu", "score1": 93, "player2": "cubiheadache#0286", "score2": 89, "winner": "SANCHEZ_eu" },
         { "player1": "marakamagica", "score1": "", "player2": "llabreso#6183", "score2": "", "winner": null },
-        { "player1": "Trabucodonosor#4172", "score1": "", "player2": "Ezraen#9729", "score2": "", "winner": null },
+        { "player1": "Trabucodonosor#4172", "score1": 100, "player2": "Ezraen#9729", "score2": 40, "winner": "Trabucodonosor#4172" },
         { "player1": "BOPRA#9308", "score1": "", "player2": "mirmibcn_68014", "score2": "", "winner": null },
         { "player1": "ESPARTAX12", "score1": "", "player2": ".ancar", "score2": "", "winner": null }
       ]
@@ -196,7 +196,7 @@
         { "player1": "Kuri_Pe", "score1": 37, "player2": "Frankis89", "score2": 97, "winner": "Frankis89" },
         { "player1": "edu101119", "score1": "", "player2": "jorge.lemariont", "score2": "", "winner": null },
         { "player1": "Pancake#8705", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
-        { "player1": "DGB 11#0106", "score1": "", "player2": "gerzon6915", "score2": "", "winner": null },
+        { "player1": "DGB 11#0106", "score1": 89, "player2": "gerzon6915", "score2": 71, "winner": "DGB 11#0106" },
         { "player1": "TontacoV2", "score1": "", "player2": "Angus#3554", "score2": "", "winner": null },
         { "player1": "naxiur", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
         { "player1": "Danistrorus", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
@@ -215,7 +215,7 @@
         { "player1": "P1TER#9250", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
         { "player1": "Sanba#3554", "score1": "", "player2": "Thorin887#3661", "score2": "", "winner": null },
         { "player1": "APCC the Architect#6869", "score1": 87, "player2": "Krossbones", "score2": 74, "winner": "APCC the Architect#6869" },
-        { "player1": "stylex8108", "score1": "", "player2": "lagarazi#5939", "score2": "", "winner": null },
+        { "player1": "stylex8108", "score1": "", "player2": "private_patch", "score2": "", "winner": null },
         { "player1": "magolor17", "score1": 70, "player2": "Frankis89", "score2": 100, "winner": "Frankis89" },
         { "player1": "edu101119", "score1": "", "player2": "Carpi", "score2": "", "winner": null },
         { "player1": "jorge.lemariont", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
@@ -226,7 +226,7 @@
         { "player1": "icastell", "score1": "", "player2": "cubiheadache#0286", "score2": "", "winner": null },
         { "player1": "ArisenAura", "score1": "", "player2": "SANCHEZ_eu", "score2": "", "winner": null },
         { "player1": "Mutxo#7080", "score1": "", "player2": "Ezraen#9729", "score2": "", "winner": null },
-        { "player1": "llabreso#6183", "score1": "", "player2": "Trabucodonosor#4172", "score2": "", "winner": null },
+        { "player1": "llabreso#6183", "score1": 10, "player2": "Trabucodonosor#4172", "score2": 100, "winner": "Trabucodonosor#4172" },
         { "player1": "Whilas#0608", "score1": "", "player2": ".ancar", "score2": "", "winner": null },
         { "player1": "mirmibcn_68014", "score1": "", "player2": "ESPARTAX12", "score2": "", "winner": null }
       ]
@@ -239,14 +239,14 @@
         { "player1": "Sanba#3554", "score1": "", "player2": "Krossbones", "score2": "", "winner": null },
         { "player1": "Thorin887#3661", "score1": "", "player2": "Kastro", "score2": "", "winner": null },
         { "player1": "stylex8108", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
-        { "player1": "lagarazi#5939", "score1": "", "player2": "Kuri_Pe", "score2": "", "winner": null },
+        { "player1": "private_patch", "score1": "", "player2": "Kuri_Pe", "score2": "", "winner": null },
         { "player1": "edu101119", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
         { "player1": "Carpi", "score1": "", "player2": "Pancake#8705", "score2": "", "winner": null },
         { "player1": "DGB 11#0106", "score1": "", "player2": "Angus#3554", "score2": "", "winner": null },
         { "player1": "javalow#8953", "score1": "", "player2": "TontacoV2", "score2": "", "winner": null },
         { "player1": "naxiur", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
         { "player1": "Ralvo#1536", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
-        { "player1": "icastell", "score1": "", "player2": "SANCHEZ_eu", "score2": "", "winner": null },
+        { "player1": "icastell", "score1": 98, "player2": "SANCHEZ_eu", "score2": 92, "winner": "icastell" },
         { "player1": "cubiheadache#0286", "score1": "", "player2": "Tarsi300#1827", "score2": "", "winner": null },
         { "player1": "Mutxo#7080", "score1": "", "player2": "Trabucodonosor#4172", "score2": "", "winner": null },
         { "player1": "Ezraen#9729", "score1": "", "player2": "marakamagica", "score2": "", "winner": null },
@@ -262,7 +262,7 @@
         { "player1": "Sanba#3554", "score1": 52, "player2": "Kastro", "score2": 100, "winner": "Kastro" },
         { "player1": "Thorin887#3661", "score1": "", "player2": "APCC the Architect#6869", "score2": "", "winner": null },
         { "player1": "stylex8108", "score1": "", "player2": "Kuri_Pe", "score2": "", "winner": null },
-        { "player1": "lagarazi#5939", "score1": "", "player2": "magolor17", "score2": "", "winner": null },
+        { "player1": "private_patch", "score1": "", "player2": "magolor17", "score2": "", "winner": null },
         { "player1": "edu101119", "score1": "", "player2": "Pancake#8705", "score2": "", "winner": null },
         { "player1": "Carpi", "score1": "", "player2": "jorge.lemariont", "score2": "", "winner": null },
         { "player1": "DGB 11#0106", "score1": "", "player2": "TontacoV2", "score2": "", "winner": null },
@@ -273,7 +273,7 @@
         { "player1": "cubiheadache#0286", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
         { "player1": "Mutxo#7080", "score1": "", "player2": "marakamagica", "score2": "", "winner": null },
         { "player1": "Ezraen#9729", "score1": "", "player2": "llabreso#6183", "score2": "", "winner": null },
-        { "player1": "Whilas#0608", "score1": "", "player2": "BOPRA#9308", "score2": "", "winner": null },
+        { "player1": "Whilas#0608", "score1": 68, "player2": "BOPRA#9308", "score2": 87, "winner": "BOPRA#9308" },
         { "player1": ".ancar", "score1": "", "player2": "mirmibcn_68014", "score2": "", "winner": null }
       ]
     }
