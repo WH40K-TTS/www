@@ -75,9 +75,9 @@
       "players": [
         { "name": "Manticore", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "F4R0K", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Navastelroy#7355", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Navastelroy#7355", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Suarepita#1978", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "P1TER#9250", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "P1TER#9250", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
@@ -96,8 +96,8 @@
         { "name": "stylex8108", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Kuri_Pe", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Frankis89", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "private_patch", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "magolor17", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "private_patch", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "magolor17", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
@@ -212,7 +212,7 @@
       "round": 3,
       "matches": [
         { "player1": "Manticore", "score1": "", "player2": "Suarepita#1978", "score2": "", "winner": null },
-        { "player1": "P1TER#9250", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "P1TER#9250", "score1": 42, "player2": "Navastelroy#7355", "score2": 97, "winner": "Navastelroy#7355" },
         { "player1": "Sanba#3554", "score1": "", "player2": "Thorin887#3661", "score2": "", "winner": null },
         { "player1": "APCC the Architect#6869", "score1": 87, "player2": "Krossbones", "score2": 74, "winner": "APCC the Architect#6869" },
         { "player1": "stylex8108", "score1": "", "player2": "private_patch", "score2": "", "winner": null },
@@ -262,7 +262,7 @@
         { "player1": "Sanba#3554", "score1": 52, "player2": "Kastro", "score2": 100, "winner": "Kastro" },
         { "player1": "Thorin887#3661", "score1": "", "player2": "APCC the Architect#6869", "score2": "", "winner": null },
         { "player1": "stylex8108", "score1": "", "player2": "Kuri_Pe", "score2": "", "winner": null },
-        { "player1": "private_patch", "score1": "", "player2": "magolor17", "score2": "", "winner": null },
+        { "player1": "private_patch", "score1": 100, "player2": "magolor17", "score2": 69, "winner": "private_patch" },
         { "player1": "edu101119", "score1": "", "player2": "Pancake#8705", "score2": "", "winner": null },
         { "player1": "Carpi", "score1": "", "player2": "jorge.lemariont", "score2": "", "winner": null },
         { "player1": "DGB 11#0106", "score1": "", "player2": "TontacoV2", "score2": "", "winner": null },
