@@ -76,8 +76,8 @@
         { "name": "Manticore", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "F4R0K", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Navastelroy#7355", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Suarepita#1978", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "P1TER#9250", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "Suarepita#1978", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "P1TER#9250", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
@@ -153,10 +153,10 @@
     {
       "name": "Grupo I",
       "players": [
-        { "name": "Whilas#0608", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Whilas#0608", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "BOPRA#9308", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "ESPARTAX12", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": ".ancar", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": ".ancar", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "mirmibcn_68014", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     }
@@ -227,7 +227,7 @@
         { "player1": "ArisenAura", "score1": "", "player2": "SANCHEZ_eu", "score2": "", "winner": null },
         { "player1": "Mutxo#7080", "score1": "", "player2": "Ezraen#9729", "score2": "", "winner": null },
         { "player1": "llabreso#6183", "score1": 10, "player2": "Trabucodonosor#4172", "score2": 100, "winner": "Trabucodonosor#4172" },
-        { "player1": "Whilas#0608", "score1": "", "player2": ".ancar", "score2": "", "winner": null },
+        { "player1": "Whilas#0608", "score1": 100, "player2": ".ancar", "score2": 40, "winner": "Whilas#0608" },
         { "player1": "mirmibcn_68014", "score1": "", "player2": "ESPARTAX12", "score2": "", "winner": null }
       ]
     },
@@ -258,7 +258,7 @@
       "round": 5,
       "matches": [
         { "player1": "Manticore", "score1": "", "player2": "F4R0K", "score2": "", "winner": null },
-        { "player1": "Suarepita#1978", "score1": "", "player2": "P1TER#9250", "score2": "", "winner": null },
+        { "player1": "Suarepita#1978", "score1": 43, "player2": "P1TER#9250", "score2": 82, "winner": "P1TER#9250" },
         { "player1": "Sanba#3554", "score1": 52, "player2": "Kastro", "score2": 100, "winner": "Kastro" },
         { "player1": "Thorin887#3661", "score1": "", "player2": "APCC the Architect#6869", "score2": "", "winner": null },
         { "player1": "stylex8108", "score1": "", "player2": "Kuri_Pe", "score2": "", "winner": null },
