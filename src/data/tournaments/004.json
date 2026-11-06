@@ -154,9 +154,9 @@
       "name": "Grupo I",
       "players": [
         { "name": "Whilas#0608", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "BOPRA#9308", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "BOPRA#9308", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 1, "abandoned": false },
         { "name": "ESPARTAX12", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": ".ancar", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": ".ancar", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "mirmibcn_68014", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     }
@@ -251,7 +251,7 @@
         { "player1": "Mutxo#7080", "score1": "", "player2": "Trabucodonosor#4172", "score2": "", "winner": null },
         { "player1": "Ezraen#9729", "score1": "", "player2": "marakamagica", "score2": "", "winner": null },
         { "player1": "Whilas#0608", "score1": "", "player2": "ESPARTAX12", "score2": "", "winner": null },
-        { "player1": ".ancar", "score1": "", "player2": "BOPRA#9308", "score2": "", "winner": null }
+        { "player1": ".ancar", "score1": "-", "player2": "BOPRA#9308", "score2": "-", "winner": ".ancar" }
       ]
     },
     {
