@@ -93,9 +93,9 @@
     {
       "name": "Grupo C",
       "players": [
-        { "name": "stylex8108", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "stylex8108", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Kuri_Pe", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Frankis89", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Frankis89", "points": 9, "wins": 3, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "private_patch", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "magolor17", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
@@ -114,8 +114,8 @@
       "name": "Grupo E",
       "players": [
         { "name": "DGB 11#0106", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "TontacoV2", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Angus#3554", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "TontacoV2", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Angus#3554", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "javalow#8953", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
@@ -126,8 +126,8 @@
         { "name": "naxiur", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Danistrorus", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "r3dman", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Ralvo#1536", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "doblegwh", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "Ralvo#1536", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "doblegwh", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
@@ -197,7 +197,7 @@
         { "player1": "edu101119", "score1": "", "player2": "jorge.lemariont", "score2": "", "winner": null },
         { "player1": "Pancake#8705", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
         { "player1": "DGB 11#0106", "score1": 89, "player2": "gerzon6915", "score2": 71, "winner": "DGB 11#0106" },
-        { "player1": "TontacoV2", "score1": "", "player2": "Angus#3554", "score2": "", "winner": null },
+        { "player1": "TontacoV2", "score1": 59, "player2": "Angus#3554", "score2": 40, "winner": "TontacoV2" },
         { "player1": "naxiur", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
         { "player1": "Danistrorus", "score1": "", "player2": "r3dman", "score2": "", "winner": null },
         { "player1": "icastell", "score1": 100, "player2": "ArisenAura", "score2": 47, "winner": "icastell" },
@@ -238,7 +238,7 @@
         { "player1": "Suarepita#1978", "score1": "", "player2": "F4R0K", "score2": "", "winner": null },
         { "player1": "Sanba#3554", "score1": "", "player2": "Krossbones", "score2": "", "winner": null },
         { "player1": "Thorin887#3661", "score1": "", "player2": "Kastro", "score2": "", "winner": null },
-        { "player1": "stylex8108", "score1": "", "player2": "Frankis89", "score2": "", "winner": null },
+        { "player1": "stylex8108", "score1": 29, "player2": "Frankis89", "score2": 98, "winner": "Frankis89" },
         { "player1": "private_patch", "score1": "", "player2": "Kuri_Pe", "score2": "", "winner": null },
         { "player1": "edu101119", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
         { "player1": "Carpi", "score1": "", "player2": "Pancake#8705", "score2": "", "winner": null },
@@ -268,7 +268,7 @@
         { "player1": "DGB 11#0106", "score1": "", "player2": "TontacoV2", "score2": "", "winner": null },
         { "player1": "javalow#8953", "score1": "", "player2": "gerzon6915", "score2": "", "winner": null },
         { "player1": "naxiur", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
-        { "player1": "Ralvo#1536", "score1": "", "player2": "doblegwh", "score2": "", "winner": null },
+        { "player1": "Ralvo#1536", "score1": 40, "player2": "doblegwh", "score2": 100, "winner": "doblegwh" },
         { "player1": "icastell", "score1": "", "player2": "Tarsi300#1827", "score2": "", "winner": null },
         { "player1": "cubiheadache#0286", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
         { "player1": "Mutxo#7080", "score1": "", "player2": "marakamagica", "score2": "", "winner": null },
