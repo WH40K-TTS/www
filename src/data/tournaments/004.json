@@ -94,9 +94,9 @@
       "name": "Grupo C",
       "players": [
         { "name": "stylex8108", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Kuri_Pe", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Kuri_Pe", "points": 0, "wins": 0, "losses": 3, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Frankis89", "points": 9, "wins": 3, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "private_patch", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "private_patch", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "magolor17", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
@@ -239,7 +239,7 @@
         { "player1": "Sanba#3554", "score1": "", "player2": "Krossbones", "score2": "", "winner": null },
         { "player1": "Thorin887#3661", "score1": "", "player2": "Kastro", "score2": "", "winner": null },
         { "player1": "stylex8108", "score1": 29, "player2": "Frankis89", "score2": 98, "winner": "Frankis89" },
-        { "player1": "private_patch", "score1": "", "player2": "Kuri_Pe", "score2": "", "winner": null },
+        { "player1": "private_patch", "score1": 96, "player2": "Kuri_Pe", "score2": 94, "winner": "private_patch" },
         { "player1": "edu101119", "score1": "", "player2": "e_codina", "score2": "", "winner": null },
         { "player1": "Carpi", "score1": "", "player2": "Pancake#8705", "score2": "", "winner": null },
         { "player1": "DGB 11#0106", "score1": "", "player2": "Angus#3554", "score2": "", "winner": null },
