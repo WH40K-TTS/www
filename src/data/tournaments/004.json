@@ -73,9 +73,9 @@
     {
       "name": "Grupo A",
       "players": [
-        { "name": "Manticore", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Manticore", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "F4R0K", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Navastelroy#7355", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Navastelroy#7355", "points": 9, "wins": 3, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Suarepita#1978", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "P1TER#9250", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
@@ -234,7 +234,7 @@
     {
       "round": 4,
       "matches": [
-        { "player1": "Manticore", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "Manticore", "score1": 36, "player2": "Navastelroy#7355", "score2": 100, "winner": "Navastelroy#7355" },
         { "player1": "Suarepita#1978", "score1": "", "player2": "F4R0K", "score2": "", "winner": null },
         { "player1": "Sanba#3554", "score1": "", "player2": "Krossbones", "score2": "", "winner": null },
         { "player1": "Thorin887#3661", "score1": "", "player2": "Kastro", "score2": "", "winner": null },
