@@ -146,8 +146,8 @@
         { "name": "Mutxo#7080", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "marakamagica", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Trabucodonosor#4172", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Ezraen#9729", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "llabreso#6183", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "Ezraen#9729", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "llabreso#6183", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
@@ -272,7 +272,7 @@
         { "player1": "icastell", "score1": "", "player2": "Tarsi300#1827", "score2": "", "winner": null },
         { "player1": "cubiheadache#0286", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
         { "player1": "Mutxo#7080", "score1": "", "player2": "marakamagica", "score2": "", "winner": null },
-        { "player1": "Ezraen#9729", "score1": "", "player2": "llabreso#6183", "score2": "", "winner": null },
+        { "player1": "Ezraen#9729", "score1": 62, "player2": "llabreso#6183", "score2": 99, "winner": "llabreso#6183" },
         { "player1": "Whilas#0608", "score1": 68, "player2": "BOPRA#9308", "score2": 87, "winner": "BOPRA#9308" },
         { "player1": ".ancar", "score1": "", "player2": "mirmibcn_68014", "score2": "", "winner": null }
       ]
