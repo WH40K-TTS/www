@@ -136,8 +136,8 @@
         { "name": "icastell", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Tarsi300#1827", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "SANCHEZ_eu", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "cubiheadache#0286", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "ArisenAura", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "cubiheadache#0286", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "ArisenAura", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
@@ -270,7 +270,7 @@
         { "player1": "naxiur", "score1": "", "player2": "Danistrorus", "score2": "", "winner": null },
         { "player1": "Ralvo#1536", "score1": 40, "player2": "doblegwh", "score2": 100, "winner": "doblegwh" },
         { "player1": "icastell", "score1": "", "player2": "Tarsi300#1827", "score2": "", "winner": null },
-        { "player1": "cubiheadache#0286", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
+        { "player1": "cubiheadache#0286", "score1": 74, "player2": "ArisenAura", "score2": 86, "winner": "ArisenAura" },
         { "player1": "Mutxo#7080", "score1": "", "player2": "marakamagica", "score2": "", "winner": null },
         { "player1": "Ezraen#9729", "score1": 62, "player2": "llabreso#6183", "score2": 99, "winner": "llabreso#6183" },
         { "player1": "Whilas#0608", "score1": 68, "player2": "BOPRA#9308", "score2": 87, "winner": "BOPRA#9308" },
