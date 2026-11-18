@@ -1,0 +1,38 @@
+{
+  "id": "005",
+  "name": "Armaggedon - E2",
+  "date": "07-12-2026",
+  "dateEnd": "10-01-2027",
+  "_COMENTARIO_valores_status": "upcoming (Próximo), ongoing (En curso), finished (Finalizado)",
+  "status": "upcoming",
+  "format": "Equipos",
+  "tallyFormId": "FORM_ID",
+  "_COMENTARIO_infoMd": "Es lo que se ve en la página info.jsx",
+  "infoMd": "## Descripción\n**Armaggedon - E2** torneo por equipos de 4 jugadores, utilizando las reglas de 11ª edición.\n\n## Fechas y recursos\n- **Inscripciones**: 07/12/2026-13/12/2026\n- **Rondas (4)**: 14/12/2026-10/01/2027\n\nCada equipo dispone de una semana por ronda para acordar y disputar sus partidas.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se dividirá en **cuatro rondas**.\n- Los equipos dispondrán de cuatro semanas para realizar los emparejamientos y disputar todas las partidas.\n- Puntuación: **3 pts** victoria, **1 pts** por empate (*a 6 BP o menos del empate, que es 40-40*) y **0 pts** por derrota.",
+  "listUploadConfig": {
+    "_COMENTARIO_valores_state": "form_individual, form_teams, lists_individual, lists_teams",
+    "state": "lists_teams",
+    "form": {
+      "text": "Presenta la lista de tu equipo antes del inicio del torneo. El envío es gestionado a través del siguiente formulario:",
+      "tallyUrlIndividual": "https://tally.so/embed/NpM5Ej?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1",
+      "tallyUrlTeams": "https://tally.so/embed/vGEbed?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1",
+      "title": "Formulario de lista para Armaggedon - E2"
+    },
+    "lists": {
+      "individual": [],
+      "teams": []
+    }
+  },
+  "groups": [],
+  "qualificationMatches": [],
+  "_COMENTARIO_finalMatches": "Esqueleto de la pestaña Partidas (partidas individuales por ronda). Los emparejamientos los deciden los equipos (defensor/atacante/campeón), no vienen prefijados. Orden actual: por cada cruce de qualificationMatches en orden hay 4 slots seguidos (4 por cruce). Cómo rellenar: pon en player1/player2 los nombres EXACTOS de listUploadConfig.lists.teams (players[].name), luego score1/score2 con el resultado y winner con el nombre exacto del ganador o null si es empate.",
+  "_EJEMPLO_match": {
+    "player1": "NombreJugadorEquipoA",
+    "score1": 12,
+    "player2": "NombreJugadorEquipoB",
+    "score2": 8,
+    "winner": "NombreJugadorEquipoA"
+  },
+  "_COMO_RELLENAR": "1) Busca la Ronda N en finalMatches. 2) Localiza el bloque de 4 del cruce: matches 0-3 = cruce 1 de qualificationMatches de la ronda N, 4-7 = cruce 2, 8-11 = cruce 3, etc. 3) Escribe player1/player2 (nombres exactos), score1/score2 y winner (ganador o null). 4) Al terminar valida que el JSON sigue siendo válido.",
+  "finalMatches": []
+}
