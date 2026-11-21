@@ -74,8 +74,8 @@
       "name": "Grupo A",
       "players": [
         { "name": "Manticore", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 1, "abandoned": false },
-        { "name": "F4R0K", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Navastelroy#7355", "points": 9, "wins": 3, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "F4R0K", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Navastelroy#7355", "points": 12, "wins": 4, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Suarepita#1978", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "P1TER#9250", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
@@ -189,7 +189,7 @@
       "round": 2,
       "matches": [
         { "player1": "Manticore", "score1": "", "player2": "P1TER#9250", "score2": "", "winner": null },
-        { "player1": "F4R0K", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null },
+        { "player1": "F4R0K", "score1": 81, "player2": "Navastelroy#7355", "score2": 83, "winner": "Navastelroy#7355" },
         { "player1": "Sanba#3554", "score1": 42, "player2": "APCC the Architect#6869", "score2": 100, "winner": "APCC the Architect#6869" },
         { "player1": "Kastro", "score1": 100, "player2": "Krossbones", "score2": 57, "winner": "Kastro" },
         { "player1": "stylex8108", "score1": "", "player2": "magolor17", "score2": "", "winner": null },
