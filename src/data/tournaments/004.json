@@ -93,11 +93,11 @@
     {
       "name": "Grupo C",
       "players": [
-        { "name": "stylex8108", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Kuri_Pe", "points": 0, "wins": 0, "losses": 3, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Frankis89", "points": 9, "wins": 3, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "private_patch", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "magolor17", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "magolor17", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Kuri_Pe", "points": 0, "wins": 0, "losses": 3, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "stylex8108", "points": 0, "wins": 0, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
@@ -113,10 +113,10 @@
     {
       "name": "Grupo E",
       "players": [
-        { "name": "DGB 11#0106", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "TontacoV2", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Angus#3554", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "DGB 11#0106", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "javalow#8953", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "Angus#3554", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "gerzon6915", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
@@ -133,30 +133,30 @@
     {
       "name": "Grupo G",
       "players": [
+        { "name": "ArisenAura", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "icastell", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "Tarsi300#1827", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "SANCHEZ_eu", "points": 3, "wins": 1, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "cubiheadache#0286", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "ArisenAura", "points": 6, "wins": 2, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "Tarsi300#1827", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo H",
       "players": [
-        { "name": "Mutxo#7080", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "marakamagica", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Trabucodonosor#4172", "points": 6, "wins": 2, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "llabreso#6183", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "Ezraen#9729", "points": 0, "wins": 0, "losses": 2, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": "llabreso#6183", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false }
+        { "name": "Mutxo#7080", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": "marakamagica", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     },
     {
       "name": "Grupo I",
       "players": [
         { "name": "Whilas#0608", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
+        { "name": ".ancar", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "BOPRA#9308", "points": 3, "wins": 1, "losses": 0, "ties": 0, "abandonos": 1, "abandoned": false },
         { "name": "ESPARTAX12", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false },
-        { "name": ".ancar", "points": 3, "wins": 1, "losses": 1, "ties": 0, "abandonos": 0, "abandoned": false },
         { "name": "mirmibcn_68014", "points": 0, "wins": 0, "losses": 0, "ties": 0, "abandonos": 0, "abandoned": false }
       ]
     }
