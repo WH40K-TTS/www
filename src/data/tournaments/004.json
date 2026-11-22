@@ -8,7 +8,7 @@
   "format": "individual",
   "tallyFormId": "FORM_ID",
   "_COMENTARIO_infoMd": "Es lo que se ve en la página info.jsx",
-  "infoMd": "## Descripción\n**Armageddon - I2** es el segundo torneo individual de 11ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones\ndel [Pack de Eventos Individuales](https://assets.warhammer-community.com/spa_12-06_warhammer40000_event_companion-w4wi7amje7-ayjhs8z8h8.pdf) y la escenografía oficial de Games Workshop.\n\n## Fechas y recursos\n- **Inscripciones**: 19/10/2026 - 24/10/2026  \n- **Rondas clasificatorias**: 26/10/2026 - 22/11/2026  \n- **Finales**: 23/11/2026 - 13/12/2026\n\nLas rondas se disputan de **lunes a domingo**; la fase de grupos se completa en **4 semanas**.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se divide en **dos fases**:\n\n### Fase clasificatoria — 5 rondas en 4 semanas\n- Los jugadores se reparten en grupos de **5**.\n- Cada jugador se enfrenta a todos los rivales de su grupo *(todos contra todos)*.\n- Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.\n- Se clasificarán los **8 mejores jugadores** para las finales.\n\n### Finales — eliminación directa\n- Cuartos de final → Semifinales → Finales.",
+  "infoMd": "## Descripción\n**Armageddon - I2** es el segundo torneo individual de 11ª edición. Partidas competitivas a **2.000 puntos** utilizando las misiones\ndel [Pack de Eventos Individuales](https://assets.warhammer-community.com/spa_12-06_warhammer40000_event_companion-w4wi7amje7-ayjhs8z8h8.pdf) y la escenografía oficial de Games Workshop.\n\n## Fechas y recursos\n- **Inscripciones**: 19/10/2026 - 24/10/2026  \n- **Rondas clasificatorias**: 26/10/2026 - 22/11/2026  \n- **Finales**: 23/11/2026 - 13/12/2026\n\nLas rondas se disputan de **lunes a domingo**; la fase de grupos se completa en **4 semanas**.\n\n### Recursos\n- 📋 **Listas de ejército** — publicadas al inicio de la fase clasificatoria en la pestaña de *Listas*.\n- 🎲 **Mesa para las partidas** - [*aquí*](https://steamcommunity.com/sharedfiles/filedetails/?id=3398190636)\n\n## Estructura del torneo\nEl torneo se divide en **dos fases**:\n\n### Fase clasificatoria — 5 rondas en 4 semanas\n- Los jugadores se reparten en grupos de **5**.\n- Cada jugador se enfrenta a todos los rivales de su grupo *(todos contra todos)*.\n- Puntuación: **3 pts** victoria, **1 pts** por empate y **0 pts** por derrota.\n- Se clasificarán los **8 mejores jugadores** para las finales.\n\n### Finales — eliminación directa\n- Octavos → Semifinales → Finales.",
   "listUploadConfig": {
     "_COMENTARIO_valores_state": "form_individual, form_teams, lists_individual, lists_teams",
     "state": "lists_individual",
@@ -280,12 +280,12 @@
   ],
   "finalMatches": [
     {
-      "round": "Cuartos de final",
+      "round": "Octavos",
       "matches": [
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
+        { "player1": "r3dman", "score1": "", "player2": "Trabucodonosor#4172", "score2": "", "winner": null },
+        { "player1": "TontacoV2", "score1": "", "player2": "Whilas#0608", "score2": "", "winner": null },
+        { "player1": "Frankis89", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
+        { "player1": "Kastro", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null }
       ]
     },
     {
