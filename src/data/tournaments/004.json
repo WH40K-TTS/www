@@ -282,7 +282,7 @@
     {
       "round": "Cuartos",
       "matches": [
-        { "player1": "r3dman", "score1": "", "player2": "Trabucodonosor#4172", "score2": "", "winner": null },
+        { "player1": "r3dman", "score1": "-", "player2": "Trabucodonosor#4172", "score2": "-", "winner": "r3dman" },
         { "player1": "TontacoV2", "score1": "", "player2": "Whilas#0608", "score2": "", "winner": null },
         { "player1": "Frankis89", "score1": "", "player2": "ArisenAura", "score2": "", "winner": null },
         { "player1": "Kastro", "score1": "", "player2": "Navastelroy#7355", "score2": "", "winner": null }
@@ -291,7 +291,7 @@
     {
       "round": "Semifinales",
       "matches": [
-        { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null },
+        { "player1": "r3dman", "score1": "", "player2": "", "score2": "", "winner": null },
         { "player1": "", "score1": "", "player2": "", "score2": "", "winner": null }
       ]
     },
